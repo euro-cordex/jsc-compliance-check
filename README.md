@@ -1,2 +1,3 @@
-# euro-cordex-errata
-repository for collecting EURO-CORDEX-CMIP6 errata issues
+# EURO-CORDEX errata
+
+Experimental repository for collecting EURO-CORDEX-CMIP6 automated errata issues.
