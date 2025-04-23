@@ -13,7 +13,7 @@ GITHUB_TOKEN = os.environ.get(
 REPO_OWNER = (
     "euro-cordex"  # Replace with the repository owner's username or organization name
 )
-REPO_NAME = "joint-evaluation"  # Replace with the repository name
+REPO_NAME = "jsc-compliance-check"  # Replace with the repository name
 
 # GitHub API URL for listing and creating issues
 issues_url = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/issues"
@@ -191,16 +191,13 @@ def log_issues_from_errors(errors):
 
 
 def main():
-    cc_data = compliance_check("catalog.csv")
+    cc_data = compliance_check(
+        "https://raw.githubusercontent.com/euro-cordex/joint-evaluation/refs/heads/main/catalog.csv"
+    )
     non_empty_errors = get_non_empty_errors(cc_data)
     for k, v in non_empty_errors.items():
         log.error(f"{os.path.basename(k)}: {v}")
-    # if not len(non_empty_errors) > 10:
-    #    log_issues_from_errors(non_empty_errors)
-    # else:
-    #    log.error(
-    #        f"Too many errors to log: {len(non_empty_errors)}, please check manually"
-    #    )
+        log_issues_from_errors(non_empty_errors)
     return non_empty_errors
 
 
