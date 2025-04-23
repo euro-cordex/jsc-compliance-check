@@ -1,3 +1,3 @@
 # EURO-CORDEX compliance check
 
-Experimental repository for collecting EURO-CORDEX-CMIP6 automated errata issues.
+Collecting EURO-CORDEX-CMIP6 automated compliance issues at JSC-CORDEX.
