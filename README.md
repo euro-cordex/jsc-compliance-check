@@ -1,3 +1,3 @@
-# EURO-CORDEX errata
+# EURO-CORDEX compliance check
 
 Experimental repository for collecting EURO-CORDEX-CMIP6 automated errata issues.
