@@ -38,6 +38,8 @@ id_attrs = [
     "version",
 ]
 
+report_filename = "./report/compliance-report"
+
 
 def compliance_check(catalog_filename):
     # Load all available checker classes
@@ -62,8 +64,8 @@ def compliance_check(catalog_filename):
     checker_names = ["cf:1.9"]
     verbose = 1
     criteria = "normal"
-    output_filename = "./compliance-report.json"
-    output_format = "json_new"
+    output_filename = report_filename
+    output_format = ["json_new", "html"]
     """
     Inputs to ComplianceChecker.run_checker
 
@@ -86,7 +88,7 @@ def compliance_check(catalog_filename):
     )
 
     # Open the JSON output and get the compliance scores
-    with open(output_filename, "r") as fp:
+    with open(f"{output_filename}.json", "r") as fp:
         cc_data = json.load(fp)
 
     return cc_data
