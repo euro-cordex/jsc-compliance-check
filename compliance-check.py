@@ -3,6 +3,7 @@ import pandas as pd
 import json
 import logging as log
 import os
+from pathlib import Path
 
 import requests
 
@@ -55,7 +56,9 @@ def compliance_check(catalog_filename):
 
     print(f"checking {len(files)} datasets")
     # Run cf and adcc checks
-    path = files  #'/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX/CMIP6/DD/EUR-12/GERICS/ERA5/evaluation/r1i1p1f1/REMO2020/v1-r1/mon/tas/v20241120/tas_EUR-12_ERA5_evaluation_r1i1p1f1_GERICS_REMO2020_v1-r1_mon_197901-198812.nc'
+    path = files[
+        300:350
+    ]  #'/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX/CMIP6/DD/EUR-12/GERICS/ERA5/evaluation/r1i1p1f1/REMO2020/v1-r1/mon/tas/v20241120/tas_EUR-12_ERA5_evaluation_r1i1p1f1_GERICS_REMO2020_v1-r1_mon_197901-198812.nc'
     # path = "/mnt/CORDEX_CMIP6_tmp/aux_data/cordex-cmip5/CORDEX/output/EUR-11/DMI/ECMWF-ERAINT/evaluation/r1i1p1/HIRHAM5/v1/fx/orog/v20140620/orog_EUR-11_ECMWF-ERAINT_evaluation_r1i1p1_DMI-HIRHAM5_v1_fx.nc"
     checker_names = ["cf:1.9"]
     verbose = 1
@@ -94,8 +97,8 @@ def filename_to_id(filename):
     """
     Extract the dataset id from the filename.
     """
-    stem = os.path.basename(filename)
-    path = os.path.dirname(filename)
+    stem = Path(filename).stem
+    path = str(Path(filename).parent)
     version = path.split("/")[-1]
     values = stem.split("_")[0 : len(id_attrs) - 1] + [version]
     return ".".join(values)
@@ -121,9 +124,12 @@ def get_non_empty_errors(cc_data):
         for test, results in report.items():
             high_priority_msgs = collect_non_empty_msgs(results["high_priorities"])
             if high_priority_msgs:
-                all_non_empty_msgs[filename_to_id(file)] = high_priority_msgs
+                all_non_empty_msgs[filename_to_id(file)] = {
+                    "file": file,
+                    "high priority": high_priority_msgs,
+                }
             # medium_priority_msgs = collect_non_empty_msgs(results['medium_priorities'])
-            # low_priority_msgs = collect_non_empty_msgs(results['low_priorities'])
+            # slow_priority_msgs = collect_non_empty_msgs(results['low_priorities'])
 
     return all_non_empty_msgs
 
@@ -170,24 +176,25 @@ def log_issues_from_errors(errors):
     """
     Create GitHub issues for each key-value pair in the errors dictionary.
     """
+    priority = "high priority"
+
     for dataset_id, error_details in errors.items():
         # Construct issue title
         issue_title = f"`{dataset_id}`"
-
+        filename = error_details["file"]
+        msgs = error_details[priority]
         # Construct issue body
         issue_body = f"Issues for dataset `{dataset_id}`:\n\n"
-        for section, messages in error_details.items():
+        issue_body += f"Filename: `{filename}`\n\n"
+        for section, messages in msgs.items():
             issue_body += f"### {section}\n"
             issue_body += "\n".join(f"- {msg}" for msg in messages)
             issue_body += "\n\n"
-            issue_body += (
-                "This issue was created automatically by the compliance checker."
-            )
+
+        issue_body += "This issue was created automatically by the compliance checker."
 
         # Create the issue
-        create_github_issue(
-            issue_title, issue_body, labels=["compliance check", "data problem"]
-        )
+        create_github_issue(issue_title, issue_body, labels=[priority])
 
 
 def main():
@@ -196,7 +203,7 @@ def main():
     )
     non_empty_errors = get_non_empty_errors(cc_data)
     for k, v in non_empty_errors.items():
-        log.error(f"{os.path.basename(k)}: {v}")
+        log.error(f"{k}: {v}")
         log_issues_from_errors(non_empty_errors)
     return non_empty_errors
 
