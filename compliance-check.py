@@ -1,8 +1,8 @@
 from compliance_checker.runner import ComplianceChecker, CheckSuite
 import pandas as pd
 import json
-import logging as log
 import os
+import xarray as xr
 from pathlib import Path
 
 import requests
@@ -24,6 +24,13 @@ headers = {
     "Authorization": f"token {GITHUB_TOKEN}",
     "Accept": "application/vnd.github.v3+json",
 }
+# Define the priorities for each checker
+prios = {
+    "cf": ["low_priorities", "medium_priorities", "high_priorities"],
+    "cc6": ["low_priorities", "medium_priorities", "high_priorities"],
+}
+
+cols = ["scored_points", "possible_points", "high_count", "medium_count", "low_count"]
 
 id_attrs = [
     "variable_id",
@@ -38,30 +45,74 @@ id_attrs = [
     "version",
 ]
 
-report_filename = "./report/compliance-report"
+report_dir = "./report"
+report_filename = os.path.join(report_dir, "compliance-report")
 
 
-def compliance_check(catalog_filename):
-    # Load all available checker classes
-    check_suite = CheckSuite()
-    check_suite.load_all_available_checkers()
-
+def collect_files(catalog_filename):
     catalog = pd.read_csv(catalog_filename)
     catalog = catalog[catalog["mip_era"] == "CMIP6"]  # only check CMIP6 data
 
     files = (
         catalog.groupby(id_attrs)
-        .apply(lambda x: x.iloc[0].path)
+        .apply(lambda x: x.iloc[0].path)  # only use first file for each unique dataset
         .reset_index(drop=True)
         .to_list()
     )
 
-    print(f"checking {len(files)} datasets")
+    return files
+
+
+def concat_messages(tests):
+    summary = ""
+    for test in tests:
+        if test.get("msgs"):
+            summary += "\n".join(test["msgs"]) + "\n"
+    return summary
+
+
+def summarize(test, results):
+    summaries = {}
+    test_id = test.split(":")[0]
+    summaries = {f"{test_id}:{c}": results[c] for c in cols}
+    for prio in prios[test_id]:
+        tests = results.get(prio, [])
+        summary = concat_messages(tests)
+        summaries[f"{test_id}:{prio}"] = summary
+    return summaries
+
+
+def test_open_dataset(filenames):
+    valid = filenames.copy()
+    failed = {}
+    for f in filenames:
+        try:
+            xr.open_dataset(f)
+        except Exception as e:
+            print(f"Failed to open {f}: {e}")
+            valid.remove(f)
+            failed[f] = str(e)
+            continue
+    df = (
+        pd.DataFrame.from_dict(failed, orient="index", columns=["not_readable"])
+        .reset_index()
+        .rename(columns={"index": "filename"})
+    )
+    df.to_csv(os.path.join(report_dir, "corrupt_files.csv"), index=False)
+    return df
+
+
+def compliance_check(filenames):
+    # Load all available checker classes
+    check_suite = CheckSuite()
+    check_suite.load_all_available_checkers()
+
+    print(f"checking {len(filenames)} datasets")
     # Run cf and adcc checks
-    path = files
+    path = filenames
     #'/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX/CMIP6/DD/EUR-12/GERICS/ERA5/evaluation/r1i1p1f1/REMO2020/v1-r1/mon/tas/v20241120/tas_EUR-12_ERA5_evaluation_r1i1p1f1_GERICS_REMO2020_v1-r1_mon_197901-198812.nc'
     # path = "/mnt/CORDEX_CMIP6_tmp/aux_data/cordex-cmip5/CORDEX/output/EUR-11/DMI/ECMWF-ERAINT/evaluation/r1i1p1/HIRHAM5/v1/fx/orog/v20140620/orog_EUR-11_ECMWF-ERAINT_evaluation_r1i1p1_DMI-HIRHAM5_v1_fx.nc"
-    checker_names = ["cf:1.9"]
+    checker_names = ["cf", "cc6"]
     verbose = 1
     criteria = "normal"
     output_filename = report_filename
@@ -78,6 +129,7 @@ def compliance_check(catalog_filename):
 
     @returns                If the tests failed (based on the criteria)
     """
+
     return_value, errors = ComplianceChecker.run_checker(
         path,
         checker_names,
@@ -94,14 +146,22 @@ def compliance_check(catalog_filename):
     return cc_data
 
 
-def filename_to_id(filename):
+def filename_to_attrs(filename):
     """
-    Extract the dataset id from the filename.
+    Create a dictionary with the dataset id as key and the filename as value.
     """
     stem = Path(filename).stem
     path = str(Path(filename).parent)
     version = path.split("/")[-1]
     values = stem.split("_")[0 : len(id_attrs) - 1] + [version]
+    return dict(zip(id_attrs, values))
+
+
+def filename_to_id(filename):
+    """
+    Extract the dataset id from the filename.
+    """
+    values = list(filename_to_attrs(filename).values())
     return ".".join(values)
 
 
@@ -198,15 +258,42 @@ def log_issues_from_errors(errors):
         create_github_issue(issue_title, issue_body, labels=[priority])
 
 
-def main():
-    cc_data = compliance_check(
-        "https://raw.githubusercontent.com/euro-cordex/joint-evaluation/refs/heads/main/catalog.csv"
+def write_report(cc_data, corrupt):
+    result = {}
+    for filename, tests in cc_data.items():
+        for test, results in tests.items():
+            summary = summarize(test, results)
+            result[filename] = filename_to_attrs(filename) | summary
+    df = (
+        pd.DataFrame.from_dict(result, orient="index")
+        .reset_index()
+        .rename(columns={"index": "filename"})
     )
-    non_empty_errors = get_non_empty_errors(cc_data)
-    for k, v in non_empty_errors.items():
-        log.error(f"{k}: {v}")
-        log_issues_from_errors(non_empty_errors)
-    return non_empty_errors
+    df = df.merge(corrupt, on="filename", how="left")
+    df.to_csv(f"{report_filename}.csv", index=False)
+
+
+def main():
+    os.makedirs(report_dir, exist_ok=True)
+    # Collect the files from the catalog
+    filenames = collect_files(
+        "https://raw.githubusercontent.com/euro-cordex/joint-evaluation/refs/heads/main/catalog.csv"
+    )[50:100]
+    # Test if the files can be opened
+    failed_files = test_open_dataset(filenames)
+    cc_data = compliance_check(
+        [
+            f for f in filenames if f not in failed_files.filename.tolist()
+        ]  # Exclude failed files
+    )
+
+    # non_empty_errors = get_non_empty_errors(cc_data)
+    # for k, v in non_empty_errors.items():
+    #    log.error(f"{k}: {v}")
+    #    log_issues_from_errors(non_empty_errors)
+    # return non_empty_errors
+
+    write_report(cc_data, failed_files)
 
 
 if __name__ == "__main__":
