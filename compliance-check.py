@@ -61,7 +61,7 @@ def compliance_check(catalog_filename):
     path = files[50:60]
     #'/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX/CMIP6/DD/EUR-12/GERICS/ERA5/evaluation/r1i1p1f1/REMO2020/v1-r1/mon/tas/v20241120/tas_EUR-12_ERA5_evaluation_r1i1p1f1_GERICS_REMO2020_v1-r1_mon_197901-198812.nc'
     # path = "/mnt/CORDEX_CMIP6_tmp/aux_data/cordex-cmip5/CORDEX/output/EUR-11/DMI/ECMWF-ERAINT/evaluation/r1i1p1/HIRHAM5/v1/fx/orog/v20140620/orog_EUR-11_ECMWF-ERAINT_evaluation_r1i1p1_DMI-HIRHAM5_v1_fx.nc"
-    checker_names = ["cf:1.9", "cc6"]
+    checker_names = ["cc6", "cf"]
     verbose = 1
     criteria = "normal"
     output_filename = report_filename
