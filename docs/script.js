@@ -1,10 +1,42 @@
 async function load(){
-  const resp = await fetch('../report/compliance-report.json');
-  const data = await resp.json();
+  // Try multiple possible locations for the JSON depending on whether we're
+  // serving from repo root (local dev) or GitHub Pages (docs/ is site root).
+  const candidates = [
+    'report/compliance-report.json',         // when JSON copied under docs/
+    '../report/compliance-report.json'       // when serving repo root locally
+  ];
+  let data=null, usedPath=null; let lastErr=null;
+  for(const url of candidates){
+    try {
+      const resp = await fetch(url, {cache:'no-store'});
+      if(!resp.ok){
+        // 404 etc. Skip silently to next candidate.
+        continue;
+      }
+      const text = await resp.text();
+      // Guard against HTML (likely 404 page) masquerading as JSON.
+      if(text.trim().startsWith('<')){
+        console.warn('Skipping non-JSON content at', url);
+        continue;
+      }
+      data = JSON.parse(text);
+      usedPath = url;
+      break;
+    } catch(e){
+      lastErr = e;
+    }
+  }
+  if(!data){
+    const msg = 'Failed to load compliance-report.json. Ensure it is copied into docs/report/ (for GitHub Pages) or serve from repo root. Last error: '+ (lastErr? lastErr.message : 'n/a');
+    console.error(msg);
+    showFatal(msg);
+    return;
+  }
   const rows = Object.entries(data).map(([path,obj])=>buildRowObj(path,obj));
   window._allRows = rows;
   render(rows);
   attachFilters();
+  noteSource(usedPath, rows.length);
 }
 
 function buildRowObj(path,obj){
@@ -126,3 +158,27 @@ function badge(label,val){ const d=document.createElement('div'); d.className='b
 function avg(arr){ return arr.length?arr.reduce((a,b)=>a+b,0)/arr.length:0; }
 
 load();
+
+// --- helpers for load diagnostics ---
+function showFatal(message){
+  const host = document.body;
+  const div = document.createElement('div');
+  div.style.background = '#fee2e2';
+  div.style.color = '#991b1b';
+  div.style.padding = '1rem';
+  div.style.margin = '1rem 0';
+  div.style.border = '1px solid #fca5a5';
+  div.textContent = message;
+  host.prepend(div);
+}
+function noteSource(src,count){
+  const footerId = 'data-source-note';
+  if(document.getElementById(footerId)) return;
+  const small = document.createElement('div');
+  small.id = footerId;
+  small.style.fontSize='.65rem';
+  small.style.opacity='0.7';
+  small.style.margin='0.25rem 0 0.75rem';
+  small.textContent = `Loaded ${count} entries from ${src}`;
+  document.querySelector('header')?.appendChild(small);
+}
