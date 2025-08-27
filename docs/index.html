@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Compliance Report Dashboard</title>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <h1>Compliance Report Dashboard</h1>
+  <p>Interactive filtering of cc6 & CF results</p>
+</header>
+<section id="controls">
+  <details open>
+    <summary>Filters</summary>
+    <div class="grid">
+      <label>Activity <input id="f-activity" placeholder="e.g. CORDEX-CMIP6" /></label>
+      <label>Domain <input id="f-domain" placeholder="e.g. EUR-12" /></label>
+      <label>Institution <input id="f-institution" placeholder="e.g. ICTP" /></label>
+      <label>Driving Source <input id="f-driving_source" placeholder="e.g. NorESM2-MM" /></label>
+      <label>Driving Experiment <input id="f-driving_experiment" placeholder="e.g. historical" /></label>
+      <label>RCM / source_id <input id="f-rcm" placeholder="e.g. RegCM5-0" /></label>
+      <label>Variant (r*i*p*f*) <input id="f-variant" placeholder="e.g. r1i1p1f1" /></label>
+      <label>Frequency <input id="f-frequency" placeholder="e.g. 6hr" /></label>
+      <label>Variable <input id="f-variable" placeholder="e.g. hus600" /></label>
+      <label>Priority (Required/Recommended/Suggested or Errors/Warnings) <input id="f-priority" placeholder="Required" /></label>
+      <label>Check name substring <input id="f-check" placeholder="e.g. Time units" /></label>
+    </div>
+    <div class="grid">
+      <label>Min cc6 % <input id="f-cc6-min" type="number" min="0" max="100" step="1" /></label>
+      <label>Max cc6 % <input id="f-cc6-max" type="number" min="0" max="100" step="1" /></label>
+      <label>Min CF % <input id="f-cf-min" type="number" min="0" max="100" step="1" /></label>
+      <label>Max CF % <input id="f-cf-max" type="number" min="0" max="100" step="1" /></label>
+    </div>
+    <button id="btn-clear">Clear Filters</button>
+  </details>
+</section>
+<section id="summary"></section>
+<section>
+  <table id="results">
+    <thead>
+      <tr>
+        <th>Variable</th><th>Activity</th><th>Domain</th><th>Institution</th><th>Driving Src</th><th>Driving Exp</th><th>Variant</th><th>RCM</th><th>Frequency</th><th>Year Span</th><th>cc6 Score</th><th>CF Score</th><th>High</th><th>Medium</th><th>Msgs</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</section>
+<template id="row-template">
+  <tr>
+    <td class="var"></td>
+    <td class="activity"></td>
+    <td class="domain"></td>
+    <td class="institution"></td>
+    <td class="driving_source"></td>
+    <td class="driving_experiment"></td>
+    <td class="variant"></td>
+    <td class="rcm"></td>
+    <td class="frequency"></td>
+    <td class="years"></td>
+    <td class="cc6score"></td>
+    <td class="cfscore"></td>
+    <td class="cc6high"></td>
+    <td class="cc6medium"></td>
+    <td class="msgs"></td>
+  </tr>
+</template>
+<script src="script.js"></script>
+</body>
+</html>

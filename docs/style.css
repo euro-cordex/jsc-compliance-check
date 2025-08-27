@@ -1,0 +1,24 @@
+body{font-family:system-ui,Arial,sans-serif;margin:0;padding:0 1rem;background:#f7f9fb;color:#222}
+header{padding:1rem 0 0.5rem;margin-bottom:0.5rem;border-bottom:3px solid #1d4ed8}
+h1{margin:0;font-size:1.5rem}
+#controls summary{font-weight:600}
+#controls .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:.5rem;margin:.5rem 0}
+label{display:flex;flex-direction:column;font-size:.75rem;text-transform:uppercase;letter-spacing:.05em;color:#334155}
+input{padding:.35rem .5rem;border:1px solid #94a3b8;border-radius:4px;font-size:.85rem}
+button{padding:.5rem .75rem;border:1px solid #1d4ed8;background:#1d4ed8;color:#fff;border-radius:4px;cursor:pointer;font-weight:600}
+button:hover{background:#1740b4}
+#results{border-collapse:collapse;width:100%;font-size:.75rem}
+#results th, #results td{border:1px solid #cbd5e1;padding:.35rem .4rem;vertical-align:top}
+#results thead{background:#1d3557;color:#fff;position:sticky;top:0}
+#results tbody tr:nth-child(even){background:#eef2f7}
+#results tbody tr.hide{display:none}
+.cc6score,.cfscore{font-weight:600}
+.bad{color:#b91c1c}
+.ok{color:#b45309}
+.good{color:#15803d}
+#summary{margin:1rem 0;font-size:.85rem;display:flex;flex-wrap:wrap;gap:1rem}
+.badge{background:#e2e8f0;padding:.4rem .6rem;border-radius:20px;font-weight:500;display:flex;align-items:center;gap:.35rem}
+.badge span{font-weight:700}
+.msgs-list{max-width:480px}
+.msgs-list details{margin-bottom:.25rem}
+.msgs-list summary{cursor:pointer}
