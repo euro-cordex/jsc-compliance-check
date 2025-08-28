@@ -260,7 +260,7 @@ def log_issues_from_errors(errors):
 
 def write_report(cc_data, corrupt):
     result = {}
-    filename = f"{report_filename}.csv"
+    report = f"{report_filename}.csv"
     for filename, tests in cc_data.items():
         for test, results in tests.items():
             summary = summarize(test, results)
@@ -271,8 +271,8 @@ def write_report(cc_data, corrupt):
         .rename(columns={"index": "filename"})
     )
     df = df.merge(corrupt, on="filename", how="left")
-    df.to_csv(filename, index=False)
-    return filename
+    df.to_csv(report, index=False)
+    return report
 
 
 def human_readable(df):
