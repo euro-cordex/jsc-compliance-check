@@ -492,7 +492,7 @@ def create_excel(filename, cols=None):
         cols = [
             "cc6:high_priorities",
             "cf:high_priorities",
-            "cc6:mediumg_priorities",
+            "cc6:medium_priorities",
             "cf:medium_priorities",
         ]
 
