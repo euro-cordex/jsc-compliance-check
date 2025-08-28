@@ -260,6 +260,7 @@ def log_issues_from_errors(errors):
 
 def write_report(cc_data, corrupt):
     result = {}
+    filename = f"{report_filename}.csv"
     for filename, tests in cc_data.items():
         for test, results in tests.items():
             summary = summarize(test, results)
@@ -270,7 +271,145 @@ def write_report(cc_data, corrupt):
         .rename(columns={"index": "filename"})
     )
     df = df.merge(corrupt, on="filename", how="left")
-    df.to_csv(f"{report_filename}.csv", index=False)
+    df.to_csv(filename, index=False)
+    return filename
+
+
+def human_readable(df):
+    """
+    Creates a human-readable summary of the dataset.
+
+    Parameters:
+    df (pandas.DataFrame): The input DataFrame containing the dataset.
+
+    Returns:
+    pandas.DataFrame: A DataFrame with grouped and summarized data.
+    """
+
+    index = [
+        #  "institution_id",
+        "domain_id",
+        "source_id",
+        "driving_experiment_id",
+        "driving_source_id",
+        "driving_variant_label",
+        "version_realization",
+        "variable_id",
+        "frequency",
+        "version",
+        "filename",
+    ]
+    # cols = [c for c in df.columns if c not in index]
+    return df.sort_values(index).set_index(index).fillna("")
+
+
+def create_excel(filename):
+    """
+    Creates a human-readable Excel file from the dataset.
+
+    Parameters:
+    filename (str): The path to the CSV file containing the dataset.
+
+    Returns:
+    str: The path to the created Excel file.
+    """
+    df = pd.read_csv(filename)
+
+    sheets = {
+        institution_id: human_readable(df)
+        for institution_id, df in df.groupby("institution_id")
+    }
+
+    stem, suffix = os.path.splitext(filename)
+    xlsxfile = f"{stem}.xlsx"
+
+    with pd.ExcelWriter(xlsxfile, engine="xlsxwriter") as writer:
+        workbook = writer.book
+        wrap_format = workbook.add_format(
+            {"text_wrap": True, "align": "left", "valign": "top"}
+        )
+        grey_format = workbook.add_format(
+            {"bg_color": "#F2F2F2", "text_wrap": True, "align": "left", "valign": "top"}
+        )
+
+        header_format = workbook.add_format(
+            {
+                "bold": True,
+                "text_wrap": True,
+                "valign": "top",
+                "fg_color": "#D7E4BC",
+                "border": 1,
+            }
+        )
+        for sheet_name, sheet_df in sheets.items():
+            print(sheet_name)
+            sheet_df.to_excel(writer, sheet_name=sheet_name, index=True)
+            worksheet = writer.sheets[sheet_name]  # pull worksheet object
+
+            n_index = len(sheet_df.index.names)
+            n_rows = len(sheet_df)
+            n_cols = len(sheet_df.columns)
+
+            # Write the column headers with the defined format.
+            for col_num, value in enumerate(sheet_df.index.names):
+                worksheet.write(0, col_num, value, header_format)
+
+            # Write the data columns headers with the defined format.
+            for col_num, value in enumerate(sheet_df.columns):
+                worksheet.write(0, col_num + n_index, value, header_format)
+
+            # Set wrap for all index columns
+            for idx in range(n_index):
+                worksheet.set_column(idx, idx, 30, wrap_format)
+
+            # Set wrap for data columns
+            for col_num in range(n_index, n_index + n_cols):
+                worksheet.set_column(col_num, col_num, 50, wrap_format)
+
+            # Apply alternating row color (starting after header row)
+            for row in range(1, n_rows + 1):
+                fmt = grey_format if row % 2 == 0 else wrap_format
+                # worksheet.set_row(row, 60, fmt)
+                # Write data columns
+                for col in range(n_cols):
+                    value = sheet_df.iloc[row - 1, col]
+                    worksheet.write(row, col + n_index, value, fmt)
+
+            # --- Merge repeated MultiIndex cells ---
+            # Get the index values as a DataFrame
+            idx_df = pd.DataFrame(sheet_df.index.tolist(), columns=sheet_df.index.names)
+            start_row = 1  # Excel row index (0 is header)
+
+            for col in range(n_index - 1, n_index):
+                col_values = idx_df.iloc[:, col]
+                last_val = None
+                merge_start = start_row
+                for row in range(n_rows):
+                    val = col_values.iloc[row]
+                    if val != last_val and row > 0:
+                        if row + start_row - merge_start > 1:
+                            worksheet.merge_range(
+                                merge_start,
+                                col,
+                                row + start_row - 1,
+                                col,
+                                last_val,
+                                wrap_format,
+                            )
+                        merge_start = row + start_row
+                    last_val = val
+                # Merge the last group
+                if n_rows + start_row - merge_start > 1:
+                    worksheet.merge_range(
+                        merge_start,
+                        col,
+                        n_rows + start_row - 1,
+                        col,
+                        last_val,
+                        wrap_format,
+                    )
+
+    return xlsxfile
 
 
 def main():
@@ -293,8 +432,8 @@ def main():
     #    log_issues_from_errors(non_empty_errors)
     # return non_empty_errors
 
-    write_report(cc_data, failed_files)
-
+    report = write_report(cc_data, failed_files)
+    create_excel(report)
 
 if __name__ == "__main__":
     main()
