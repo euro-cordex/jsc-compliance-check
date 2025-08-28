@@ -473,7 +473,7 @@ def human_readable(df):
     return df.sort_values(index).set_index(index).fillna("")
 
 
-def create_excel(filename):
+def create_excel(filename, cols=None):
     """Create a human-readable multi-sheet Excel workbook.
 
     Parameters
@@ -488,8 +488,16 @@ def create_excel(filename):
     """
     df = pd.read_csv(filename)
 
+    if cols is None:
+        cols = [
+            "cc6:high_priorities",
+            "cf:high_priorities",
+            "cc6:mediumg_priorities",
+            "cf:medium_priorities",
+        ]
+
     sheets = {
-        institution_id: human_readable(df)
+        institution_id: human_readable(df)[cols]
         for institution_id, df in df.groupby("institution_id")
     }
 
