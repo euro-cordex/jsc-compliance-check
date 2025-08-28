@@ -175,10 +175,10 @@ def test_open_dataset(filenames):
         except Exception as e:  # noqa: BLE001 broad for logging only
             print(f"Failed to open {f}: {e}")
             valid.remove(f)
-            failed[f] = str(e)
+            failed[f] = {"not_readable": str(e)} | filename_to_attrs(f)
             continue
     df = (
-        pd.DataFrame.from_dict(failed, orient="index", columns=["not_readable"])
+        pd.DataFrame.from_dict(failed, orient="index")
         .reset_index()
         .rename(columns={"index": "filename"})
     )
@@ -441,7 +441,7 @@ def write_report(cc_data, corrupt):
         .reset_index()
         .rename(columns={"index": "filename"})
     )
-    df = df.merge(corrupt, on="filename", how="left")
+    df = pd.concat([df, corrupt], ignore_index=True)
     df.to_csv(report, index=False)
     return report
 
@@ -497,6 +497,7 @@ def create_excel(filename, cols=None):
             "cf:high_priorities",
             "cc6:medium_priorities",
             "cf:medium_priorities",
+            "not_readable",
         ]
 
     sheets = {
@@ -605,6 +606,9 @@ def main():
     cc_data = compliance_check(
         [f for f in filenames if f not in failed_files.filename.tolist()]
     )
+    # with open(f"{report_filename}.json", "r") as fp:
+    #     cc_data = json.load(fp)
+    # failed_files = pd.read_csv("report/corrupt_files.csv")
     report = write_report(cc_data, failed_files)
     print(f"Report written to {report}")
     create_excel(report)
