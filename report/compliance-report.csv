@@ -1,5 +1,6 @@
-filename,variable_id,domain_id,driving_source_id,driving_experiment_id,driving_variant_label,institution_id,source_id,version_realization,frequency,version,cc6:scored_points,cc6:possible_points,cc6:high_count,cc6:medium_count,cc6:low_count,cc6:low_priorities,cc6:medium_priorities,cc6:high_priorities,cf:scored_points,cf:possible_points,cf:high_count,cf:medium_count,cf:low_count,cf:low_priorities,cf:medium_priorities,cf:high_priorities
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/hus600/hus600_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_198201010600-198301010000.nc,hus600,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,hus600,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
+filename,variable_id,domain_id,driving_source_id,driving_experiment_id,driving_variant_label,institution_id,source_id,version_realization,frequency,version,cf:scored_points,cf:possible_points,cf:high_count,cf:medium_count,cf:low_count,cf:low_priorities,cf:medium_priorities,cf:high_priorities,cc6:scored_points,cc6:possible_points,cc6:high_count,cc6:medium_count,cc6:low_count,cc6:low_priorities,cc6:medium_priorities,cc6:high_priorities,not_readable
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/hus600/hus600_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_198201010600-198301010000.nc,hus600,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,hus600,403,404,0,1,0,,"attribute hus600:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+",,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
 It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
 The first timestep differs from expectation ('1982-01-01 00:00:00'): '1982-01-01 06:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
 The last timestep differs from expectation ('1982-12-31 18:00:00'): '1983-01-01 00:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
@@ -40,9 +41,9 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 The 'version' element in the path is not of the format 'vYYYYMMDD': 'hus600'.
 DRS path building block 'version_realization' does not comply with the CORDEX-CMIP6 Archive Specifications: 'RegCM5-0'. Expected pattern: 'v[1-9]\d*-r[1-9]\d*', eg. 'v1-r3'.
-",390,391,0,1,0,,"attribute hus600:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/hus700/hus700_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_197201010600-197301010000.nc,hus700,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,hus700,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/hus700/hus700_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_197201010600-197301010000.nc,hus700,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,hus700,403,404,0,1,0,,"attribute hus700:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+",,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
 It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
 The first timestep differs from expectation ('1972-01-01 00:00:00'): '1972-01-01 06:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
 The last timestep differs from expectation ('1972-12-31 18:00:00'): '1973-01-01 00:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
@@ -83,9 +84,9 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 The 'version' element in the path is not of the format 'vYYYYMMDD': 'hus700'.
 DRS path building block 'version_realization' does not comply with the CORDEX-CMIP6 Archive Specifications: 'RegCM5-0'. Expected pattern: 'v[1-9]\d*-r[1-9]\d*', eg. 'v1-r3'.
-",390,391,0,1,0,,"attribute hus700:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/hus850/hus850_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_198501010600-198601010000.nc,hus850,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,hus850,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/hus850/hus850_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_198501010600-198601010000.nc,hus850,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,hus850,403,404,0,1,0,,"attribute hus850:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+",,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
 It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
 The first timestep differs from expectation ('1985-01-01 00:00:00'): '1985-01-01 06:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
 The last timestep differs from expectation ('1985-12-31 18:00:00'): '1986-01-01 00:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
@@ -126,9 +127,9 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 The 'version' element in the path is not of the format 'vYYYYMMDD': 'hus850'.
 DRS path building block 'version_realization' does not comply with the CORDEX-CMIP6 Archive Specifications: 'RegCM5-0'. Expected pattern: 'v[1-9]\d*-r[1-9]\d*', eg. 'v1-r3'.
-",390,391,0,1,0,,"attribute hus850:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/hus925/hus925_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_197901010600-198001010000.nc,hus925,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,hus925,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/hus925/hus925_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_197901010600-198001010000.nc,hus925,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,hus925,403,404,0,1,0,,"attribute hus925:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+",,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
 It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
 The first timestep differs from expectation ('1979-01-01 00:00:00'): '1979-01-01 06:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
 The last timestep differs from expectation ('1979-12-31 18:00:00'): '1980-01-01 00:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
@@ -169,9 +170,10 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 The 'version' element in the path is not of the format 'vYYYYMMDD': 'hus925'.
 DRS path building block 'version_realization' does not comply with the CORDEX-CMIP6 Archive Specifications: 'RegCM5-0'. Expected pattern: 'v[1-9]\d*-r[1-9]\d*', eg. 'v1-r3'.
-",390,391,0,1,0,,"attribute hus925:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/ta850/ta850_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_199001010600-199101010000.nc,ta850,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,ta850,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/ta850/ta850_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_199001010600-199101010000.nc,ta850,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,ta850,403,405,0,2,0,,"attribute ta850:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+Variable ta850 has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
+",,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
 It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
 The first timestep differs from expectation ('1990-01-01 00:00:00'): '1990-01-01 06:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
 The last timestep differs from expectation ('1990-12-31 18:00:00'): '1991-01-01 00:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
@@ -212,10 +214,9 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 The 'version' element in the path is not of the format 'vYYYYMMDD': 'ta850'.
 DRS path building block 'version_realization' does not comply with the CORDEX-CMIP6 Archive Specifications: 'RegCM5-0'. Expected pattern: 'v[1-9]\d*-r[1-9]\d*', eg. 'v1-r3'.
-",390,392,0,2,0,,"attribute ta850:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
-Variable ta850 has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/ua1000/ua1000_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_197401010600-197501010000.nc,ua1000,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,ua1000,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/ua1000/ua1000_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_197401010600-197501010000.nc,ua1000,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,ua1000,403,404,0,1,0,,"attribute ua1000:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+",,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
 It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
 The first timestep differs from expectation ('1974-01-01 00:00:00'): '1974-01-01 06:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
 The last timestep differs from expectation ('1974-12-31 18:00:00'): '1975-01-01 00:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
@@ -256,9 +257,9 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 The 'version' element in the path is not of the format 'vYYYYMMDD': 'ua1000'.
 DRS path building block 'version_realization' does not comply with the CORDEX-CMIP6 Archive Specifications: 'RegCM5-0'. Expected pattern: 'v[1-9]\d*-r[1-9]\d*', eg. 'v1-r3'.
-",390,391,0,1,0,,"attribute ua1000:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/ua200/ua200_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_199101010600-199201010000.nc,ua200,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,ua200,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/ua200/ua200_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_199101010600-199201010000.nc,ua200,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,ua200,403,404,0,1,0,,"attribute ua200:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+",,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
 It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
 The first timestep differs from expectation ('1991-01-01 00:00:00'): '1991-01-01 06:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
 The last timestep differs from expectation ('1991-12-31 18:00:00'): '1992-01-01 00:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
@@ -299,9 +300,9 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 The 'version' element in the path is not of the format 'vYYYYMMDD': 'ua200'.
 DRS path building block 'version_realization' does not comply with the CORDEX-CMIP6 Archive Specifications: 'RegCM5-0'. Expected pattern: 'v[1-9]\d*-r[1-9]\d*', eg. 'v1-r3'.
-",390,391,0,1,0,,"attribute ua200:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/ua250/ua250_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_197301010600-197401010000.nc,ua250,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,ua250,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/ua250/ua250_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_197301010600-197401010000.nc,ua250,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,ua250,403,404,0,1,0,,"attribute ua250:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+",,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
 It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
 The first timestep differs from expectation ('1973-01-01 00:00:00'): '1973-01-01 06:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
 The last timestep differs from expectation ('1973-12-31 18:00:00'): '1974-01-01 00:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
@@ -342,9 +343,9 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 The 'version' element in the path is not of the format 'vYYYYMMDD': 'ua250'.
 DRS path building block 'version_realization' does not comply with the CORDEX-CMIP6 Archive Specifications: 'RegCM5-0'. Expected pattern: 'v[1-9]\d*-r[1-9]\d*', eg. 'v1-r3'.
-",390,391,0,1,0,,"attribute ua250:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/ua300/ua300_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_197501010600-197601010000.nc,ua300,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,ua300,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/ua300/ua300_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_197501010600-197601010000.nc,ua300,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,ua300,403,404,0,1,0,,"attribute ua300:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+",,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
 It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
 The first timestep differs from expectation ('1975-01-01 00:00:00'): '1975-01-01 06:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
 The last timestep differs from expectation ('1975-12-31 18:00:00'): '1976-01-01 00:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
@@ -385,9 +386,9 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 The 'version' element in the path is not of the format 'vYYYYMMDD': 'ua300'.
 DRS path building block 'version_realization' does not comply with the CORDEX-CMIP6 Archive Specifications: 'RegCM5-0'. Expected pattern: 'v[1-9]\d*-r[1-9]\d*', eg. 'v1-r3'.
-",390,391,0,1,0,,"attribute ua300:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/ua400/ua400_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_199701010600-199801010000.nc,ua400,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,ua400,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/ua400/ua400_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_199701010600-199801010000.nc,ua400,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,ua400,403,404,0,1,0,,"attribute ua400:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+",,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
 It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
 The first timestep differs from expectation ('1997-01-01 00:00:00'): '1997-01-01 06:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
 The last timestep differs from expectation ('1997-12-31 18:00:00'): '1998-01-01 00:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
@@ -428,9 +429,9 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 The 'version' element in the path is not of the format 'vYYYYMMDD': 'ua400'.
 DRS path building block 'version_realization' does not comply with the CORDEX-CMIP6 Archive Specifications: 'RegCM5-0'. Expected pattern: 'v[1-9]\d*-r[1-9]\d*', eg. 'v1-r3'.
-",390,391,0,1,0,,"attribute ua400:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/ua500/ua500_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_197201010600-197301010000.nc,ua500,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,ua500,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/ua500/ua500_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_197201010600-197301010000.nc,ua500,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,ua500,403,404,0,1,0,,"attribute ua500:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+",,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
 It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
 The first timestep differs from expectation ('1972-01-01 00:00:00'): '1972-01-01 06:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
 The last timestep differs from expectation ('1972-12-31 18:00:00'): '1973-01-01 00:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
@@ -471,9 +472,9 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 The 'version' element in the path is not of the format 'vYYYYMMDD': 'ua500'.
 DRS path building block 'version_realization' does not comply with the CORDEX-CMIP6 Archive Specifications: 'RegCM5-0'. Expected pattern: 'v[1-9]\d*-r[1-9]\d*', eg. 'v1-r3'.
-",390,391,0,1,0,,"attribute ua500:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/ua600/ua600_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_197201010600-197301010000.nc,ua600,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,ua600,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/ua600/ua600_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_197201010600-197301010000.nc,ua600,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,ua600,403,404,0,1,0,,"attribute ua600:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+",,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
 It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
 The first timestep differs from expectation ('1972-01-01 00:00:00'): '1972-01-01 06:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
 The last timestep differs from expectation ('1972-12-31 18:00:00'): '1973-01-01 00:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
@@ -514,9 +515,9 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 The 'version' element in the path is not of the format 'vYYYYMMDD': 'ua600'.
 DRS path building block 'version_realization' does not comply with the CORDEX-CMIP6 Archive Specifications: 'RegCM5-0'. Expected pattern: 'v[1-9]\d*-r[1-9]\d*', eg. 'v1-r3'.
-",390,391,0,1,0,,"attribute ua600:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/ua700/ua700_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_198801010600-198901010000.nc,ua700,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,ua700,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/ua700/ua700_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_198801010600-198901010000.nc,ua700,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,ua700,403,404,0,1,0,,"attribute ua700:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+",,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
 It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
 The first timestep differs from expectation ('1988-01-01 00:00:00'): '1988-01-01 06:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
 The last timestep differs from expectation ('1988-12-31 18:00:00'): '1989-01-01 00:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
@@ -557,9 +558,9 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 The 'version' element in the path is not of the format 'vYYYYMMDD': 'ua700'.
 DRS path building block 'version_realization' does not comply with the CORDEX-CMIP6 Archive Specifications: 'RegCM5-0'. Expected pattern: 'v[1-9]\d*-r[1-9]\d*', eg. 'v1-r3'.
-",390,391,0,1,0,,"attribute ua700:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/ua850/ua850_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_197501010600-197601010000.nc,ua850,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,ua850,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/ua850/ua850_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_197501010600-197601010000.nc,ua850,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,ua850,403,404,0,1,0,,"attribute ua850:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+",,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
 It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
 The first timestep differs from expectation ('1975-01-01 00:00:00'): '1975-01-01 06:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
 The last timestep differs from expectation ('1975-12-31 18:00:00'): '1976-01-01 00:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
@@ -600,9 +601,9 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 The 'version' element in the path is not of the format 'vYYYYMMDD': 'ua850'.
 DRS path building block 'version_realization' does not comply with the CORDEX-CMIP6 Archive Specifications: 'RegCM5-0'. Expected pattern: 'v[1-9]\d*-r[1-9]\d*', eg. 'v1-r3'.
-",390,391,0,1,0,,"attribute ua850:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/ua925/ua925_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_198101010600-198201010000.nc,ua925,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,ua925,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/ua925/ua925_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_198101010600-198201010000.nc,ua925,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,ua925,403,404,0,1,0,,"attribute ua925:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+",,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
 It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
 The first timestep differs from expectation ('1981-01-01 00:00:00'): '1981-01-01 06:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
 The last timestep differs from expectation ('1981-12-31 18:00:00'): '1982-01-01 00:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
@@ -643,9 +644,9 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 The 'version' element in the path is not of the format 'vYYYYMMDD': 'ua925'.
 DRS path building block 'version_realization' does not comply with the CORDEX-CMIP6 Archive Specifications: 'RegCM5-0'. Expected pattern: 'v[1-9]\d*-r[1-9]\d*', eg. 'v1-r3'.
-",390,391,0,1,0,,"attribute ua925:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/va1000/va1000_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_198301010600-198401010000.nc,va1000,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,va1000,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/va1000/va1000_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_198301010600-198401010000.nc,va1000,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,va1000,403,404,0,1,0,,"attribute va1000:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+",,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
 It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
 The first timestep differs from expectation ('1983-01-01 00:00:00'): '1983-01-01 06:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
 The last timestep differs from expectation ('1983-12-31 18:00:00'): '1984-01-01 00:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
@@ -686,9 +687,9 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 The 'version' element in the path is not of the format 'vYYYYMMDD': 'va1000'.
 DRS path building block 'version_realization' does not comply with the CORDEX-CMIP6 Archive Specifications: 'RegCM5-0'. Expected pattern: 'v[1-9]\d*-r[1-9]\d*', eg. 'v1-r3'.
-",390,391,0,1,0,,"attribute va1000:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/va200/va200_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_198901010600-199001010000.nc,va200,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,va200,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/va200/va200_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_198901010600-199001010000.nc,va200,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,va200,403,404,0,1,0,,"attribute va200:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+",,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
 It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
 The first timestep differs from expectation ('1989-01-01 00:00:00'): '1989-01-01 06:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
 The last timestep differs from expectation ('1989-12-31 18:00:00'): '1990-01-01 00:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
@@ -729,9 +730,9 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 The 'version' element in the path is not of the format 'vYYYYMMDD': 'va200'.
 DRS path building block 'version_realization' does not comply with the CORDEX-CMIP6 Archive Specifications: 'RegCM5-0'. Expected pattern: 'v[1-9]\d*-r[1-9]\d*', eg. 'v1-r3'.
-",390,391,0,1,0,,"attribute va200:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/va250/va250_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_197201010600-197301010000.nc,va250,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,va250,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/va250/va250_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_197201010600-197301010000.nc,va250,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,va250,403,404,0,1,0,,"attribute va250:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+",,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
 It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
 The first timestep differs from expectation ('1972-01-01 00:00:00'): '1972-01-01 06:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
 The last timestep differs from expectation ('1972-12-31 18:00:00'): '1973-01-01 00:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
@@ -772,9 +773,9 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 The 'version' element in the path is not of the format 'vYYYYMMDD': 'va250'.
 DRS path building block 'version_realization' does not comply with the CORDEX-CMIP6 Archive Specifications: 'RegCM5-0'. Expected pattern: 'v[1-9]\d*-r[1-9]\d*', eg. 'v1-r3'.
-",390,391,0,1,0,,"attribute va250:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/va300/va300_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_199001010600-199101010000.nc,va300,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,va300,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/va300/va300_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_199001010600-199101010000.nc,va300,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,va300,403,404,0,1,0,,"attribute va300:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+",,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
 It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
 The first timestep differs from expectation ('1990-01-01 00:00:00'): '1990-01-01 06:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
 The last timestep differs from expectation ('1990-12-31 18:00:00'): '1991-01-01 00:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
@@ -815,9 +816,9 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 The 'version' element in the path is not of the format 'vYYYYMMDD': 'va300'.
 DRS path building block 'version_realization' does not comply with the CORDEX-CMIP6 Archive Specifications: 'RegCM5-0'. Expected pattern: 'v[1-9]\d*-r[1-9]\d*', eg. 'v1-r3'.
-",390,391,0,1,0,,"attribute va300:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/va400/va400_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_198601010600-198701010000.nc,va400,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,va400,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/va400/va400_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_198601010600-198701010000.nc,va400,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,va400,403,404,0,1,0,,"attribute va400:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+",,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
 It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
 The first timestep differs from expectation ('1986-01-01 00:00:00'): '1986-01-01 06:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
 The last timestep differs from expectation ('1986-12-31 18:00:00'): '1987-01-01 00:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
@@ -858,9 +859,9 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 The 'version' element in the path is not of the format 'vYYYYMMDD': 'va400'.
 DRS path building block 'version_realization' does not comply with the CORDEX-CMIP6 Archive Specifications: 'RegCM5-0'. Expected pattern: 'v[1-9]\d*-r[1-9]\d*', eg. 'v1-r3'.
-",390,391,0,1,0,,"attribute va400:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/va500/va500_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_198701010600-198801010000.nc,va500,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,va500,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/va500/va500_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_198701010600-198801010000.nc,va500,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,va500,403,404,0,1,0,,"attribute va500:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+",,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
 It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
 The first timestep differs from expectation ('1987-01-01 00:00:00'): '1987-01-01 06:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
 The last timestep differs from expectation ('1987-12-31 18:00:00'): '1988-01-01 00:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
@@ -901,9 +902,9 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 The 'version' element in the path is not of the format 'vYYYYMMDD': 'va500'.
 DRS path building block 'version_realization' does not comply with the CORDEX-CMIP6 Archive Specifications: 'RegCM5-0'. Expected pattern: 'v[1-9]\d*-r[1-9]\d*', eg. 'v1-r3'.
-",390,391,0,1,0,,"attribute va500:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/va600/va600_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_199001010600-199101010000.nc,va600,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,va600,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/va600/va600_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_199001010600-199101010000.nc,va600,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,va600,403,404,0,1,0,,"attribute va600:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+",,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
 It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
 The first timestep differs from expectation ('1990-01-01 00:00:00'): '1990-01-01 06:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
 The last timestep differs from expectation ('1990-12-31 18:00:00'): '1991-01-01 00:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
@@ -944,9 +945,9 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 The 'version' element in the path is not of the format 'vYYYYMMDD': 'va600'.
 DRS path building block 'version_realization' does not comply with the CORDEX-CMIP6 Archive Specifications: 'RegCM5-0'. Expected pattern: 'v[1-9]\d*-r[1-9]\d*', eg. 'v1-r3'.
-",390,391,0,1,0,,"attribute va600:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/va700/va700_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_199401010600-199501010000.nc,va700,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,va700,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/va700/va700_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_199401010600-199501010000.nc,va700,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,va700,403,404,0,1,0,,"attribute va700:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+",,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
 It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
 The first timestep differs from expectation ('1994-01-01 00:00:00'): '1994-01-01 06:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
 The last timestep differs from expectation ('1994-12-31 18:00:00'): '1995-01-01 00:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
@@ -987,9 +988,9 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 The 'version' element in the path is not of the format 'vYYYYMMDD': 'va700'.
 DRS path building block 'version_realization' does not comply with the CORDEX-CMIP6 Archive Specifications: 'RegCM5-0'. Expected pattern: 'v[1-9]\d*-r[1-9]\d*', eg. 'v1-r3'.
-",390,391,0,1,0,,"attribute va700:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/va850/va850_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_198101010600-198201010000.nc,va850,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,va850,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/va850/va850_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_198101010600-198201010000.nc,va850,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,va850,403,404,0,1,0,,"attribute va850:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+",,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
 It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
 The first timestep differs from expectation ('1981-01-01 00:00:00'): '1981-01-01 06:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
 The last timestep differs from expectation ('1981-12-31 18:00:00'): '1982-01-01 00:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
@@ -1030,9 +1031,9 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 The 'version' element in the path is not of the format 'vYYYYMMDD': 'va850'.
 DRS path building block 'version_realization' does not comply with the CORDEX-CMIP6 Archive Specifications: 'RegCM5-0'. Expected pattern: 'v[1-9]\d*-r[1-9]\d*', eg. 'v1-r3'.
-",390,391,0,1,0,,"attribute va850:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/va925/va925_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_199701010600-199801010000.nc,va925,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,va925,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/va925/va925_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_199701010600-199801010000.nc,va925,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,va925,403,404,0,1,0,,"attribute va925:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+",,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
 It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
 The first timestep differs from expectation ('1997-01-01 00:00:00'): '1997-01-01 06:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
 The last timestep differs from expectation ('1997-12-31 18:00:00'): '1998-01-01 00:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
@@ -1073,9 +1074,9 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 The 'version' element in the path is not of the format 'vYYYYMMDD': 'va925'.
 DRS path building block 'version_realization' does not comply with the CORDEX-CMIP6 Archive Specifications: 'RegCM5-0'. Expected pattern: 'v[1-9]\d*-r[1-9]\d*', eg. 'v1-r3'.
-",390,391,0,1,0,,"attribute va925:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/zg500/zg500_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_197801010600-197901010000.nc,zg500,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,zg500,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/zg500/zg500_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_197801010600-197901010000.nc,zg500,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,zg500,403,404,0,1,0,,"attribute zg500:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+",,71,86,10,5,0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
 It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
 The first timestep differs from expectation ('1978-01-01 00:00:00'): '1978-01-01 06:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
 The last timestep differs from expectation ('1978-12-31 18:00:00'): '1979-01-01 00:00:00'. '1' full simulation year is expected in the data file for frequency '6hr'.
@@ -1116,9 +1117,11 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 The 'version' element in the path is not of the format 'vYYYYMMDD': 'zg500'.
 DRS path building block 'version_realization' does not comply with the CORDEX-CMIP6 Archive Specifications: 'RegCM5-0'. Expected pattern: 'v[1-9]\d*-r[1-9]\d*', eg. 'v1-r3'.
-",390,391,0,1,0,,"attribute zg500:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/historical/r1i1p1f2/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_CNRM-ESM2-1_historical_r1i1p1f2_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,CNRM-ESM2-1,historical,r1i1p1f2,KNMI,RACMO23E,v1-r1,fx,v20241216,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/historical/r1i1p1f2/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_CNRM-ESM2-1_historical_r1i1p1f2_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,CNRM-ESM2-1,historical,r1i1p1f2,KNMI,RACMO23E,v1-r1,fx,v20241216,196,199,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
+§2.6.2 global attribute history should exist and be a non-empty string
+§2.6.1 Conventions global attribute does not contain ""CF-1.11""
+",,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 It is recommended for the variables 'lat' and 'lon' to have bounds defined.
 ","Global attribute 'Conventions' does not comply with the CV: 'CF-1.10'. Expected value/pattern: 'CF-1.11'.
 Global attribute 'institution_id' does not comply with the CV: 'unset'. Expected value/pattern: 'KNMI'.
@@ -1134,11 +1137,11 @@ The dimension / coordinate 'longitude' of the variable 'areacella' requires boun
 The dimension / coordinate 'latitude' of the variable 'areacella' requires bounds to be defined.
 The variable attribute 'areacella:cell_methods = 'unset' is not equivalent to the value specified in the CMOR table ('area: sum').
 The variable attribute 'areacella:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
-",187,190,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
+",
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/ssp126/r1i1p1f2/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_CNRM-ESM2-1_ssp126_r1i1p1f2_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,CNRM-ESM2-1,ssp126,r1i1p1f2,KNMI,RACMO23E,v1-r1,fx,v20241216,196,199,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 §2.6.1 Conventions global attribute does not contain ""CF-1.11""
-",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/ssp126/r1i1p1f2/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_CNRM-ESM2-1_ssp126_r1i1p1f2_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,CNRM-ESM2-1,ssp126,r1i1p1f2,KNMI,RACMO23E,v1-r1,fx,v20241216,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+",,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 It is recommended for the variables 'lat' and 'lon' to have bounds defined.
 ","Global attribute 'Conventions' does not comply with the CV: 'CF-1.10'. Expected value/pattern: 'CF-1.11'.
 Global attribute 'institution_id' does not comply with the CV: 'unset'. Expected value/pattern: 'KNMI'.
@@ -1154,11 +1157,11 @@ The dimension / coordinate 'longitude' of the variable 'areacella' requires boun
 The dimension / coordinate 'latitude' of the variable 'areacella' requires bounds to be defined.
 The variable attribute 'areacella:cell_methods = 'unset' is not equivalent to the value specified in the CMOR table ('area: sum').
 The variable attribute 'areacella:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
-",187,190,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
+",
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/ssp370/r1i1p1f2/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_CNRM-ESM2-1_ssp370_r1i1p1f2_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,CNRM-ESM2-1,ssp370,r1i1p1f2,KNMI,RACMO23E,v1-r1,fx,v20241216,196,199,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 §2.6.1 Conventions global attribute does not contain ""CF-1.11""
-",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/ssp370/r1i1p1f2/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_CNRM-ESM2-1_ssp370_r1i1p1f2_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,CNRM-ESM2-1,ssp370,r1i1p1f2,KNMI,RACMO23E,v1-r1,fx,v20241216,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+",,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 It is recommended for the variables 'lat' and 'lon' to have bounds defined.
 ","Global attribute 'Conventions' does not comply with the CV: 'CF-1.10'. Expected value/pattern: 'CF-1.11'.
 Global attribute 'institution_id' does not comply with the CV: 'unset'. Expected value/pattern: 'KNMI'.
@@ -1174,11 +1177,11 @@ The dimension / coordinate 'longitude' of the variable 'areacella' requires boun
 The dimension / coordinate 'latitude' of the variable 'areacella' requires bounds to be defined.
 The variable attribute 'areacella:cell_methods = 'unset' is not equivalent to the value specified in the CMOR table ('area: sum').
 The variable attribute 'areacella:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
-",187,190,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
+",
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/EC-Earth3/historical/r1i1p1f1/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_EC-Earth3_historical_r1i1p1f1_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,EC-Earth3,historical,r1i1p1f1,KNMI,RACMO23E,v1-r1,fx,v20241216,196,199,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 §2.6.1 Conventions global attribute does not contain ""CF-1.11""
-",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/EC-Earth3/historical/r1i1p1f1/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_EC-Earth3_historical_r1i1p1f1_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,EC-Earth3,historical,r1i1p1f1,KNMI,RACMO23E,v1-r1,fx,v20241216,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+",,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 It is recommended for the variables 'lat' and 'lon' to have bounds defined.
 ","Global attribute 'Conventions' does not comply with the CV: 'CF-1.10'. Expected value/pattern: 'CF-1.11'.
 Global attribute 'institution_id' does not comply with the CV: 'unset'. Expected value/pattern: 'KNMI'.
@@ -1194,11 +1197,11 @@ The dimension / coordinate 'longitude' of the variable 'areacella' requires boun
 The dimension / coordinate 'latitude' of the variable 'areacella' requires bounds to be defined.
 The variable attribute 'areacella:cell_methods = 'unset' is not equivalent to the value specified in the CMOR table ('area: sum').
 The variable attribute 'areacella:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
-",187,190,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
+",
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/EC-Earth3/ssp126/r1i1p1f1/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_EC-Earth3_ssp126_r1i1p1f1_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,EC-Earth3,ssp126,r1i1p1f1,KNMI,RACMO23E,v1-r1,fx,v20241216,196,199,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 §2.6.1 Conventions global attribute does not contain ""CF-1.11""
-",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/EC-Earth3/ssp126/r1i1p1f1/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_EC-Earth3_ssp126_r1i1p1f1_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,EC-Earth3,ssp126,r1i1p1f1,KNMI,RACMO23E,v1-r1,fx,v20241216,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+",,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 It is recommended for the variables 'lat' and 'lon' to have bounds defined.
 ","Global attribute 'Conventions' does not comply with the CV: 'CF-1.10'. Expected value/pattern: 'CF-1.11'.
 Global attribute 'institution_id' does not comply with the CV: 'unset'. Expected value/pattern: 'KNMI'.
@@ -1214,11 +1217,10 @@ The dimension / coordinate 'longitude' of the variable 'areacella' requires boun
 The dimension / coordinate 'latitude' of the variable 'areacella' requires bounds to be defined.
 The variable attribute 'areacella:cell_methods = 'unset' is not equivalent to the value specified in the CMOR table ('area: sum').
 The variable attribute 'areacella:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
-",187,190,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
-§2.6.2 global attribute history should exist and be a non-empty string
-§2.6.1 Conventions global attribute does not contain ""CF-1.11""
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/EC-Earth3/ssp245/r1i1p1f1/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_EC-Earth3_ssp245_r1i1p1f1_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,EC-Earth3,ssp245,r1i1p1f1,KNMI,RACMO23E,v1-r1,fx,v20241216,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/EC-Earth3/ssp245/r1i1p1f1/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_EC-Earth3_ssp245_r1i1p1f1_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,EC-Earth3,ssp245,r1i1p1f1,KNMI,RACMO23E,v1-r1,fx,v20241216,197,199,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
+§2.6.2 global attribute history should exist and be a non-empty string
+",,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 It is recommended for the variables 'lat' and 'lon' to have bounds defined.
 ","Global attribute 'institution_id' does not comply with the CV: 'unset'. Expected value/pattern: 'KNMI'.
 Global attribute 'license' does not comply with the CV: 'CORDEX model data produced by KNMI is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CORDEX output, including citation requirements and proper acknowledgment. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
@@ -1233,10 +1235,11 @@ The dimension / coordinate 'longitude' of the variable 'areacella' requires boun
 The dimension / coordinate 'latitude' of the variable 'areacella' requires bounds to be defined.
 The variable attribute 'areacella:cell_methods = 'unset' is not equivalent to the value specified in the CMOR table ('area: sum').
 The variable attribute 'areacella:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
-",188,190,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
-§2.6.2 global attribute history should exist and be a non-empty string
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/EC-Earth3/ssp370/r1i1p1f1/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_EC-Earth3_ssp370_r1i1p1f1_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,EC-Earth3,ssp370,r1i1p1f1,KNMI,RACMO23E,v1-r1,fx,v20241216,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/EC-Earth3/ssp370/r1i1p1f1/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_EC-Earth3_ssp370_r1i1p1f1_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,EC-Earth3,ssp370,r1i1p1f1,KNMI,RACMO23E,v1-r1,fx,v20241216,196,199,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
+§2.6.2 global attribute history should exist and be a non-empty string
+§2.6.1 Conventions global attribute does not contain ""CF-1.11""
+",,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 It is recommended for the variables 'lat' and 'lon' to have bounds defined.
 ","Global attribute 'Conventions' does not comply with the CV: 'CF-1.10'. Expected value/pattern: 'CF-1.11'.
 Global attribute 'institution_id' does not comply with the CV: 'unset'. Expected value/pattern: 'KNMI'.
@@ -1252,11 +1255,10 @@ The dimension / coordinate 'longitude' of the variable 'areacella' requires boun
 The dimension / coordinate 'latitude' of the variable 'areacella' requires bounds to be defined.
 The variable attribute 'areacella:cell_methods = 'unset' is not equivalent to the value specified in the CMOR table ('area: sum').
 The variable attribute 'areacella:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
-",187,190,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
-§2.6.2 global attribute history should exist and be a non-empty string
-§2.6.1 Conventions global attribute does not contain ""CF-1.11""
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/EC-Earth3/ssp585/r1i1p1f1/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_EC-Earth3_ssp585_r1i1p1f1_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,EC-Earth3,ssp585,r1i1p1f1,KNMI,RACMO23E,v1-r1,fx,v20241216,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/EC-Earth3/ssp585/r1i1p1f1/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_EC-Earth3_ssp585_r1i1p1f1_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,EC-Earth3,ssp585,r1i1p1f1,KNMI,RACMO23E,v1-r1,fx,v20241216,197,199,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
+§2.6.2 global attribute history should exist and be a non-empty string
+",,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 It is recommended for the variables 'lat' and 'lon' to have bounds defined.
 ","Global attribute 'institution_id' does not comply with the CV: 'unset'. Expected value/pattern: 'KNMI'.
 Global attribute 'license' does not comply with the CV: 'CORDEX model data produced by KNMI is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CORDEX output, including citation requirements and proper acknowledgment. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
@@ -1271,10 +1273,11 @@ The dimension / coordinate 'longitude' of the variable 'areacella' requires boun
 The dimension / coordinate 'latitude' of the variable 'areacella' requires bounds to be defined.
 The variable attribute 'areacella:cell_methods = 'unset' is not equivalent to the value specified in the CMOR table ('area: sum').
 The variable attribute 'areacella:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
-",188,190,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
-§2.6.2 global attribute history should exist and be a non-empty string
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/EC-Earth3-Veg/historical/r1i1p1f1/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,EC-Earth3-Veg,historical,r1i1p1f1,KNMI,RACMO23E,v1-r1,fx,v20241216,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/EC-Earth3-Veg/historical/r1i1p1f1/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,EC-Earth3-Veg,historical,r1i1p1f1,KNMI,RACMO23E,v1-r1,fx,v20241216,196,199,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
+§2.6.2 global attribute history should exist and be a non-empty string
+§2.6.1 Conventions global attribute does not contain ""CF-1.11""
+",,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 It is recommended for the variables 'lat' and 'lon' to have bounds defined.
 ","Global attribute 'Conventions' does not comply with the CV: 'CF-1.10'. Expected value/pattern: 'CF-1.11'.
 Global attribute 'institution_id' does not comply with the CV: 'unset'. Expected value/pattern: 'KNMI'.
@@ -1290,11 +1293,10 @@ The dimension / coordinate 'longitude' of the variable 'areacella' requires boun
 The dimension / coordinate 'latitude' of the variable 'areacella' requires bounds to be defined.
 The variable attribute 'areacella:cell_methods = 'unset' is not equivalent to the value specified in the CMOR table ('area: sum').
 The variable attribute 'areacella:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
-",187,190,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
-§2.6.2 global attribute history should exist and be a non-empty string
-§2.6.1 Conventions global attribute does not contain ""CF-1.11""
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/EC-Earth3-Veg/ssp119/r1i1p1f1/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_EC-Earth3-Veg_ssp119_r1i1p1f1_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,EC-Earth3-Veg,ssp119,r1i1p1f1,KNMI,RACMO23E,v1-r1,fx,v20241216,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/EC-Earth3-Veg/ssp119/r1i1p1f1/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_EC-Earth3-Veg_ssp119_r1i1p1f1_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,EC-Earth3-Veg,ssp119,r1i1p1f1,KNMI,RACMO23E,v1-r1,fx,v20241216,197,199,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
+§2.6.2 global attribute history should exist and be a non-empty string
+",,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 It is recommended for the variables 'lat' and 'lon' to have bounds defined.
 ","Global attribute 'institution_id' does not comply with the CV: 'unset'. Expected value/pattern: 'KNMI'.
 Global attribute 'license' does not comply with the CV: 'CORDEX model data produced by KNMI is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CORDEX output, including citation requirements and proper acknowledgment. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
@@ -1309,10 +1311,11 @@ The dimension / coordinate 'longitude' of the variable 'areacella' requires boun
 The dimension / coordinate 'latitude' of the variable 'areacella' requires bounds to be defined.
 The variable attribute 'areacella:cell_methods = 'unset' is not equivalent to the value specified in the CMOR table ('area: sum').
 The variable attribute 'areacella:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
-",188,190,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
-§2.6.2 global attribute history should exist and be a non-empty string
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/EC-Earth3-Veg/ssp126/r1i1p1f1/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_EC-Earth3-Veg_ssp126_r1i1p1f1_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,EC-Earth3-Veg,ssp126,r1i1p1f1,KNMI,RACMO23E,v1-r1,fx,v20241216,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/EC-Earth3-Veg/ssp126/r1i1p1f1/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_EC-Earth3-Veg_ssp126_r1i1p1f1_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,EC-Earth3-Veg,ssp126,r1i1p1f1,KNMI,RACMO23E,v1-r1,fx,v20241216,196,199,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
+§2.6.2 global attribute history should exist and be a non-empty string
+§2.6.1 Conventions global attribute does not contain ""CF-1.11""
+",,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 It is recommended for the variables 'lat' and 'lon' to have bounds defined.
 ","Global attribute 'Conventions' does not comply with the CV: 'CF-1.10'. Expected value/pattern: 'CF-1.11'.
 Global attribute 'institution_id' does not comply with the CV: 'unset'. Expected value/pattern: 'KNMI'.
@@ -1328,11 +1331,10 @@ The dimension / coordinate 'longitude' of the variable 'areacella' requires boun
 The dimension / coordinate 'latitude' of the variable 'areacella' requires bounds to be defined.
 The variable attribute 'areacella:cell_methods = 'unset' is not equivalent to the value specified in the CMOR table ('area: sum').
 The variable attribute 'areacella:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
-",187,190,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
-§2.6.2 global attribute history should exist and be a non-empty string
-§2.6.1 Conventions global attribute does not contain ""CF-1.11""
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/EC-Earth3-Veg/ssp245/r1i1p1f1/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_EC-Earth3-Veg_ssp245_r1i1p1f1_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,EC-Earth3-Veg,ssp245,r1i1p1f1,KNMI,RACMO23E,v1-r1,fx,v20241216,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/EC-Earth3-Veg/ssp245/r1i1p1f1/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_EC-Earth3-Veg_ssp245_r1i1p1f1_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,EC-Earth3-Veg,ssp245,r1i1p1f1,KNMI,RACMO23E,v1-r1,fx,v20241216,197,199,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
+§2.6.2 global attribute history should exist and be a non-empty string
+",,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 It is recommended for the variables 'lat' and 'lon' to have bounds defined.
 ","Global attribute 'institution_id' does not comply with the CV: 'unset'. Expected value/pattern: 'KNMI'.
 Global attribute 'license' does not comply with the CV: 'CORDEX model data produced by KNMI is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CORDEX output, including citation requirements and proper acknowledgment. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
@@ -1347,10 +1349,11 @@ The dimension / coordinate 'longitude' of the variable 'areacella' requires boun
 The dimension / coordinate 'latitude' of the variable 'areacella' requires bounds to be defined.
 The variable attribute 'areacella:cell_methods = 'unset' is not equivalent to the value specified in the CMOR table ('area: sum').
 The variable attribute 'areacella:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
-",188,190,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
-§2.6.2 global attribute history should exist and be a non-empty string
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/EC-Earth3-Veg/ssp370/r1i1p1f1/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_EC-Earth3-Veg_ssp370_r1i1p1f1_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,EC-Earth3-Veg,ssp370,r1i1p1f1,KNMI,RACMO23E,v1-r1,fx,v20241216,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/EC-Earth3-Veg/ssp370/r1i1p1f1/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_EC-Earth3-Veg_ssp370_r1i1p1f1_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,EC-Earth3-Veg,ssp370,r1i1p1f1,KNMI,RACMO23E,v1-r1,fx,v20241216,196,199,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
+§2.6.2 global attribute history should exist and be a non-empty string
+§2.6.1 Conventions global attribute does not contain ""CF-1.11""
+",,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 It is recommended for the variables 'lat' and 'lon' to have bounds defined.
 ","Global attribute 'Conventions' does not comply with the CV: 'CF-1.10'. Expected value/pattern: 'CF-1.11'.
 Global attribute 'institution_id' does not comply with the CV: 'unset'. Expected value/pattern: 'KNMI'.
@@ -1366,11 +1369,10 @@ The dimension / coordinate 'longitude' of the variable 'areacella' requires boun
 The dimension / coordinate 'latitude' of the variable 'areacella' requires bounds to be defined.
 The variable attribute 'areacella:cell_methods = 'unset' is not equivalent to the value specified in the CMOR table ('area: sum').
 The variable attribute 'areacella:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
-",187,190,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
-§2.6.2 global attribute history should exist and be a non-empty string
-§2.6.1 Conventions global attribute does not contain ""CF-1.11""
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/EC-Earth3-Veg/ssp585/r1i1p1f1/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_EC-Earth3-Veg_ssp585_r1i1p1f1_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,EC-Earth3-Veg,ssp585,r1i1p1f1,KNMI,RACMO23E,v1-r1,fx,v20241216,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/EC-Earth3-Veg/ssp585/r1i1p1f1/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_EC-Earth3-Veg_ssp585_r1i1p1f1_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,EC-Earth3-Veg,ssp585,r1i1p1f1,KNMI,RACMO23E,v1-r1,fx,v20241216,197,199,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
+§2.6.2 global attribute history should exist and be a non-empty string
+",,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 It is recommended for the variables 'lat' and 'lon' to have bounds defined.
 ","Global attribute 'institution_id' does not comply with the CV: 'unset'. Expected value/pattern: 'KNMI'.
 Global attribute 'license' does not comply with the CV: 'CORDEX model data produced by KNMI is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CORDEX output, including citation requirements and proper acknowledgment. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
@@ -1385,31 +1387,37 @@ The dimension / coordinate 'longitude' of the variable 'areacella' requires boun
 The dimension / coordinate 'latitude' of the variable 'areacella' requires bounds to be defined.
 The variable attribute 'areacella:cell_methods = 'unset' is not equivalent to the value specified in the CMOR table ('area: sum').
 The variable attribute 'areacella:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
-",188,190,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
-§2.6.2 global attribute history should exist and be a non-empty string
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CNRM-MF/ERA5/evaluation/r1i1p1f1/CNRM-ALADIN64E1/v1-r1/fx/areacella/v20250505/areacella_EUR-12_ERA5_evaluation_r1i1p1f1_CNRM-MF_CNRM-ALADIN64E1_v1-r1_fx.nc,areacella,EUR-12,ERA5,evaluation,r1i1p1f1,CNRM-MF,CNRM-ALADIN64E1,v1-r1,fx,v20250505,81,86,4,1,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CNRM-MF/ERA5/evaluation/r1i1p1f1/CNRM-ALADIN64E1/v1-r1/fx/areacella/v20250505/areacella_EUR-12_ERA5_evaluation_r1i1p1f1_CNRM-MF_CNRM-ALADIN64E1_v1-r1_fx.nc,areacella,EUR-12,ERA5,evaluation,r1i1p1f1,CNRM-MF,CNRM-ALADIN64E1,v1-r1,fx,v20250505,228,229,0,1,0,,"§2.6.2 global attribute history should exist and be a non-empty string
+",,81,86,4,1,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 ","File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF4/HDF5'.
 Global attribute 'driving_experiment' does not comply with the CV: 'evaluation run with reanalysis forcing'. Expected value/pattern: 'reanalysis simulation of the recent past'.
 Global attribute 'source' does not comply with the CV: 'CNRM-ALADIN regional climate model, version 6.4 E1'. Expected value/pattern: 'CNRM-ALADIN regional climate model, version 6.4 E1 (2023)'.
 The CMOR table denoted by the global attribute 'table_id' is not the expected one ('fx'): 'unknown'.
 The variable attribute 'areacella:long_name = 'Grid-Cell Area for Atmospheric Variables' is not equivalent to the value specified in the CMOR table ('Atmosphere Grid-Cell Area').
 The variable attribute 'areacella:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
-",216,217,0,1,0,,"§2.6.2 global attribute history should exist and be a non-empty string
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/GERICS/ERA5/evaluation/r1i1p1f1/REMO2020-2-2/v1-r1/fx/areacella/v20241120/areacella_EUR-12_ERA5_evaluation_r1i1p1f1_GERICS_REMO2020-2-2_v1-r1_fx.nc,areacella,EUR-12,ERA5,evaluation,r1i1p1f1,GERICS,REMO2020-2-2,v1-r1,fx,v20241120,85,87,0,2,0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The 'shuffle' option is disabled.
-It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
-",,239,242,0,2,0,,"Global attribute external_variables should not have any variable names which are present in the dataset. Currently, the following names appear in both external_variables and the dataset's variables: {'areacella'}
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/GERICS/ERA5/evaluation/r1i1p1f1/REMO2020-2-2/v1-r1/fx/areacella/v20241120/areacella_EUR-12_ERA5_evaluation_r1i1p1f1_GERICS_REMO2020-2-2_v1-r1_fx.nc,areacella,EUR-12,ERA5,evaluation,r1i1p1f1,GERICS,REMO2020-2-2,v1-r1,fx,v20241120,251,257,0,2,0,,"Global attribute external_variables should not have any variable names which are present in the dataset. Currently, the following names appear in both external_variables and the dataset's variables: {'areacella'}
+Bounds variable vertices_lat and parent variable lat have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable vertices_lon and parent variable lon have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable vertices_lat and parent variable lat have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable vertices_lon and parent variable lon have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'vertices_lat' should not have the attributes: '['units', 'missing_value', '_FillValue']'
 The Boundary variables 'vertices_lon' should not have the attributes: '['units', 'missing_value', '_FillValue']'
-",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/GERICS/ERA5/evaluation/r1i1p1f1/REMO2020-2-2-MR2/v1-r1/fx/areacella/v20241120/areacella_EUR-12_ERA5_evaluation_r1i1p1f1_GERICS_REMO2020-2-2-MR2_v1-r1_fx.nc,areacella,EUR-12,ERA5,evaluation,r1i1p1f1,GERICS,REMO2020-2-2-MR2,v1-r1,fx,v20241120,85,87,0,2,0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The 'shuffle' option is disabled.
+",,85,87,0,2,0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The 'shuffle' option is disabled.
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
-",,239,242,0,2,0,,"Global attribute external_variables should not have any variable names which are present in the dataset. Currently, the following names appear in both external_variables and the dataset's variables: {'areacella'}
+",,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/GERICS/ERA5/evaluation/r1i1p1f1/REMO2020-2-2-MR2/v1-r1/fx/areacella/v20241120/areacella_EUR-12_ERA5_evaluation_r1i1p1f1_GERICS_REMO2020-2-2-MR2_v1-r1_fx.nc,areacella,EUR-12,ERA5,evaluation,r1i1p1f1,GERICS,REMO2020-2-2-MR2,v1-r1,fx,v20241120,251,257,0,2,0,,"Global attribute external_variables should not have any variable names which are present in the dataset. Currently, the following names appear in both external_variables and the dataset's variables: {'areacella'}
+Bounds variable vertices_lat and parent variable lat have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable vertices_lon and parent variable lon have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable vertices_lat and parent variable lat have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable vertices_lon and parent variable lon have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'vertices_lat' should not have the attributes: '['units', 'missing_value', '_FillValue']'
 The Boundary variables 'vertices_lon' should not have the attributes: '['units', 'missing_value', '_FillValue']'
-",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/ERA5/evaluation/r1i1p1f1/RegCM5-0/v1-r1/fx/areacella/v20250415/areacella_EUR-12_ERA5_evaluation_r1i1p1f1_ICTP_RegCM5-0_v1-r1_fx.nc,areacella,EUR-12,ERA5,evaluation,r1i1p1f1,ICTP,RegCM5-0,v1-r1,fx,v20250415,79,86,5,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+",,85,87,0,2,0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The 'shuffle' option is disabled.
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+",,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/ERA5/evaluation/r1i1p1f1/RegCM5-0/v1-r1/fx/areacella/v20250415/areacella_EUR-12_ERA5_evaluation_r1i1p1f1_ICTP_RegCM5-0_v1-r1_fx.nc,areacella,EUR-12,ERA5,evaluation,r1i1p1f1,ICTP,RegCM5-0,v1-r1,fx,v20250415,343,343,0,0,0,,,,79,86,5,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 It is recommended for the variables 'lat' and 'lon' to have bounds defined.
 ","Global attribute 'license' does not comply with the CV: 'Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/by/4.0).'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
 Global attribute 'license' does not comply with the CV: 'Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/by/4.0).'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
@@ -1422,8 +1430,10 @@ The variable attribute 'areacella:cell_methods = 'unset' is not equivalent to th
 The variable attribute 'areacella:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
 The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat' and 'rlon' to be present in the file defining the native coordinate system used by the RCM.
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
-",334,334,0,0,0,,,
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/ERA5/evaluation/r1i1p1f1/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_ERA5_evaluation_r1i1p1f1_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,ERA5,evaluation,r1i1p1f1,KNMI,RACMO23E,v1-r1,fx,v20241216,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+",
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/ERA5/evaluation/r1i1p1f1/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_ERA5_evaluation_r1i1p1f1_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,ERA5,evaluation,r1i1p1f1,KNMI,RACMO23E,v1-r1,fx,v20241216,199,201,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
+§2.6.2 global attribute history should exist and be a non-empty string
+",,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 It is recommended for the variables 'lat' and 'lon' to have bounds defined.
 ","Global attribute 'driving_experiment' does not comply with the CV: 'evaluation run with reanalysis forcing'. Expected value/pattern: 'reanalysis simulation of the recent past'.
 Global attribute 'institution_id' does not comply with the CV: 'unset'. Expected value/pattern: 'KNMI'.
@@ -1439,10 +1449,11 @@ The dimension / coordinate 'longitude' of the variable 'areacella' requires boun
 The dimension / coordinate 'latitude' of the variable 'areacella' requires bounds to be defined.
 The variable attribute 'areacella:cell_methods = 'unset' is not equivalent to the value specified in the CMOR table ('area: sum').
 The variable attribute 'areacella:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
-",190,192,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
-§2.6.2 global attribute history should exist and be a non-empty string
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/MPI-ESM1-2-HR/historical/r1i1p1f1/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_MPI-ESM1-2-HR_historical_r1i1p1f1_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,MPI-ESM1-2-HR,historical,r1i1p1f1,KNMI,RACMO23E,v1-r1,fx,v20241216,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/MPI-ESM1-2-HR/historical/r1i1p1f1/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_MPI-ESM1-2-HR_historical_r1i1p1f1_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,MPI-ESM1-2-HR,historical,r1i1p1f1,KNMI,RACMO23E,v1-r1,fx,v20241216,196,199,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
+§2.6.2 global attribute history should exist and be a non-empty string
+§2.6.1 Conventions global attribute does not contain ""CF-1.11""
+",,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 It is recommended for the variables 'lat' and 'lon' to have bounds defined.
 ","Global attribute 'Conventions' does not comply with the CV: 'CF-1.10'. Expected value/pattern: 'CF-1.11'.
 Global attribute 'institution_id' does not comply with the CV: 'unset'. Expected value/pattern: 'KNMI'.
@@ -1458,11 +1469,11 @@ The dimension / coordinate 'longitude' of the variable 'areacella' requires boun
 The dimension / coordinate 'latitude' of the variable 'areacella' requires bounds to be defined.
 The variable attribute 'areacella:cell_methods = 'unset' is not equivalent to the value specified in the CMOR table ('area: sum').
 The variable attribute 'areacella:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
-",187,190,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
+",
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/MPI-ESM1-2-HR/ssp126/r1i1p1f1/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_MPI-ESM1-2-HR_ssp126_r1i1p1f1_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,MPI-ESM1-2-HR,ssp126,r1i1p1f1,KNMI,RACMO23E,v1-r1,fx,v20241216,196,199,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 §2.6.1 Conventions global attribute does not contain ""CF-1.11""
-",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/MPI-ESM1-2-HR/ssp126/r1i1p1f1/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_MPI-ESM1-2-HR_ssp126_r1i1p1f1_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,MPI-ESM1-2-HR,ssp126,r1i1p1f1,KNMI,RACMO23E,v1-r1,fx,v20241216,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+",,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 It is recommended for the variables 'lat' and 'lon' to have bounds defined.
 ","Global attribute 'Conventions' does not comply with the CV: 'CF-1.10'. Expected value/pattern: 'CF-1.11'.
 Global attribute 'institution_id' does not comply with the CV: 'unset'. Expected value/pattern: 'KNMI'.
@@ -1478,11 +1489,11 @@ The dimension / coordinate 'longitude' of the variable 'areacella' requires boun
 The dimension / coordinate 'latitude' of the variable 'areacella' requires bounds to be defined.
 The variable attribute 'areacella:cell_methods = 'unset' is not equivalent to the value specified in the CMOR table ('area: sum').
 The variable attribute 'areacella:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
-",187,190,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
+",
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/MPI-ESM1-2-HR/ssp370/r1i1p1f1/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_MPI-ESM1-2-HR_ssp370_r1i1p1f1_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,MPI-ESM1-2-HR,ssp370,r1i1p1f1,KNMI,RACMO23E,v1-r1,fx,v20241216,196,199,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 §2.6.1 Conventions global attribute does not contain ""CF-1.11""
-",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/MPI-ESM1-2-HR/ssp370/r1i1p1f1/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_MPI-ESM1-2-HR_ssp370_r1i1p1f1_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,MPI-ESM1-2-HR,ssp370,r1i1p1f1,KNMI,RACMO23E,v1-r1,fx,v20241216,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+",,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 It is recommended for the variables 'lat' and 'lon' to have bounds defined.
 ","Global attribute 'Conventions' does not comply with the CV: 'CF-1.10'. Expected value/pattern: 'CF-1.11'.
 Global attribute 'institution_id' does not comply with the CV: 'unset'. Expected value/pattern: 'KNMI'.
@@ -1498,11 +1509,11 @@ The dimension / coordinate 'longitude' of the variable 'areacella' requires boun
 The dimension / coordinate 'latitude' of the variable 'areacella' requires bounds to be defined.
 The variable attribute 'areacella:cell_methods = 'unset' is not equivalent to the value specified in the CMOR table ('area: sum').
 The variable attribute 'areacella:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
-",187,190,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
+",
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/NorESM2-MM/historical/r1i1p1f1/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_NorESM2-MM_historical_r1i1p1f1_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,NorESM2-MM,historical,r1i1p1f1,KNMI,RACMO23E,v1-r1,fx,v20241216,196,199,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 §2.6.1 Conventions global attribute does not contain ""CF-1.11""
-",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/NorESM2-MM/historical/r1i1p1f1/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_NorESM2-MM_historical_r1i1p1f1_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,NorESM2-MM,historical,r1i1p1f1,KNMI,RACMO23E,v1-r1,fx,v20241216,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+",,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 It is recommended for the variables 'lat' and 'lon' to have bounds defined.
 ","Global attribute 'Conventions' does not comply with the CV: 'CF-1.10'. Expected value/pattern: 'CF-1.11'.
 Global attribute 'institution_id' does not comply with the CV: 'unset'. Expected value/pattern: 'KNMI'.
@@ -1518,11 +1529,11 @@ The dimension / coordinate 'longitude' of the variable 'areacella' requires boun
 The dimension / coordinate 'latitude' of the variable 'areacella' requires bounds to be defined.
 The variable attribute 'areacella:cell_methods = 'unset' is not equivalent to the value specified in the CMOR table ('area: sum').
 The variable attribute 'areacella:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
-",187,190,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
+",
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/NorESM2-MM/ssp126/r1i1p1f1/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_NorESM2-MM_ssp126_r1i1p1f1_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,NorESM2-MM,ssp126,r1i1p1f1,KNMI,RACMO23E,v1-r1,fx,v20241216,196,199,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 §2.6.1 Conventions global attribute does not contain ""CF-1.11""
-",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/NorESM2-MM/ssp126/r1i1p1f1/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_NorESM2-MM_ssp126_r1i1p1f1_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,NorESM2-MM,ssp126,r1i1p1f1,KNMI,RACMO23E,v1-r1,fx,v20241216,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+",,80,87,4,2,0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 It is recommended for the variables 'lat' and 'lon' to have bounds defined.
 ","Global attribute 'Conventions' does not comply with the CV: 'CF-1.10'. Expected value/pattern: 'CF-1.11'.
 Global attribute 'institution_id' does not comply with the CV: 'unset'. Expected value/pattern: 'KNMI'.
@@ -1538,7 +1549,4 @@ The dimension / coordinate 'longitude' of the variable 'areacella' requires boun
 The dimension / coordinate 'latitude' of the variable 'areacella' requires bounds to be defined.
 The variable attribute 'areacella:cell_methods = 'unset' is not equivalent to the value specified in the CMOR table ('area: sum').
 The variable attribute 'areacella:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
-",187,190,0,1,0,,"§2.6.2 global attribute title should exist and be a non-empty string
-§2.6.2 global attribute history should exist and be a non-empty string
-§2.6.1 Conventions global attribute does not contain ""CF-1.11""
 ",
