@@ -430,9 +430,10 @@ def write_report(cc_data, corrupt):
     result = {}
     report = f"{report_filename}.csv"
     for filename, tests in cc_data.items():
+        summary = {}
         for test, results in tests.items():
-            summary = summarize(test, results)
-            result[filename] = filename_to_attrs(filename) | summary
+            summary.update(summarize(test, results))
+        result[filename] = filename_to_attrs(filename) | summary
     df = (
         pd.DataFrame.from_dict(result, orient="index")
         .reset_index()
@@ -503,7 +504,7 @@ def create_excel(filename, cols=None):
 
     stem, _suffix = os.path.splitext(filename)
     xlsxfile = f"{stem}.xlsx"
-
+    print(f"Creating {xlsxfile}")
     with pd.ExcelWriter(xlsxfile, engine="xlsxwriter") as writer:
         workbook = writer.book
         wrap_format = workbook.add_format(
@@ -523,7 +524,7 @@ def create_excel(filename, cols=None):
             }
         )
         for sheet_name, sheet_df in sheets.items():
-            print(sheet_name)
+            print(f"Writing to {sheet_name}")
             sheet_df.to_excel(writer, sheet_name=sheet_name, index=True)
             worksheet = writer.sheets[sheet_name]
 
@@ -603,6 +604,7 @@ def main():
         [f for f in filenames if f not in failed_files.filename.tolist()]
     )
     report = write_report(cc_data, failed_files)
+    print(f"Report written to {report}")
     create_excel(report)
 
 
