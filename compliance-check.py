@@ -90,7 +90,9 @@ def collect_files(catalog_filename):
 
     files = (
         catalog.groupby(id_attrs)
-        .apply(lambda x: x.iloc[0].path)  # only use first file for each unique dataset
+        .apply(
+            lambda x: sorted(x.path.to_list())[0]
+        )  # only use first file for each unique dataset
         .reset_index(drop=True)
         .to_list()
     )
