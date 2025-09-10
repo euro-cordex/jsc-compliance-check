@@ -3,7 +3,7 @@ filename,variable_id,domain_id,driving_source_id,driving_experiment_id,driving_v
 attribute lon:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 attribute hurs:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
@@ -11,7 +11,7 @@ The Boundary variables 'time_bnds' should not have the attributes: '['units', 'c
 attribute lon:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 attribute pr:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
@@ -19,7 +19,7 @@ The Boundary variables 'time_bnds' should not have the attributes: '['units', 'c
 attribute lon:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 attribute prw:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
@@ -27,7 +27,7 @@ The Boundary variables 'time_bnds' should not have the attributes: '['units', 'c
 attribute lon:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 attribute psl:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
@@ -35,7 +35,7 @@ The Boundary variables 'time_bnds' should not have the attributes: '['units', 'c
 attribute lon:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 attribute rlut:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
@@ -43,7 +43,7 @@ The Boundary variables 'time_bnds' should not have the attributes: '['units', 'c
 attribute lon:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 attribute sfcWind:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
@@ -52,14 +52,14 @@ attribute lon:_QuantizeBitGroomNumberOfSignificantDigits should begin with a let
 attribute tas:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable tas has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/hurs/hurs_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_197001010100-197101010000.nc,hurs,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,1hr,hurs,404.0,405.0,0.0,1.0,0.0,,"attribute hurs:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/pr/pr_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_197001010100-197101010000.nc,pr,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,1hr,pr,9146.0,9150.0,0.0,2.0,0.0,,"attribute pr:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
@@ -68,7 +68,7 @@ The Boundary variables 'time_bnds' should not have the attributes: '['units', 'c
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/psl/psl_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_197001010100-197101010000.nc,psl,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,1hr,psl,376.0,377.0,0.0,1.0,0.0,,"attribute psl:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/rlut/rlut_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_197001010100-197101010000.nc,rlut,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,1hr,rlut,9143.0,9147.0,0.0,2.0,0.0,,"attribute rlut:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
@@ -81,7 +81,7 @@ Variable tas has a temperature related standard_name and it is recommended that 
 attribute lon:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 attribute hus1000:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
@@ -89,7 +89,7 @@ The Boundary variables 'time_bnds' should not have the attributes: '['units', 'c
 attribute lon:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 attribute hus200:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
@@ -97,7 +97,7 @@ The Boundary variables 'time_bnds' should not have the attributes: '['units', 'c
 attribute lon:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 attribute hus300:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
@@ -105,7 +105,7 @@ The Boundary variables 'time_bnds' should not have the attributes: '['units', 'c
 attribute lon:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 attribute hus400:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
@@ -113,7 +113,7 @@ The Boundary variables 'time_bnds' should not have the attributes: '['units', 'c
 attribute lon:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 attribute hus500:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
@@ -121,7 +121,7 @@ The Boundary variables 'time_bnds' should not have the attributes: '['units', 'c
 attribute lon:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 attribute hus600:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
@@ -129,7 +129,7 @@ The Boundary variables 'time_bnds' should not have the attributes: '['units', 'c
 attribute lon:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 attribute hus700:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
@@ -137,7 +137,7 @@ The Boundary variables 'time_bnds' should not have the attributes: '['units', 'c
 attribute lon:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 attribute hus850:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
@@ -145,7 +145,7 @@ The Boundary variables 'time_bnds' should not have the attributes: '['units', 'c
 attribute lon:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 attribute hus925:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
@@ -154,7 +154,7 @@ attribute lon:_QuantizeBitGroomNumberOfSignificantDigits should begin with a let
 attribute ta850:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable ta850 has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
@@ -162,7 +162,7 @@ The Boundary variables 'time_bnds' should not have the attributes: '['units', 'c
 attribute lon:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 attribute ua1000:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
@@ -170,7 +170,7 @@ The Boundary variables 'time_bnds' should not have the attributes: '['units', 'c
 attribute lon:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 attribute ua200:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
@@ -178,7 +178,7 @@ The Boundary variables 'time_bnds' should not have the attributes: '['units', 'c
 attribute lon:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 attribute ua250:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
@@ -186,7 +186,7 @@ The Boundary variables 'time_bnds' should not have the attributes: '['units', 'c
 attribute lon:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 attribute ua300:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
@@ -194,7 +194,7 @@ The Boundary variables 'time_bnds' should not have the attributes: '['units', 'c
 attribute lon:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 attribute ua400:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
@@ -202,7 +202,7 @@ The Boundary variables 'time_bnds' should not have the attributes: '['units', 'c
 attribute lon:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 attribute ua500:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
@@ -210,7 +210,7 @@ The Boundary variables 'time_bnds' should not have the attributes: '['units', 'c
 attribute lon:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 attribute ua600:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
@@ -218,7 +218,7 @@ The Boundary variables 'time_bnds' should not have the attributes: '['units', 'c
 attribute lon:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 attribute ua700:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
@@ -226,7 +226,7 @@ The Boundary variables 'time_bnds' should not have the attributes: '['units', 'c
 attribute lon:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 attribute ua850:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
@@ -234,7 +234,7 @@ The Boundary variables 'time_bnds' should not have the attributes: '['units', 'c
 attribute lon:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 attribute ua925:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
@@ -242,7 +242,7 @@ The Boundary variables 'time_bnds' should not have the attributes: '['units', 'c
 attribute lon:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 attribute va1000:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
@@ -250,7 +250,7 @@ The Boundary variables 'time_bnds' should not have the attributes: '['units', 'c
 attribute lon:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 attribute va200:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
@@ -258,7 +258,7 @@ The Boundary variables 'time_bnds' should not have the attributes: '['units', 'c
 attribute lon:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 attribute va250:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
@@ -266,7 +266,7 @@ The Boundary variables 'time_bnds' should not have the attributes: '['units', 'c
 attribute lon:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 attribute va300:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
@@ -274,7 +274,7 @@ The Boundary variables 'time_bnds' should not have the attributes: '['units', 'c
 attribute lon:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 attribute va400:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
@@ -282,7 +282,7 @@ The Boundary variables 'time_bnds' should not have the attributes: '['units', 'c
 attribute lon:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 attribute va500:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
@@ -290,7 +290,7 @@ The Boundary variables 'time_bnds' should not have the attributes: '['units', 'c
 attribute lon:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 attribute va600:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
@@ -298,7 +298,7 @@ The Boundary variables 'time_bnds' should not have the attributes: '['units', 'c
 attribute lon:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 attribute va700:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
@@ -306,7 +306,7 @@ The Boundary variables 'time_bnds' should not have the attributes: '['units', 'c
 attribute lon:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 attribute va850:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
@@ -314,7 +314,7 @@ The Boundary variables 'time_bnds' should not have the attributes: '['units', 'c
 attribute lon:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 attribute va925:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
@@ -322,7 +322,7 @@ The Boundary variables 'time_bnds' should not have the attributes: '['units', 'c
 attribute lon:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 attribute zg500:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
 ",,
