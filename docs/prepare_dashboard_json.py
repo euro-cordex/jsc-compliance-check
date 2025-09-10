@@ -7,14 +7,13 @@ so the browser doesn't need to parse a large CSV or split multi-line strings.
 Run:
   python prepare_dashboard_json.py
 """
-from __future__ import annotations
 import csv
 import json
 import pathlib
 import sys
 
-ROOT = pathlib.Path(__file__).parent
-CSV_PATH = ROOT / "report" / "compliance-report.csv"
+ROOT = pathlib.Path(__file__).parent.parent
+DEFAULT_CSV_PATH = ROOT / "report" / "compliance-report.csv"
 OUT_PATH = ROOT / "docs" / "compliance-report.json"
 
 # Columns that contain multiline message blocks.
@@ -36,11 +35,13 @@ def split_messages(val: str | None):
 
 
 def main():
-    if not CSV_PATH.exists():
-        print(f"ERROR: CSV not found: {CSV_PATH}", file=sys.stderr)
+    # Accept CSV path as first argument, else use default
+    csv_path = pathlib.Path(sys.argv[1]) if len(sys.argv) > 1 else DEFAULT_CSV_PATH
+    if not csv_path.exists():
+        print(f"ERROR: CSV not found: {csv_path}", file=sys.stderr)
         return 1
     rows = []
-    with CSV_PATH.open("r", newline="") as f:
+    with csv_path.open("r", newline="") as f:
         reader = csv.DictReader(f)
         for raw in reader:
             # Build compact record
