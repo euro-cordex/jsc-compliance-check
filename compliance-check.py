@@ -182,7 +182,7 @@ def test_open_dataset(filenames):
         .reset_index()
         .rename(columns={"index": "filename"})
     )
-    df.to_csv(os.path.join(report_dir, "corrupt_files.csv"), index=False)
+    df.to_csv(os.path.join(report_dir, "corrupt-files.csv"), index=False)
     return df
 
 
