@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Compliance Report Dashboard</title>
+	<link rel="stylesheet" href="style.css" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+</head>
+<body>
+	<header>
+		<h1>Compliance Report Dashboard</h1>
+		<div id="controls">
+			<label>Institution:
+				<select id="institutionFilter"><option value="">All</option></select>
+			</label>
+			<label>Source:
+				<select id="sourceFilter"><option value="">All</option></select>
+			</label>
+			<label>Search filename:
+				<input id="searchInput" type="text" placeholder="Type to filter..." />
+			</label>
+			<button id="clearFilters">Clear</button>
+			<span id="status" aria-live="polite"></span>
+		</div>
+		<div id="legend">
+			<strong>Legend:</strong>
+			<span class="icon high" title="High priority present">✖</span> High priority &nbsp;
+			<span class="icon none" title="No high priority">✔</span> No high priority
+		</div>
+	</header>
+
+	<main>
+		<table id="reportTable">
+			<thead>
+				<tr>
+					<th>Flag</th>
+					<th>Filename</th>
+					<th>Variable</th>
+					<th>Institution</th>
+						<th>Source</th>
+					<th>Driving Src</th>
+					<th>Experiment</th>
+					<th>Freq</th>
+					<th>CF Score</th>
+					<th>CC6 Score</th>
+					<th>CF Issues (H/M/L)</th>
+					<th>CC6 Issues (H/M/L)</th>
+				</tr>
+			</thead>
+			<tbody></tbody>
+		</table>
+		<div id="detailsPanel" class="hidden"></div>
+	</main>
+
+	<footer>
+		<small>Data loaded from <code>report/compliance-report.csv</code>. Client-side parsing; large files may take a moment.</small>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js" integrity="sha384-IQslZJjG6x7PplRt5Bz+9fYs+EDycBOJllvQAHcS4u+jNCz8s6/f2UAeQyn2BkL4" crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+</body>
+</html>
