@@ -164,24 +164,32 @@ def test_open_dataset(filenames):
     -------
     pandas.DataFrame
         DataFrame with a row per failed file containing columns:
-        ``filename`` and ``not_readable`` (exception string). Empty if all
-        files were readable. Also written to ``report/corrupt_files.csv``.
+        ``filename`` and ``not_readable`` (exception string), plus the
+        identifying attributes from ``filename_to_attrs``. If all files are
+        readable, returns an empty DataFrame with these headers. Also written
+        to ``report/corrupt-files.csv``.
     """
-    valid = filenames.copy()
-    failed = {}
+    failed: dict[str, dict] = {}
     for f in filenames:
         try:
-            xr.open_dataset(f)
+            # Ensure dataset is closed immediately after opening
+            with xr.open_dataset(f):
+                pass
         except Exception as e:  # noqa: BLE001 broad for logging only
             print(f"Failed to open {f}: {e}")
-            valid.remove(f)
             failed[f] = {"not_readable": str(e)} | filename_to_attrs(f)
-            continue
-    df = (
-        pd.DataFrame.from_dict(failed, orient="index")
-        .reset_index()
-        .rename(columns={"index": "filename"})
-    )
+
+    if failed:
+        df = (
+            pd.DataFrame.from_dict(failed, orient="index")
+            .reset_index()
+            .rename(columns={"index": "filename"})
+        )
+    else:
+        # Return an empty DataFrame with the expected columns
+        columns = ["filename", "not_readable", *id_attrs]
+        df = pd.DataFrame(columns=columns)
+
     df.to_csv(os.path.join(report_dir, "corrupt-files.csv"), index=False)
     return df
 
@@ -601,14 +609,11 @@ def main():
     os.makedirs(report_dir, exist_ok=True)
     filenames = collect_files(
         "https://raw.githubusercontent.com/euro-cordex/joint-evaluation/refs/heads/main/catalog.csv"
-    )  # [50:100]
+    )[0:100]
     failed_files = test_open_dataset(filenames)
     cc_data = compliance_check(
         [f for f in filenames if f not in failed_files.filename.tolist()]
     )
-    # with open(f"{report_filename}.json", "r") as fp:
-    #     cc_data = json.load(fp)
-    # failed_files = pd.read_csv("report/corrupt_files.csv")
     report = write_report(cc_data, failed_files)
     create_excel(report)
     print(f"Report written to {report}")
