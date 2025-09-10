@@ -17,6 +17,7 @@ thead { background:#e2eaf1; position:sticky; top:0; z-index:2; }
 th, td { padding:.4rem .5rem; font-size:.72rem; border-bottom:1px solid #dde4ea; vertical-align:top; }
 tbody tr { cursor:pointer; }
 tbody tr:hover { background:#f0f6fa; }
+tbody tr.details-row:hover { background:transparent; }
 tbody tr.high-priority { background:#fff3f3; }
 tbody tr.high-priority:hover { background:#ffe9e9; }
 .flag { font-size:1rem; text-align:center; width:2rem; }

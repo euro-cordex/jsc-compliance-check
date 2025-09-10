@@ -189,12 +189,55 @@ function renderTable(){
 			<td>${issueCounts(r['cf:high_count'], r['cf:medium_count'], r['cf:low_count'])}</td>
 			<td>${issueCounts(r['cc6:high_count'], r['cc6:medium_count'], r['cc6:low_count'])}</td>
 		`;
-		tr.addEventListener('click', () => showDetails(r));
+		tr.classList.add('dashboard-row');
+		tr.addEventListener('click', () => toggleDetails(idx));
 		frag.appendChild(tr);
+
+		// Details row (initially hidden)
+		const detailsTr = document.createElement('tr');
+		detailsTr.className = 'details-row';
+		detailsTr.style.display = 'none';
+		detailsTr.innerHTML = `<td colspan="12">${detailsContent(r)}</td>`;
+		frag.appendChild(detailsTr);
 	});
 	els.tbody.innerHTML='';
 	els.tbody.appendChild(frag);
-	els.details.classList.add('hidden');
+}
+
+function toggleDetails(idx){
+	// There are 2 rows per dataset: data row, then details row
+	const allRows = els.tbody.querySelectorAll('tr');
+	for(let i=0; i<allRows.length; i+=2){
+		const detailsRow = allRows[i+1];
+		if(detailsRow && detailsRow.classList.contains('details-row')){
+			if(i/2 === idx){
+				// Toggle only the clicked row's details
+				detailsRow.style.display = detailsRow.style.display === 'none' ? '' : 'none';
+			} else {
+				detailsRow.style.display = 'none';
+			}
+		}
+	}
+}
+
+function detailsContent(r){
+	return `
+		<div class="inline-details">
+			<h2>${escapeHtml(basename(r.filename))}</h2>
+			<div style="font-size:0.95em;color:#567;margin-bottom:.3em;"><strong>Full path:</strong> <code>${escapeHtml(r.filename || '')}</code></div>
+			<div><strong>institution_id:</strong> ${escapeHtml(r.institution_id||'')} &nbsp; <strong>source_id:</strong> ${escapeHtml(r.source_id||'')}</div>
+			<div style="margin-top:.25rem;">
+				${pill('CF', r['cf:scored_points'], r['cf:possible_points'])}
+				${pill('CC6', r['cc6:scored_points'], r['cc6:possible_points'])}
+			</div>
+			${messagesSection('CF High Priority', r.cf_high_msgs, 'high')}
+			${messagesSection('CF Medium Priority', r.cf_med_msgs, 'medium')}
+			${messagesSection('CF Low Priority', r.cf_low_msgs, 'low')}
+			${messagesSection('CC6 High Priority', r.cc6_high_msgs, 'high')}
+			${messagesSection('CC6 Medium Priority', r.cc6_med_msgs, 'medium')}
+			${messagesSection('CC6 Low Priority', r.cc6_low_msgs, 'low')}
+		</div>
+	`;
 }
 
 function scoreCell(scored, possible){
@@ -207,24 +250,7 @@ function issueCounts(h, m, l){
 	return `${h||0}/${m||0}/${l||0}`;
 }
 
-function showDetails(r){
-	els.details.classList.remove('hidden');
-	els.details.innerHTML = `
-		<h2>${escapeHtml(basename(r.filename))}</h2>
-		<div><strong>Institution:</strong> ${escapeHtml(r.institution_id||'')} &nbsp; <strong>Source:</strong> ${escapeHtml(r.source_id||'')}</div>
-		<div style="margin-top:.25rem;">
-			${pill('CF', r['cf:scored_points'], r['cf:possible_points'])}
-			${pill('CC6', r['cc6:scored_points'], r['cc6:possible_points'])}
-		</div>
-		${messagesSection('CF High Priority', r.cf_high_msgs, 'high')}
-		${messagesSection('CF Medium Priority', r.cf_med_msgs, 'medium')}
-		${messagesSection('CF Low Priority', r.cf_low_msgs, 'low')}
-		${messagesSection('CC6 High Priority', r.cc6_high_msgs, 'high')}
-		${messagesSection('CC6 Medium Priority', r.cc6_med_msgs, 'medium')}
-		${messagesSection('CC6 Low Priority', r.cc6_low_msgs, 'low')}
-	`;
-	els.details.scrollIntoView({behavior:'smooth', block:'start'});
-}
+// showDetails is now unused
 
 function pill(label, scored, possible){
 	if(scored == null || possible == null) return '';
