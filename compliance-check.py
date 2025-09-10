@@ -91,7 +91,7 @@ def collect_files(catalog_filename):
     files = (
         catalog.groupby(id_attrs)
         .apply(
-            lambda x: sorted(x.path.to_list())[0]
+            lambda x: sorted(x.path.to_list())[0], include_groups=False
         )  # only use first file for each unique dataset
         .reset_index(drop=True)
         .to_list()
@@ -609,7 +609,7 @@ def main():
     os.makedirs(report_dir, exist_ok=True)
     filenames = collect_files(
         "https://raw.githubusercontent.com/euro-cordex/joint-evaluation/refs/heads/main/catalog.csv"
-    )[0:100]
+    )  # [0:100]
     failed_files = test_open_dataset(filenames)
     cc_data = compliance_check(
         [f for f in filenames if f not in failed_files.filename.tolist()]
