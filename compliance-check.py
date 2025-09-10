@@ -610,8 +610,8 @@ def main():
     #     cc_data = json.load(fp)
     # failed_files = pd.read_csv("report/corrupt_files.csv")
     report = write_report(cc_data, failed_files)
-    print(f"Report written to {report}")
     create_excel(report)
+    print(f"Report written to {report}")
 
 
 if __name__ == "__main__":
