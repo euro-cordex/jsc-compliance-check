@@ -2,6 +2,8 @@
 
 Collecting issues related to EURO-CORDEX-CMIP6 datasets at JSC-CORDEX.
 
+This is a dedicated repository that addresses dataset compliance issues at JSC-CORDEX. These are mainly related to the [CF Conventions](https://cfconventions.org) (CF-1.11) and the [CORDEX-CMIP6 archive specifications](https://zenodo.org/records/15047096). Please ensure that your datasets have no high-priority issues. Otherwise, they may not be suitable for evaluation analyses and could cause problems when being published to ESGF.
+
 This repository publishes a [dashboard](https://euro-cordex.github.io/jsc-compliance-check/docs) and an equivalent [excel report](https://github.com/euro-cordex/jsc-compliance-check/raw/refs/heads/main/report/compliance-report.xlsx). The excel report contains one sheet per institution_id while the dashboard allows for more filter options.
 
 ## Acknowledgments
