@@ -18,7 +18,7 @@ conda activate cordex-cc
 Run CF-1.11 and CC6 checks on a NetCDF file:
 
 ```bash
-compliance-checker -t cf:1.11,cc6 path/to/your_file.nc
+compliance-checker -t cf:1.11 -t cc6 path/to/your_file.nc
 ```
 
 ## Acknowledgments
