@@ -1908,8 +1908,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by clt is not present in dataset or external variables
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",75.0,87.0,8.0,3.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
@@ -5528,8 +5528,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by hurs is not present in dataset or external variables
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",74.0,87.0,8.0,4.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
@@ -10374,8 +10374,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by huss is not present in dataset or external variables
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",74.0,87.0,8.0,4.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
@@ -14452,8 +14452,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by pr is not present in dataset or external variables
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",76.0,87.0,7.0,3.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
@@ -15745,6 +15745,23 @@ It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bou
 ","Global attribute 'driving_experiment' does not comply with the CV: 'ERA5, evaluation, r1i1p1f1'. Expected value/pattern: 'reanalysis simulation of the recent past'.
 The grid_mapping variable 'rotated_latitude_longitude' needs to include information regarding the shape and size of the Earth used for the model grid. See 'CF-1.11 Appendix F' of the CF-Conventions for further information.
 ",
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/ERA5/evaluation/r1i1p1f1/RegCM5-0/v1-r1/day/ps/v20250415/ps_EUR-12_ERA5_evaluation_r1i1p1f1_ICTP_RegCM5-0_v1-r1_day_19700101-19701231.nc,ps,EUR-12,ERA5,evaluation,r1i1p1f1,ICTP,RegCM5-0,v1-r1,day,v20250415,750.0,754.0,0.0,2.0,0.0,,"Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
+",,78.0,87.0,5.0,3.0,0.0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+The global attribute 'driving_source' is not defined. It is however recommended to include it.
+","Value for DRS building block 'project_id' is not consistent between 'file path' and 'global attributes': 'CORDEX-CMIP6' and 'CORDEX'.
+Global attribute 'license' does not comply with the CV: 'Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/by/4.0).'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
+Global attribute 'project_id' does not comply with the CV: 'CORDEX'. Expected value/pattern: 'CORDEX-CMIP6'.
+Global attribute 'license' does not comply with the CV: 'Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/by/4.0).'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
+Global attribute 'tracking_id' does not comply with the CV: '65514aa8-f2a4-11ef-a8cd-00001029fe80'. Expected value/pattern: 'hdl:21.14103/.*'.
+The variable attribute 'ps:cell_methods = 'time: point' is not equivalent to the value specified in the CMOR table ('area: time: mean').
+The variable attribute 'ps:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
+The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat' and 'rlon' to be present in the file defining the native coordinate system used by the RCM.
+The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
+",
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/GERICS/MIROC6/historical/r1i1p1f1/REMO2020-2-2/v1-r1/mon/ps/v20250916/ps_EUR-12_MIROC6_historical_r1i1p1f1_GERICS_REMO2020-2-2_v1-r1_mon_195001-195912.nc,ps,EUR-12,MIROC6,historical,r1i1p1f1,GERICS,REMO2020-2-2,v1-r1,mon,v20250916,408.0,414.0,0.0,2.0,0.0,,"Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Bounds variable vertices_lat and parent variable lat have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable vertices_lon and parent variable lon have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
@@ -15775,6 +15792,24 @@ The Boundary variables 'vertices_lon' should not have the attributes: '['units',
 ",,86.0,88.0,0.0,2.0,0.0,,"The last timestep differs from expectation ('1950-12-16 12:00:00'): '1959-12-16 12:00:00'. Apart from the first and last files of a timeseries '10' full simulation years are expected in the data file for frequency 'mon'.
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 ",,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/MPI-ESM1-2-HR/historical/r1i1p1f1/RegCM5-0/v1-r1/day/ps/v20250415/ps_EUR-12_MPI-ESM1-2-HR_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_day_19700101-19701231.nc,ps,EUR-12,MPI-ESM1-2-HR,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,day,v20250415,751.0,756.0,0.0,3.0,0.0,,"attribute ps:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
+",,78.0,87.0,4.0,4.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+The global attribute 'driving_source' is not defined. It is however recommended to include it.
+","Global attribute 'driving_institution_id' does not comply with the CV: 'MPI-M, DWD, DKRZ'. Allowed values: 'MPI-M', 'DWD', 'DKRZ'.
+Global attribute 'license' does not comply with the CV: 'Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/by/4.0).'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
+Global attribute 'license' does not comply with the CV: 'Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/by/4.0).'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
+Global attribute 'tracking_id' does not comply with the CV: '8efffaa0-6c90-11f0-aea2-00001029fe80'. Expected value/pattern: 'hdl:21.14103/.*'.
+The variable attribute 'ps:cell_methods = 'time: point' is not equivalent to the value specified in the CMOR table ('area: time: mean').
+The variable attribute 'ps:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
+The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat' and 'rlon' to be present in the file defining the native coordinate system used by the RCM.
+The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
+",
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/GERICS/MPI-ESM1-2-HR/ssp370/r1i1p1f1/REMO2020-2-2/v1-r1/mon/ps/v20250916/ps_EUR-12_MPI-ESM1-2-HR_ssp370_r1i1p1f1_GERICS_REMO2020-2-2_v1-r1_mon_201501-202412.nc,ps,EUR-12,MPI-ESM1-2-HR,ssp370,r1i1p1f1,GERICS,REMO2020-2-2,v1-r1,mon,v20250916,408.0,414.0,0.0,2.0,0.0,,"Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Bounds variable vertices_lat and parent variable lat have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable vertices_lon and parent variable lon have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
@@ -15785,6 +15820,23 @@ The Boundary variables 'vertices_lon' should not have the attributes: '['units',
 ",,86.0,88.0,0.0,2.0,0.0,,"The last timestep differs from expectation ('2020-12-16 12:00:00'): '2024-12-16 12:00:00'. Apart from the first and last files of a timeseries '10' full simulation years are expected in the data file for frequency 'mon'.
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 ",,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/day/ps/v20250415/ps_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_day_19700101-19701231.nc,ps,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,day,v20250415,751.0,755.0,0.0,2.0,0.0,,"attribute ps:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
+",,77.0,87.0,4.0,5.0,0.0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
+It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+The global attribute 'driving_source' is not defined. It is however recommended to include it.
+","Global attribute 'license' does not comply with the CV: 'Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/by/4.0).'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
+Global attribute 'license' does not comply with the CV: 'Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/by/4.0).'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
+Global attribute 'tracking_id' does not comply with the CV: '4f2c8c14-635c-11f0-95b0-00001029fe80'. Expected value/pattern: 'hdl:21.14103/.*'.
+The variable attribute 'ps:cell_methods = 'time: point' is not equivalent to the value specified in the CMOR table ('area: time: mean').
+The variable attribute 'ps:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
+The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat' and 'rlon' to be present in the file defining the native coordinate system used by the RCM.
+The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
+",
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CLMcom-CMCC/ERA5/evaluation/r1i1p1f1/CCLM6-0-1-URB/v1-r1/NEW/day/psl/v20250201/psl_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-CMCC_CCLM6-0-1-URB_v1-r1_day_19800101-19801231.nc,psl,EUR-12,ERA5,evaluation,r1i1p1f1,CLMcom-CMCC,CCLM6-0-1-URB,v1-r1,day,v20250201,600.0,603.0,0.0,2.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
@@ -17364,8 +17416,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by psl is not present in dataset or external variables
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",73.0,87.0,9.0,4.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
@@ -19502,8 +19554,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by rlds is not present in dataset or external variables
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",76.0,87.0,7.0,3.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
@@ -21992,8 +22044,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by rsds is not present in dataset or external variables
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",76.0,87.0,7.0,3.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
@@ -24145,8 +24197,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by sfcWind is not present in dataset or external variables
 ","Units ""ms-1"" for variable sfcWind must be convertible to canonical units ""m s-1""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",73.0,87.0,9.0,4.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
@@ -25038,9 +25090,9 @@ Bounds variable time_bnds and parent variable time have the following matching a
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
 The Boundary variables 'time_bnds' should not have the attributes: '['calendar', 'units']'
 Cell measure variable areacella referred to by sfcWindmax is not present in dataset or external variables
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 Units "" ms-1"" for variable sfcWindmax must be convertible to canonical units ""m s-1""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping variable rotated_pole must exist in this dataset
 ",69.0,82.0,9.0,3.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
@@ -25956,8 +26008,8 @@ The global attribute 'driving_source' is not defined. It is however recommended 
 ","The variable attribute 'sftlf:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
 ",
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/MPI-ESM1-2-HR/historical/r1i1p1f1/RegCM5-0/v1-r1/fx/sftlf/v20250415/sftlf_EUR-12_MPI-ESM1-2-HR_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_fx.nc,sftlf,EUR-12,MPI-ESM1-2-HR,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,fx,v20250415,331.0,336.0,2.0,1.0,0.0,,"attribute sftlf:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
-","Units ""degrees"" for variable y must be convertible to canonical units ""m""
-Units ""degrees"" for variable x must be convertible to canonical units ""m""
+","Units ""degrees"" for variable x must be convertible to canonical units ""m""
+Units ""degrees"" for variable y must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",65.0,87.0,10.0,5.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The 'shuffle' option is disabled.
@@ -26060,8 +26112,8 @@ The global attribute 'driving_source' is not defined. It is however recommended 
 ","The variable attribute 'sftlf:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
 ",
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/fx/sftlf/v20250415/sftlf_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_fx.nc,sftlf,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,fx,v20250415,331.0,336.0,2.0,1.0,0.0,,"attribute sftlf:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
-","Units ""degrees"" for variable y must be convertible to canonical units ""m""
-Units ""degrees"" for variable x must be convertible to canonical units ""m""
+","Units ""degrees"" for variable x must be convertible to canonical units ""m""
+Units ""degrees"" for variable y must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",65.0,87.0,10.0,5.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The 'shuffle' option is disabled.
@@ -27429,8 +27481,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by snc is not present in dataset or external variables
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",73.0,87.0,9.0,4.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
@@ -28955,8 +29007,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by snd is not present in dataset or external variables
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",74.0,87.0,8.0,4.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
@@ -29821,8 +29873,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by snw is not present in dataset or external variables
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",73.0,87.0,9.0,4.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
@@ -33652,8 +33704,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 Variable tas has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by tas is not present in dataset or external variables
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",74.0,87.0,8.0,4.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
@@ -35595,8 +35647,8 @@ Bounds variable time_bnds and parent variable time have the following matching a
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
 The Boundary variables 'time_bnds' should not have the attributes: '['calendar', 'units']'
 Cell measure variable areacella referred to by tasmax is not present in dataset or external variables
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping variable rotated_pole must exist in this dataset
 ",69.0,82.0,9.0,3.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
@@ -38098,6 +38150,58 @@ Your time axis' 'units' attribute differs from the allowed values ('days since 1
 The variable attribute 'ua1000:long_name = 'Eastward Wind' is not equivalent to the value specified in the CMOR table ('Eastward Wind at 1000hPa').
 The variable attribute 'ua1000:cell_methods = 'time: point' is not equivalent to the value specified in the CMOR table ('area: mean time: point').
 The variable attribute 'ua1000:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
+The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat' and 'rlon' to be present in the file defining the native coordinate system used by the RCM.
+The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
+",
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/ERA5/evaluation/r1i1p1f1/RegCM5-0/v1-r1/day/ua100m/v20250415/ua100m_EUR-12_ERA5_evaluation_r1i1p1f1_ICTP_RegCM5-0_v1-r1_day_19700101-19701231.nc,ua100m,EUR-12,ERA5,evaluation,r1i1p1f1,ICTP,RegCM5-0,v1-r1,day,v20250415,778.0,782.0,0.0,2.0,0.0,,"Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
+",,78.0,87.0,5.0,3.0,0.0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+The global attribute 'driving_source' is not defined. It is however recommended to include it.
+","Value for DRS building block 'project_id' is not consistent between 'file path' and 'global attributes': 'CORDEX-CMIP6' and 'CORDEX'.
+Global attribute 'license' does not comply with the CV: 'Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/by/4.0).'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
+Global attribute 'project_id' does not comply with the CV: 'CORDEX'. Expected value/pattern: 'CORDEX-CMIP6'.
+Global attribute 'license' does not comply with the CV: 'Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/by/4.0).'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
+Global attribute 'tracking_id' does not comply with the CV: '82307ac2-f2a4-11ef-a474-00001029fe80'. Expected value/pattern: 'hdl:21.14103/.*'.
+The variable attribute 'ua100m:cell_methods = 'time: mean' is not equivalent to the value specified in the CMOR table ('area: time: mean').
+The variable attribute 'ua100m:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
+The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat' and 'rlon' to be present in the file defining the native coordinate system used by the RCM.
+The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
+",
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/MPI-ESM1-2-HR/historical/r1i1p1f1/RegCM5-0/v1-r1/day/ua100m/v20250415/ua100m_EUR-12_MPI-ESM1-2-HR_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_day_19700101-19701231.nc,ua100m,EUR-12,MPI-ESM1-2-HR,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,day,v20250415,779.0,784.0,0.0,3.0,0.0,,"attribute ua100m:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
+",,78.0,87.0,4.0,4.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+The global attribute 'driving_source' is not defined. It is however recommended to include it.
+","Global attribute 'driving_institution_id' does not comply with the CV: 'MPI-M, DWD, DKRZ'. Allowed values: 'MPI-M', 'DWD', 'DKRZ'.
+Global attribute 'license' does not comply with the CV: 'Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/by/4.0).'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
+Global attribute 'license' does not comply with the CV: 'Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/by/4.0).'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
+Global attribute 'tracking_id' does not comply with the CV: 'd76f0c72-6c90-11f0-adaa-00001029fe80'. Expected value/pattern: 'hdl:21.14103/.*'.
+The variable attribute 'ua100m:cell_methods = 'time: mean' is not equivalent to the value specified in the CMOR table ('area: time: mean').
+The variable attribute 'ua100m:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
+The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat' and 'rlon' to be present in the file defining the native coordinate system used by the RCM.
+The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
+",
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/day/ua100m/v20250415/ua100m_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_day_19700101-19701231.nc,ua100m,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,day,v20250415,779.0,783.0,0.0,2.0,0.0,,"attribute ua100m:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
+",,77.0,87.0,4.0,5.0,0.0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
+It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+The global attribute 'driving_source' is not defined. It is however recommended to include it.
+","Global attribute 'license' does not comply with the CV: 'Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/by/4.0).'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
+Global attribute 'license' does not comply with the CV: 'Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/by/4.0).'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
+Global attribute 'tracking_id' does not comply with the CV: '82db95fa-635c-11f0-8a0d-00001029fe80'. Expected value/pattern: 'hdl:21.14103/.*'.
+The variable attribute 'ua100m:cell_methods = 'time: mean' is not equivalent to the value specified in the CMOR table ('area: time: mean').
+The variable attribute 'ua100m:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
 The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat' and 'rlon' to be present in the file defining the native coordinate system used by the RCM.
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",
@@ -41870,8 +41974,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by uas is not present in dataset or external variables
 ","Units ""ms-1"" for variable uas must be convertible to canonical units ""m s-1""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",73.0,87.0,9.0,4.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
@@ -42909,6 +43013,58 @@ Your time axis' 'units' attribute differs from the allowed values ('days since 1
 The variable attribute 'va1000:long_name = 'Northward Wind' is not equivalent to the value specified in the CMOR table ('Northward Wind at 1000hPa').
 The variable attribute 'va1000:cell_methods = 'time: point' is not equivalent to the value specified in the CMOR table ('area: mean time: point').
 The variable attribute 'va1000:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
+The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat' and 'rlon' to be present in the file defining the native coordinate system used by the RCM.
+The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
+",
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/ERA5/evaluation/r1i1p1f1/RegCM5-0/v1-r1/day/va100m/v20250415/va100m_EUR-12_ERA5_evaluation_r1i1p1f1_ICTP_RegCM5-0_v1-r1_day_19700101-19701231.nc,va100m,EUR-12,ERA5,evaluation,r1i1p1f1,ICTP,RegCM5-0,v1-r1,day,v20250415,778.0,782.0,0.0,2.0,0.0,,"Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
+",,78.0,87.0,5.0,3.0,0.0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+The global attribute 'driving_source' is not defined. It is however recommended to include it.
+","Value for DRS building block 'project_id' is not consistent between 'file path' and 'global attributes': 'CORDEX-CMIP6' and 'CORDEX'.
+Global attribute 'license' does not comply with the CV: 'Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/by/4.0).'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
+Global attribute 'project_id' does not comply with the CV: 'CORDEX'. Expected value/pattern: 'CORDEX-CMIP6'.
+Global attribute 'license' does not comply with the CV: 'Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/by/4.0).'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
+Global attribute 'tracking_id' does not comply with the CV: '82307040-f2a4-11ef-912c-00001029fe80'. Expected value/pattern: 'hdl:21.14103/.*'.
+The variable attribute 'va100m:cell_methods = 'time: mean' is not equivalent to the value specified in the CMOR table ('area: time: mean').
+The variable attribute 'va100m:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
+The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat' and 'rlon' to be present in the file defining the native coordinate system used by the RCM.
+The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
+",
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/MPI-ESM1-2-HR/historical/r1i1p1f1/RegCM5-0/v1-r1/day/va100m/v20250415/va100m_EUR-12_MPI-ESM1-2-HR_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_day_19700101-19701231.nc,va100m,EUR-12,MPI-ESM1-2-HR,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,day,v20250415,779.0,784.0,0.0,3.0,0.0,,"attribute va100m:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
+",,78.0,87.0,4.0,4.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+The global attribute 'driving_source' is not defined. It is however recommended to include it.
+","Global attribute 'driving_institution_id' does not comply with the CV: 'MPI-M, DWD, DKRZ'. Allowed values: 'MPI-M', 'DWD', 'DKRZ'.
+Global attribute 'license' does not comply with the CV: 'Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/by/4.0).'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
+Global attribute 'license' does not comply with the CV: 'Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/by/4.0).'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
+Global attribute 'tracking_id' does not comply with the CV: 'd8622fba-6c90-11f0-8b22-00001029fe80'. Expected value/pattern: 'hdl:21.14103/.*'.
+The variable attribute 'va100m:cell_methods = 'time: mean' is not equivalent to the value specified in the CMOR table ('area: time: mean').
+The variable attribute 'va100m:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
+The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat' and 'rlon' to be present in the file defining the native coordinate system used by the RCM.
+The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
+",
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/day/va100m/v20250415/va100m_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_day_19700101-19701231.nc,va100m,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,day,v20250415,779.0,783.0,0.0,2.0,0.0,,"attribute va100m:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
+",,77.0,87.0,4.0,5.0,0.0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
+It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+The global attribute 'driving_source' is not defined. It is however recommended to include it.
+","Global attribute 'license' does not comply with the CV: 'Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/by/4.0).'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
+Global attribute 'license' does not comply with the CV: 'Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/by/4.0).'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
+Global attribute 'tracking_id' does not comply with the CV: '835a76c2-635c-11f0-9df0-00001029fe80'. Expected value/pattern: 'hdl:21.14103/.*'.
+The variable attribute 'va100m:cell_methods = 'time: mean' is not equivalent to the value specified in the CMOR table ('area: time: mean').
+The variable attribute 'va100m:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
 The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat' and 'rlon' to be present in the file defining the native coordinate system used by the RCM.
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",
@@ -46292,9 +46448,9 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by vas is not present in dataset or external variables
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""ms-1"" for variable vas must be convertible to canonical units ""m s-1""
 Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""ms-1"" for variable vas must be convertible to canonical units ""m s-1""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",73.0,87.0,9.0,4.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
