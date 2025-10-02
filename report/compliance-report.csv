@@ -24196,8 +24196,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by sfcWind is not present in dataset or external variables
-","Units ""ms-1"" for variable sfcWind must be convertible to canonical units ""m s-1""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""ms-1"" for variable sfcWind must be convertible to canonical units ""m s-1""
 Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
@@ -25091,8 +25091,8 @@ Bounds variable time_bnds and parent variable time have the following matching a
 The Boundary variables 'time_bnds' should not have the attributes: '['calendar', 'units']'
 Cell measure variable areacella referred to by sfcWindmax is not present in dataset or external variables
 ","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units "" ms-1"" for variable sfcWindmax must be convertible to canonical units ""m s-1""
 Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units "" ms-1"" for variable sfcWindmax must be convertible to canonical units ""m s-1""
 grid mapping variable rotated_pole must exist in this dataset
 ",69.0,82.0,9.0,3.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
@@ -26008,8 +26008,8 @@ The global attribute 'driving_source' is not defined. It is however recommended 
 ","The variable attribute 'sftlf:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
 ",
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/MPI-ESM1-2-HR/historical/r1i1p1f1/RegCM5-0/v1-r1/fx/sftlf/v20250415/sftlf_EUR-12_MPI-ESM1-2-HR_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_fx.nc,sftlf,EUR-12,MPI-ESM1-2-HR,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,fx,v20250415,331.0,336.0,2.0,1.0,0.0,,"attribute sftlf:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
-","Units ""degrees"" for variable x must be convertible to canonical units ""m""
-Units ""degrees"" for variable y must be convertible to canonical units ""m""
+","Units ""degrees"" for variable y must be convertible to canonical units ""m""
+Units ""degrees"" for variable x must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",65.0,87.0,10.0,5.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The 'shuffle' option is disabled.
@@ -26112,8 +26112,8 @@ The global attribute 'driving_source' is not defined. It is however recommended 
 ","The variable attribute 'sftlf:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
 ",
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/fx/sftlf/v20250415/sftlf_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_fx.nc,sftlf,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,fx,v20250415,331.0,336.0,2.0,1.0,0.0,,"attribute sftlf:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
-","Units ""degrees"" for variable x must be convertible to canonical units ""m""
-Units ""degrees"" for variable y must be convertible to canonical units ""m""
+","Units ""degrees"" for variable y must be convertible to canonical units ""m""
+Units ""degrees"" for variable x must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",65.0,87.0,10.0,5.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The 'shuffle' option is disabled.
@@ -41973,8 +41973,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by uas is not present in dataset or external variables
-","Units ""ms-1"" for variable uas must be convertible to canonical units ""m s-1""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""ms-1"" for variable uas must be convertible to canonical units ""m s-1""
 Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
@@ -46448,8 +46448,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by vas is not present in dataset or external variables
-","Units ""ms-1"" for variable vas must be convertible to canonical units ""m s-1""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""ms-1"" for variable vas must be convertible to canonical units ""m s-1""
 Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
