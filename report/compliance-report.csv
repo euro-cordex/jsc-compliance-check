@@ -1,21 +1,6 @@
 filename,variable_id,domain_id,driving_source_id,driving_experiment_id,driving_variant_label,institution_id,source_id,version_realization,frequency,version,cc6:scored_points,cc6:possible_points,cc6:high_count,cc6:medium_count,cc6:low_count,cc6:low_priorities,cc6:medium_priorities,cc6:high_priorities,cf:scored_points,cf:possible_points,cf:high_count,cf:medium_count,cf:low_count,cf:low_priorities,cf:medium_priorities,cf:high_priorities,not_readable
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/historical/r1i1p1f2/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_CNRM-ESM2-1_historical_r1i1p1f2_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,CNRM-ESM2-1,historical,r1i1p1f2,KNMI,RACMO23E,v1-r1,fx,v20241216,80.0,88.0,3.0,3.0,0.0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
-It is recommended for the variables 'lat' and 'lon' to have bounds defined.
-The global attribute 'driving_source' is not defined. It is however recommended to include it.
-","Global attribute 'Conventions' does not comply with the CV: 'CF-1.10'. Expected value/pattern: 'CF-1.11'.
-Global attribute 'institution_id' does not comply with the CV: 'unset'. Expected value/pattern: 'KNMI'.
-Global attribute 'license' does not comply with the CV: 'CORDEX model data produced by KNMI is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CORDEX output, including citation requirements and proper acknowledgment. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
-Global attribute 'source' does not comply with the CV: 'KNMI Regional Atmospheric Climate MOdel'. Allowed values: 'The KNMI Regional Climate Model RACMO, version 23E (2022)', 'The KNMI Regional Climate Model RACMO, version 23E'.
-Global attribute 'license' does not comply with the CV: 'CORDEX model data produced by KNMI is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CORDEX output, including citation requirements and proper acknowledgment. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
-Global attribute 'tracking_id' does not comply with the CV: 'hdl:21.14100/d9fbe981-93e2-45d1-a621-c1fe7987229d'. Expected value/pattern: 'hdl:21.14103/.*'.
-Global attribute 'institution_id' does not comply with the CV: 'unset'. Allowed values: 'AUTH', 'BAS', 'BCCR-UCAN', ...
-Required global attribute 'grid' is missing.
-Required global attribute 'institution_id' is missing.
-The variable attribute 'areacella:cell_methods = 'unset' is not equivalent to the value specified in the CMOR table ('area: sum').
-",196.0,199.0,0.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
-§2.6.2 global attribute history should exist and be a non-empty string
-§2.6.1 Conventions global attribute does not contain ""CF-1.11""
-",,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/historical/r1i1p1f2/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_CNRM-ESM2-1_historical_r1i1p1f2_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,CNRM-ESM2-1,historical,r1i1p1f2,KNMI,RACMO23E,v1-r1,fx,v20241216,86.0,88.0,0.0,1.0,0.0,,"The global attribute 'driving_source' is not defined. It is however recommended to include it.
+",,657.0,657.0,0.0,0.0,0.0,,,,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/ssp126/r1i1p1f2/RACMO23E/v1-r1/fx/areacella/v20241216/areacella_EUR-12_CNRM-ESM2-1_ssp126_r1i1p1f2_KNMI_RACMO23E_v1-r1_fx.nc,areacella,EUR-12,CNRM-ESM2-1,ssp126,r1i1p1f2,KNMI,RACMO23E,v1-r1,fx,v20241216,80.0,88.0,3.0,3.0,0.0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 It is recommended for the variables 'lat' and 'lon' to have bounds defined.
 The global attribute 'driving_source' is not defined. It is however recommended to include it.
@@ -604,28 +589,8 @@ The global attribute 'driving_source' is not defined. It is however recommended 
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/historical/r1i1p1f2/RACMO23E/v1-r1/day/clt/v20241216/clt_EUR-12_CNRM-ESM2-1_historical_r1i1p1f2_KNMI_RACMO23E_v1-r1_day_19510101-19551231.nc,clt,EUR-12,CNRM-ESM2-1,historical,r1i1p1f2,KNMI,RACMO23E,v1-r1,day,v20241216,79.0,88.0,4.0,3.0,0.0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
-It is recommended for the variables 'lat' and 'lon' to have bounds defined.
-The global attribute 'driving_source' is not defined. It is however recommended to include it.
-","Global attribute 'Conventions' does not comply with the CV: 'CF-1.10'. Expected value/pattern: 'CF-1.11'.
-Global attribute 'institution_id' does not comply with the CV: 'unset'. Expected value/pattern: 'KNMI'.
-Global attribute 'license' does not comply with the CV: 'CORDEX model data produced by KNMI is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CORDEX output, including citation requirements and proper acknowledgment. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
-Global attribute 'source' does not comply with the CV: 'KNMI Regional Atmospheric Climate MOdel'. Allowed values: 'The KNMI Regional Climate Model RACMO, version 23E (2022)', 'The KNMI Regional Climate Model RACMO, version 23E'.
-Global attribute 'license' does not comply with the CV: 'CORDEX model data produced by KNMI is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CORDEX output, including citation requirements and proper acknowledgment. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
-Global attribute 'tracking_id' does not comply with the CV: 'hdl:21.14100/b05ffb1d-6db5-40d7-97cb-22acafcca57b'. Expected value/pattern: 'hdl:21.14103/.*'.
-Global attribute 'institution_id' does not comply with the CV: 'unset'. Allowed values: 'AUTH', 'BAS', 'BCCR-UCAN', ...
-Required global attribute 'grid' is missing.
-Required global attribute 'institution_id' is missing.
-Your time axis' 'units' attribute differs from the allowed values ('days since 1950-01-01T00:00:00Z', 'days since 1850-01-01T00:00:00Z' if the pre-1950 era is included in the group's simulations): 'days since 1949-01-01 00:00:00'.
-The variable attribute 'clt:long_name = 'Total Cloud Fraction' is not equivalent to the value specified in the CMOR table ('Total Cloud Cover Percentage').
-The variable attribute 'clt:cell_methods = 'time: mean' is not equivalent to the value specified in the CMOR table ('area: time: mean').
-The variable attribute 'clt:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
-",2062.0,2068.0,0.0,3.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
-§2.6.2 global attribute history should exist and be a non-empty string
-§2.6.1 Conventions global attribute does not contain ""CF-1.11""
-Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
-'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/historical/r1i1p1f2/RACMO23E/v1-r1/day/clt/v20241216/clt_EUR-12_CNRM-ESM2-1_historical_r1i1p1f2_KNMI_RACMO23E_v1-r1_day_19510101-19551231.nc,clt,EUR-12,CNRM-ESM2-1,historical,r1i1p1f2,KNMI,RACMO23E,v1-r1,day,v20241216,86.0,88.0,0.0,1.0,0.0,,"The global attribute 'driving_source' is not defined. It is however recommended to include it.
+",,700.0,701.0,0.0,1.0,0.0,,"Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CNRM-MF/CNRM-ESM2-1/ssp126/r1i1p1f2/CNRM-ALADIN64E1/v1-r1/day/clt/v20250328/clt_EUR-12_CNRM-ESM2-1_ssp126_r1i1p1f2_CNRM-MF_CNRM-ALADIN64E1_v1-r1_day_20150101-20151231.nc,clt,EUR-12,CNRM-ESM2-1,ssp126,r1i1p1f2,CNRM-MF,CNRM-ALADIN64E1,v1-r1,day,v20250328,73.0,87.0,7.0,4.0,0.0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'gregorian'. Please use the 'standard' calendar, since the use of the 'gregorian' calendar is deprecated since CF-1.9.
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
@@ -1922,8 +1887,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by clt is not present in dataset or external variables
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -2627,29 +2592,8 @@ The global attribute 'driving_source' is not defined. It is however recommended 
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/historical/r1i1p1f2/RACMO23E/v1-r1/day/evspsbl/v20241216/evspsbl_EUR-12_CNRM-ESM2-1_historical_r1i1p1f2_KNMI_RACMO23E_v1-r1_day_19510101-19551231.nc,evspsbl,EUR-12,CNRM-ESM2-1,historical,r1i1p1f2,KNMI,RACMO23E,v1-r1,day,v20241216,79.0,88.0,4.0,3.0,0.0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
-It is recommended for the variables 'lat' and 'lon' to have bounds defined.
-The global attribute 'driving_source' is not defined. It is however recommended to include it.
-","Global attribute 'Conventions' does not comply with the CV: 'CF-1.10'. Expected value/pattern: 'CF-1.11'.
-Global attribute 'institution_id' does not comply with the CV: 'unset'. Expected value/pattern: 'KNMI'.
-Global attribute 'license' does not comply with the CV: 'CORDEX model data produced by KNMI is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CORDEX output, including citation requirements and proper acknowledgment. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
-Global attribute 'source' does not comply with the CV: 'KNMI Regional Atmospheric Climate MOdel'. Allowed values: 'The KNMI Regional Climate Model RACMO, version 23E (2022)', 'The KNMI Regional Climate Model RACMO, version 23E'.
-Global attribute 'license' does not comply with the CV: 'CORDEX model data produced by KNMI is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CORDEX output, including citation requirements and proper acknowledgment. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
-Global attribute 'tracking_id' does not comply with the CV: 'hdl:21.14100/cb2bed7e-a443-475b-a8c2-876553692120'. Expected value/pattern: 'hdl:21.14103/.*'.
-Global attribute 'institution_id' does not comply with the CV: 'unset'. Allowed values: 'AUTH', 'BAS', 'BCCR-UCAN', ...
-Required global attribute 'grid' is missing.
-Required global attribute 'institution_id' is missing.
-Your time axis' 'units' attribute differs from the allowed values ('days since 1950-01-01T00:00:00Z', 'days since 1850-01-01T00:00:00Z' if the pre-1950 era is included in the group's simulations): 'days since 1949-01-01 00:00:00'.
-The variable attribute 'evspsbl:standard_name = 'water_evaporation_flux' is not equivalent to the value specified in the CMOR table ('water_evapotranspiration_flux').
-The variable attribute 'evspsbl:long_name = 'Evaporation' is not equivalent to the value specified in the CMOR table ('Evaporation Including Sublimation and Transpiration').
-The variable attribute 'evspsbl:cell_methods = 'time: mean' is not equivalent to the value specified in the CMOR table ('area: time: mean').
-The variable attribute 'evspsbl:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
-",2062.0,2068.0,0.0,3.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
-§2.6.2 global attribute history should exist and be a non-empty string
-§2.6.1 Conventions global attribute does not contain ""CF-1.11""
-Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
-'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/historical/r1i1p1f2/RACMO23E/v1-r1/day/evspsbl/v20241216/evspsbl_EUR-12_CNRM-ESM2-1_historical_r1i1p1f2_KNMI_RACMO23E_v1-r1_day_19510101-19551231.nc,evspsbl,EUR-12,CNRM-ESM2-1,historical,r1i1p1f2,KNMI,RACMO23E,v1-r1,day,v20241216,86.0,88.0,0.0,1.0,0.0,,"The global attribute 'driving_source' is not defined. It is however recommended to include it.
+",,700.0,701.0,0.0,1.0,0.0,,"Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CNRM-MF/CNRM-ESM2-1/ssp126/r1i1p1f2/CNRM-ALADIN64E1/v1-r1/day/evspsbl/v20250328/evspsbl_EUR-12_CNRM-ESM2-1_ssp126_r1i1p1f2_CNRM-MF_CNRM-ALADIN64E1_v1-r1_day_20150101-20151231.nc,evspsbl,EUR-12,CNRM-ESM2-1,ssp126,r1i1p1f2,CNRM-MF,CNRM-ALADIN64E1,v1-r1,day,v20250328,73.0,87.0,7.0,4.0,0.0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'gregorian'. Please use the 'standard' calendar, since the use of the 'gregorian' calendar is deprecated since CF-1.9.
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
@@ -4878,6 +4822,9 @@ DRS path building block 'version_realization' does not comply with the CORDEX-CM
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/historical/r1i1p1f2/RACMO23E/v1-r1/day/hurs/v20241216/hurs_EUR-12_CNRM-ESM2-1_historical_r1i1p1f2_KNMI_RACMO23E_v1-r1_day_19510101-19551231.nc,hurs,EUR-12,CNRM-ESM2-1,historical,r1i1p1f2,KNMI,RACMO23E,v1-r1,day,v20241216,86.0,88.0,0.0,1.0,0.0,,"The global attribute 'driving_source' is not defined. It is however recommended to include it.
+",,728.0,729.0,0.0,1.0,0.0,,"Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
+",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/GERICS/EC-Earth3-Veg/historical/r1i1p1f1/REMO2020-2-2/v1-r1/mon/hurs/v20250916/hurs_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_GERICS_REMO2020-2-2_v1-r1_mon_195001-195912.nc,hurs,EUR-12,EC-Earth3-Veg,historical,r1i1p1f1,GERICS,REMO2020-2-2,v1-r1,mon,v20250916,86.0,88.0,0.0,2.0,0.0,,"File chunking recommendations: Apart from the first and last files of a timeseries '10' full simulation years are expected in the data file for frequency 'mon'. The last timestep conflicts with this recommendation ('1950-12-16 12:00:00'): '1959-12-16 12:00:00'. 
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 ",,438.0,444.0,0.0,2.0,0.0,,"Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
@@ -5903,7 +5850,7 @@ global attribute south-north_grid_dimension should begin with a letter and be co
 global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -6299,8 +6246,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by hurs is not present in dataset or external variables
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -6495,8 +6442,8 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",770.0,776.0,2.0,2.0,0.0,,"attribute hurs:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable x must be convertible to canonical units ""m""
-Units ""degrees"" for variable y must be convertible to canonical units ""m""
+","Units ""degrees"" for variable y must be convertible to canonical units ""m""
+Units ""degrees"" for variable x must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -6955,7 +6902,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",1743.0,1750.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -7463,7 +7410,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",1742.0,1749.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -7971,7 +7918,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",1742.0,1749.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -8468,7 +8415,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",1742.0,1749.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -8975,7 +8922,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",1742.0,1749.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -9472,7 +9419,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",1742.0,1749.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -9979,7 +9926,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",1742.0,1749.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -10476,7 +10423,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",1742.0,1749.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -10983,7 +10930,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",1742.0,1749.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -11490,7 +11437,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",1742.0,1749.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -11663,27 +11610,8 @@ The global attribute 'driving_source' is not defined. It is however recommended 
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/historical/r1i1p1f2/RACMO23E/v1-r1/day/huss/v20241216/huss_EUR-12_CNRM-ESM2-1_historical_r1i1p1f2_KNMI_RACMO23E_v1-r1_day_19510101-19551231.nc,huss,EUR-12,CNRM-ESM2-1,historical,r1i1p1f2,KNMI,RACMO23E,v1-r1,day,v20241216,79.0,88.0,4.0,3.0,0.0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
-It is recommended for the variables 'lat' and 'lon' to have bounds defined.
-The global attribute 'driving_source' is not defined. It is however recommended to include it.
-","Global attribute 'Conventions' does not comply with the CV: 'CF-1.10'. Expected value/pattern: 'CF-1.11'.
-Global attribute 'institution_id' does not comply with the CV: 'unset'. Expected value/pattern: 'KNMI'.
-Global attribute 'license' does not comply with the CV: 'CORDEX model data produced by KNMI is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CORDEX output, including citation requirements and proper acknowledgment. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
-Global attribute 'source' does not comply with the CV: 'KNMI Regional Atmospheric Climate MOdel'. Allowed values: 'The KNMI Regional Climate Model RACMO, version 23E (2022)', 'The KNMI Regional Climate Model RACMO, version 23E'.
-Global attribute 'license' does not comply with the CV: 'CORDEX model data produced by KNMI is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CORDEX output, including citation requirements and proper acknowledgment. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
-Global attribute 'tracking_id' does not comply with the CV: 'hdl:21.14100/d248a629-e9a4-48f8-a27d-061b548a98a5'. Expected value/pattern: 'hdl:21.14103/.*'.
-Global attribute 'institution_id' does not comply with the CV: 'unset'. Allowed values: 'AUTH', 'BAS', 'BCCR-UCAN', ...
-Required global attribute 'grid' is missing.
-Required global attribute 'institution_id' is missing.
-Your time axis' 'units' attribute differs from the allowed values ('days since 1950-01-01T00:00:00Z', 'days since 1850-01-01T00:00:00Z' if the pre-1950 era is included in the group's simulations): 'days since 1949-01-01 00:00:00'.
-The variable attribute 'huss:cell_methods = 'time: mean' is not equivalent to the value specified in the CMOR table ('area: time: mean').
-The variable attribute 'huss:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
-",2090.0,2096.0,0.0,3.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
-§2.6.2 global attribute history should exist and be a non-empty string
-§2.6.1 Conventions global attribute does not contain ""CF-1.11""
-Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
-'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/historical/r1i1p1f2/RACMO23E/v1-r1/day/huss/v20241216/huss_EUR-12_CNRM-ESM2-1_historical_r1i1p1f2_KNMI_RACMO23E_v1-r1_day_19510101-19551231.nc,huss,EUR-12,CNRM-ESM2-1,historical,r1i1p1f2,KNMI,RACMO23E,v1-r1,day,v20241216,86.0,88.0,0.0,1.0,0.0,,"The global attribute 'driving_source' is not defined. It is however recommended to include it.
+",,728.0,729.0,0.0,1.0,0.0,,"Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CNRM-MF/CNRM-ESM2-1/ssp126/r1i1p1f2/CNRM-ALADIN64E1/v1-r1/day/huss/v20250328/huss_EUR-12_CNRM-ESM2-1_ssp126_r1i1p1f2_CNRM-MF_CNRM-ALADIN64E1_v1-r1_day_20150101-20151231.nc,huss,EUR-12,CNRM-ESM2-1,ssp126,r1i1p1f2,CNRM-MF,CNRM-ALADIN64E1,v1-r1,day,v20250328,73.0,87.0,7.0,4.0,0.0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'gregorian'. Please use the 'standard' calendar, since the use of the 'gregorian' calendar is deprecated since CF-1.9.
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
@@ -13146,8 +13074,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by huss is not present in dataset or external variables
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -13376,8 +13304,8 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",770.0,776.0,2.0,2.0,0.0,,"attribute huss:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable x must be convertible to canonical units ""m""
-Units ""degrees"" for variable y must be convertible to canonical units ""m""
+","Units ""degrees"" for variable y must be convertible to canonical units ""m""
+Units ""degrees"" for variable x must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -14536,24 +14464,8 @@ The global attribute 'driving_source' is not defined. It is however recommended 
 ",195.0,197.0,0.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 ",,
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/historical/r1i1p1f2/RACMO23E/v1-r1/fx/orog/v20241216/orog_EUR-12_CNRM-ESM2-1_historical_r1i1p1f2_KNMI_RACMO23E_v1-r1_fx.nc,orog,EUR-12,CNRM-ESM2-1,historical,r1i1p1f2,KNMI,RACMO23E,v1-r1,fx,v20241216,80.0,88.0,3.0,3.0,0.0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
-It is recommended for the variables 'lat' and 'lon' to have bounds defined.
-The global attribute 'driving_source' is not defined. It is however recommended to include it.
-","Global attribute 'Conventions' does not comply with the CV: 'CF-1.10'. Expected value/pattern: 'CF-1.11'.
-Global attribute 'institution_id' does not comply with the CV: 'unset'. Expected value/pattern: 'KNMI'.
-Global attribute 'license' does not comply with the CV: 'CORDEX model data produced by KNMI is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CORDEX output, including citation requirements and proper acknowledgment. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
-Global attribute 'source' does not comply with the CV: 'KNMI Regional Atmospheric Climate MOdel'. Allowed values: 'The KNMI Regional Climate Model RACMO, version 23E (2022)', 'The KNMI Regional Climate Model RACMO, version 23E'.
-Global attribute 'license' does not comply with the CV: 'CORDEX model data produced by KNMI is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CORDEX output, including citation requirements and proper acknowledgment. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
-Global attribute 'tracking_id' does not comply with the CV: 'hdl:21.14100/a76830c6-ed68-4b48-a227-29a5cb59f42c'. Expected value/pattern: 'hdl:21.14103/.*'.
-Global attribute 'institution_id' does not comply with the CV: 'unset'. Allowed values: 'AUTH', 'BAS', 'BCCR-UCAN', ...
-Required global attribute 'grid' is missing.
-Required global attribute 'institution_id' is missing.
-The variable attribute 'orog:cell_methods = 'unset' is not equivalent to the value specified in the CMOR table ('area: mean').
-The variable attribute 'orog:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
-",196.0,199.0,0.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
-§2.6.2 global attribute history should exist and be a non-empty string
-§2.6.1 Conventions global attribute does not contain ""CF-1.11""
-",,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/historical/r1i1p1f2/RACMO23E/v1-r1/fx/orog/v20241216/orog_EUR-12_CNRM-ESM2-1_historical_r1i1p1f2_KNMI_RACMO23E_v1-r1_fx.nc,orog,EUR-12,CNRM-ESM2-1,historical,r1i1p1f2,KNMI,RACMO23E,v1-r1,fx,v20241216,86.0,88.0,0.0,1.0,0.0,,"The global attribute 'driving_source' is not defined. It is however recommended to include it.
+",,660.0,660.0,0.0,0.0,0.0,,,,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CNRM-MF/CNRM-ESM2-1/ssp126/r1i1p1f2/CNRM-ALADIN64E1/v1-r1/fx/orog/v20250328/orog_EUR-12_CNRM-ESM2-1_ssp126_r1i1p1f2_CNRM-MF_CNRM-ALADIN64E1_v1-r1_fx.nc,orog,EUR-12,CNRM-ESM2-1,ssp126,r1i1p1f2,CNRM-MF,CNRM-ALADIN64E1,v1-r1,fx,v20250328,75.0,87.0,6.0,3.0,0.0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 The global attribute 'driving_source' is not defined. It is however recommended to include it.
 The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -15663,27 +15575,8 @@ The global attribute 'driving_source' is not defined. It is however recommended 
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/historical/r1i1p1f2/RACMO23E/v1-r1/day/pr/v20241216/pr_EUR-12_CNRM-ESM2-1_historical_r1i1p1f2_KNMI_RACMO23E_v1-r1_day_19510101-19551231.nc,pr,EUR-12,CNRM-ESM2-1,historical,r1i1p1f2,KNMI,RACMO23E,v1-r1,day,v20241216,79.0,88.0,4.0,3.0,0.0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
-It is recommended for the variables 'lat' and 'lon' to have bounds defined.
-The global attribute 'driving_source' is not defined. It is however recommended to include it.
-","Global attribute 'Conventions' does not comply with the CV: 'CF-1.10'. Expected value/pattern: 'CF-1.11'.
-Global attribute 'institution_id' does not comply with the CV: 'unset'. Expected value/pattern: 'KNMI'.
-Global attribute 'license' does not comply with the CV: 'CORDEX model data produced by KNMI is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CORDEX output, including citation requirements and proper acknowledgment. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
-Global attribute 'source' does not comply with the CV: 'KNMI Regional Atmospheric Climate MOdel'. Allowed values: 'The KNMI Regional Climate Model RACMO, version 23E (2022)', 'The KNMI Regional Climate Model RACMO, version 23E'.
-Global attribute 'license' does not comply with the CV: 'CORDEX model data produced by KNMI is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CORDEX output, including citation requirements and proper acknowledgment. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
-Global attribute 'tracking_id' does not comply with the CV: 'hdl:21.14100/df40445d-c558-4abe-8bc1-71b7d5fd6cba'. Expected value/pattern: 'hdl:21.14103/.*'.
-Global attribute 'institution_id' does not comply with the CV: 'unset'. Allowed values: 'AUTH', 'BAS', 'BCCR-UCAN', ...
-Required global attribute 'grid' is missing.
-Required global attribute 'institution_id' is missing.
-Your time axis' 'units' attribute differs from the allowed values ('days since 1950-01-01T00:00:00Z', 'days since 1850-01-01T00:00:00Z' if the pre-1950 era is included in the group's simulations): 'days since 1949-01-01 00:00:00'.
-The variable attribute 'pr:cell_methods = 'time: mean' is not equivalent to the value specified in the CMOR table ('area: time: mean').
-The variable attribute 'pr:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
-",2062.0,2068.0,0.0,3.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
-§2.6.2 global attribute history should exist and be a non-empty string
-§2.6.1 Conventions global attribute does not contain ""CF-1.11""
-Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
-'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/historical/r1i1p1f2/RACMO23E/v1-r1/day/pr/v20241216/pr_EUR-12_CNRM-ESM2-1_historical_r1i1p1f2_KNMI_RACMO23E_v1-r1_day_19510101-19551231.nc,pr,EUR-12,CNRM-ESM2-1,historical,r1i1p1f2,KNMI,RACMO23E,v1-r1,day,v20241216,86.0,88.0,0.0,1.0,0.0,,"The global attribute 'driving_source' is not defined. It is however recommended to include it.
+",,700.0,701.0,0.0,1.0,0.0,,"Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CNRM-MF/CNRM-ESM2-1/ssp126/r1i1p1f2/CNRM-ALADIN64E1/v1-r1/day/pr/v20250328/pr_EUR-12_CNRM-ESM2-1_ssp126_r1i1p1f2_CNRM-MF_CNRM-ALADIN64E1_v1-r1_day_20150101-20151231.nc,pr,EUR-12,CNRM-ESM2-1,ssp126,r1i1p1f2,CNRM-MF,CNRM-ALADIN64E1,v1-r1,day,v20250328,73.0,87.0,7.0,4.0,0.0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'gregorian'. Please use the 'standard' calendar, since the use of the 'gregorian' calendar is deprecated since CF-1.9.
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
@@ -17116,7 +17009,7 @@ global attribute south-north_grid_dimension should begin with a letter and be co
 global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -17144,8 +17037,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by pr is not present in dataset or external variables
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -18454,7 +18347,7 @@ global attribute south-north_grid_dimension should begin with a letter and be co
 global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -18579,6 +18472,9 @@ The variable attribute 'prw:cell_measures = 'unset' is not equivalent to the val
 The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat' and 'rlon' to be present in the file defining the native coordinate system used by the RCM.
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",373.0,374.0,0.0,1.0,0.0,,"attribute prw:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+",,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/historical/r1i1p1f2/RACMO23E/v1-r1/day/ps/v20241216/ps_EUR-12_CNRM-ESM2-1_historical_r1i1p1f2_KNMI_RACMO23E_v1-r1_day_19510101-19551231.nc,ps,EUR-12,CNRM-ESM2-1,historical,r1i1p1f2,KNMI,RACMO23E,v1-r1,day,v20241216,86.0,88.0,0.0,1.0,0.0,,"The global attribute 'driving_source' is not defined. It is however recommended to include it.
+",,700.0,701.0,0.0,1.0,0.0,,"Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/GERICS/EC-Earth3-Veg/historical/r1i1p1f1/REMO2020-2-2/v1-r1/mon/ps/v20250916/ps_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_GERICS_REMO2020-2-2_v1-r1_mon_195001-195912.nc,ps,EUR-12,EC-Earth3-Veg,historical,r1i1p1f1,GERICS,REMO2020-2-2,v1-r1,mon,v20250916,86.0,88.0,0.0,2.0,0.0,,"File chunking recommendations: Apart from the first and last files of a timeseries '10' full simulation years are expected in the data file for frequency 'mon'. The last timestep conflicts with this recommendation ('1950-12-16 12:00:00'): '1959-12-16 12:00:00'. 
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
@@ -19075,28 +18971,8 @@ The global attribute 'driving_source' is not defined. It is however recommended 
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/historical/r1i1p1f2/RACMO23E/v1-r1/day/psl/v20241216/psl_EUR-12_CNRM-ESM2-1_historical_r1i1p1f2_KNMI_RACMO23E_v1-r1_day_19510101-19551231.nc,psl,EUR-12,CNRM-ESM2-1,historical,r1i1p1f2,KNMI,RACMO23E,v1-r1,day,v20241216,79.0,88.0,4.0,3.0,0.0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
-It is recommended for the variables 'lat' and 'lon' to have bounds defined.
-The global attribute 'driving_source' is not defined. It is however recommended to include it.
-","Global attribute 'Conventions' does not comply with the CV: 'CF-1.10'. Expected value/pattern: 'CF-1.11'.
-Global attribute 'institution_id' does not comply with the CV: 'unset'. Expected value/pattern: 'KNMI'.
-Global attribute 'license' does not comply with the CV: 'CORDEX model data produced by KNMI is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CORDEX output, including citation requirements and proper acknowledgment. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
-Global attribute 'source' does not comply with the CV: 'KNMI Regional Atmospheric Climate MOdel'. Allowed values: 'The KNMI Regional Climate Model RACMO, version 23E (2022)', 'The KNMI Regional Climate Model RACMO, version 23E'.
-Global attribute 'license' does not comply with the CV: 'CORDEX model data produced by KNMI is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CORDEX output, including citation requirements and proper acknowledgment. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
-Global attribute 'tracking_id' does not comply with the CV: 'hdl:21.14100/7a57c840-a543-4af2-9a5d-c6fed276d266'. Expected value/pattern: 'hdl:21.14103/.*'.
-Global attribute 'institution_id' does not comply with the CV: 'unset'. Allowed values: 'AUTH', 'BAS', 'BCCR-UCAN', ...
-Required global attribute 'grid' is missing.
-Required global attribute 'institution_id' is missing.
-Your time axis' 'units' attribute differs from the allowed values ('days since 1950-01-01T00:00:00Z', 'days since 1850-01-01T00:00:00Z' if the pre-1950 era is included in the group's simulations): 'days since 1949-01-01 00:00:00'.
-The variable attribute 'psl:standard_name = 'air_pressure_at_sea_level' is not equivalent to the value specified in the CMOR table ('air_pressure_at_mean_sea_level').
-The variable attribute 'psl:cell_methods = 'time: mean' is not equivalent to the value specified in the CMOR table ('area: time: mean').
-The variable attribute 'psl:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
-",2062.0,2068.0,0.0,3.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
-§2.6.2 global attribute history should exist and be a non-empty string
-§2.6.1 Conventions global attribute does not contain ""CF-1.11""
-Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
-'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/historical/r1i1p1f2/RACMO23E/v1-r1/day/psl/v20241216/psl_EUR-12_CNRM-ESM2-1_historical_r1i1p1f2_KNMI_RACMO23E_v1-r1_day_19510101-19551231.nc,psl,EUR-12,CNRM-ESM2-1,historical,r1i1p1f2,KNMI,RACMO23E,v1-r1,day,v20241216,86.0,88.0,0.0,1.0,0.0,,"The global attribute 'driving_source' is not defined. It is however recommended to include it.
+",,700.0,701.0,0.0,1.0,0.0,,"Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CNRM-MF/CNRM-ESM2-1/ssp126/r1i1p1f2/CNRM-ALADIN64E1/v1-r1/day/psl/v20250328/psl_EUR-12_CNRM-ESM2-1_ssp126_r1i1p1f2_CNRM-MF_CNRM-ALADIN64E1_v1-r1_day_20150101-20151231.nc,psl,EUR-12,CNRM-ESM2-1,ssp126,r1i1p1f2,CNRM-MF,CNRM-ALADIN64E1,v1-r1,day,v20250328,73.0,87.0,7.0,4.0,0.0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'gregorian'. Please use the 'standard' calendar, since the use of the 'gregorian' calendar is deprecated since CF-1.9.
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
@@ -20650,7 +20526,7 @@ global attribute south-north_grid_dimension should begin with a letter and be co
 global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -21048,8 +20924,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by psl is not present in dataset or external variables
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -21743,27 +21619,8 @@ The global attribute 'driving_source' is not defined. It is however recommended 
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/historical/r1i1p1f2/RACMO23E/v1-r1/day/rlds/v20241216/rlds_EUR-12_CNRM-ESM2-1_historical_r1i1p1f2_KNMI_RACMO23E_v1-r1_day_19510101-19551231.nc,rlds,EUR-12,CNRM-ESM2-1,historical,r1i1p1f2,KNMI,RACMO23E,v1-r1,day,v20241216,79.0,88.0,4.0,3.0,0.0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
-It is recommended for the variables 'lat' and 'lon' to have bounds defined.
-The global attribute 'driving_source' is not defined. It is however recommended to include it.
-","Global attribute 'Conventions' does not comply with the CV: 'CF-1.10'. Expected value/pattern: 'CF-1.11'.
-Global attribute 'institution_id' does not comply with the CV: 'unset'. Expected value/pattern: 'KNMI'.
-Global attribute 'license' does not comply with the CV: 'CORDEX model data produced by KNMI is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CORDEX output, including citation requirements and proper acknowledgment. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
-Global attribute 'source' does not comply with the CV: 'KNMI Regional Atmospheric Climate MOdel'. Allowed values: 'The KNMI Regional Climate Model RACMO, version 23E (2022)', 'The KNMI Regional Climate Model RACMO, version 23E'.
-Global attribute 'license' does not comply with the CV: 'CORDEX model data produced by KNMI is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CORDEX output, including citation requirements and proper acknowledgment. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
-Global attribute 'tracking_id' does not comply with the CV: 'hdl:21.14100/84972ac5-7c5f-469e-a3fd-8925e06556ea'. Expected value/pattern: 'hdl:21.14103/.*'.
-Global attribute 'institution_id' does not comply with the CV: 'unset'. Allowed values: 'AUTH', 'BAS', 'BCCR-UCAN', ...
-Required global attribute 'grid' is missing.
-Required global attribute 'institution_id' is missing.
-Your time axis' 'units' attribute differs from the allowed values ('days since 1950-01-01T00:00:00Z', 'days since 1850-01-01T00:00:00Z' if the pre-1950 era is included in the group's simulations): 'days since 1949-01-01 00:00:00'.
-The variable attribute 'rlds:cell_methods = 'time: mean' is not equivalent to the value specified in the CMOR table ('area: time: mean').
-The variable attribute 'rlds:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
-",2063.0,2069.0,0.0,3.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
-§2.6.2 global attribute history should exist and be a non-empty string
-§2.6.1 Conventions global attribute does not contain ""CF-1.11""
-Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
-'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/historical/r1i1p1f2/RACMO23E/v1-r1/day/rlds/v20241216/rlds_EUR-12_CNRM-ESM2-1_historical_r1i1p1f2_KNMI_RACMO23E_v1-r1_day_19510101-19551231.nc,rlds,EUR-12,CNRM-ESM2-1,historical,r1i1p1f2,KNMI,RACMO23E,v1-r1,day,v20241216,86.0,88.0,0.0,1.0,0.0,,"The global attribute 'driving_source' is not defined. It is however recommended to include it.
+",,701.0,702.0,0.0,1.0,0.0,,"Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CNRM-MF/CNRM-ESM2-1/ssp126/r1i1p1f2/CNRM-ALADIN64E1/v1-r1/day/rlds/v20250328/rlds_EUR-12_CNRM-ESM2-1_ssp126_r1i1p1f2_CNRM-MF_CNRM-ALADIN64E1_v1-r1_day_20150101-20151231.nc,rlds,EUR-12,CNRM-ESM2-1,ssp126,r1i1p1f2,CNRM-MF,CNRM-ALADIN64E1,v1-r1,day,v20250328,73.0,87.0,7.0,4.0,0.0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'gregorian'. Please use the 'standard' calendar, since the use of the 'gregorian' calendar is deprecated since CF-1.9.
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
@@ -22668,6 +22525,8 @@ Cell measure variable areacella referred to by rlds is not present in dataset or
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by rlds is not present in dataset or external variables
 ",,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CLMcom-Hereon/ERA5/evaluation/r1i1p1f1/ICON-CLM-202407-1-1/v1-r1/1hr/rlds/v20240920/rlds_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_1hr_195001010030-195012312330.nc,rlds,EUR-12,ERA5,evaluation,r1i1p1f1,CLMcom-Hereon,ICON-CLM-202407-1-1,v1-r1,1hr,v20240920,88.0,88.0,0.0,0.0,0.0,,,,9055.0,9056.0,0.0,1.0,0.0,,"Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
+",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CLMcom-Hereon/ERA5/evaluation/r1i1p1f1/ICON-CLM-202407-1-1/v1-r1/day/rlds/v20240920/rlds_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_19500101-19501231.nc,rlds,EUR-12,ERA5,evaluation,r1i1p1f1,CLMcom-Hereon,ICON-CLM-202407-1-1,v1-r1,day,v20240920,88.0,88.0,0.0,0.0,0.0,,,,660.0,661.0,0.0,1.0,0.0,,"Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CLMcom-Hereon/ERA5/evaluation/r1i1p1f1/ICON-CLM-202407-1-1/v1-r1/mon/rlds/v20240920/rlds_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_mon_195001-195012.nc,rlds,EUR-12,ERA5,evaluation,r1i1p1f1,CLMcom-Hereon,ICON-CLM-202407-1-1,v1-r1,mon,v20240920,88.0,88.0,0.0,0.0,0.0,,,,307.0,308.0,0.0,1.0,0.0,,"Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
@@ -22961,8 +22820,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by rlds is not present in dataset or external variables
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -23901,7 +23760,7 @@ global attribute south-north_grid_dimension should begin with a letter and be co
 global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -24328,27 +24187,8 @@ The global attribute 'driving_source' is not defined. It is however recommended 
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/historical/r1i1p1f2/RACMO23E/v1-r1/day/rsds/v20241216/rsds_EUR-12_CNRM-ESM2-1_historical_r1i1p1f2_KNMI_RACMO23E_v1-r1_day_19510101-19551231.nc,rsds,EUR-12,CNRM-ESM2-1,historical,r1i1p1f2,KNMI,RACMO23E,v1-r1,day,v20241216,79.0,88.0,4.0,3.0,0.0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
-It is recommended for the variables 'lat' and 'lon' to have bounds defined.
-The global attribute 'driving_source' is not defined. It is however recommended to include it.
-","Global attribute 'Conventions' does not comply with the CV: 'CF-1.10'. Expected value/pattern: 'CF-1.11'.
-Global attribute 'institution_id' does not comply with the CV: 'unset'. Expected value/pattern: 'KNMI'.
-Global attribute 'license' does not comply with the CV: 'CORDEX model data produced by KNMI is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CORDEX output, including citation requirements and proper acknowledgment. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
-Global attribute 'source' does not comply with the CV: 'KNMI Regional Atmospheric Climate MOdel'. Allowed values: 'The KNMI Regional Climate Model RACMO, version 23E (2022)', 'The KNMI Regional Climate Model RACMO, version 23E'.
-Global attribute 'license' does not comply with the CV: 'CORDEX model data produced by KNMI is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CORDEX output, including citation requirements and proper acknowledgment. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
-Global attribute 'tracking_id' does not comply with the CV: 'hdl:21.14100/92d4fb3e-1134-4349-810f-f02d7a086931'. Expected value/pattern: 'hdl:21.14103/.*'.
-Global attribute 'institution_id' does not comply with the CV: 'unset'. Allowed values: 'AUTH', 'BAS', 'BCCR-UCAN', ...
-Required global attribute 'grid' is missing.
-Required global attribute 'institution_id' is missing.
-Your time axis' 'units' attribute differs from the allowed values ('days since 1950-01-01T00:00:00Z', 'days since 1850-01-01T00:00:00Z' if the pre-1950 era is included in the group's simulations): 'days since 1949-01-01 00:00:00'.
-The variable attribute 'rsds:cell_methods = 'time: mean' is not equivalent to the value specified in the CMOR table ('area: time: mean').
-The variable attribute 'rsds:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
-",2063.0,2069.0,0.0,3.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
-§2.6.2 global attribute history should exist and be a non-empty string
-§2.6.1 Conventions global attribute does not contain ""CF-1.11""
-Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
-'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/historical/r1i1p1f2/RACMO23E/v1-r1/day/rsds/v20241216/rsds_EUR-12_CNRM-ESM2-1_historical_r1i1p1f2_KNMI_RACMO23E_v1-r1_day_19510101-19551231.nc,rsds,EUR-12,CNRM-ESM2-1,historical,r1i1p1f2,KNMI,RACMO23E,v1-r1,day,v20241216,86.0,88.0,0.0,1.0,0.0,,"The global attribute 'driving_source' is not defined. It is however recommended to include it.
+",,701.0,702.0,0.0,1.0,0.0,,"Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CNRM-MF/CNRM-ESM2-1/ssp126/r1i1p1f2/CNRM-ALADIN64E1/v1-r1/day/rsds/v20250328/rsds_EUR-12_CNRM-ESM2-1_ssp126_r1i1p1f2_CNRM-MF_CNRM-ALADIN64E1_v1-r1_day_20150101-20151231.nc,rsds,EUR-12,CNRM-ESM2-1,ssp126,r1i1p1f2,CNRM-MF,CNRM-ALADIN64E1,v1-r1,day,v20250328,73.0,87.0,7.0,4.0,0.0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'gregorian'. Please use the 'standard' calendar, since the use of the 'gregorian' calendar is deprecated since CF-1.9.
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
@@ -25292,6 +25132,8 @@ Cell measure variable areacella referred to by rsds is not present in dataset or
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by rsds is not present in dataset or external variables
 ",,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CLMcom-Hereon/ERA5/evaluation/r1i1p1f1/ICON-CLM-202407-1-1/v1-r1/1hr/rsds/v20240920/rsds_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_1hr_195001010030-195012312330.nc,rsds,EUR-12,ERA5,evaluation,r1i1p1f1,CLMcom-Hereon,ICON-CLM-202407-1-1,v1-r1,1hr,v20240920,88.0,88.0,0.0,0.0,0.0,,,,9055.0,9056.0,0.0,1.0,0.0,,"Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
+",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CLMcom-Hereon/ERA5/evaluation/r1i1p1f1/ICON-CLM-202407-1-1/v1-r1/day/rsds/v20240920/rsds_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_19500101-19501231.nc,rsds,EUR-12,ERA5,evaluation,r1i1p1f1,CLMcom-Hereon,ICON-CLM-202407-1-1,v1-r1,day,v20240920,88.0,88.0,0.0,0.0,0.0,,,,660.0,661.0,0.0,1.0,0.0,,"Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CLMcom-Hereon/ERA5/evaluation/r1i1p1f1/ICON-CLM-202407-1-1/v1-r1/mon/rsds/v20240920/rsds_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_mon_195001-195012.nc,rsds,EUR-12,ERA5,evaluation,r1i1p1f1,CLMcom-Hereon,ICON-CLM-202407-1-1,v1-r1,mon,v20240920,88.0,88.0,0.0,0.0,0.0,,,,307.0,308.0,0.0,1.0,0.0,,"Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
@@ -25583,8 +25425,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by rsds is not present in dataset or external variables
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -26747,6 +26589,9 @@ The global attribute 'driving_source' is not defined. It is however recommended 
 ",382.0,385.0,0.0,2.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
+",,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/historical/r1i1p1f2/RACMO23E/v1-r1/day/sfcWind/v20241216/sfcWind_EUR-12_CNRM-ESM2-1_historical_r1i1p1f2_KNMI_RACMO23E_v1-r1_day_19510101-19551231.nc,sfcWind,EUR-12,CNRM-ESM2-1,historical,r1i1p1f2,KNMI,RACMO23E,v1-r1,day,v20241216,86.0,88.0,0.0,1.0,0.0,,"The global attribute 'driving_source' is not defined. It is however recommended to include it.
+",,728.0,729.0,0.0,1.0,0.0,,"Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CNRM-MF/CNRM-ESM2-1/ssp126/r1i1p1f2/CNRM-ALADIN64E1/v1-r1/day/sfcWind/v20250328/sfcWind_EUR-12_CNRM-ESM2-1_ssp126_r1i1p1f2_CNRM-MF_CNRM-ALADIN64E1_v1-r1_day_20150101-20151231.nc,sfcWind,EUR-12,CNRM-ESM2-1,ssp126,r1i1p1f2,CNRM-MF,CNRM-ALADIN64E1,v1-r1,day,v20250328,73.0,87.0,7.0,4.0,0.0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'gregorian'. Please use the 'standard' calendar, since the use of the 'gregorian' calendar is deprecated since CF-1.9.
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
@@ -28005,7 +27850,7 @@ global attribute south-north_grid_dimension should begin with a letter and be co
 global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -28404,9 +28249,9 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by sfcWind is not present in dataset or external variables
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""ms-1"" for variable sfcWind must be convertible to canonical units ""m s-1""
+","Units ""ms-1"" for variable sfcWind must be convertible to canonical units ""m s-1""
 Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -29093,9 +28938,9 @@ Bounds variable time_bnds and parent variable time have the following matching a
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
 The Boundary variables 'time_bnds' should not have the attributes: '['calendar', 'units']'
 Cell measure variable areacella referred to by sfcWindmax is not present in dataset or external variables
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units "" ms-1"" for variable sfcWindmax must be convertible to canonical units ""m s-1""
+","Units "" ms-1"" for variable sfcWindmax must be convertible to canonical units ""m s-1""
 Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping variable rotated_pole must exist in this dataset
 ",
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/GERICS/MIROC6/historical/r1i1p1f1/REMO2020-2-2/v1-r1/mon/sfcWindmax/v20250916/sfcWindmax_EUR-12_MIROC6_historical_r1i1p1f1_GERICS_REMO2020-2-2_v1-r1_mon_195001-195912.nc,sfcWindmax,EUR-12,MIROC6,historical,r1i1p1f1,GERICS,REMO2020-2-2,v1-r1,mon,v20250916,86.0,88.0,0.0,2.0,0.0,,"File chunking recommendations: Apart from the first and last files of a timeseries '10' full simulation years are expected in the data file for frequency 'mon'. The last timestep conflicts with this recommendation ('1950-12-16 12:00:00'): '1959-12-16 12:00:00'. 
@@ -29175,8 +29020,8 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",767.0,773.0,2.0,2.0,0.0,,"attribute sfcWindmax:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable x must be convertible to canonical units ""m""
-Units ""degrees"" for variable y must be convertible to canonical units ""m""
+","Units ""degrees"" for variable y must be convertible to canonical units ""m""
+Units ""degrees"" for variable x must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -29472,25 +29317,8 @@ The global attribute 'driving_source' is not defined. It is however recommended 
 ",195.0,197.0,0.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 ",,
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/historical/r1i1p1f2/RACMO23E/v1-r1/fx/sftlf/v20241216/sftlf_EUR-12_CNRM-ESM2-1_historical_r1i1p1f2_KNMI_RACMO23E_v1-r1_fx.nc,sftlf,EUR-12,CNRM-ESM2-1,historical,r1i1p1f2,KNMI,RACMO23E,v1-r1,fx,v20241216,80.0,88.0,3.0,3.0,0.0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
-It is recommended for the variables 'lat' and 'lon' to have bounds defined.
-The global attribute 'driving_source' is not defined. It is however recommended to include it.
-","Global attribute 'Conventions' does not comply with the CV: 'CF-1.10'. Expected value/pattern: 'CF-1.11'.
-Global attribute 'institution_id' does not comply with the CV: 'unset'. Expected value/pattern: 'KNMI'.
-Global attribute 'license' does not comply with the CV: 'CORDEX model data produced by KNMI is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CORDEX output, including citation requirements and proper acknowledgment. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
-Global attribute 'source' does not comply with the CV: 'KNMI Regional Atmospheric Climate MOdel'. Allowed values: 'The KNMI Regional Climate Model RACMO, version 23E (2022)', 'The KNMI Regional Climate Model RACMO, version 23E'.
-Global attribute 'license' does not comply with the CV: 'CORDEX model data produced by KNMI is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CORDEX output, including citation requirements and proper acknowledgment. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
-Global attribute 'tracking_id' does not comply with the CV: 'hdl:21.14100/7401b242-ce9f-4073-b694-437bed3db557'. Expected value/pattern: 'hdl:21.14103/.*'.
-Global attribute 'institution_id' does not comply with the CV: 'unset'. Allowed values: 'AUTH', 'BAS', 'BCCR-UCAN', ...
-Required global attribute 'grid' is missing.
-Required global attribute 'institution_id' is missing.
-The variable attribute 'sftlf:long_name = 'Land Area Fraction' is not equivalent to the value specified in the CMOR table ('Percentage of the Grid Cell Occupied by Land').
-The variable attribute 'sftlf:cell_methods = 'unset' is not equivalent to the value specified in the CMOR table ('area: mean').
-The variable attribute 'sftlf:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
-",196.0,199.0,0.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
-§2.6.2 global attribute history should exist and be a non-empty string
-§2.6.1 Conventions global attribute does not contain ""CF-1.11""
-",,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/historical/r1i1p1f2/RACMO23E/v1-r1/fx/sftlf/v20241216/sftlf_EUR-12_CNRM-ESM2-1_historical_r1i1p1f2_KNMI_RACMO23E_v1-r1_fx.nc,sftlf,EUR-12,CNRM-ESM2-1,historical,r1i1p1f2,KNMI,RACMO23E,v1-r1,fx,v20241216,86.0,88.0,0.0,1.0,0.0,,"The global attribute 'driving_source' is not defined. It is however recommended to include it.
+",,660.0,660.0,0.0,0.0,0.0,,,,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CNRM-MF/CNRM-ESM2-1/ssp126/r1i1p1f2/CNRM-ALADIN64E1/v1-r1/fx/sftlf/v20250328/sftlf_EUR-12_CNRM-ESM2-1_ssp126_r1i1p1f2_CNRM-MF_CNRM-ALADIN64E1_v1-r1_fx.nc,sftlf,EUR-12,CNRM-ESM2-1,ssp126,r1i1p1f2,CNRM-MF,CNRM-ALADIN64E1,v1-r1,fx,v20250328,74.0,87.0,7.0,3.0,0.0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 The global attribute 'driving_source' is not defined. It is however recommended to include it.
 The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -32057,8 +31885,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by snc is not present in dataset or external variables
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -33476,8 +33304,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by snd is not present in dataset or external variables
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -34245,8 +34073,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by snw is not present in dataset or external variables
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -35769,8 +35597,7 @@ Variable time has a calendar attribute of proleptic_gregorian and it is recommen
 ","File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF3_CLASSIC/NETCDF3'.
 Expected time_range '196001010000-196012311800' but found '1960010100-1960123118'.
 The variable attribute 'ta850:long_name = 'Air Temperature' is not equivalent to the value specified in the CMOR table ('Air Temperature at 850hPa').
-The variable attribute 'ta850:cell_methods = 'area: time: mean' is not equivalent to the value specified in the CMOR table ('area: mean time: point').
-",553.0,724.0,0.0,6.0,0.0,,"global attribute institution-ID should begin with a letter and be composed of letters, digits, and underscores
+",554.0,725.0,0.0,6.0,0.0,,"global attribute institution-ID should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable ta850 has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
@@ -36012,7 +35839,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable ta850 has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -36430,28 +36257,9 @@ The global attribute 'driving_source' is not defined. It is however recommended 
 Variable tas has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/historical/r1i1p1f2/RACMO23E/v1-r1/day/tas/v20241216/tas_EUR-12_CNRM-ESM2-1_historical_r1i1p1f2_KNMI_RACMO23E_v1-r1_day_19510101-19551231.nc,tas,EUR-12,CNRM-ESM2-1,historical,r1i1p1f2,KNMI,RACMO23E,v1-r1,day,v20241216,79.0,88.0,4.0,3.0,0.0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
-It is recommended for the variables 'lat' and 'lon' to have bounds defined.
-The global attribute 'driving_source' is not defined. It is however recommended to include it.
-","Global attribute 'Conventions' does not comply with the CV: 'CF-1.10'. Expected value/pattern: 'CF-1.11'.
-Global attribute 'institution_id' does not comply with the CV: 'unset'. Expected value/pattern: 'KNMI'.
-Global attribute 'license' does not comply with the CV: 'CORDEX model data produced by KNMI is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CORDEX output, including citation requirements and proper acknowledgment. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
-Global attribute 'source' does not comply with the CV: 'KNMI Regional Atmospheric Climate MOdel'. Allowed values: 'The KNMI Regional Climate Model RACMO, version 23E (2022)', 'The KNMI Regional Climate Model RACMO, version 23E'.
-Global attribute 'license' does not comply with the CV: 'CORDEX model data produced by KNMI is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CORDEX output, including citation requirements and proper acknowledgment. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
-Global attribute 'tracking_id' does not comply with the CV: 'hdl:21.14100/31eade02-589e-4bd0-b0e4-bc2facce5512'. Expected value/pattern: 'hdl:21.14103/.*'.
-Global attribute 'institution_id' does not comply with the CV: 'unset'. Allowed values: 'AUTH', 'BAS', 'BCCR-UCAN', ...
-Required global attribute 'grid' is missing.
-Required global attribute 'institution_id' is missing.
-Your time axis' 'units' attribute differs from the allowed values ('days since 1950-01-01T00:00:00Z', 'days since 1850-01-01T00:00:00Z' if the pre-1950 era is included in the group's simulations): 'days since 1949-01-01 00:00:00'.
-The variable attribute 'tas:cell_methods = 'time: mean' is not equivalent to the value specified in the CMOR table ('area: time: mean').
-The variable attribute 'tas:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
-",2090.0,2097.0,0.0,4.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
-§2.6.2 global attribute history should exist and be a non-empty string
-§2.6.1 Conventions global attribute does not contain ""CF-1.11""
-Variable tas has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/historical/r1i1p1f2/RACMO23E/v1-r1/day/tas/v20241216/tas_EUR-12_CNRM-ESM2-1_historical_r1i1p1f2_KNMI_RACMO23E_v1-r1_day_19510101-19551231.nc,tas,EUR-12,CNRM-ESM2-1,historical,r1i1p1f2,KNMI,RACMO23E,v1-r1,day,v20241216,86.0,88.0,0.0,1.0,0.0,,"The global attribute 'driving_source' is not defined. It is however recommended to include it.
+",,728.0,730.0,0.0,2.0,0.0,,"Variable tas has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
-'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CNRM-MF/CNRM-ESM2-1/ssp126/r1i1p1f2/CNRM-ALADIN64E1/v1-r1/day/tas/v20250328/tas_EUR-12_CNRM-ESM2-1_ssp126_r1i1p1f2_CNRM-MF_CNRM-ALADIN64E1_v1-r1_day_20150101-20151231.nc,tas,EUR-12,CNRM-ESM2-1,ssp126,r1i1p1f2,CNRM-MF,CNRM-ALADIN64E1,v1-r1,day,v20250328,73.0,87.0,7.0,4.0,0.0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'gregorian'. Please use the 'standard' calendar, since the use of the 'gregorian' calendar is deprecated since CF-1.9.
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
@@ -38096,7 +37904,7 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable tas has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -38494,8 +38302,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 Variable tas has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by tas is not present in dataset or external variables
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -38862,8 +38670,8 @@ The global attribute 'institution' is not compliant with the CV: 'International 
 ",770.0,777.0,2.0,3.0,0.0,,"attribute tas:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable tas has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable x must be convertible to canonical units ""m""
-Units ""degrees"" for variable y must be convertible to canonical units ""m""
+","Units ""degrees"" for variable y must be convertible to canonical units ""m""
+Units ""degrees"" for variable x must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -39278,29 +39086,10 @@ The global attribute 'driving_source' is not defined. It is however recommended 
 Variable tasmax has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/historical/r1i1p1f2/RACMO23E/v1-r1/day/tasmax/v20241216/tasmax_EUR-12_CNRM-ESM2-1_historical_r1i1p1f2_KNMI_RACMO23E_v1-r1_day_19510101-19551231.nc,tasmax,EUR-12,CNRM-ESM2-1,historical,r1i1p1f2,KNMI,RACMO23E,v1-r1,day,v20241216,79.0,88.0,4.0,3.0,0.0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
-It is recommended for the variables 'lat' and 'lon' to have bounds defined.
-The global attribute 'driving_source' is not defined. It is however recommended to include it.
-","Global attribute 'Conventions' does not comply with the CV: 'CF-1.10'. Expected value/pattern: 'CF-1.11'.
-Global attribute 'institution_id' does not comply with the CV: 'unset'. Expected value/pattern: 'KNMI'.
-Global attribute 'license' does not comply with the CV: 'CORDEX model data produced by KNMI is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CORDEX output, including citation requirements and proper acknowledgment. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
-Global attribute 'source' does not comply with the CV: 'KNMI Regional Atmospheric Climate MOdel'. Allowed values: 'The KNMI Regional Climate Model RACMO, version 23E (2022)', 'The KNMI Regional Climate Model RACMO, version 23E'.
-Global attribute 'license' does not comply with the CV: 'CORDEX model data produced by KNMI is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CORDEX output, including citation requirements and proper acknowledgment. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
-Global attribute 'tracking_id' does not comply with the CV: 'hdl:21.14100/f845069a-cdb7-4530-b709-4a7bb252faa2'. Expected value/pattern: 'hdl:21.14103/.*'.
-Global attribute 'institution_id' does not comply with the CV: 'unset'. Allowed values: 'AUTH', 'BAS', 'BCCR-UCAN', ...
-Required global attribute 'grid' is missing.
-Required global attribute 'institution_id' is missing.
-Your time axis' 'units' attribute differs from the allowed values ('days since 1950-01-01T00:00:00Z', 'days since 1850-01-01T00:00:00Z' if the pre-1950 era is included in the group's simulations): 'days since 1949-01-01 00:00:00'.
-The variable attribute 'tasmax:cell_methods = 'time: maximum' is not equivalent to the value specified in the CMOR table ('area: mean time: maximum').
-The variable attribute 'tasmax:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
-The variable attribute 'tasmax:comment' needs to include the specified comment from the CMOR table.
-",2090.0,2097.0,0.0,4.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
-§2.6.2 global attribute history should exist and be a non-empty string
-§2.6.1 Conventions global attribute does not contain ""CF-1.11""
-Variable tasmax has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/historical/r1i1p1f2/RACMO23E/v1-r1/day/tasmax/v20241216/tasmax_EUR-12_CNRM-ESM2-1_historical_r1i1p1f2_KNMI_RACMO23E_v1-r1_day_19510101-19551231.nc,tasmax,EUR-12,CNRM-ESM2-1,historical,r1i1p1f2,KNMI,RACMO23E,v1-r1,day,v20241216,85.0,88.0,1.0,1.0,0.0,,"The global attribute 'driving_source' is not defined. It is however recommended to include it.
+","The variable attribute 'tasmax:comment' needs to include the specified comment from the CMOR table.
+",729.0,731.0,0.0,2.0,0.0,,"Variable tasmax has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
-'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CNRM-MF/CNRM-ESM2-1/ssp126/r1i1p1f2/CNRM-ALADIN64E1/v1-r1/day/tasmax/v20250328/tasmax_EUR-12_CNRM-ESM2-1_ssp126_r1i1p1f2_CNRM-MF_CNRM-ALADIN64E1_v1-r1_day_20150101-20151231.nc,tasmax,EUR-12,CNRM-ESM2-1,ssp126,r1i1p1f2,CNRM-MF,CNRM-ALADIN64E1,v1-r1,day,v20250328,73.0,87.0,7.0,4.0,0.0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'gregorian'. Please use the 'standard' calendar, since the use of the 'gregorian' calendar is deprecated since CF-1.9.
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
@@ -40223,8 +40012,8 @@ Bounds variable time_bnds and parent variable time have the following matching a
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
 The Boundary variables 'time_bnds' should not have the attributes: '['calendar', 'units']'
 Cell measure variable areacella referred to by tasmax is not present in dataset or external variables
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping variable rotated_pole must exist in this dataset
 ",
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/ERA5/evaluation/r1i1p1f1/RACMO23E/v1-r1/day/tasmax/v20241216/tasmax_EUR-12_ERA5_evaluation_r1i1p1f1_KNMI_RACMO23E_v1-r1_day_19800101-19801231.nc,tasmax,EUR-12,ERA5,evaluation,r1i1p1f1,KNMI,RACMO23E,v1-r1,day,v20241216,79.0,88.0,4.0,3.0,0.0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
@@ -40545,8 +40334,8 @@ The global attribute 'institution' is not compliant with the CV: 'International 
 ",767.0,774.0,2.0,3.0,0.0,,"attribute tasmax:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable tasmax has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable x must be convertible to canonical units ""m""
-Units ""degrees"" for variable y must be convertible to canonical units ""m""
+","Units ""degrees"" for variable y must be convertible to canonical units ""m""
+Units ""degrees"" for variable x must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -40939,29 +40728,10 @@ The global attribute 'driving_source' is not defined. It is however recommended 
 Variable tasmin has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/historical/r1i1p1f2/RACMO23E/v1-r1/day/tasmin/v20241216/tasmin_EUR-12_CNRM-ESM2-1_historical_r1i1p1f2_KNMI_RACMO23E_v1-r1_day_19510101-19551231.nc,tasmin,EUR-12,CNRM-ESM2-1,historical,r1i1p1f2,KNMI,RACMO23E,v1-r1,day,v20241216,79.0,88.0,4.0,3.0,0.0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
-It is recommended for the variables 'lat' and 'lon' to have bounds defined.
-The global attribute 'driving_source' is not defined. It is however recommended to include it.
-","Global attribute 'Conventions' does not comply with the CV: 'CF-1.10'. Expected value/pattern: 'CF-1.11'.
-Global attribute 'institution_id' does not comply with the CV: 'unset'. Expected value/pattern: 'KNMI'.
-Global attribute 'license' does not comply with the CV: 'CORDEX model data produced by KNMI is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CORDEX output, including citation requirements and proper acknowledgment. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
-Global attribute 'source' does not comply with the CV: 'KNMI Regional Atmospheric Climate MOdel'. Allowed values: 'The KNMI Regional Climate Model RACMO, version 23E (2022)', 'The KNMI Regional Climate Model RACMO, version 23E'.
-Global attribute 'license' does not comply with the CV: 'CORDEX model data produced by KNMI is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CORDEX output, including citation requirements and proper acknowledgment. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
-Global attribute 'tracking_id' does not comply with the CV: 'hdl:21.14100/6a55887c-3242-495c-91cd-7e17998db357'. Expected value/pattern: 'hdl:21.14103/.*'.
-Global attribute 'institution_id' does not comply with the CV: 'unset'. Allowed values: 'AUTH', 'BAS', 'BCCR-UCAN', ...
-Required global attribute 'grid' is missing.
-Required global attribute 'institution_id' is missing.
-Your time axis' 'units' attribute differs from the allowed values ('days since 1950-01-01T00:00:00Z', 'days since 1850-01-01T00:00:00Z' if the pre-1950 era is included in the group's simulations): 'days since 1949-01-01 00:00:00'.
-The variable attribute 'tasmin:cell_methods = 'time: minimum' is not equivalent to the value specified in the CMOR table ('area: mean time: minimum').
-The variable attribute 'tasmin:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
-The variable attribute 'tasmin:comment' needs to include the specified comment from the CMOR table.
-",2090.0,2097.0,0.0,4.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
-§2.6.2 global attribute history should exist and be a non-empty string
-§2.6.1 Conventions global attribute does not contain ""CF-1.11""
-Variable tasmin has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/historical/r1i1p1f2/RACMO23E/v1-r1/day/tasmin/v20241216/tasmin_EUR-12_CNRM-ESM2-1_historical_r1i1p1f2_KNMI_RACMO23E_v1-r1_day_19510101-19551231.nc,tasmin,EUR-12,CNRM-ESM2-1,historical,r1i1p1f2,KNMI,RACMO23E,v1-r1,day,v20241216,85.0,88.0,1.0,1.0,0.0,,"The global attribute 'driving_source' is not defined. It is however recommended to include it.
+","The variable attribute 'tasmin:comment' needs to include the specified comment from the CMOR table.
+",729.0,731.0,0.0,2.0,0.0,,"Variable tasmin has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
-'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CNRM-MF/CNRM-ESM2-1/ssp126/r1i1p1f2/CNRM-ALADIN64E1/v1-r1/day/tasmin/v20250328/tasmin_EUR-12_CNRM-ESM2-1_ssp126_r1i1p1f2_CNRM-MF_CNRM-ALADIN64E1_v1-r1_day_20150101-20151231.nc,tasmin,EUR-12,CNRM-ESM2-1,ssp126,r1i1p1f2,CNRM-MF,CNRM-ALADIN64E1,v1-r1,day,v20250328,73.0,87.0,7.0,4.0,0.0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'gregorian'. Please use the 'standard' calendar, since the use of the 'gregorian' calendar is deprecated since CF-1.9.
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
@@ -41884,8 +41654,8 @@ Bounds variable time_bnds and parent variable time have the following matching a
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
 The Boundary variables 'time_bnds' should not have the attributes: '['calendar', 'units']'
 Cell measure variable areacella referred to by tasmin is not present in dataset or external variables
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping variable rotated_pole must exist in this dataset
 ",
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/ERA5/evaluation/r1i1p1f1/RACMO23E/v1-r1/day/tasmin/v20241216/tasmin_EUR-12_ERA5_evaluation_r1i1p1f1_KNMI_RACMO23E_v1-r1_day_19800101-19801231.nc,tasmin,EUR-12,ERA5,evaluation,r1i1p1f1,KNMI,RACMO23E,v1-r1,day,v20241216,79.0,88.0,4.0,3.0,0.0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
@@ -42206,8 +41976,8 @@ The global attribute 'institution' is not compliant with the CV: 'International 
 ",767.0,774.0,2.0,3.0,0.0,,"attribute tasmin:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable tasmin has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable x must be convertible to canonical units ""m""
-Units ""degrees"" for variable y must be convertible to canonical units ""m""
+","Units ""degrees"" for variable y must be convertible to canonical units ""m""
+Units ""degrees"" for variable x must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -42850,8 +42620,7 @@ Variable time has a calendar attribute of proleptic_gregorian and it is recommen
 ","File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF3_CLASSIC/NETCDF3'.
 Expected time_range '196001010000-196012311800' but found '1960010100-1960123118'.
 The variable attribute 'ua1000:long_name = 'Eastward Wind' is not equivalent to the value specified in the CMOR table ('Eastward Wind at 1000hPa').
-The variable attribute 'ua1000:cell_methods = 'area: time: mean' is not equivalent to the value specified in the CMOR table ('area: mean time: point').
-",553.0,723.0,0.0,5.0,0.0,,"global attribute institution-ID should begin with a letter and be composed of letters, digits, and underscores
+",554.0,724.0,0.0,5.0,0.0,,"global attribute institution-ID should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 The points specified by the coordinate variable rlon (0.005000000000000143) lie outside the boundary of the cell specified by the associated boundary variable rlon_bnds ([-0.05  0.06])
@@ -43086,7 +42855,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",1742.0,1749.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -43265,8 +43034,8 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",770.0,776.0,2.0,2.0,0.0,,"attribute ua100m:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable x must be convertible to canonical units ""m""
-Units ""degrees"" for variable y must be convertible to canonical units ""m""
+","Units ""degrees"" for variable y must be convertible to canonical units ""m""
+Units ""degrees"" for variable x must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -43435,8 +43204,7 @@ Variable time has a calendar attribute of proleptic_gregorian and it is recommen
 ","File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF3_CLASSIC/NETCDF3'.
 Expected time_range '196001010000-196012311800' but found '1960010100-1960123118'.
 The variable attribute 'ua200:long_name = 'Eastward Wind' is not equivalent to the value specified in the CMOR table ('Eastward Wind at 200hPa').
-The variable attribute 'ua200:cell_methods = 'area: time: mean' is not equivalent to the value specified in the CMOR table ('area: mean time: point').
-",553.0,723.0,0.0,5.0,0.0,,"global attribute institution-ID should begin with a letter and be composed of letters, digits, and underscores
+",554.0,724.0,0.0,5.0,0.0,,"global attribute institution-ID should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 The points specified by the coordinate variable rlon (0.005000000000000143) lie outside the boundary of the cell specified by the associated boundary variable rlon_bnds ([-0.05  0.06])
@@ -43671,7 +43439,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",1742.0,1749.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -43882,8 +43650,7 @@ Variable time has a calendar attribute of proleptic_gregorian and it is recommen
 ","File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF3_CLASSIC/NETCDF3'.
 Expected time_range '196001010000-196012311800' but found '1960010100-1960123118'.
 The variable attribute 'ua250:long_name = 'Eastward Wind' is not equivalent to the value specified in the CMOR table ('Eastward Wind at 250hPa').
-The variable attribute 'ua250:cell_methods = 'area: time: mean' is not equivalent to the value specified in the CMOR table ('area: mean time: point').
-",553.0,723.0,0.0,5.0,0.0,,"global attribute institution-ID should begin with a letter and be composed of letters, digits, and underscores
+",554.0,724.0,0.0,5.0,0.0,,"global attribute institution-ID should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 The points specified by the coordinate variable rlon (0.005000000000000143) lie outside the boundary of the cell specified by the associated boundary variable rlon_bnds ([-0.05  0.06])
@@ -44118,7 +43885,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",1742.0,1749.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -44329,8 +44096,7 @@ Variable time has a calendar attribute of proleptic_gregorian and it is recommen
 ","File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF3_CLASSIC/NETCDF3'.
 Expected time_range '196001010000-196012311800' but found '1960010100-1960123118'.
 The variable attribute 'ua300:long_name = 'Eastward Wind' is not equivalent to the value specified in the CMOR table ('Eastward Wind at 300hPa').
-The variable attribute 'ua300:cell_methods = 'area: time: mean' is not equivalent to the value specified in the CMOR table ('area: mean time: point').
-",553.0,723.0,0.0,5.0,0.0,,"global attribute institution-ID should begin with a letter and be composed of letters, digits, and underscores
+",554.0,724.0,0.0,5.0,0.0,,"global attribute institution-ID should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 The points specified by the coordinate variable rlon (0.005000000000000143) lie outside the boundary of the cell specified by the associated boundary variable rlon_bnds ([-0.05  0.06])
@@ -44555,7 +44321,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",1742.0,1749.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -44766,8 +44532,7 @@ Variable time has a calendar attribute of proleptic_gregorian and it is recommen
 ","File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF3_CLASSIC/NETCDF3'.
 Expected time_range '196001010000-196012311800' but found '1960010100-1960123118'.
 The variable attribute 'ua400:long_name = 'Eastward Wind' is not equivalent to the value specified in the CMOR table ('Eastward Wind at 400hPa').
-The variable attribute 'ua400:cell_methods = 'area: time: mean' is not equivalent to the value specified in the CMOR table ('area: mean time: point').
-",553.0,723.0,0.0,5.0,0.0,,"global attribute institution-ID should begin with a letter and be composed of letters, digits, and underscores
+",554.0,724.0,0.0,5.0,0.0,,"global attribute institution-ID should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 The points specified by the coordinate variable rlon (0.005000000000000143) lie outside the boundary of the cell specified by the associated boundary variable rlon_bnds ([-0.05  0.06])
@@ -45002,7 +44767,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",1742.0,1749.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -45213,8 +44978,7 @@ Variable time has a calendar attribute of proleptic_gregorian and it is recommen
 ","File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF3_CLASSIC/NETCDF3'.
 Expected time_range '196001010000-196012311800' but found '1960010100-1960123118'.
 The variable attribute 'ua500:long_name = 'Eastward Wind' is not equivalent to the value specified in the CMOR table ('Eastward Wind at 500hPa').
-The variable attribute 'ua500:cell_methods = 'area: time: mean' is not equivalent to the value specified in the CMOR table ('area: mean time: point').
-",553.0,723.0,0.0,5.0,0.0,,"global attribute institution-ID should begin with a letter and be composed of letters, digits, and underscores
+",554.0,724.0,0.0,5.0,0.0,,"global attribute institution-ID should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 The points specified by the coordinate variable rlon (0.005000000000000143) lie outside the boundary of the cell specified by the associated boundary variable rlon_bnds ([-0.05  0.06])
@@ -45439,7 +45203,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",1742.0,1749.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -45650,8 +45414,7 @@ Variable time has a calendar attribute of proleptic_gregorian and it is recommen
 ","File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF3_CLASSIC/NETCDF3'.
 Expected time_range '196001010000-196012311800' but found '1960010100-1960123118'.
 The variable attribute 'ua600:long_name = 'Eastward Wind' is not equivalent to the value specified in the CMOR table ('Eastward Wind at 600hPa').
-The variable attribute 'ua600:cell_methods = 'area: time: mean' is not equivalent to the value specified in the CMOR table ('area: mean time: point').
-",553.0,723.0,0.0,5.0,0.0,,"global attribute institution-ID should begin with a letter and be composed of letters, digits, and underscores
+",554.0,724.0,0.0,5.0,0.0,,"global attribute institution-ID should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 The points specified by the coordinate variable rlon (0.005000000000000143) lie outside the boundary of the cell specified by the associated boundary variable rlon_bnds ([-0.05  0.06])
@@ -45886,7 +45649,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",1742.0,1749.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -46323,7 +46086,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",1742.0,1749.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -46770,7 +46533,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",1742.0,1749.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -47217,7 +46980,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",1742.0,1749.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -47361,27 +47124,8 @@ The global attribute 'driving_source' is not defined. It is however recommended 
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/historical/r1i1p1f2/RACMO23E/v1-r1/day/uas/v20241216/uas_EUR-12_CNRM-ESM2-1_historical_r1i1p1f2_KNMI_RACMO23E_v1-r1_day_19510101-19551231.nc,uas,EUR-12,CNRM-ESM2-1,historical,r1i1p1f2,KNMI,RACMO23E,v1-r1,day,v20241216,79.0,88.0,4.0,3.0,0.0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
-It is recommended for the variables 'lat' and 'lon' to have bounds defined.
-The global attribute 'driving_source' is not defined. It is however recommended to include it.
-","Global attribute 'Conventions' does not comply with the CV: 'CF-1.10'. Expected value/pattern: 'CF-1.11'.
-Global attribute 'institution_id' does not comply with the CV: 'unset'. Expected value/pattern: 'KNMI'.
-Global attribute 'license' does not comply with the CV: 'CORDEX model data produced by KNMI is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CORDEX output, including citation requirements and proper acknowledgment. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
-Global attribute 'source' does not comply with the CV: 'KNMI Regional Atmospheric Climate MOdel'. Allowed values: 'The KNMI Regional Climate Model RACMO, version 23E (2022)', 'The KNMI Regional Climate Model RACMO, version 23E'.
-Global attribute 'license' does not comply with the CV: 'CORDEX model data produced by KNMI is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CORDEX output, including citation requirements and proper acknowledgment. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
-Global attribute 'tracking_id' does not comply with the CV: 'hdl:21.14100/7e6ad873-3da3-45eb-beea-c76e7de00344'. Expected value/pattern: 'hdl:21.14103/.*'.
-Global attribute 'institution_id' does not comply with the CV: 'unset'. Allowed values: 'AUTH', 'BAS', 'BCCR-UCAN', ...
-Required global attribute 'grid' is missing.
-Required global attribute 'institution_id' is missing.
-Your time axis' 'units' attribute differs from the allowed values ('days since 1950-01-01T00:00:00Z', 'days since 1850-01-01T00:00:00Z' if the pre-1950 era is included in the group's simulations): 'days since 1949-01-01 00:00:00'.
-The variable attribute 'uas:cell_methods = 'time: mean' is not equivalent to the value specified in the CMOR table ('area: time: mean').
-The variable attribute 'uas:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
-",2090.0,2096.0,0.0,3.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
-§2.6.2 global attribute history should exist and be a non-empty string
-§2.6.1 Conventions global attribute does not contain ""CF-1.11""
-Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
-'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/historical/r1i1p1f2/RACMO23E/v1-r1/day/uas/v20241216/uas_EUR-12_CNRM-ESM2-1_historical_r1i1p1f2_KNMI_RACMO23E_v1-r1_day_19510101-19551231.nc,uas,EUR-12,CNRM-ESM2-1,historical,r1i1p1f2,KNMI,RACMO23E,v1-r1,day,v20241216,86.0,88.0,0.0,1.0,0.0,,"The global attribute 'driving_source' is not defined. It is however recommended to include it.
+",,728.0,729.0,0.0,1.0,0.0,,"Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CNRM-MF/CNRM-ESM2-1/ssp126/r1i1p1f2/CNRM-ALADIN64E1/v1-r1/day/uas/v20250328/uas_EUR-12_CNRM-ESM2-1_ssp126_r1i1p1f2_CNRM-MF_CNRM-ALADIN64E1_v1-r1_day_20150101-20151231.nc,uas,EUR-12,CNRM-ESM2-1,ssp126,r1i1p1f2,CNRM-MF,CNRM-ALADIN64E1,v1-r1,day,v20250328,73.0,87.0,7.0,4.0,0.0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'gregorian'. Please use the 'standard' calendar, since the use of the 'gregorian' calendar is deprecated since CF-1.9.
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
@@ -48865,7 +48609,7 @@ global attribute south-north_grid_dimension should begin with a letter and be co
 global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -49266,8 +49010,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by uas is not present in dataset or external variables
 ","Units ""ms-1"" for variable uas must be convertible to canonical units ""m s-1""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -49586,8 +49330,8 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",767.0,773.0,2.0,2.0,0.0,,"attribute uas:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable x must be convertible to canonical units ""m""
-Units ""degrees"" for variable y must be convertible to canonical units ""m""
+","Units ""degrees"" for variable y must be convertible to canonical units ""m""
+Units ""degrees"" for variable x must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -50183,7 +49927,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",1742.0,1749.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -50362,8 +50106,8 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",770.0,776.0,2.0,2.0,0.0,,"attribute va100m:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable x must be convertible to canonical units ""m""
-Units ""degrees"" for variable y must be convertible to canonical units ""m""
+","Units ""degrees"" for variable y must be convertible to canonical units ""m""
+Units ""degrees"" for variable x must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -50725,7 +50469,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",1742.0,1749.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -51129,7 +50873,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",1742.0,1749.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -51523,7 +51267,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",1742.0,1749.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -51927,7 +51671,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",1742.0,1749.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -52321,7 +52065,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",1742.0,1749.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -52725,7 +52469,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",1742.0,1749.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -53119,7 +52863,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",1742.0,1749.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -53523,7 +53267,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",1742.0,1749.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -53927,7 +53671,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",1742.0,1749.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -54071,27 +53815,8 @@ The global attribute 'driving_source' is not defined. It is however recommended 
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/historical/r1i1p1f2/RACMO23E/v1-r1/day/vas/v20241216/vas_EUR-12_CNRM-ESM2-1_historical_r1i1p1f2_KNMI_RACMO23E_v1-r1_day_19510101-19551231.nc,vas,EUR-12,CNRM-ESM2-1,historical,r1i1p1f2,KNMI,RACMO23E,v1-r1,day,v20241216,79.0,88.0,4.0,3.0,0.0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
-It is recommended for the variables 'lat' and 'lon' to have bounds defined.
-The global attribute 'driving_source' is not defined. It is however recommended to include it.
-","Global attribute 'Conventions' does not comply with the CV: 'CF-1.10'. Expected value/pattern: 'CF-1.11'.
-Global attribute 'institution_id' does not comply with the CV: 'unset'. Expected value/pattern: 'KNMI'.
-Global attribute 'license' does not comply with the CV: 'CORDEX model data produced by KNMI is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CORDEX output, including citation requirements and proper acknowledgment. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
-Global attribute 'source' does not comply with the CV: 'KNMI Regional Atmospheric Climate MOdel'. Allowed values: 'The KNMI Regional Climate Model RACMO, version 23E (2022)', 'The KNMI Regional Climate Model RACMO, version 23E'.
-Global attribute 'license' does not comply with the CV: 'CORDEX model data produced by KNMI is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CORDEX output, including citation requirements and proper acknowledgment. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
-Global attribute 'tracking_id' does not comply with the CV: 'hdl:21.14100/17f168f6-09d5-4f5e-92fc-77983d548a4d'. Expected value/pattern: 'hdl:21.14103/.*'.
-Global attribute 'institution_id' does not comply with the CV: 'unset'. Allowed values: 'AUTH', 'BAS', 'BCCR-UCAN', ...
-Required global attribute 'grid' is missing.
-Required global attribute 'institution_id' is missing.
-Your time axis' 'units' attribute differs from the allowed values ('days since 1950-01-01T00:00:00Z', 'days since 1850-01-01T00:00:00Z' if the pre-1950 era is included in the group's simulations): 'days since 1949-01-01 00:00:00'.
-The variable attribute 'vas:cell_methods = 'time: mean' is not equivalent to the value specified in the CMOR table ('area: time: mean').
-The variable attribute 'vas:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
-",2090.0,2096.0,0.0,3.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
-§2.6.2 global attribute history should exist and be a non-empty string
-§2.6.1 Conventions global attribute does not contain ""CF-1.11""
-Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
-'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/historical/r1i1p1f2/RACMO23E/v1-r1/day/vas/v20241216/vas_EUR-12_CNRM-ESM2-1_historical_r1i1p1f2_KNMI_RACMO23E_v1-r1_day_19510101-19551231.nc,vas,EUR-12,CNRM-ESM2-1,historical,r1i1p1f2,KNMI,RACMO23E,v1-r1,day,v20241216,86.0,88.0,0.0,1.0,0.0,,"The global attribute 'driving_source' is not defined. It is however recommended to include it.
+",,728.0,729.0,0.0,1.0,0.0,,"Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CNRM-MF/CNRM-ESM2-1/ssp126/r1i1p1f2/CNRM-ALADIN64E1/v1-r1/day/vas/v20250328/vas_EUR-12_CNRM-ESM2-1_ssp126_r1i1p1f2_CNRM-MF_CNRM-ALADIN64E1_v1-r1_day_20150101-20151231.nc,vas,EUR-12,CNRM-ESM2-1,ssp126,r1i1p1f2,CNRM-MF,CNRM-ALADIN64E1,v1-r1,day,v20250328,73.0,87.0,7.0,4.0,0.0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'gregorian'. Please use the 'standard' calendar, since the use of the 'gregorian' calendar is deprecated since CF-1.9.
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
@@ -55564,7 +55289,7 @@ global attribute south-north_grid_dimension should begin with a letter and be co
 global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -55965,8 +55690,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by vas is not present in dataset or external variables
 ","Units ""ms-1"" for variable vas must be convertible to canonical units ""m s-1""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -57134,26 +56859,9 @@ The variable attribute 'zg500:cell_measures = 'unset' is not equivalent to the v
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/historical/r1i1p1f2/RACMO23E/v1-r1/day/zg500/v20241216/zg500_EUR-12_CNRM-ESM2-1_historical_r1i1p1f2_KNMI_RACMO23E_v1-r1_day_19510101-19551231.nc,zg500,EUR-12,CNRM-ESM2-1,historical,r1i1p1f2,KNMI,RACMO23E,v1-r1,day,v20241216,79.0,88.0,4.0,3.0,0.0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
-It is recommended for the variables 'lat' and 'lon' to have bounds defined.
-The global attribute 'driving_source' is not defined. It is however recommended to include it.
-","Global attribute 'institution_id' does not comply with the CV: 'unset'. Expected value/pattern: 'KNMI'.
-Global attribute 'license' does not comply with the CV: 'CORDEX model data produced by KNMI is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CORDEX output, including citation requirements and proper acknowledgment. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
-Global attribute 'source' does not comply with the CV: 'KNMI Regional Atmospheric Climate MOdel'. Allowed values: 'The KNMI Regional Climate Model RACMO, version 23E (2022)', 'The KNMI Regional Climate Model RACMO, version 23E'.
-Global attribute 'license' does not comply with the CV: 'CORDEX model data produced by KNMI is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CORDEX output, including citation requirements and proper acknowledgment. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.'. Expected value/pattern: 'https://cordex.org/data-access/cordex-cmip6-data/cordex-cmip6-terms-of-use'.
-Global attribute 'tracking_id' does not comply with the CV: 'hdl:21.14100/291f0014-002b-4666-8e5a-ed8274d5b02b'. Expected value/pattern: 'hdl:21.14103/.*'.
-Global attribute 'institution_id' does not comply with the CV: 'unset'. Allowed values: 'AUTH', 'BAS', 'BCCR-UCAN', ...
-Required global attribute 'grid' is missing.
-Required global attribute 'institution_id' is missing.
-Your time axis' 'units' attribute differs from the allowed values ('days since 1950-01-01T00:00:00Z', 'days since 1850-01-01T00:00:00Z' if the pre-1950 era is included in the group's simulations): 'days since 1949-01-01 00:00:00'.
-The variable attribute 'zg500:long_name = 'Geopotential Height' is not equivalent to the value specified in the CMOR table ('Geopotential Height at 500hPa').
-The variable attribute 'zg500:cell_methods = 'time: mean' is not equivalent to the value specified in the CMOR table ('area: time: mean').
-The variable attribute 'zg500:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
-",2090.0,2095.0,0.0,3.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
-§2.6.2 global attribute history should exist and be a non-empty string
-Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
-'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/CNRM-ESM2-1/historical/r1i1p1f2/RACMO23E/v1-r1/day/zg500/v20241216/zg500_EUR-12_CNRM-ESM2-1_historical_r1i1p1f2_KNMI_RACMO23E_v1-r1_day_19510101-19551231.nc,zg500,EUR-12,CNRM-ESM2-1,historical,r1i1p1f2,KNMI,RACMO23E,v1-r1,day,v20241216,85.0,88.0,1.0,1.0,0.0,,"The global attribute 'driving_source' is not defined. It is however recommended to include it.
+","The variable attribute 'zg500:long_name = 'Geopotential Height' is not equivalent to the value specified in the CMOR table ('Geopotential Height at 500hPa').
+",727.0,728.0,0.0,1.0,0.0,,"Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CNRM-MF/CNRM-ESM2-1/ssp126/r1i1p1f2/CNRM-ALADIN64E1/v1-r1/day/zg500/v20250328/zg500_EUR-12_CNRM-ESM2-1_ssp126_r1i1p1f2_CNRM-MF_CNRM-ALADIN64E1_v1-r1_day_20150101-20151231.nc,zg500,EUR-12,CNRM-ESM2-1,ssp126,r1i1p1f2,CNRM-MF,CNRM-ALADIN64E1,v1-r1,day,v20250328,73.0,87.0,7.0,4.0,0.0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'gregorian'. Please use the 'standard' calendar, since the use of the 'gregorian' calendar is deprecated since CF-1.9.
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
@@ -58857,7 +58565,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",1742.0,1749.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
