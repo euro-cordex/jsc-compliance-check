@@ -51,6 +51,8 @@ prios = {
     "cc6": ["low_priorities", "medium_priorities", "high_priorities"],
 }
 
+catalog_url = "https://euro-cordex.s3.eu-central-1.amazonaws.com/catalog/CORDEX-CMIP6-JSC.csv"
+
 cols = ["scored_points", "possible_points", "high_count", "medium_count", "low_count"]
 
 id_attrs = [
@@ -608,7 +610,7 @@ def main():
     """
     os.makedirs(report_dir, exist_ok=True)
     filenames = collect_files(
-        "https://raw.githubusercontent.com/euro-cordex/joint-evaluation/refs/heads/main/catalog.csv"
+        catalog_url
     )  # [0:100]
     failed_files = test_open_dataset(filenames)
     cc_data = compliance_check(
