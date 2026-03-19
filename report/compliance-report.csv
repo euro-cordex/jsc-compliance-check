@@ -1552,8 +1552,8 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",742.0,748.0,2.0,2.0,0.0,,"attribute clt:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable y must be convertible to canonical units ""m""
-Units ""degrees"" for variable x must be convertible to canonical units ""m""
+","Units ""degrees"" for variable x must be convertible to canonical units ""m""
+Units ""degrees"" for variable y must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -3139,8 +3139,8 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",739.0,745.0,2.0,2.0,0.0,,"attribute evspsbl:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable y must be convertible to canonical units ""m""
-Units ""degrees"" for variable x must be convertible to canonical units ""m""
+","Units ""degrees"" for variable x must be convertible to canonical units ""m""
+Units ""degrees"" for variable y must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -5347,8 +5347,8 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",770.0,776.0,2.0,2.0,0.0,,"attribute hurs:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable y must be convertible to canonical units ""m""
-Units ""degrees"" for variable x must be convertible to canonical units ""m""
+","Units ""degrees"" for variable x must be convertible to canonical units ""m""
+Units ""degrees"" for variable y must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -9740,8 +9740,8 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",770.0,776.0,2.0,2.0,0.0,,"attribute huss:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable y must be convertible to canonical units ""m""
-Units ""degrees"" for variable x must be convertible to canonical units ""m""
+","Units ""degrees"" for variable x must be convertible to canonical units ""m""
+Units ""degrees"" for variable y must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -11607,8 +11607,8 @@ The global attribute 'references' is not specified. It is however recommended. T
 ","DRS filename building block 'source_id' does not comply with the CV: 'HadREM3-GA7-01'. Allowed values: 'ALARO1-SFX', 'BARPA-R1-NN', 'CCAM-v2105', ...
 Value for DRS building block 'source_id' is not consistent between 'file name' and 'file path' and 'global attributes': 'HadREM3-GA7-01' and 'HadREM3-GA7-05' and 'HadREM3-GA7-01'.
 File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF4/HDF5'.
-The coordinate variable 'grid_longitude' must be of double precision with the data type 'float64' / 'double'.
 The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
+The coordinate variable 'grid_longitude' must be of double precision with the data type 'float64' / 'double'.
 Both, 'missing_value' and '_FillValue' have to be set for variable 'orog'.
 The variable attributes '_FillValue' and/or 'missing_value' differ from the requested value '1e+20'.
 (Coordinate) variable(s) grid_latitude, grid_longitude, latitude, longitude is/are not part of the CV or not compliant with the CF-Conventions.
@@ -16209,6 +16209,37 @@ Variable time has a calendar attribute of standard and it is recommended that th
 ","pr's coordinate variable ""grid_latitude"" is not one of the variables identifying true latitude/longitude and its dimensions are not a subset of pr's dimensions
 pr's coordinate variable ""grid_longitude"" is not one of the variables identifying true latitude/longitude and its dimensions are not a subset of pr's dimensions
 ",
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/MOHC/ERA5/evaluation/r1i1p1f1/HadREM3-GA7-05/v1-r1/mon/pr/v20260318/pr_EUR-12_ERA5_evaluation_r1i1p1f1_MOHC_HadREM3-GA7-05_v1-r1_mon_198001-198012.nc,pr,EUR-12,ERA5,evaluation,r1i1p1f1,MOHC,HadREM3-GA7-05,v1-r1,mon,v20260318,67.0,87.0,10.0,5.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+The global attribute 'driving_source' is not defined. It is however recommended to include it.
+The global attribute 'references' is not specified. It is however recommended. The attribute 'references' should include published or web-based references that describe the data, model or methods used.
+","File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF4/HDF5'.
+The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
+The coordinate variable 'grid_longitude' must be of double precision with the data type 'float64' / 'double'.
+Both, 'missing_value' and '_FillValue' have to be set for variable 'pr'.
+(Coordinate) variable(s) grid_latitude, grid_longitude, latitude, longitude is/are not part of the CV or not compliant with the CF-Conventions.
+Global attribute 'driving_experiment' does not comply with the CV: 'reanalysis simulation'. Expected value/pattern: 'reanalysis simulation of the recent past'.
+Global attribute 'Conventions' does not comply with the CV: 'CF-1.7'. Expected value/pattern: 'CF-1.11'.
+Global attribute 'tracking_id' does not comply with the CV: 'unset'. Expected value/pattern: 'hdl:21.14103/.*'.
+Required global attribute 'contact' is missing.
+Required global attribute 'creation_date' is missing.
+Required global attribute 'tracking_id' is missing.
+Required global attribute 'variable_id' is missing.
+Your time axis' 'units' attribute differs from the allowed values ('days since 1950-01-01T00:00:00Z', 'days since 1850-01-01T00:00:00Z' if the pre-1950 era is included in the group's simulations): 'hours since 1970-01-01 00:00:00'.
+The coordinate variable 'lon' for dimension / coordinate 'longitude' of the variable 'pr' cannot be found in the data file.
+The coordinate variable 'lat' for dimension / coordinate 'latitude' of the variable 'pr' cannot be found in the data file.
+The variable attribute 'pr:cell_methods = 'time: mean (interval: 1 hour)' is not equivalent to the value specified in the CMOR table ('area: time: mean').
+The variable attribute 'pr:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
+The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat' and 'rlon' to be present in the file defining the native coordinate system used by the RCM.
+The global attribute 'institution' is not compliant with the CV: 'Met Office Hadley Centre' instead of 'Met Office Hadley Centre, Exeter, UK'.
+",214.0,220.0,1.0,2.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
+§2.6.2 global attribute history should exist and be a non-empty string
+§2.6.1 Conventions global attribute does not contain ""CF-1.11""
+Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
+","pr's coordinate variable ""grid_latitude"" is not one of the variables identifying true latitude/longitude and its dimensions are not a subset of pr's dimensions
+pr's coordinate variable ""grid_longitude"" is not one of the variables identifying true latitude/longitude and its dimensions are not a subset of pr's dimensions
+",
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/RMIB-UGent/ERA5/evaluation/r1i1p1f1/ALARO1-SFX/v1-r1/1hr/pr/v20241009/pr_EUR-12_ERA5_evaluation_r1i1p1f1_RMIB-UGent_ALARO1-SFX_v1-r1_1hr_1980010100-1981010100.nc,pr,EUR-12,ERA5,evaluation,r1i1p1f1,RMIB-UGent,ALARO1-SFX,v1-r1,1hr,v20241009,76.0,87.0,6.0,4.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data. The 'shuffle' option is disabled.
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -16522,8 +16553,8 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",742.0,748.0,2.0,2.0,0.0,,"attribute pr:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable y must be convertible to canonical units ""m""
-Units ""degrees"" for variable x must be convertible to canonical units ""m""
+","Units ""degrees"" for variable x must be convertible to canonical units ""m""
+Units ""degrees"" for variable y must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -17959,8 +17990,8 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",742.0,748.0,2.0,2.0,0.0,,"attribute ps:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable y must be convertible to canonical units ""m""
-Units ""degrees"" for variable x must be convertible to canonical units ""m""
+","Units ""degrees"" for variable x must be convertible to canonical units ""m""
+Units ""degrees"" for variable y must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -19693,6 +19724,38 @@ Variable time has a calendar attribute of standard and it is recommended that th
 ","psl's coordinate variable ""grid_latitude"" is not one of the variables identifying true latitude/longitude and its dimensions are not a subset of psl's dimensions
 psl's coordinate variable ""grid_longitude"" is not one of the variables identifying true latitude/longitude and its dimensions are not a subset of psl's dimensions
 ",
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/MOHC/ERA5/evaluation/r1i1p1f1/HadREM3-GA7-05/v1-r1/mon/psl/v20260318/psl_EUR-12_ERA5_evaluation_r1i1p1f1_MOHC_HadREM3-GA7-05_v1-r1_mon_198001-198012.nc,psl,EUR-12,ERA5,evaluation,r1i1p1f1,MOHC,HadREM3-GA7-05,v1-r1,mon,v20260318,67.0,87.0,10.0,5.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+The global attribute 'driving_source' is not defined. It is however recommended to include it.
+The global attribute 'references' is not specified. It is however recommended. The attribute 'references' should include published or web-based references that describe the data, model or methods used.
+","File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF4/HDF5'.
+The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
+The coordinate variable 'grid_longitude' must be of double precision with the data type 'float64' / 'double'.
+Both, 'missing_value' and '_FillValue' have to be set for variable 'psl'.
+(Coordinate) variable(s) grid_latitude, grid_longitude, latitude, longitude is/are not part of the CV or not compliant with the CF-Conventions.
+Global attribute 'driving_experiment' does not comply with the CV: 'reanalysis simulation'. Expected value/pattern: 'reanalysis simulation of the recent past'.
+Global attribute 'Conventions' does not comply with the CV: 'CF-1.7'. Expected value/pattern: 'CF-1.11'.
+Global attribute 'tracking_id' does not comply with the CV: 'unset'. Expected value/pattern: 'hdl:21.14103/.*'.
+Required global attribute 'contact' is missing.
+Required global attribute 'creation_date' is missing.
+Required global attribute 'tracking_id' is missing.
+Required global attribute 'variable_id' is missing.
+Your time axis' 'units' attribute differs from the allowed values ('days since 1950-01-01T00:00:00Z', 'days since 1850-01-01T00:00:00Z' if the pre-1950 era is included in the group's simulations): 'hours since 1970-01-01 00:00:00'.
+The coordinate variable 'lon' for dimension / coordinate 'longitude' of the variable 'psl' cannot be found in the data file.
+The coordinate variable 'lat' for dimension / coordinate 'latitude' of the variable 'psl' cannot be found in the data file.
+The variable attribute 'psl:standard_name = 'air_pressure_at_sea_level' is not equivalent to the value specified in the CMOR table ('air_pressure_at_mean_sea_level').
+The variable attribute 'psl:cell_methods = 'time: mean (interval: 6 hour)' is not equivalent to the value specified in the CMOR table ('area: time: mean').
+The variable attribute 'psl:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
+The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat' and 'rlon' to be present in the file defining the native coordinate system used by the RCM.
+The global attribute 'institution' is not compliant with the CV: 'Met Office Hadley Centre' instead of 'Met Office Hadley Centre, Exeter, UK'.
+",214.0,220.0,1.0,2.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
+§2.6.2 global attribute history should exist and be a non-empty string
+§2.6.1 Conventions global attribute does not contain ""CF-1.11""
+Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
+","psl's coordinate variable ""grid_latitude"" is not one of the variables identifying true latitude/longitude and its dimensions are not a subset of psl's dimensions
+psl's coordinate variable ""grid_longitude"" is not one of the variables identifying true latitude/longitude and its dimensions are not a subset of psl's dimensions
+",
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/RMIB-UGent/ERA5/evaluation/r1i1p1f1/ALARO1-SFX/v1-r1/day/psl/v20241009/psl_EUR-12_ERA5_evaluation_r1i1p1f1_RMIB-UGent_ALARO1-SFX_v1-r1_day_19800101-19801231.nc,psl,EUR-12,ERA5,evaluation,r1i1p1f1,RMIB-UGent,ALARO1-SFX,v1-r1,day,v20241009,78.0,87.0,4.0,4.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data. The 'shuffle' option is disabled.
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -19989,8 +20052,8 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",742.0,748.0,2.0,2.0,0.0,,"attribute psl:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable y must be convertible to canonical units ""m""
-Units ""degrees"" for variable x must be convertible to canonical units ""m""
+","Units ""degrees"" for variable x must be convertible to canonical units ""m""
+Units ""degrees"" for variable y must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -21914,8 +21977,8 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",739.0,745.0,2.0,2.0,0.0,,"attribute rlds:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable y must be convertible to canonical units ""m""
-Units ""degrees"" for variable x must be convertible to canonical units ""m""
+","Units ""degrees"" for variable x must be convertible to canonical units ""m""
+Units ""degrees"" for variable y must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -24174,8 +24237,8 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",742.0,748.0,2.0,2.0,0.0,,"attribute rsds:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable y must be convertible to canonical units ""m""
-Units ""degrees"" for variable x must be convertible to canonical units ""m""
+","Units ""degrees"" for variable x must be convertible to canonical units ""m""
+Units ""degrees"" for variable y must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -26843,8 +26906,8 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",742.0,748.0,2.0,2.0,0.0,,"attribute sfcWind:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable y must be convertible to canonical units ""m""
-Units ""degrees"" for variable x must be convertible to canonical units ""m""
+","Units ""degrees"" for variable x must be convertible to canonical units ""m""
+Units ""degrees"" for variable y must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -27562,8 +27625,8 @@ Bounds variable time_bnds and parent variable time have the following matching a
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
 The Boundary variables 'time_bnds' should not have the attributes: '['calendar', 'units']'
 Cell measure variable areacella referred to by sfcWindmax is not present in dataset or external variables
-","Units "" ms-1"" for variable sfcWindmax must be convertible to canonical units ""m s-1""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units "" ms-1"" for variable sfcWindmax must be convertible to canonical units ""m s-1""
 Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
@@ -27643,8 +27706,8 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",767.0,773.0,2.0,2.0,0.0,,"attribute sfcWindmax:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable y must be convertible to canonical units ""m""
-Units ""degrees"" for variable x must be convertible to canonical units ""m""
+","Units ""degrees"" for variable x must be convertible to canonical units ""m""
+Units ""degrees"" for variable y must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -28449,8 +28512,8 @@ No 'time_range' element could be inferred from filename.
 The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat' and 'rlon' to be present in the file defining the native coordinate system used by the RCM.
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",331.0,336.0,2.0,1.0,0.0,,"attribute sftlf:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
-","Units ""degrees"" for variable y must be convertible to canonical units ""m""
-Units ""degrees"" for variable x must be convertible to canonical units ""m""
+","Units ""degrees"" for variable x must be convertible to canonical units ""m""
+Units ""degrees"" for variable y must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -28535,8 +28598,8 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",329.0,335.0,2.0,2.0,0.0,,"attribute sftlf:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable y must be convertible to canonical units ""m""
-Units ""degrees"" for variable x must be convertible to canonical units ""m""
+","Units ""degrees"" for variable x must be convertible to canonical units ""m""
+Units ""degrees"" for variable y must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -28707,8 +28770,8 @@ The global attribute 'references' is not specified. It is however recommended. T
 ","DRS filename building block 'source_id' does not comply with the CV: 'HadREM3-GA7-01'. Allowed values: 'ALARO1-SFX', 'BARPA-R1-NN', 'CCAM-v2105', ...
 Value for DRS building block 'source_id' is not consistent between 'file name' and 'file path' and 'global attributes': 'HadREM3-GA7-01' and 'HadREM3-GA7-05' and 'HadREM3-GA7-01'.
 File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF4/HDF5'.
-The coordinate variable 'grid_longitude' must be of double precision with the data type 'float64' / 'double'.
 The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
+The coordinate variable 'grid_longitude' must be of double precision with the data type 'float64' / 'double'.
 The main variable 'sftlf' must be of single precision with the data type 'float32' / 'float'.
 Both, 'missing_value' and '_FillValue' have to be set for variable 'sftlf'.
 (Coordinate) variable(s) grid_latitude, grid_longitude, latitude, longitude is/are not part of the CV or not compliant with the CF-Conventions.
@@ -28866,8 +28929,8 @@ No 'time_range' element could be inferred from filename.
 The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat' and 'rlon' to be present in the file defining the native coordinate system used by the RCM.
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",331.0,336.0,2.0,1.0,0.0,,"attribute sftlf:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
-","Units ""degrees"" for variable y must be convertible to canonical units ""m""
-Units ""degrees"" for variable x must be convertible to canonical units ""m""
+","Units ""degrees"" for variable x must be convertible to canonical units ""m""
+Units ""degrees"" for variable y must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -28931,8 +28994,8 @@ No 'time_range' element could be inferred from filename.
 The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat' and 'rlon' to be present in the file defining the native coordinate system used by the RCM.
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",331.0,336.0,2.0,1.0,0.0,,"attribute sftlf:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
-","Units ""degrees"" for variable y must be convertible to canonical units ""m""
-Units ""degrees"" for variable x must be convertible to canonical units ""m""
+","Units ""degrees"" for variable x must be convertible to canonical units ""m""
+Units ""degrees"" for variable y must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -29039,9 +29102,9 @@ It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bou
 It is recommended for the variables 'lat' and 'lon' to have bounds defined.
 The global attribute 'driving_source' is not defined. It is however recommended to include it.
 ","File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF4/HDF5'.
-The coordinate variable 'lat' must be of double precision with the data type 'float64' / 'double'.
-The coordinate variable 'rlon' must be of double precision with the data type 'float64' / 'double'.
 The coordinate variable 'lon' must be of double precision with the data type 'float64' / 'double'.
+The coordinate variable 'rlon' must be of double precision with the data type 'float64' / 'double'.
+The coordinate variable 'lat' must be of double precision with the data type 'float64' / 'double'.
 The coordinate variable 'rlat' must be of double precision with the data type 'float64' / 'double'.
 The variable attributes '_FillValue' and 'missing_value' differ for variable 'sfturf': '1.0000000200408773e+20' and '1e+20', respectively.
 The variable attributes '_FillValue' and 'missing_value' have different dtypes: 'float32' and 'float64', respectively.
@@ -29165,8 +29228,8 @@ The global attribute 'references' is not specified. It is however recommended. T
 ","DRS filename building block 'source_id' does not comply with the CV: 'HadREM3-GA7-01'. Allowed values: 'ALARO1-SFX', 'BARPA-R1-NN', 'CCAM-v2105', ...
 Value for DRS building block 'source_id' is not consistent between 'file name' and 'file path' and 'global attributes': 'HadREM3-GA7-01' and 'HadREM3-GA7-05' and 'HadREM3-GA7-01'.
 File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF4/HDF5'.
-The coordinate variable 'grid_longitude' must be of double precision with the data type 'float64' / 'double'.
 The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
+The coordinate variable 'grid_longitude' must be of double precision with the data type 'float64' / 'double'.
 Both, 'missing_value' and '_FillValue' have to be set for variable 'sfturf'.
 The variable attributes '_FillValue' and/or 'missing_value' differ from the requested value '1e+20'.
 (Coordinate) variable(s) grid_latitude, grid_longitude, latitude, longitude is/are not part of the CV or not compliant with the CF-Conventions.
@@ -34304,7 +34367,7 @@ Global attribute 'version_realization' is missing.
 ",259.0,263.0,1.0,2.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable tas has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
-","dimensions for auxiliary coordinate variable height (height) are not a subset of dimensions for variable tas (rlon, rlat, time)
+","dimensions for auxiliary coordinate variable height (height) are not a subset of dimensions for variable tas (rlon, time, rlat)
 ",
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/TASK-IMWM/CMCC-CM2-SR5/historical/r1i1p1f1/WRF451Q/v1-r1/day/tas/v20240806/tas_EUR-12f_CMCC-CM2-SR5_historical_r1i1p1f1_TASK-IMWM_WRF451Q_v1-r1_day_19510101-19511231.nc,tas,EUR-12f,CMCC-CM2-SR5,historical,r1i1p1f1,TASK-IMWM,WRF451Q,v1-r1,day,v20240806,69.0,87.0,8.0,7.0,0.0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): '365_day'. The use of another calendar is OK in case it has been inherited from the driving model.
 It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
@@ -36465,6 +36528,39 @@ Variable time has a calendar attribute of standard and it is recommended that th
 ","tas's coordinate variable ""grid_latitude"" is not one of the variables identifying true latitude/longitude and its dimensions are not a subset of tas's dimensions
 tas's coordinate variable ""grid_longitude"" is not one of the variables identifying true latitude/longitude and its dimensions are not a subset of tas's dimensions
 ",
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/MOHC/ERA5/evaluation/r1i1p1f1/HadREM3-GA7-05/v1-r1/mon/tas/v20260318/tas_EUR-12_ERA5_evaluation_r1i1p1f1_MOHC_HadREM3-GA7-05_v1-r1_mon_198001-198012.nc,tas,EUR-12,ERA5,evaluation,r1i1p1f1,MOHC,HadREM3-GA7-05,v1-r1,mon,v20260318,67.0,87.0,10.0,5.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+The global attribute 'driving_source' is not defined. It is however recommended to include it.
+The global attribute 'references' is not specified. It is however recommended. The attribute 'references' should include published or web-based references that describe the data, model or methods used.
+","File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF4/HDF5'.
+The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
+The coordinate variable 'grid_longitude' must be of double precision with the data type 'float64' / 'double'.
+Both, 'missing_value' and '_FillValue' have to be set for variable 'tas'.
+(Coordinate) variable(s) grid_latitude, grid_longitude, latitude, longitude is/are not part of the CV or not compliant with the CF-Conventions.
+Global attribute 'driving_experiment' does not comply with the CV: 'reanalysis simulation'. Expected value/pattern: 'reanalysis simulation of the recent past'.
+Global attribute 'Conventions' does not comply with the CV: 'CF-1.7'. Expected value/pattern: 'CF-1.11'.
+Global attribute 'tracking_id' does not comply with the CV: 'unset'. Expected value/pattern: 'hdl:21.14103/.*'.
+Required global attribute 'contact' is missing.
+Required global attribute 'creation_date' is missing.
+Required global attribute 'tracking_id' is missing.
+Required global attribute 'variable_id' is missing.
+Your time axis' 'units' attribute differs from the allowed values ('days since 1950-01-01T00:00:00Z', 'days since 1850-01-01T00:00:00Z' if the pre-1950 era is included in the group's simulations): 'hours since 1970-01-01 00:00:00'.
+The coordinate variable 'lon' for dimension / coordinate 'longitude' of the variable 'tas' cannot be found in the data file.
+The coordinate variable 'lat' for dimension / coordinate 'latitude' of the variable 'tas' cannot be found in the data file.
+The coordinate variable 'height' of the variable 'tas' needs to have the value '2.0', but has the value '1.5'.
+The variable attribute 'tas:cell_methods = 'time: mean (interval: 6 hour)' is not equivalent to the value specified in the CMOR table ('area: time: mean').
+The variable attribute 'tas:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
+The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat' and 'rlon' to be present in the file defining the native coordinate system used by the RCM.
+The global attribute 'institution' is not compliant with the CV: 'Met Office Hadley Centre' instead of 'Met Office Hadley Centre, Exeter, UK'.
+",237.0,244.0,1.0,3.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
+§2.6.2 global attribute history should exist and be a non-empty string
+§2.6.1 Conventions global attribute does not contain ""CF-1.11""
+Variable tas has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
+Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
+","tas's coordinate variable ""grid_latitude"" is not one of the variables identifying true latitude/longitude and its dimensions are not a subset of tas's dimensions
+tas's coordinate variable ""grid_longitude"" is not one of the variables identifying true latitude/longitude and its dimensions are not a subset of tas's dimensions
+",
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/RMIB-UGent/ERA5/evaluation/r1i1p1f1/ALARO1-SFX/v1-r1/1hr/tas/v20241009/tas_EUR-12_ERA5_evaluation_r1i1p1f1_RMIB-UGent_ALARO1-SFX_v1-r1_1hr_1980010100-1980123123.nc,tas,EUR-12,ERA5,evaluation,r1i1p1f1,RMIB-UGent,ALARO1-SFX,v1-r1,1hr,v20241009,77.0,87.0,5.0,4.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data. The 'shuffle' option is disabled.
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -36803,8 +36899,8 @@ The global attribute 'institution' is not compliant with the CV: 'International 
 ",770.0,777.0,2.0,3.0,0.0,,"attribute tas:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable tas has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable y must be convertible to canonical units ""m""
-Units ""degrees"" for variable x must be convertible to canonical units ""m""
+","Units ""degrees"" for variable x must be convertible to canonical units ""m""
+Units ""degrees"" for variable y must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -38596,6 +38692,39 @@ Variable time has a calendar attribute of standard and it is recommended that th
 ","tasmax's coordinate variable ""grid_latitude"" is not one of the variables identifying true latitude/longitude and its dimensions are not a subset of tasmax's dimensions
 tasmax's coordinate variable ""grid_longitude"" is not one of the variables identifying true latitude/longitude and its dimensions are not a subset of tasmax's dimensions
 ",
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/MOHC/ERA5/evaluation/r1i1p1f1/HadREM3-GA7-05/v1-r1/mon/tasmax/v20260318/tasmax_EUR-12_ERA5_evaluation_r1i1p1f1_MOHC_HadREM3-GA7-05_v1-r1_mon_198001-198012.nc,tasmax,EUR-12,ERA5,evaluation,r1i1p1f1,MOHC,HadREM3-GA7-05,v1-r1,mon,v20260318,67.0,87.0,10.0,5.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+The global attribute 'driving_source' is not defined. It is however recommended to include it.
+The global attribute 'references' is not specified. It is however recommended. The attribute 'references' should include published or web-based references that describe the data, model or methods used.
+","File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF4/HDF5'.
+The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
+The coordinate variable 'grid_longitude' must be of double precision with the data type 'float64' / 'double'.
+Both, 'missing_value' and '_FillValue' have to be set for variable 'tasmax'.
+(Coordinate) variable(s) grid_latitude, grid_longitude, latitude, longitude is/are not part of the CV or not compliant with the CF-Conventions.
+Global attribute 'driving_experiment' does not comply with the CV: 'reanalysis simulation'. Expected value/pattern: 'reanalysis simulation of the recent past'.
+Global attribute 'Conventions' does not comply with the CV: 'CF-1.7'. Expected value/pattern: 'CF-1.11'.
+Global attribute 'tracking_id' does not comply with the CV: 'unset'. Expected value/pattern: 'hdl:21.14103/.*'.
+Required global attribute 'contact' is missing.
+Required global attribute 'creation_date' is missing.
+Required global attribute 'tracking_id' is missing.
+Required global attribute 'variable_id' is missing.
+Your time axis' 'units' attribute differs from the allowed values ('days since 1950-01-01T00:00:00Z', 'days since 1850-01-01T00:00:00Z' if the pre-1950 era is included in the group's simulations): 'hours since 1970-01-01 00:00:00'.
+The coordinate variable 'lon' for dimension / coordinate 'longitude' of the variable 'tasmax' cannot be found in the data file.
+The coordinate variable 'lat' for dimension / coordinate 'latitude' of the variable 'tasmax' cannot be found in the data file.
+The coordinate variable 'height' of the variable 'tasmax' needs to have the value '2.0', but has the value '1.5'.
+The variable attribute 'tasmax:cell_methods = 'unset' is not equivalent to the value specified in the CMOR table ('area: mean time: maximum within days time: mean over days').
+The variable attribute 'tasmax:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
+The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat' and 'rlon' to be present in the file defining the native coordinate system used by the RCM.
+The global attribute 'institution' is not compliant with the CV: 'Met Office Hadley Centre' instead of 'Met Office Hadley Centre, Exeter, UK'.
+",231.0,238.0,1.0,3.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
+§2.6.2 global attribute history should exist and be a non-empty string
+§2.6.1 Conventions global attribute does not contain ""CF-1.11""
+Variable tasmax has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
+Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
+","tasmax's coordinate variable ""grid_latitude"" is not one of the variables identifying true latitude/longitude and its dimensions are not a subset of tasmax's dimensions
+tasmax's coordinate variable ""grid_longitude"" is not one of the variables identifying true latitude/longitude and its dimensions are not a subset of tasmax's dimensions
+",
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/RMIB-UGent/ERA5/evaluation/r1i1p1f1/ALARO1-SFX/v1-r1/day/tasmax/v20241009/tasmax_EUR-12_ERA5_evaluation_r1i1p1f1_RMIB-UGent_ALARO1-SFX_v1-r1_day_19800101-19801231.nc,tasmax,EUR-12,ERA5,evaluation,r1i1p1f1,RMIB-UGent,ALARO1-SFX,v1-r1,day,v20241009,78.0,87.0,4.0,4.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data. The 'shuffle' option is disabled.
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -38884,8 +39013,8 @@ The global attribute 'institution' is not compliant with the CV: 'International 
 ",767.0,774.0,2.0,3.0,0.0,,"attribute tasmax:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable tasmax has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable y must be convertible to canonical units ""m""
-Units ""degrees"" for variable x must be convertible to canonical units ""m""
+","Units ""degrees"" for variable x must be convertible to canonical units ""m""
+Units ""degrees"" for variable y must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -40621,6 +40750,39 @@ Variable time has a calendar attribute of standard and it is recommended that th
 ","tasmin's coordinate variable ""grid_latitude"" is not one of the variables identifying true latitude/longitude and its dimensions are not a subset of tasmin's dimensions
 tasmin's coordinate variable ""grid_longitude"" is not one of the variables identifying true latitude/longitude and its dimensions are not a subset of tasmin's dimensions
 ",
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/MOHC/ERA5/evaluation/r1i1p1f1/HadREM3-GA7-05/v1-r1/mon/tasmin/v20260318/tasmin_EUR-12_ERA5_evaluation_r1i1p1f1_MOHC_HadREM3-GA7-05_v1-r1_mon_198001-198012.nc,tasmin,EUR-12,ERA5,evaluation,r1i1p1f1,MOHC,HadREM3-GA7-05,v1-r1,mon,v20260318,67.0,87.0,10.0,5.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+The global attribute 'driving_source' is not defined. It is however recommended to include it.
+The global attribute 'references' is not specified. It is however recommended. The attribute 'references' should include published or web-based references that describe the data, model or methods used.
+","File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF4/HDF5'.
+The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
+The coordinate variable 'grid_longitude' must be of double precision with the data type 'float64' / 'double'.
+Both, 'missing_value' and '_FillValue' have to be set for variable 'tasmin'.
+(Coordinate) variable(s) grid_latitude, grid_longitude, latitude, longitude is/are not part of the CV or not compliant with the CF-Conventions.
+Global attribute 'driving_experiment' does not comply with the CV: 'reanalysis simulation'. Expected value/pattern: 'reanalysis simulation of the recent past'.
+Global attribute 'Conventions' does not comply with the CV: 'CF-1.7'. Expected value/pattern: 'CF-1.11'.
+Global attribute 'tracking_id' does not comply with the CV: 'unset'. Expected value/pattern: 'hdl:21.14103/.*'.
+Required global attribute 'contact' is missing.
+Required global attribute 'creation_date' is missing.
+Required global attribute 'tracking_id' is missing.
+Required global attribute 'variable_id' is missing.
+Your time axis' 'units' attribute differs from the allowed values ('days since 1950-01-01T00:00:00Z', 'days since 1850-01-01T00:00:00Z' if the pre-1950 era is included in the group's simulations): 'hours since 1970-01-01 00:00:00'.
+The coordinate variable 'lon' for dimension / coordinate 'longitude' of the variable 'tasmin' cannot be found in the data file.
+The coordinate variable 'lat' for dimension / coordinate 'latitude' of the variable 'tasmin' cannot be found in the data file.
+The coordinate variable 'height' of the variable 'tasmin' needs to have the value '2.0', but has the value '1.5'.
+The variable attribute 'tasmin:cell_methods = 'unset' is not equivalent to the value specified in the CMOR table ('area: mean time: minimum within days time: mean over days').
+The variable attribute 'tasmin:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
+The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat' and 'rlon' to be present in the file defining the native coordinate system used by the RCM.
+The global attribute 'institution' is not compliant with the CV: 'Met Office Hadley Centre' instead of 'Met Office Hadley Centre, Exeter, UK'.
+",231.0,238.0,1.0,3.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
+§2.6.2 global attribute history should exist and be a non-empty string
+§2.6.1 Conventions global attribute does not contain ""CF-1.11""
+Variable tasmin has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
+Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
+","tasmin's coordinate variable ""grid_latitude"" is not one of the variables identifying true latitude/longitude and its dimensions are not a subset of tasmin's dimensions
+tasmin's coordinate variable ""grid_longitude"" is not one of the variables identifying true latitude/longitude and its dimensions are not a subset of tasmin's dimensions
+",
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/RMIB-UGent/ERA5/evaluation/r1i1p1f1/ALARO1-SFX/v1-r1/day/tasmin/v20241009/tasmin_EUR-12_ERA5_evaluation_r1i1p1f1_RMIB-UGent_ALARO1-SFX_v1-r1_day_19800101-19801231.nc,tasmin,EUR-12,ERA5,evaluation,r1i1p1f1,RMIB-UGent,ALARO1-SFX,v1-r1,day,v20241009,78.0,87.0,4.0,4.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data. The 'shuffle' option is disabled.
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -40909,8 +41071,8 @@ The global attribute 'institution' is not compliant with the CV: 'International 
 ",767.0,774.0,2.0,3.0,0.0,,"attribute tasmin:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable tasmin has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable y must be convertible to canonical units ""m""
-Units ""degrees"" for variable x must be convertible to canonical units ""m""
+","Units ""degrees"" for variable x must be convertible to canonical units ""m""
+Units ""degrees"" for variable y must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -42179,8 +42341,8 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",770.0,776.0,2.0,2.0,0.0,,"attribute ua100m:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable y must be convertible to canonical units ""m""
-Units ""degrees"" for variable x must be convertible to canonical units ""m""
+","Units ""degrees"" for variable x must be convertible to canonical units ""m""
+Units ""degrees"" for variable y must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -46055,8 +46217,8 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",767.0,773.0,2.0,2.0,0.0,,"attribute uas:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable y must be convertible to canonical units ""m""
-Units ""degrees"" for variable x must be convertible to canonical units ""m""
+","Units ""degrees"" for variable x must be convertible to canonical units ""m""
+Units ""degrees"" for variable y must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -47088,8 +47250,8 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",770.0,776.0,2.0,2.0,0.0,,"attribute va100m:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable y must be convertible to canonical units ""m""
-Units ""degrees"" for variable x must be convertible to canonical units ""m""
+","Units ""degrees"" for variable x must be convertible to canonical units ""m""
+Units ""degrees"" for variable y must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -50511,8 +50673,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by vas is not present in dataset or external variables
-","Units ""ms-1"" for variable vas must be convertible to canonical units ""m s-1""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""ms-1"" for variable vas must be convertible to canonical units ""m s-1""
 Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
@@ -50553,8 +50715,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by vas is not present in dataset or external variables
-","Units ""ms-1"" for variable vas must be convertible to canonical units ""m s-1""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""ms-1"" for variable vas must be convertible to canonical units ""m s-1""
 Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
