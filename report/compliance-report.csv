@@ -611,6 +611,14 @@ The global attribute 'driving_source' is not defined. It is however recommended 
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/EC-Earth3-Veg/ssp585/r1i1p1f1/RACMO23E/v1-r1/day/clt/v20241216/clt_EUR-12_EC-Earth3-Veg_ssp585_r1i1p1f1_KNMI_RACMO23E_v1-r1_day_20150101-20151231.nc,clt,EUR-12,EC-Earth3-Veg,ssp585,r1i1p1f1,KNMI,RACMO23E,v1-r1,day,v20241216,293.0,294.0,0.0,1.0,0.0,,"Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,86.0,88.0,0.0,1.0,0.0,,"The global attribute 'driving_source' is not defined. It is however recommended to include it.
 ",,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/day/clt/v20260602/clt_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_day_19800101-19801231.nc,clt,EUR-12,ERA5,evaluation,r1i1p1f1,AUTH,WRF451Q,v1-r3,day,v20260602,250.0,250.0,0.0,0.0,0.0,,,,81.0,88.0,0.0,6.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
+File chunking recommendations: Apart from the first and last files of a timeseries '5' full simulation years are expected in the data file for frequency 'day'. The first timestep conflicts with this recommendation ('1980-01-01 12:00:00'): '1980-01-01 12:30:00'. 
+File chunking recommendations: Apart from the first and last files of a timeseries '5' full simulation years are expected in the data file for frequency 'day'. The last timestep conflicts with this recommendation ('1980-12-31 12:00:00'): '1980-12-31 12:30:00'. 
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+The global attribute 'driving_source' is not defined. It is however recommended to include it.
+The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
+",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/mon/clt/v20250630/clt_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_mon_198001-198012.nc,clt,EUR-12,ERA5,evaluation,r1i1p1f1,AUTH,WRF451Q,v1-r3,mon,v20250630,242.0,244.0,0.0,2.0,0.0,,"§2.6.1 Conventions global attribute does not contain ""CF-1.11""
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,72.0,87.0,8.0,5.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
@@ -3759,6 +3767,14 @@ The global attribute 'driving_source' is not defined. It is however recommended 
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/EC-Earth3-Veg/ssp585/r1i1p1f1/RACMO23E/v1-r1/day/evspsbl/v20241216/evspsbl_EUR-12_EC-Earth3-Veg_ssp585_r1i1p1f1_KNMI_RACMO23E_v1-r1_day_20150101-20151231.nc,evspsbl,EUR-12,EC-Earth3-Veg,ssp585,r1i1p1f1,KNMI,RACMO23E,v1-r1,day,v20241216,293.0,294.0,0.0,1.0,0.0,,"Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,86.0,88.0,0.0,1.0,0.0,,"The global attribute 'driving_source' is not defined. It is however recommended to include it.
 ",,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/day/evspsbl/v20260602/evspsbl_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_day_19800101-19801231.nc,evspsbl,EUR-12,ERA5,evaluation,r1i1p1f1,AUTH,WRF451Q,v1-r3,day,v20260602,250.0,250.0,0.0,0.0,0.0,,,,81.0,88.0,0.0,6.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
+File chunking recommendations: Apart from the first and last files of a timeseries '5' full simulation years are expected in the data file for frequency 'day'. The first timestep conflicts with this recommendation ('1980-01-01 12:00:00'): '1980-01-01 12:30:00'. 
+File chunking recommendations: Apart from the first and last files of a timeseries '5' full simulation years are expected in the data file for frequency 'day'. The last timestep conflicts with this recommendation ('1980-12-31 12:00:00'): '1980-12-31 12:30:00'. 
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+The global attribute 'driving_source' is not defined. It is however recommended to include it.
+The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
+",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/mon/evspsbl/v20250630/evspsbl_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_mon_198001-198012.nc,evspsbl,EUR-12,ERA5,evaluation,r1i1p1f1,AUTH,WRF451Q,v1-r3,mon,v20250630,242.0,244.0,0.0,2.0,0.0,,"§2.6.1 Conventions global attribute does not contain ""CF-1.11""
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,72.0,87.0,8.0,5.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
@@ -5370,14 +5386,11 @@ The grid_mapping label 'rotated_pole' needs to be either 'crs' or equal to the g
 The grid_mapping variable 'rotated_pole' needs to include information regarding the shape and size of the Earth used for the model grid. See 'CF-1.11 Appendix F' of the CF-Conventions for further information.
 The global attribute 'institution' is not compliant with the CV: 'Aristotle University of Thessaloniki, Dept. of Meteorology & Climatology, Thessaloniki, Greece' instead of 'Department of Meteorology and Climatology, Aristotle University of Thessaloniki, Thessaloniki, Greece'.
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CESAM-UA/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r2/1hr/hurs/v20250630/hurs_EUR-12_ERA5_evaluation_r1i1p1f1_CESAM-UA_WRF451Q_v1-r2_1hr_198001010000-198012312300.nc,hurs,EUR-12,ERA5,evaluation,r1i1p1f1,CESAM-UA,WRF451Q,v1-r2,1hr,v20250630,255.0,259.0,0.0,3.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
-§2.6.2 global attribute history should exist and be a non-empty string
-Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Cell measure variable areacella referred to by hurs is not present in dataset or external variables
-",,83.0,88.0,0.0,4.0,0.0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/day/hurs/v20260602/hurs_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_day_19800101-19801231.nc,hurs,EUR-12,ERA5,evaluation,r1i1p1f1,AUTH,WRF451Q,v1-r3,day,v20260602,274.0,274.0,0.0,0.0,0.0,,,,82.0,88.0,0.0,5.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 It is recommended for the variables 'lat' and 'lon' to have bounds defined.
 The global attribute 'driving_source' is not defined. It is however recommended to include it.
-The global attribute 'references' is not specified. It is however recommended. The attribute 'references' should include published or web-based references that describe the data, model or methods used.
+The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CESAM-UA/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r2/day/hurs/v20250630/hurs_EUR-12_ERA5_evaluation_r1i1p1f1_CESAM-UA_WRF451Q_v1-r2_day_19800101-19801231.nc,hurs,EUR-12,ERA5,evaluation,r1i1p1f1,CESAM-UA,WRF451Q,v1-r2,day,v20250630,263.0,267.0,0.0,3.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
@@ -12637,6 +12650,12 @@ The global attribute 'driving_source' is not defined. It is however recommended 
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/EC-Earth3-Veg/ssp585/r1i1p1f1/RACMO23E/v1-r1/day/huss/v20241216/huss_EUR-12_EC-Earth3-Veg_ssp585_r1i1p1f1_KNMI_RACMO23E_v1-r1_day_20150101-20151231.nc,huss,EUR-12,EC-Earth3-Veg,ssp585,r1i1p1f1,KNMI,RACMO23E,v1-r1,day,v20241216,321.0,322.0,0.0,1.0,0.0,,"Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,86.0,88.0,0.0,1.0,0.0,,"The global attribute 'driving_source' is not defined. It is however recommended to include it.
 ",,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/day/huss/v20260602/huss_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_day_19800101-19801231.nc,huss,EUR-12,ERA5,evaluation,r1i1p1f1,AUTH,WRF451Q,v1-r3,day,v20260602,274.0,274.0,0.0,0.0,0.0,,,,82.0,88.0,0.0,5.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+The global attribute 'driving_source' is not defined. It is however recommended to include it.
+The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
+",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CESAM-UA/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r2/day/huss/v20250630/huss_EUR-12_ERA5_evaluation_r1i1p1f1_CESAM-UA_WRF451Q_v1-r2_day_19800101-19801231.nc,huss,EUR-12,ERA5,evaluation,r1i1p1f1,CESAM-UA,WRF451Q,v1-r2,day,v20250630,263.0,267.0,0.0,3.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
@@ -16589,8 +16608,8 @@ The global attribute 'references' is not specified. It is however recommended. T
 ","DRS filename building block 'source_id' does not comply with the CV: 'HadREM3-GA7-01'. Allowed values: 'ALARO1-SFX', 'BARPA-R1-NN', 'CCAM-v2105', ...
 Value for DRS building block 'source_id' is not consistent between 'file name' and 'file path' and 'global attributes': 'HadREM3-GA7-01' and 'HadREM3-GA7-05' and 'HadREM3-GA7-01'.
 File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF4/HDF5'.
-The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
 The coordinate variable 'grid_longitude' must be of double precision with the data type 'float64' / 'double'.
+The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
 Both, 'missing_value' and '_FillValue' have to be set for variable 'orog'.
 The variable attributes '_FillValue' and/or 'missing_value' differ from the requested value '1e+20'.
 (Coordinate) variable(s) grid_latitude, grid_longitude, latitude, longitude is/are not part of the CV or not compliant with the CF-Conventions.
@@ -20310,6 +20329,14 @@ The grid_mapping label 'rotated_pole' needs to be either 'crs' or equal to the g
 The grid_mapping variable 'rotated_pole' needs to include information regarding the shape and size of the Earth used for the model grid. See 'CF-1.11 Appendix F' of the CF-Conventions for further information.
 The global attribute 'institution' is not compliant with the CV: 'Aristotle University of Thessaloniki, Dept. of Meteorology & Climatology, Thessaloniki, Greece' instead of 'Department of Meteorology and Climatology, Aristotle University of Thessaloniki, Thessaloniki, Greece'.
 ",
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/day/pr/v20260602/pr_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_day_19800101-19801231.nc,pr,EUR-12,ERA5,evaluation,r1i1p1f1,AUTH,WRF451Q,v1-r3,day,v20260602,250.0,250.0,0.0,0.0,0.0,,,,81.0,88.0,0.0,6.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
+File chunking recommendations: Apart from the first and last files of a timeseries '5' full simulation years are expected in the data file for frequency 'day'. The first timestep conflicts with this recommendation ('1980-01-01 12:00:00'): '1980-01-01 12:30:00'. 
+File chunking recommendations: Apart from the first and last files of a timeseries '5' full simulation years are expected in the data file for frequency 'day'. The last timestep conflicts with this recommendation ('1980-12-31 12:00:00'): '1980-12-31 12:30:00'. 
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+The global attribute 'driving_source' is not defined. It is however recommended to include it.
+The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
+",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/mon/pr/v20250630/pr_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_mon_198001-198012.nc,pr,EUR-12,ERA5,evaluation,r1i1p1f1,AUTH,WRF451Q,v1-r3,mon,v20250630,242.0,244.0,0.0,2.0,0.0,,"§2.6.1 Conventions global attribute does not contain ""CF-1.11""
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,72.0,87.0,8.0,5.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
@@ -20861,8 +20888,8 @@ The global attribute 'references' is not specified. It is however recommended. T
 ","DRS filename building block 'source_id' does not comply with the CV: 'HadREM3-GA7-01'. Allowed values: 'ALARO1-SFX', 'BARPA-R1-NN', 'CCAM-v2105', ...
 Value for DRS building block 'source_id' is not consistent between 'file name' and 'file path' and 'global attributes': 'HadREM3-GA7-01' and 'HadREM3-GA7-05' and 'HadREM3-GA7-01'.
 File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF4/HDF5'.
-The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
 The coordinate variable 'grid_longitude' must be of double precision with the data type 'float64' / 'double'.
+The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
 Both, 'missing_value' and '_FillValue' have to be set for variable 'pr'.
 (Coordinate) variable(s) grid_latitude, grid_longitude, latitude, longitude is/are not part of the CV or not compliant with the CF-Conventions.
 Global attribute 'driving_experiment' does not comply with the CV: 'reanalysis simulation'. Expected value/pattern: 'reanalysis simulation of the recent past'.
@@ -20894,8 +20921,8 @@ It is recommended for the variables 'lat' and 'lon' to have bounds defined.
 The global attribute 'driving_source' is not defined. It is however recommended to include it.
 The global attribute 'references' is not specified. It is however recommended. The attribute 'references' should include published or web-based references that describe the data, model or methods used.
 ","File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF4/HDF5'.
-The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
 The coordinate variable 'grid_longitude' must be of double precision with the data type 'float64' / 'double'.
+The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
 Both, 'missing_value' and '_FillValue' have to be set for variable 'pr'.
 (Coordinate) variable(s) grid_latitude, grid_longitude, latitude, longitude is/are not part of the CV or not compliant with the CF-Conventions.
 Global attribute 'driving_experiment' does not comply with the CV: 'reanalysis simulation'. Expected value/pattern: 'reanalysis simulation of the recent past'.
@@ -22051,15 +22078,6 @@ The variable attribute 'prw:cell_measures = 'unset' is not equivalent to the val
 The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat' and 'rlon' to be present in the file defining the native coordinate system used by the RCM.
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CESAM-UA/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r2/1hr/prw/v20250630/prw_EUR-12_ERA5_evaluation_r1i1p1f1_CESAM-UA_WRF451Q_v1-r2_1hr_198001010000-198012312300.nc,prw,EUR-12,ERA5,evaluation,r1i1p1f1,CESAM-UA,WRF451Q,v1-r2,1hr,v20250630,227.0,231.0,0.0,3.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
-§2.6.2 global attribute history should exist and be a non-empty string
-Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Cell measure variable areacella referred to by prw is not present in dataset or external variables
-",,83.0,88.0,0.0,4.0,0.0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
-It is recommended for the variables 'lat' and 'lon' to have bounds defined.
-The global attribute 'driving_source' is not defined. It is however recommended to include it.
-The global attribute 'references' is not specified. It is however recommended. The attribute 'references' should include published or web-based references that describe the data, model or methods used.
-",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CLMcom-CMCC/ERA5/evaluation/r1i1p1f1/CCLM6-0-1-URB/v1-r1/1hr/prw/v20250201/prw_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-CMCC_CCLM6-0-1-URB_v1-r1_1hr_198001010000-198012312300.nc,prw,EUR-12,ERA5,evaluation,r1i1p1f1,CLMcom-CMCC,CCLM6-0-1-URB,v1-r1,1hr,v20250201,226.0,229.0,0.0,2.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
@@ -25126,6 +25144,12 @@ The grid_mapping label 'rotated_pole' needs to be either 'crs' or equal to the g
 The grid_mapping variable 'rotated_pole' needs to include information regarding the shape and size of the Earth used for the model grid. See 'CF-1.11 Appendix F' of the CF-Conventions for further information.
 The global attribute 'institution' is not compliant with the CV: 'Aristotle University of Thessaloniki, Dept. of Meteorology & Climatology, Thessaloniki, Greece' instead of 'Department of Meteorology and Climatology, Aristotle University of Thessaloniki, Thessaloniki, Greece'.
 ",
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/day/psl/v20260602/psl_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_day_19800101-19801231.nc,psl,EUR-12,ERA5,evaluation,r1i1p1f1,AUTH,WRF451Q,v1-r3,day,v20260602,250.0,250.0,0.0,0.0,0.0,,,,82.0,88.0,0.0,5.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+The global attribute 'driving_source' is not defined. It is however recommended to include it.
+The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
+",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/mon/psl/v20250630/psl_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_mon_198001-198012.nc,psl,EUR-12,ERA5,evaluation,r1i1p1f1,AUTH,WRF451Q,v1-r3,mon,v20250630,242.0,244.0,0.0,2.0,0.0,,"§2.6.1 Conventions global attribute does not contain ""CF-1.11""
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,71.0,87.0,8.0,6.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
@@ -25162,15 +25186,6 @@ The grid_mapping label 'rotated_pole' needs to be either 'crs' or equal to the g
 The grid_mapping variable 'rotated_pole' needs to include information regarding the shape and size of the Earth used for the model grid. See 'CF-1.11 Appendix F' of the CF-Conventions for further information.
 The global attribute 'institution' is not compliant with the CV: 'Aristotle University of Thessaloniki, Dept. of Meteorology & Climatology, Thessaloniki, Greece' instead of 'Department of Meteorology and Climatology, Aristotle University of Thessaloniki, Thessaloniki, Greece'.
 ",
-/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CESAM-UA/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r2/1hr/psl/v20250630/psl_EUR-12_ERA5_evaluation_r1i1p1f1_CESAM-UA_WRF451Q_v1-r2_1hr_198001010000-198012312300.nc,psl,EUR-12,ERA5,evaluation,r1i1p1f1,CESAM-UA,WRF451Q,v1-r2,1hr,v20250630,229.0,233.0,0.0,3.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
-§2.6.2 global attribute history should exist and be a non-empty string
-Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Cell measure variable areacella referred to by psl is not present in dataset or external variables
-",,83.0,88.0,0.0,4.0,0.0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
-It is recommended for the variables 'lat' and 'lon' to have bounds defined.
-The global attribute 'driving_source' is not defined. It is however recommended to include it.
-The global attribute 'references' is not specified. It is however recommended. The attribute 'references' should include published or web-based references that describe the data, model or methods used.
-",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CESAM-UA/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r2/day/psl/v20250630/psl_EUR-12_ERA5_evaluation_r1i1p1f1_CESAM-UA_WRF451Q_v1-r2_day_19800101-19801231.nc,psl,EUR-12,ERA5,evaluation,r1i1p1f1,CESAM-UA,WRF451Q,v1-r2,day,v20250630,235.0,239.0,0.0,3.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
@@ -25979,8 +25994,8 @@ The global attribute 'references' is not specified. It is however recommended. T
 ","DRS filename building block 'source_id' does not comply with the CV: 'HadREM3-GA7-01'. Allowed values: 'ALARO1-SFX', 'BARPA-R1-NN', 'CCAM-v2105', ...
 Value for DRS building block 'source_id' is not consistent between 'file name' and 'file path' and 'global attributes': 'HadREM3-GA7-01' and 'HadREM3-GA7-05' and 'HadREM3-GA7-01'.
 File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF4/HDF5'.
-The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
 The coordinate variable 'grid_longitude' must be of double precision with the data type 'float64' / 'double'.
+The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
 Both, 'missing_value' and '_FillValue' have to be set for variable 'psl'.
 (Coordinate) variable(s) grid_latitude, grid_longitude, latitude, longitude is/are not part of the CV or not compliant with the CF-Conventions.
 Global attribute 'driving_experiment' does not comply with the CV: 'reanalysis simulation'. Expected value/pattern: 'reanalysis simulation of the recent past'.
@@ -26013,8 +26028,8 @@ It is recommended for the variables 'lat' and 'lon' to have bounds defined.
 The global attribute 'driving_source' is not defined. It is however recommended to include it.
 The global attribute 'references' is not specified. It is however recommended. The attribute 'references' should include published or web-based references that describe the data, model or methods used.
 ","File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF4/HDF5'.
-The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
 The coordinate variable 'grid_longitude' must be of double precision with the data type 'float64' / 'double'.
+The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
 Both, 'missing_value' and '_FillValue' have to be set for variable 'psl'.
 (Coordinate) variable(s) grid_latitude, grid_longitude, latitude, longitude is/are not part of the CV or not compliant with the CF-Conventions.
 Global attribute 'driving_experiment' does not comply with the CV: 'reanalysis simulation'. Expected value/pattern: 'reanalysis simulation of the recent past'.
@@ -28427,6 +28442,14 @@ The global attribute 'driving_source' is not defined. It is however recommended 
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/EC-Earth3-Veg/ssp585/r1i1p1f1/RACMO23E/v1-r1/day/rlds/v20241216/rlds_EUR-12_EC-Earth3-Veg_ssp585_r1i1p1f1_KNMI_RACMO23E_v1-r1_day_20150101-20151231.nc,rlds,EUR-12,EC-Earth3-Veg,ssp585,r1i1p1f1,KNMI,RACMO23E,v1-r1,day,v20241216,294.0,295.0,0.0,1.0,0.0,,"Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,86.0,88.0,0.0,1.0,0.0,,"The global attribute 'driving_source' is not defined. It is however recommended to include it.
 ",,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/day/rlds/v20260602/rlds_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_day_19800101-19801231.nc,rlds,EUR-12,ERA5,evaluation,r1i1p1f1,AUTH,WRF451Q,v1-r3,day,v20260602,250.0,250.0,0.0,0.0,0.0,,,,81.0,88.0,0.0,6.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
+File chunking recommendations: Apart from the first and last files of a timeseries '5' full simulation years are expected in the data file for frequency 'day'. The first timestep conflicts with this recommendation ('1980-01-01 12:00:00'): '1980-01-01 12:30:00'. 
+File chunking recommendations: Apart from the first and last files of a timeseries '5' full simulation years are expected in the data file for frequency 'day'. The last timestep conflicts with this recommendation ('1980-12-31 12:00:00'): '1980-12-31 12:30:00'. 
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+The global attribute 'driving_source' is not defined. It is however recommended to include it.
+The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
+",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/mon/rlds/v20250630/rlds_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_mon_198001-198012.nc,rlds,EUR-12,ERA5,evaluation,r1i1p1f1,AUTH,WRF451Q,v1-r3,mon,v20250630,242.0,244.0,0.0,2.0,0.0,,"§2.6.1 Conventions global attribute does not contain ""CF-1.11""
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,72.0,87.0,8.0,5.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
@@ -30422,6 +30445,14 @@ The grid_mapping label 'rotated_pole' needs to be either 'crs' or equal to the g
 The grid_mapping variable 'rotated_pole' needs to include information regarding the shape and size of the Earth used for the model grid. See 'CF-1.11 Appendix F' of the CF-Conventions for further information.
 The global attribute 'institution' is not compliant with the CV: 'Aristotle University of Thessaloniki, Dept. of Meteorology & Climatology, Thessaloniki, Greece' instead of 'Department of Meteorology and Climatology, Aristotle University of Thessaloniki, Thessaloniki, Greece'.
 ",
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/day/rsds/v20260602/rsds_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_day_19800101-19801231.nc,rsds,EUR-12,ERA5,evaluation,r1i1p1f1,AUTH,WRF451Q,v1-r3,day,v20260602,250.0,250.0,0.0,0.0,0.0,,,,81.0,88.0,0.0,6.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
+File chunking recommendations: Apart from the first and last files of a timeseries '5' full simulation years are expected in the data file for frequency 'day'. The first timestep conflicts with this recommendation ('1980-01-01 12:00:00'): '1980-01-01 12:30:00'. 
+File chunking recommendations: Apart from the first and last files of a timeseries '5' full simulation years are expected in the data file for frequency 'day'. The last timestep conflicts with this recommendation ('1980-12-31 12:00:00'): '1980-12-31 12:30:00'. 
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+The global attribute 'driving_source' is not defined. It is however recommended to include it.
+The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
+",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/mon/rsds/v20250630/rsds_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_mon_198001-198012.nc,rsds,EUR-12,ERA5,evaluation,r1i1p1f1,AUTH,WRF451Q,v1-r3,mon,v20250630,242.0,244.0,0.0,2.0,0.0,,"§2.6.1 Conventions global attribute does not contain ""CF-1.11""
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,72.0,87.0,8.0,5.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
@@ -34113,6 +34144,12 @@ The grid_mapping label 'rotated_pole' needs to be either 'crs' or equal to the g
 The grid_mapping variable 'rotated_pole' needs to include information regarding the shape and size of the Earth used for the model grid. See 'CF-1.11 Appendix F' of the CF-Conventions for further information.
 The global attribute 'institution' is not compliant with the CV: 'Aristotle University of Thessaloniki, Dept. of Meteorology & Climatology, Thessaloniki, Greece' instead of 'Department of Meteorology and Climatology, Aristotle University of Thessaloniki, Thessaloniki, Greece'.
 ",
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/day/sfcWind/v20260602/sfcWind_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_day_19800101-19801231.nc,sfcWind,EUR-12,ERA5,evaluation,r1i1p1f1,AUTH,WRF451Q,v1-r3,day,v20260602,274.0,274.0,0.0,0.0,0.0,,,,82.0,88.0,0.0,5.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+The global attribute 'driving_source' is not defined. It is however recommended to include it.
+The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
+",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/mon/sfcWind/v20250630/sfcWind_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_mon_198001-198012.nc,sfcWind,EUR-12,ERA5,evaluation,r1i1p1f1,AUTH,WRF451Q,v1-r3,mon,v20250630,242.0,244.0,0.0,2.0,0.0,,"§2.6.1 Conventions global attribute does not contain ""CF-1.11""
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,71.0,87.0,8.0,6.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
@@ -37221,8 +37258,8 @@ Bounds variable time_bnds and parent variable time have the following matching a
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
 The Boundary variables 'time_bnds' should not have the attributes: '['calendar', 'units']'
 Cell measure variable areacella referred to by sfcWindmax is not present in dataset or external variables
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units "" ms-1"" for variable sfcWindmax must be convertible to canonical units ""m s-1""
+","Units "" ms-1"" for variable sfcWindmax must be convertible to canonical units ""m s-1""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
@@ -38822,8 +38859,8 @@ The Boundary variables 'vertices_lon' should not have the attributes: '['units',
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/historical/r1i1p1f1/WRF451Q/v1-r1/fx/sftlaf/v20240801/sftlaf_EUR-12_NorESM2-MM_historical_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_fx.nc,sftlaf,EUR-12,NorESM2-MM,historical,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,fx,v20240801,180.0,188.0,3.0,2.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 sftlaf's cell_methods name component time does not match a dimension, area or auxiliary coordinate
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 standard_name lake_area_fraction is not defined in Standard Name Table v93. Possible close match(es): ['land_area_fraction', 'sea_area_fraction', 'land_ice_area_fraction']
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
@@ -38845,8 +38882,8 @@ Global attribute 'version_realization' is missing.
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp126/r1i1p1f1/WRF451Q/v1-r1/fx/sftlaf/v20240806/sftlaf_EUR-12_NorESM2-MM_ssp126_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_fx.nc,sftlaf,EUR-12,NorESM2-MM,ssp126,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,fx,v20240806,180.0,188.0,3.0,2.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 sftlaf's cell_methods name component time does not match a dimension, area or auxiliary coordinate
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 standard_name lake_area_fraction is not defined in Standard Name Table v93. Possible close match(es): ['land_area_fraction', 'sea_area_fraction', 'land_ice_area_fraction']
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
@@ -38867,8 +38904,8 @@ Global attribute 'version_realization' is missing.
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp370/r1i1p1f1/WRF451Q/v1-r1/fx/sftlaf/v20240801/sftlaf_EUR-12_NorESM2-MM_ssp370_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_fx.nc,sftlaf,EUR-12,NorESM2-MM,ssp370,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,fx,v20240801,180.0,188.0,3.0,2.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 sftlaf's cell_methods name component time does not match a dimension, area or auxiliary coordinate
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 standard_name lake_area_fraction is not defined in Standard Name Table v93. Possible close match(es): ['land_area_fraction', 'sea_area_fraction', 'land_ice_area_fraction']
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
@@ -39330,8 +39367,8 @@ The global attribute 'references' is not specified. It is however recommended. T
 ","DRS filename building block 'source_id' does not comply with the CV: 'HadREM3-GA7-01'. Allowed values: 'ALARO1-SFX', 'BARPA-R1-NN', 'CCAM-v2105', ...
 Value for DRS building block 'source_id' is not consistent between 'file name' and 'file path' and 'global attributes': 'HadREM3-GA7-01' and 'HadREM3-GA7-05' and 'HadREM3-GA7-01'.
 File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF4/HDF5'.
-The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
 The coordinate variable 'grid_longitude' must be of double precision with the data type 'float64' / 'double'.
+The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
 The main variable 'sftlf' must be of single precision with the data type 'float32' / 'float'.
 Both, 'missing_value' and '_FillValue' have to be set for variable 'sftlf'.
 (Coordinate) variable(s) grid_latitude, grid_longitude, latitude, longitude is/are not part of the CV or not compliant with the CF-Conventions.
@@ -39868,8 +39905,8 @@ The global attribute 'references' is not specified. It is however recommended. T
 ","DRS filename building block 'source_id' does not comply with the CV: 'HadREM3-GA7-01'. Allowed values: 'ALARO1-SFX', 'BARPA-R1-NN', 'CCAM-v2105', ...
 Value for DRS building block 'source_id' is not consistent between 'file name' and 'file path' and 'global attributes': 'HadREM3-GA7-01' and 'HadREM3-GA7-05' and 'HadREM3-GA7-01'.
 File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF4/HDF5'.
-The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
 The coordinate variable 'grid_longitude' must be of double precision with the data type 'float64' / 'double'.
+The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
 Both, 'missing_value' and '_FillValue' have to be set for variable 'sfturf'.
 The variable attributes '_FillValue' and/or 'missing_value' differ from the requested value '1e+20'.
 (Coordinate) variable(s) grid_latitude, grid_longitude, latitude, longitude is/are not part of the CV or not compliant with the CF-Conventions.
@@ -40144,6 +40181,12 @@ The Boundary variables 'vertices_lat' should not have the attributes: '['units',
 The Boundary variables 'vertices_lon' should not have the attributes: '['units', 'missing_value', '_FillValue']'
 ",,86.0,88.0,0.0,2.0,0.0,,"File chunking recommendations: Apart from the first and last files of a timeseries '10' full simulation years are expected in the data file for frequency 'mon'. The last timestep conflicts with this recommendation ('2020-12-16 12:00:00'): '2024-12-16 12:00:00'. 
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+",,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/day/snc/v20260602/snc_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_day_19800101-19801231.nc,snc,EUR-12,ERA5,evaluation,r1i1p1f1,AUTH,WRF451Q,v1-r3,day,v20260602,250.0,250.0,0.0,0.0,0.0,,,,82.0,88.0,0.0,5.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+The global attribute 'driving_source' is not defined. It is however recommended to include it.
+The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/mon/snc/v20250630/snc_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_mon_198001-198012.nc,snc,EUR-12,ERA5,evaluation,r1i1p1f1,AUTH,WRF451Q,v1-r3,mon,v20250630,242.0,244.0,0.0,2.0,0.0,,"§2.6.1 Conventions global attribute does not contain ""CF-1.11""
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
@@ -40799,6 +40842,12 @@ The Boundary variables 'vertices_lat' should not have the attributes: '['units',
 The Boundary variables 'vertices_lon' should not have the attributes: '['units', 'missing_value', '_FillValue']'
 ",,86.0,88.0,0.0,2.0,0.0,,"File chunking recommendations: Apart from the first and last files of a timeseries '10' full simulation years are expected in the data file for frequency 'mon'. The last timestep conflicts with this recommendation ('2020-12-16 12:00:00'): '2024-12-16 12:00:00'. 
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+",,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/day/snd/v20260602/snd_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_day_19800101-19801231.nc,snd,EUR-12,ERA5,evaluation,r1i1p1f1,AUTH,WRF451Q,v1-r3,day,v20260602,251.0,251.0,0.0,0.0,0.0,,,,82.0,88.0,0.0,5.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+The global attribute 'driving_source' is not defined. It is however recommended to include it.
+The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/mon/snd/v20250630/snd_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_mon_198001-198012.nc,snd,EUR-12,ERA5,evaluation,r1i1p1f1,AUTH,WRF451Q,v1-r3,mon,v20250630,242.0,244.0,0.0,2.0,0.0,,"§2.6.1 Conventions global attribute does not contain ""CF-1.11""
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
@@ -43610,7 +43659,7 @@ The variable attribute 'tas:cell_methods = 'time: mean' is not equivalent to the
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/TASK-IMWM/CMCC-CM2-SR5/historical/r1i1p1f1/WRF451Q/v1-r1/1hr/tas/v20240806/tas_EUR-12f_CMCC-CM2-SR5_historical_r1i1p1f1_TASK-IMWM_WRF451Q_v1-r1_1hr_195101010000-195112312300.nc,tas,EUR-12f,CMCC-CM2-SR5,historical,r1i1p1f1,TASK-IMWM,WRF451Q,v1-r1,1hr,v20240806,259.0,263.0,1.0,2.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable tas has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
-","dimensions for auxiliary coordinate variable height (height) are not a subset of dimensions for variable tas (time, rlat, rlon)
+","dimensions for auxiliary coordinate variable height (height) are not a subset of dimensions for variable tas (rlat, rlon, time)
 ",71.0,87.0,7.0,6.0,0.0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): 'noleap'. The use of another calendar is OK in case it has been inherited from the driving model.
 It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
@@ -45418,8 +45467,8 @@ The global attribute 'references' is not specified. It is however recommended. T
 ","DRS filename building block 'source_id' does not comply with the CV: 'HadREM3-GA7-01'. Allowed values: 'ALARO1-SFX', 'BARPA-R1-NN', 'CCAM-v2105', ...
 Value for DRS building block 'source_id' is not consistent between 'file name' and 'file path' and 'global attributes': 'HadREM3-GA7-01' and 'HadREM3-GA7-05' and 'HadREM3-GA7-01'.
 File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF4/HDF5'.
-The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
 The coordinate variable 'grid_longitude' must be of double precision with the data type 'float64' / 'double'.
+The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
 Both, 'missing_value' and '_FillValue' have to be set for variable 'tas'.
 (Coordinate) variable(s) grid_latitude, grid_longitude, latitude, longitude is/are not part of the CV or not compliant with the CF-Conventions.
 Global attribute 'driving_experiment' does not comply with the CV: 'reanalysis simulation'. Expected value/pattern: 'reanalysis simulation of the recent past'.
@@ -45453,8 +45502,8 @@ It is recommended for the variables 'lat' and 'lon' to have bounds defined.
 The global attribute 'driving_source' is not defined. It is however recommended to include it.
 The global attribute 'references' is not specified. It is however recommended. The attribute 'references' should include published or web-based references that describe the data, model or methods used.
 ","File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF4/HDF5'.
-The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
 The coordinate variable 'grid_longitude' must be of double precision with the data type 'float64' / 'double'.
+The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
 Both, 'missing_value' and '_FillValue' have to be set for variable 'tas'.
 (Coordinate) variable(s) grid_latitude, grid_longitude, latitude, longitude is/are not part of the CV or not compliant with the CF-Conventions.
 Global attribute 'driving_experiment' does not comply with the CV: 'reanalysis simulation'. Expected value/pattern: 'reanalysis simulation of the recent past'.
@@ -48857,8 +48906,8 @@ The global attribute 'references' is not specified. It is however recommended. T
 ","DRS filename building block 'source_id' does not comply with the CV: 'HadREM3-GA7-01'. Allowed values: 'ALARO1-SFX', 'BARPA-R1-NN', 'CCAM-v2105', ...
 Value for DRS building block 'source_id' is not consistent between 'file name' and 'file path' and 'global attributes': 'HadREM3-GA7-01' and 'HadREM3-GA7-05' and 'HadREM3-GA7-01'.
 File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF4/HDF5'.
-The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
 The coordinate variable 'grid_longitude' must be of double precision with the data type 'float64' / 'double'.
+The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
 Both, 'missing_value' and '_FillValue' have to be set for variable 'tasmax'.
 (Coordinate) variable(s) grid_latitude, grid_longitude, latitude, longitude is/are not part of the CV or not compliant with the CF-Conventions.
 Global attribute 'driving_experiment' does not comply with the CV: 'reanalysis simulation'. Expected value/pattern: 'reanalysis simulation of the recent past'.
@@ -48892,8 +48941,8 @@ It is recommended for the variables 'lat' and 'lon' to have bounds defined.
 The global attribute 'driving_source' is not defined. It is however recommended to include it.
 The global attribute 'references' is not specified. It is however recommended. The attribute 'references' should include published or web-based references that describe the data, model or methods used.
 ","File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF4/HDF5'.
-The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
 The coordinate variable 'grid_longitude' must be of double precision with the data type 'float64' / 'double'.
+The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
 Both, 'missing_value' and '_FillValue' have to be set for variable 'tasmax'.
 (Coordinate) variable(s) grid_latitude, grid_longitude, latitude, longitude is/are not part of the CV or not compliant with the CF-Conventions.
 Global attribute 'driving_experiment' does not comply with the CV: 'reanalysis simulation'. Expected value/pattern: 'reanalysis simulation of the recent past'.
@@ -51760,8 +51809,8 @@ The global attribute 'references' is not specified. It is however recommended. T
 ","DRS filename building block 'source_id' does not comply with the CV: 'HadREM3-GA7-01'. Allowed values: 'ALARO1-SFX', 'BARPA-R1-NN', 'CCAM-v2105', ...
 Value for DRS building block 'source_id' is not consistent between 'file name' and 'file path' and 'global attributes': 'HadREM3-GA7-01' and 'HadREM3-GA7-05' and 'HadREM3-GA7-01'.
 File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF4/HDF5'.
-The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
 The coordinate variable 'grid_longitude' must be of double precision with the data type 'float64' / 'double'.
+The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
 Both, 'missing_value' and '_FillValue' have to be set for variable 'tasmin'.
 (Coordinate) variable(s) grid_latitude, grid_longitude, latitude, longitude is/are not part of the CV or not compliant with the CF-Conventions.
 Global attribute 'driving_experiment' does not comply with the CV: 'reanalysis simulation'. Expected value/pattern: 'reanalysis simulation of the recent past'.
@@ -51795,8 +51844,8 @@ It is recommended for the variables 'lat' and 'lon' to have bounds defined.
 The global attribute 'driving_source' is not defined. It is however recommended to include it.
 The global attribute 'references' is not specified. It is however recommended. The attribute 'references' should include published or web-based references that describe the data, model or methods used.
 ","File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF4/HDF5'.
-The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
 The coordinate variable 'grid_longitude' must be of double precision with the data type 'float64' / 'double'.
+The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
 Both, 'missing_value' and '_FillValue' have to be set for variable 'tasmin'.
 (Coordinate) variable(s) grid_latitude, grid_longitude, latitude, longitude is/are not part of the CV or not compliant with the CF-Conventions.
 Global attribute 'driving_experiment' does not comply with the CV: 'reanalysis simulation'. Expected value/pattern: 'reanalysis simulation of the recent past'.
@@ -58498,6 +58547,12 @@ The grid_mapping label 'rotated_pole' needs to be either 'crs' or equal to the g
 The grid_mapping variable 'rotated_pole' needs to include information regarding the shape and size of the Earth used for the model grid. See 'CF-1.11 Appendix F' of the CF-Conventions for further information.
 The global attribute 'institution' is not compliant with the CV: 'Aristotle University of Thessaloniki, Dept. of Meteorology & Climatology, Thessaloniki, Greece' instead of 'Department of Meteorology and Climatology, Aristotle University of Thessaloniki, Thessaloniki, Greece'.
 ",
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/day/uas/v20260602/uas_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_day_19800101-19801231.nc,uas,EUR-12,ERA5,evaluation,r1i1p1f1,AUTH,WRF451Q,v1-r3,day,v20260602,274.0,274.0,0.0,0.0,0.0,,,,82.0,88.0,0.0,5.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+The global attribute 'driving_source' is not defined. It is however recommended to include it.
+The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
+",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/mon/uas/v20250630/uas_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_mon_198001-198012.nc,uas,EUR-12,ERA5,evaluation,r1i1p1f1,AUTH,WRF451Q,v1-r3,mon,v20250630,242.0,244.0,0.0,2.0,0.0,,"§2.6.1 Conventions global attribute does not contain ""CF-1.11""
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,71.0,87.0,8.0,6.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
@@ -64190,6 +64245,12 @@ The grid_mapping label 'rotated_pole' needs to be either 'crs' or equal to the g
 The grid_mapping variable 'rotated_pole' needs to include information regarding the shape and size of the Earth used for the model grid. See 'CF-1.11 Appendix F' of the CF-Conventions for further information.
 The global attribute 'institution' is not compliant with the CV: 'Aristotle University of Thessaloniki, Dept. of Meteorology & Climatology, Thessaloniki, Greece' instead of 'Department of Meteorology and Climatology, Aristotle University of Thessaloniki, Thessaloniki, Greece'.
 ",
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/day/vas/v20260602/vas_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_day_19800101-19801231.nc,vas,EUR-12,ERA5,evaluation,r1i1p1f1,AUTH,WRF451Q,v1-r3,day,v20260602,274.0,274.0,0.0,0.0,0.0,,,,82.0,88.0,0.0,5.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+The global attribute 'driving_source' is not defined. It is however recommended to include it.
+The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
+",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/mon/vas/v20250630/vas_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_mon_198001-198012.nc,vas,EUR-12,ERA5,evaluation,r1i1p1f1,AUTH,WRF451Q,v1-r3,mon,v20250630,242.0,244.0,0.0,2.0,0.0,,"§2.6.1 Conventions global attribute does not contain ""CF-1.11""
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,71.0,87.0,8.0,6.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
