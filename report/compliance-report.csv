@@ -284,6 +284,24 @@ Bounds variable vertices_lon and parent variable lon have the following matching
 The Boundary variables 'vertices_lat' should not have the attributes: '['units', 'missing_value', '_FillValue']'
 The Boundary variables 'vertices_lon' should not have the attributes: '['units', 'missing_value', '_FillValue']'
 ",,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CLMcom-CMCC/CMCC-CM2-SR5/historical/r1i1p1f1/CCLM6/v1-r1/1hr/clt/v20250726/clt_EUR-12_CMCC-CM2-SR5_historical_r1i1p1f1_CLMcom-CMCC_CCLM6_v1-r1_1hr_196001010030-196012312330.nc,clt,EUR-12,CMCC-CM2-SR5,historical,r1i1p1f1,CLMcom-CMCC,CCLM6,v1-r1,1hr,v20250726,76.0,88.0,5.0,4.0,0.0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+The global attribute 'driving_source' is not defined. It is however recommended to include it.
+The global attribute 'references' is not specified. It is however recommended. The attribute 'references' should include published or web-based references that describe the data, model or methods used.
+","DRS path building block 'source_id' does not comply with the CV: 'CCLM6'. Allowed values: 'ALARO1-SFX', 'BARPA-R1-NN', 'CCAM-v2105', ...
+DRS filename building block 'source_id' does not comply with the CV: 'CCLM6'. Allowed values: 'ALARO1-SFX', 'BARPA-R1-NN', 'CCAM-v2105', ...
+File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF4/HDF5'.
+Global attribute 'driving_experiment' does not comply with the CV: 'Historical run with GCM CMCC-CM2-SR5 forcing'. Expected value/pattern: 'all-forcing simulation of the recent past'.
+Global attribute 'source_id' does not comply with the CV: 'CCLM6'. Allowed values: 'ALARO1-SFX', 'BARPA-R1-NN', 'CCAM-v2105', ...
+Global attribute 'tracking_id' does not comply with the CV: 'ec4f8052-666f-11f1-94a9-7c8ae1d3f63b'. Expected value/pattern: 'hdl:21.14103/.*'.
+Required global attributes could not be checked against CV: 'source'.
+The variable attribute 'clt:cell_methods = 'time: mean' is not equivalent to the value specified in the CMOR table ('area: time: mean').
+The variable attribute 'clt:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
+The 'creation_date' attribute is not of the format 'YYYY-MM-DDTHH:MM:SSZ': '2026-06-12 17:03:51'
+",233.0,236.0,0.0,2.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
+§2.6.2 global attribute history should exist and be a non-empty string
+Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
+",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CLMcom-WEGC/CMCC-CM2-SR5/historical/r1i1p1f1/ICON-CLM-202407-1-1/v1-r1/day/clt/v20260415/clt_EUR-12_CMCC-CM2-SR5_historical_r1i1p1f1_CLMcom-WEGC_ICON-CLM-202407-1-1_v1-r1_day_19500101-19501231.nc,clt,EUR-12,CMCC-CM2-SR5,historical,r1i1p1f1,CLMcom-WEGC,ICON-CLM-202407-1-1,v1-r1,day,v20260415,85.0,88.0,2.0,0.0,0.0,,,"DRS path building block 'institution_id' does not comply with the CV: 'CLMcom-WEGC'. Allowed values: 'CLMcom-BTU', 'CLMcom-CMCC', 'CLMcom-DWD', ...
 DRS path building block 'institution_id' does not comply with the CV: 'CLMcom-WEGC'. Allowed values: 'AUTH', 'BAS', 'BCCR-UCAN', ...
 DRS filename building block 'institution_id' does not comply with the CV: 'CLMcom-WEGC'. Allowed values: 'AUTH', 'BAS', 'BCCR-UCAN', ...
@@ -5257,6 +5275,12 @@ The Boundary variables 'time_bnds' should not have the attributes: '['units', 'c
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/EC-Earth3-Veg/ssp585/r1i1p1f1/RACMO23E/v1-r1/day/hurs/v20241216/hurs_EUR-12_EC-Earth3-Veg_ssp585_r1i1p1f1_KNMI_RACMO23E_v1-r1_day_20150101-20151231.nc,hurs,EUR-12,EC-Earth3-Veg,ssp585,r1i1p1f1,KNMI,RACMO23E,v1-r1,day,v20241216,86.0,88.0,0.0,1.0,0.0,,"The global attribute 'driving_source' is not defined. It is however recommended to include it.
 ",,321.0,322.0,0.0,1.0,0.0,,"Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/hurs/v20260602/hurs_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_198001010000-198012312300.nc,hurs,EUR-12,ERA5,evaluation,r1i1p1f1,AUTH,WRF451Q,v1-r3,1hr,v20260602,82.0,88.0,0.0,5.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+The global attribute 'driving_source' is not defined. It is however recommended to include it.
+The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
+",,266.0,266.0,0.0,0.0,0.0,,,,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/day/hurs/v20260602/hurs_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_day_19800101-19801231.nc,hurs,EUR-12,ERA5,evaluation,r1i1p1f1,AUTH,WRF451Q,v1-r3,day,v20260602,82.0,88.0,0.0,5.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -16452,8 +16476,8 @@ The global attribute 'references' is not specified. It is however recommended. T
 ","DRS filename building block 'source_id' does not comply with the CV: 'HadREM3-GA7-01'. Allowed values: 'ALARO1-SFX', 'BARPA-R1-NN', 'CCAM-v2105', ...
 Value for DRS building block 'source_id' is not consistent between 'file name' and 'file path' and 'global attributes': 'HadREM3-GA7-01' and 'HadREM3-GA7-05' and 'HadREM3-GA7-01'.
 File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF4/HDF5'.
-The coordinate variable 'grid_longitude' must be of double precision with the data type 'float64' / 'double'.
 The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
+The coordinate variable 'grid_longitude' must be of double precision with the data type 'float64' / 'double'.
 Both, 'missing_value' and '_FillValue' have to be set for variable 'orog'.
 The variable attributes '_FillValue' and/or 'missing_value' differ from the requested value '1e+20'.
 (Coordinate) variable(s) grid_latitude, grid_longitude, latitude, longitude is/are not part of the CV or not compliant with the CF-Conventions.
@@ -16836,6 +16860,24 @@ Coordinate variable 'lon' should have standard_name='longitude', found: 'None'
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CLMcom-CMCC/CMCC-CM2-SR5/historical/r1i1p1f1/CCLM6/v1-r1/1hr/pr/v20250726/pr_EUR-12_CMCC-CM2-SR5_historical_r1i1p1f1_CLMcom-CMCC_CCLM6_v1-r1_1hr_196001010030-196012312330.nc,pr,EUR-12,CMCC-CM2-SR5,historical,r1i1p1f1,CLMcom-CMCC,CCLM6,v1-r1,1hr,v20250726,76.0,88.0,5.0,4.0,0.0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+The global attribute 'driving_source' is not defined. It is however recommended to include it.
+The global attribute 'references' is not specified. It is however recommended. The attribute 'references' should include published or web-based references that describe the data, model or methods used.
+","DRS path building block 'source_id' does not comply with the CV: 'CCLM6'. Allowed values: 'ALARO1-SFX', 'BARPA-R1-NN', 'CCAM-v2105', ...
+DRS filename building block 'source_id' does not comply with the CV: 'CCLM6'. Allowed values: 'ALARO1-SFX', 'BARPA-R1-NN', 'CCAM-v2105', ...
+File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF4/HDF5'.
+Global attribute 'driving_experiment' does not comply with the CV: 'Historical run with GCM CMCC-CM2-SR5 forcing'. Expected value/pattern: 'all-forcing simulation of the recent past'.
+Global attribute 'source_id' does not comply with the CV: 'CCLM6'. Allowed values: 'ALARO1-SFX', 'BARPA-R1-NN', 'CCAM-v2105', ...
+Global attribute 'tracking_id' does not comply with the CV: 'b1e6204a-663f-11f1-9113-7c8ae1d3f63b'. Expected value/pattern: 'hdl:21.14103/.*'.
+Required global attributes could not be checked against CV: 'source'.
+The variable attribute 'pr:cell_methods = 'time: mean' is not equivalent to the value specified in the CMOR table ('area: time: mean').
+The variable attribute 'pr:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
+The 'creation_date' attribute is not of the format 'YYYY-MM-DDTHH:MM:SSZ': '2026-06-12 11:18:37'
+",233.0,236.0,0.0,2.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
+§2.6.2 global attribute history should exist and be a non-empty string
+Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
+",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CLMcom-WEGC/CMCC-CM2-SR5/historical/r1i1p1f1/ICON-CLM-202407-1-1/v1-r1/1hr/pr/v20260415/pr_EUR-12_CMCC-CM2-SR5_historical_r1i1p1f1_CLMcom-WEGC_ICON-CLM-202407-1-1_v1-r1_1hr_195001010030-195012312330.nc,pr,EUR-12,CMCC-CM2-SR5,historical,r1i1p1f1,CLMcom-WEGC,ICON-CLM-202407-1-1,v1-r1,1hr,v20260415,85.0,88.0,2.0,0.0,0.0,,,"DRS path building block 'institution_id' does not comply with the CV: 'CLMcom-WEGC'. Allowed values: 'CLMcom-BTU', 'CLMcom-CMCC', 'CLMcom-DWD', ...
 DRS path building block 'institution_id' does not comply with the CV: 'CLMcom-WEGC'. Allowed values: 'AUTH', 'BAS', 'BCCR-UCAN', ...
 DRS filename building block 'institution_id' does not comply with the CV: 'CLMcom-WEGC'. Allowed values: 'AUTH', 'BAS', 'BCCR-UCAN', ...
@@ -30772,8 +30814,8 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",378.0,384.0,2.0,2.0,0.0,,"attribute rsds:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable x must be convertible to canonical units ""m""
-Units ""degrees"" for variable y must be convertible to canonical units ""m""
+","Units ""degrees"" for variable y must be convertible to canonical units ""m""
+Units ""degrees"" for variable x must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -33794,12 +33836,27 @@ Variable time has a calendar attribute of standard and it is recommended that th
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/KNMI/EC-Earth3-Veg/ssp585/r1i1p1f1/RACMO23E/v1-r1/day/sfcWind/v20241216/sfcWind_EUR-12_EC-Earth3-Veg_ssp585_r1i1p1f1_KNMI_RACMO23E_v1-r1_day_20150101-20151231.nc,sfcWind,EUR-12,EC-Earth3-Veg,ssp585,r1i1p1f1,KNMI,RACMO23E,v1-r1,day,v20241216,86.0,88.0,0.0,1.0,0.0,,"The global attribute 'driving_source' is not defined. It is however recommended to include it.
 ",,321.0,322.0,0.0,1.0,0.0,,"Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/sfcWind/v20260602/sfcWind_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_198001010000-198012312300.nc,sfcWind,EUR-12,ERA5,evaluation,r1i1p1f1,AUTH,WRF451Q,v1-r3,1hr,v20260602,82.0,88.0,0.0,5.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+The global attribute 'driving_source' is not defined. It is however recommended to include it.
+The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
+",,266.0,266.0,0.0,0.0,0.0,,,,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/day/sfcWind/v20260602/sfcWind_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_day_19800101-19801231.nc,sfcWind,EUR-12,ERA5,evaluation,r1i1p1f1,AUTH,WRF451Q,v1-r3,day,v20260602,82.0,88.0,0.0,5.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 It is recommended for the variables 'lat' and 'lon' to have bounds defined.
 The global attribute 'driving_source' is not defined. It is however recommended to include it.
 The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
 ",,274.0,274.0,0.0,0.0,0.0,,,,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CESAM-UA/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r2/1hr/sfcWind/v20250630/sfcWind_EUR-12_ERA5_evaluation_r1i1p1f1_CESAM-UA_WRF451Q_v1-r2_1hr_198001010000-198012312300.nc,sfcWind,EUR-12,ERA5,evaluation,r1i1p1f1,CESAM-UA,WRF451Q,v1-r2,1hr,v20250630,83.0,88.0,0.0,4.0,0.0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+The global attribute 'driving_source' is not defined. It is however recommended to include it.
+The global attribute 'references' is not specified. It is however recommended. The attribute 'references' should include published or web-based references that describe the data, model or methods used.
+",,255.0,259.0,0.0,3.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
+§2.6.2 global attribute history should exist and be a non-empty string
+Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
+Cell measure variable areacella referred to by sfcWind is not present in dataset or external variables
+",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CESAM-UA/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r2/day/sfcWind/v20250630/sfcWind_EUR-12_ERA5_evaluation_r1i1p1f1_CESAM-UA_WRF451Q_v1-r2_day_19800101-19801231.nc,sfcWind,EUR-12,ERA5,evaluation,r1i1p1f1,CESAM-UA,WRF451Q,v1-r2,day,v20250630,83.0,88.0,0.0,4.0,0.0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 It is recommended for the variables 'lat' and 'lon' to have bounds defined.
 The global attribute 'driving_source' is not defined. It is however recommended to include it.
@@ -35396,8 +35453,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by sfcWind is not present in dataset or external variables
 ","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""ms-1"" for variable sfcWind must be convertible to canonical units ""m s-1""
 Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""ms-1"" for variable sfcWind must be convertible to canonical units ""m s-1""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -36935,16 +36992,15 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
 The Boundary variables 'time_bnds' should not have the attributes: '['calendar', 'units']'
 Cell measure variable areacella referred to by sfcWindmax is not present in dataset or external variables
 ","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units "" ms-1"" for variable sfcWindmax must be convertible to canonical units ""m s-1""
 Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units "" ms-1"" for variable sfcWindmax must be convertible to canonical units ""m s-1""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -39026,8 +39082,8 @@ The global attribute 'references' is not specified. It is however recommended. T
 ","DRS filename building block 'source_id' does not comply with the CV: 'HadREM3-GA7-01'. Allowed values: 'ALARO1-SFX', 'BARPA-R1-NN', 'CCAM-v2105', ...
 Value for DRS building block 'source_id' is not consistent between 'file name' and 'file path' and 'global attributes': 'HadREM3-GA7-01' and 'HadREM3-GA7-05' and 'HadREM3-GA7-01'.
 File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF4/HDF5'.
-The coordinate variable 'grid_longitude' must be of double precision with the data type 'float64' / 'double'.
 The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
+The coordinate variable 'grid_longitude' must be of double precision with the data type 'float64' / 'double'.
 The main variable 'sftlf' must be of single precision with the data type 'float32' / 'float'.
 Both, 'missing_value' and '_FillValue' have to be set for variable 'sftlf'.
 (Coordinate) variable(s) grid_latitude, grid_longitude, latitude, longitude is/are not part of the CV or not compliant with the CF-Conventions.
@@ -39564,8 +39620,8 @@ The global attribute 'references' is not specified. It is however recommended. T
 ","DRS filename building block 'source_id' does not comply with the CV: 'HadREM3-GA7-01'. Allowed values: 'ALARO1-SFX', 'BARPA-R1-NN', 'CCAM-v2105', ...
 Value for DRS building block 'source_id' is not consistent between 'file name' and 'file path' and 'global attributes': 'HadREM3-GA7-01' and 'HadREM3-GA7-05' and 'HadREM3-GA7-01'.
 File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF4/HDF5'.
-The coordinate variable 'grid_longitude' must be of double precision with the data type 'float64' / 'double'.
 The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
+The coordinate variable 'grid_longitude' must be of double precision with the data type 'float64' / 'double'.
 Both, 'missing_value' and '_FillValue' have to be set for variable 'sfturf'.
 The variable attributes '_FillValue' and/or 'missing_value' differ from the requested value '1e+20'.
 (Coordinate) variable(s) grid_latitude, grid_longitude, latitude, longitude is/are not part of the CV or not compliant with the CF-Conventions.
@@ -43228,6 +43284,25 @@ Bounds variable vertices_lat and parent variable lat have the following matching
 Bounds variable vertices_lon and parent variable lon have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'vertices_lat' should not have the attributes: '['units', 'missing_value', '_FillValue']'
 The Boundary variables 'vertices_lon' should not have the attributes: '['units', 'missing_value', '_FillValue']'
+",,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CLMcom-CMCC/CMCC-CM2-SR5/historical/r1i1p1f1/CCLM6/v1-r1/1hr/tas/v20250726/tas_EUR-12_CMCC-CM2-SR5_historical_r1i1p1f1_CLMcom-CMCC_CCLM6_v1-r1_1hr_196001010000-196012312300.nc,tas,EUR-12,CMCC-CM2-SR5,historical,r1i1p1f1,CLMcom-CMCC,CCLM6,v1-r1,1hr,v20250726,76.0,88.0,5.0,4.0,0.0,,"It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+The global attribute 'driving_source' is not defined. It is however recommended to include it.
+The global attribute 'references' is not specified. It is however recommended. The attribute 'references' should include published or web-based references that describe the data, model or methods used.
+","DRS path building block 'source_id' does not comply with the CV: 'CCLM6'. Allowed values: 'ALARO1-SFX', 'BARPA-R1-NN', 'CCAM-v2105', ...
+DRS filename building block 'source_id' does not comply with the CV: 'CCLM6'. Allowed values: 'ALARO1-SFX', 'BARPA-R1-NN', 'CCAM-v2105', ...
+File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF4/HDF5'.
+Global attribute 'driving_experiment' does not comply with the CV: 'Historical run with GCM CMCC-CM2-SR5 forcing'. Expected value/pattern: 'all-forcing simulation of the recent past'.
+Global attribute 'source_id' does not comply with the CV: 'CCLM6'. Allowed values: 'ALARO1-SFX', 'BARPA-R1-NN', 'CCAM-v2105', ...
+Global attribute 'tracking_id' does not comply with the CV: '2d4646c8-64f8-11f1-b56e-7c8ae1d3f63b'. Expected value/pattern: 'hdl:21.14103/.*'.
+Required global attributes could not be checked against CV: 'source'.
+The variable attribute 'tas:cell_methods = 'time: point' is not equivalent to the value specified in the CMOR table ('area: mean time: point').
+The variable attribute 'tas:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
+The 'creation_date' attribute is not of the format 'YYYY-MM-DDTHH:MM:SSZ': '2026-06-10 20:14:09'
+",252.0,256.0,0.0,3.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
+§2.6.2 global attribute history should exist and be a non-empty string
+Variable tas has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
+Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CLMcom-WEGC/CMCC-CM2-SR5/historical/r1i1p1f1/ICON-CLM-202407-1-1/v1-r1/1hr/tas/v20260415/tas_EUR-12_CMCC-CM2-SR5_historical_r1i1p1f1_CLMcom-WEGC_ICON-CLM-202407-1-1_v1-r1_1hr_195001010000-195012312300.nc,tas,EUR-12,CMCC-CM2-SR5,historical,r1i1p1f1,CLMcom-WEGC,ICON-CLM-202407-1-1,v1-r1,1hr,v20260415,85.0,88.0,2.0,0.0,0.0,,,"DRS path building block 'institution_id' does not comply with the CV: 'CLMcom-WEGC'. Allowed values: 'CLMcom-BTU', 'CLMcom-CMCC', 'CLMcom-DWD', ...
 DRS path building block 'institution_id' does not comply with the CV: 'CLMcom-WEGC'. Allowed values: 'AUTH', 'BAS', 'BCCR-UCAN', ...
@@ -48371,8 +48446,7 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 Variable tasmax has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -51257,8 +51331,7 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 Variable tasmin has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -58737,8 +58810,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by uas is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""ms-1"" for variable uas must be convertible to canonical units ""m s-1""
+","Units ""ms-1"" for variable uas must be convertible to canonical units ""m s-1""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
@@ -58778,8 +58851,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by uas is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""ms-1"" for variable uas must be convertible to canonical units ""m s-1""
+","Units ""ms-1"" for variable uas must be convertible to canonical units ""m s-1""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
@@ -59514,8 +59587,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by uas is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""ms-1"" for variable uas must be convertible to canonical units ""m s-1""
+","Units ""ms-1"" for variable uas must be convertible to canonical units ""m s-1""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
