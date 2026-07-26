@@ -1281,8 +1281,8 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",378.0,384.0,2.0,2.0,0.0,,"attribute clt:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable x must be convertible to canonical units ""m""
-Units ""degrees"" for variable y must be convertible to canonical units ""m""
+","Units ""degrees"" for variable y must be convertible to canonical units ""m""
+Units ""degrees"" for variable x must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -4570,8 +4570,8 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",375.0,381.0,2.0,2.0,0.0,,"attribute evspsbl:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable x must be convertible to canonical units ""m""
-Units ""degrees"" for variable y must be convertible to canonical units ""m""
+","Units ""degrees"" for variable y must be convertible to canonical units ""m""
+Units ""degrees"" for variable x must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -5573,6 +5573,17 @@ Bounds variable vertices_lon and parent variable lon have the following matching
 The Boundary variables 'vertices_lat' should not have the attributes: '['units', 'missing_value', '_FillValue']'
 The Boundary variables 'vertices_lon' should not have the attributes: '['units', 'missing_value', '_FillValue']'
 ",,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/hurs/v20250415/hurs_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_196001010100-196101010000.nc,hurs,EUR-12,EC-Earth3-Veg,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,1hr,v20250415,81.0,87.0,2.0,4.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
+File chunking recommendations: '1' full simulation year is expected in the data file for frequency '1hr'. The first timestep conflicts with this recommendation ('1960-01-01 00:00:00'): '1960-01-01 01:00:00'. 
+File chunking recommendations: '1' full simulation year is expected in the data file for frequency '1hr'. The last timestep conflicts with this recommendation ('1960-12-31 23:00:00'): '1961-01-01 00:00:00'. 
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+","Your time axis' 'units' attribute differs from the allowed values ('days since 1950-01-01T00:00:00Z', 'days since 1850-01-01T00:00:00Z' if the pre-1950 era is included in the group's simulations): 'hours since 1950-01-01 00:00:00'.
+The variable attribute 'hurs:cell_methods = 'time: point' is not equivalent to the value specified in the CMOR table ('area: mean time: point').
+The variable attribute 'hurs:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
+",405.0,407.0,0.0,2.0,0.0,,"attribute hurs:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
+",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/day/hurs/v20250415/hurs_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_day_19600101-19601231.nc,hurs,EUR-12,EC-Earth3-Veg,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,day,v20250415,83.0,87.0,1.0,3.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -6041,7 +6052,7 @@ global attribute south-north_grid_dimension should begin with a letter and be co
 global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -6683,8 +6694,8 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",406.0,412.0,2.0,2.0,0.0,,"attribute hurs:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable x must be convertible to canonical units ""m""
-Units ""degrees"" for variable y must be convertible to canonical units ""m""
+","Units ""degrees"" for variable y must be convertible to canonical units ""m""
+Units ""degrees"" for variable x must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -8214,7 +8225,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",280.0,287.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -8546,7 +8557,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",279.0,286.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -8871,7 +8882,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",279.0,286.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -9171,7 +9182,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",279.0,286.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -9497,7 +9508,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",279.0,286.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -9797,7 +9808,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",279.0,286.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -10123,7 +10134,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",279.0,286.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -10423,7 +10434,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",279.0,286.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -10755,7 +10766,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",279.0,286.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -11087,7 +11098,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",279.0,286.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -14253,8 +14264,8 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",406.0,412.0,2.0,2.0,0.0,,"attribute huss:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable x must be convertible to canonical units ""m""
-Units ""degrees"" for variable y must be convertible to canonical units ""m""
+","Units ""degrees"" for variable y must be convertible to canonical units ""m""
+Units ""degrees"" for variable x must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -17455,8 +17466,8 @@ The global attribute 'references' is not specified. It is however recommended. T
 ","DRS filename building block 'source_id' does not comply with the CV: 'HadREM3-GA7-01'. Allowed values: 'ALARO1-SFX', 'BARPA-R1-NN', 'CCAM-v2105', ...
 Value for DRS building block 'source_id' is not consistent between 'file name' and 'file path' and 'global attributes': 'HadREM3-GA7-01' and 'HadREM3-GA7-05' and 'HadREM3-GA7-01'.
 File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF4/HDF5'.
-The coordinate variable 'grid_longitude' must be of double precision with the data type 'float64' / 'double'.
 The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
+The coordinate variable 'grid_longitude' must be of double precision with the data type 'float64' / 'double'.
 Both, 'missing_value' and '_FillValue' have to be set for variable 'orog'.
 The variable attributes '_FillValue' and/or 'missing_value' differ from the requested value '1e+20'.
 (Coordinate) variable(s) grid_latitude, grid_longitude, latitude, longitude is/are not part of the CV or not compliant with the CF-Conventions.
@@ -21073,6 +21084,20 @@ The global attribute 'driving_source' is not defined. It is however recommended 
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/pr/v20250415/pr_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_196001010100-196101010000.nc,pr,EUR-12,EC-Earth3-Veg,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,1hr,v20250415,80.0,87.0,4.0,3.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+","Expected time_range '196001010030-196012312330' but found '196001010100-196101010000'.
+The 'time_range' element in the filename ('196001010100-196101010000') does not match with the first and last time values: '1960-01-01 00:30:00' and '1960-12-31 23:30:00'.
+Your time axis' 'units' attribute differs from the allowed values ('days since 1950-01-01T00:00:00Z', 'days since 1850-01-01T00:00:00Z' if the pre-1950 era is included in the group's simulations): 'hours since 1950-01-01 00:00:00'.
+The variable attribute 'pr:cell_methods = 'time: mean' is not equivalent to the value specified in the CMOR table ('area: time: mean').
+The variable attribute 'pr:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
+",388.0,393.0,0.0,3.0,0.0,,"attribute pr:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
+",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/day/pr/v20250415/pr_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_day_19600101-19601231.nc,pr,EUR-12,EC-Earth3-Veg,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,day,v20250415,83.0,87.0,1.0,3.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -21690,7 +21715,7 @@ global attribute south-north_grid_dimension should begin with a letter and be co
 global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -22139,8 +22164,8 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",378.0,384.0,2.0,2.0,0.0,,"attribute pr:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable x must be convertible to canonical units ""m""
-Units ""degrees"" for variable y must be convertible to canonical units ""m""
+","Units ""degrees"" for variable y must be convertible to canonical units ""m""
+Units ""degrees"" for variable x must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -22193,7 +22218,7 @@ Global attribute 'version_realization' is missing.
 ",252.0,258.0,0.0,3.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -23092,6 +23117,19 @@ Bounds variable vertices_lon and parent variable lon have the following matching
 The Boundary variables 'vertices_lat' should not have the attributes: '['units', 'missing_value', '_FillValue']'
 The Boundary variables 'vertices_lon' should not have the attributes: '['units', 'missing_value', '_FillValue']'
 ",,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/prw/v20250415/prw_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_196001010100-196101010000.nc,prw,EUR-12,EC-Earth3-Veg,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,1hr,v20250415,79.0,87.0,3.0,4.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
+File chunking recommendations: '1' full simulation year is expected in the data file for frequency '1hr'. The first timestep conflicts with this recommendation ('1960-01-01 00:00:00'): '1960-01-01 01:00:00'. 
+File chunking recommendations: '1' full simulation year is expected in the data file for frequency '1hr'. The last timestep conflicts with this recommendation ('1960-12-31 23:00:00'): '1961-01-01 00:00:00'. 
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+","Both, 'missing_value' and '_FillValue' have to be set for variable 'prw'.
+Your time axis' 'units' attribute differs from the allowed values ('days since 1950-01-01T00:00:00Z', 'days since 1850-01-01T00:00:00Z' if the pre-1950 era is included in the group's simulations): 'hours since 1950-01-01 00:00:00'.
+The variable attribute 'prw:standard_name = 'atmosphere_water_vapor_content' is not equivalent to the value specified in the CMOR table ('atmosphere_mass_content_of_water_vapor').
+The variable attribute 'prw:cell_methods = 'time: point' is not equivalent to the value specified in the CMOR table ('area: mean time: point').
+The variable attribute 'prw:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
+",374.0,376.0,0.0,2.0,0.0,,"attribute prw:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
+",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/GERICS/EC-Earth3-Veg/ssp370/r1i1p1f1/REMO2020-2-2/v1-r1/mon/prw/v20250916/prw_EUR-12_EC-Earth3-Veg_ssp370_r1i1p1f1_GERICS_REMO2020-2-2_v1-r1_mon_201501-202412.nc,prw,EUR-12,EC-Earth3-Veg,ssp370,r1i1p1f1,GERICS,REMO2020-2-2,v1-r1,mon,v20250916,86.0,88.0,0.0,2.0,0.0,,"File chunking recommendations: Apart from the first and last files of a timeseries '10' full simulation years are expected in the data file for frequency 'mon'. The last timestep conflicts with this recommendation ('2020-12-16 12:00:00'): '2024-12-16 12:00:00'. 
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 ",,293.0,299.0,0.0,2.0,0.0,,"Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
@@ -23201,7 +23239,7 @@ global attribute south-north_grid_dimension should begin with a letter and be co
 global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -23950,8 +23988,8 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",378.0,384.0,2.0,2.0,0.0,,"attribute ps:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable x must be convertible to canonical units ""m""
-Units ""degrees"" for variable y must be convertible to canonical units ""m""
+","Units ""degrees"" for variable y must be convertible to canonical units ""m""
+Units ""degrees"" for variable x must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -26092,6 +26130,18 @@ The global attribute 'driving_source' is not defined. It is however recommended 
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/psl/v20250415/psl_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_196001010100-196101010000.nc,psl,EUR-12,EC-Earth3-Veg,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,1hr,v20250415,81.0,87.0,2.0,4.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
+File chunking recommendations: '1' full simulation year is expected in the data file for frequency '1hr'. The first timestep conflicts with this recommendation ('1960-01-01 00:00:00'): '1960-01-01 01:00:00'. 
+File chunking recommendations: '1' full simulation year is expected in the data file for frequency '1hr'. The last timestep conflicts with this recommendation ('1960-12-31 23:00:00'): '1961-01-01 00:00:00'. 
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+","Your time axis' 'units' attribute differs from the allowed values ('days since 1950-01-01T00:00:00Z', 'days since 1850-01-01T00:00:00Z' if the pre-1950 era is included in the group's simulations): 'hours since 1950-01-01 00:00:00'.
+The variable attribute 'psl:standard_name = 'air_pressure_at_sea_level' is not equivalent to the value specified in the CMOR table ('air_pressure_at_mean_sea_level').
+The variable attribute 'psl:cell_methods = 'time: point' is not equivalent to the value specified in the CMOR table ('area: mean time: point').
+The variable attribute 'psl:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
+",377.0,379.0,0.0,2.0,0.0,,"attribute psl:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
+",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/day/psl/v20250415/psl_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_day_19600101-19601231.nc,psl,EUR-12,EC-Earth3-Veg,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,day,v20250415,83.0,87.0,1.0,3.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -26636,7 +26686,7 @@ global attribute south-north_grid_dimension should begin with a letter and be co
 global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -27449,8 +27499,8 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",378.0,384.0,2.0,2.0,0.0,,"attribute psl:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable x must be convertible to canonical units ""m""
-Units ""degrees"" for variable y must be convertible to canonical units ""m""
+","Units ""degrees"" for variable y must be convertible to canonical units ""m""
+Units ""degrees"" for variable x must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -30285,8 +30335,8 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",375.0,381.0,2.0,2.0,0.0,,"attribute rlds:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable x must be convertible to canonical units ""m""
-Units ""degrees"" for variable y must be convertible to canonical units ""m""
+","Units ""degrees"" for variable y must be convertible to canonical units ""m""
+Units ""degrees"" for variable x must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -30742,6 +30792,21 @@ Bounds variable vertices_lon and parent variable lon have the following matching
 The Boundary variables 'vertices_lat' should not have the attributes: '['units', 'missing_value', '_FillValue']'
 The Boundary variables 'vertices_lon' should not have the attributes: '['units', 'missing_value', '_FillValue']'
 ",,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/1hr/rlut/v20250415/rlut_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_1hr_196001010100-196101010000.nc,rlut,EUR-12,EC-Earth3-Veg,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,1hr,v20250415,78.0,87.0,5.0,3.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+","Both, 'missing_value' and '_FillValue' have to be set for variable 'rlut'.
+Expected time_range '196001010030-196012312330' but found '196001010100-196101010000'.
+The 'time_range' element in the filename ('196001010100-196101010000') does not match with the first and last time values: '1960-01-01 00:30:00' and '1960-12-31 23:30:00'.
+Your time axis' 'units' attribute differs from the allowed values ('days since 1950-01-01T00:00:00Z', 'days since 1850-01-01T00:00:00Z' if the pre-1950 era is included in the group's simulations): 'hours since 1950-01-01 00:00:00'.
+The variable attribute 'rlut:cell_methods = 'time: point' is not equivalent to the value specified in the CMOR table ('area: time: mean').
+The variable attribute 'rlut:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
+",385.0,390.0,0.0,3.0,0.0,,"attribute rlut:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+The Boundary variables 'time_bnds' should not have the attributes: '['units', 'calendar']'
+",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/mon/rlut/v20250415/rlut_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_mon_19600101-19601231.nc,rlut,EUR-12,EC-Earth3-Veg,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,mon,v20250415,79.0,87.0,4.0,3.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -30997,7 +31062,7 @@ global attribute south-north_grid_dimension should begin with a letter and be co
 global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -31491,8 +31556,8 @@ The global attribute 'domain_id' is not compliant with the CV: 'EUR-12f'.
 Global attribute 'version_realization' is missing.
 ",227.0,233.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -32078,8 +32143,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by rsds is not present in dataset or external variables
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -32106,8 +32171,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by rsds is not present in dataset or external variables
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -32369,8 +32434,8 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",378.0,384.0,2.0,2.0,0.0,,"attribute rsds:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable x must be convertible to canonical units ""m""
-Units ""degrees"" for variable y must be convertible to canonical units ""m""
+","Units ""degrees"" for variable y must be convertible to canonical units ""m""
+Units ""degrees"" for variable x must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -32419,8 +32484,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by rsds is not present in dataset or external variables
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -32446,8 +32511,8 @@ The variable attribute 'rsds:cell_measures = 'unset' is not equivalent to the va
 Global attribute 'version_realization' is missing.
 ",227.0,233.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -32521,8 +32586,8 @@ The variable attribute 'rsds:cell_measures = 'unset' is not equivalent to the va
 Global attribute 'version_realization' is missing.
 ",227.0,233.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -32551,8 +32616,8 @@ The variable attribute 'rsds:cell_measures = 'unset' is not equivalent to the va
 Global attribute 'version_realization' is missing.
 ",227.0,233.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -33056,8 +33121,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by rsut is not present in dataset or external variables
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 standard_name TOA_outgoing_shortwave_flux_in_air is not defined in Standard Name Table v93. Possible close match(es): ['upwelling_shortwave_flux_in_air', 'toa_outgoing_shortwave_flux', 'downwelling_shortwave_flux_in_air']
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
@@ -35953,7 +36018,7 @@ global attribute south-north_grid_dimension should begin with a letter and be co
 global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -36716,8 +36781,8 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",378.0,384.0,2.0,2.0,0.0,,"attribute sfcWind:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable x must be convertible to canonical units ""m""
-Units ""degrees"" for variable y must be convertible to canonical units ""m""
+","Units ""degrees"" for variable y must be convertible to canonical units ""m""
+Units ""degrees"" for variable x must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -37131,8 +37196,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by sfcWind is not present in dataset or external variables
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""ms-1"" for variable sfcWind must be convertible to canonical units ""m s-1""
+","Units ""ms-1"" for variable sfcWind must be convertible to canonical units ""m s-1""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
@@ -38774,16 +38839,15 @@ global attribute south-north_grid_dimension should begin with a letter and be co
 global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
 The Boundary variables 'time_bnds' should not have the attributes: '['calendar', 'units']'
 Cell measure variable areacella referred to by sfcWindmax is not present in dataset or external variables
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units "" ms-1"" for variable sfcWindmax must be convertible to canonical units ""m s-1""
+","Units "" ms-1"" for variable sfcWindmax must be convertible to canonical units ""m s-1""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
@@ -38863,8 +38927,8 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",403.0,409.0,2.0,2.0,0.0,,"attribute sfcWindmax:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable x must be convertible to canonical units ""m""
-Units ""degrees"" for variable y must be convertible to canonical units ""m""
+","Units ""degrees"" for variable y must be convertible to canonical units ""m""
+Units ""degrees"" for variable x must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -38898,7 +38962,7 @@ Global attribute 'version_realization' is missing.
 ",280.0,287.0,1.0,3.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -40720,8 +40784,8 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",329.0,335.0,2.0,2.0,0.0,,"attribute sftlf:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable x must be convertible to canonical units ""m""
-Units ""degrees"" for variable y must be convertible to canonical units ""m""
+","Units ""degrees"" for variable y must be convertible to canonical units ""m""
+Units ""degrees"" for variable x must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -40894,8 +40958,8 @@ The global attribute 'references' is not specified. It is however recommended. T
 ","DRS filename building block 'source_id' does not comply with the CV: 'HadREM3-GA7-01'. Allowed values: 'ALARO1-SFX', 'BARPA-R1-NN', 'CCAM-v2105', ...
 Value for DRS building block 'source_id' is not consistent between 'file name' and 'file path' and 'global attributes': 'HadREM3-GA7-01' and 'HadREM3-GA7-05' and 'HadREM3-GA7-01'.
 File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF4/HDF5'.
-The coordinate variable 'grid_longitude' must be of double precision with the data type 'float64' / 'double'.
 The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
+The coordinate variable 'grid_longitude' must be of double precision with the data type 'float64' / 'double'.
 The main variable 'sftlf' must be of single precision with the data type 'float32' / 'float'.
 Both, 'missing_value' and '_FillValue' have to be set for variable 'sftlf'.
 (Coordinate) variable(s) grid_latitude, grid_longitude, latitude, longitude is/are not part of the CV or not compliant with the CF-Conventions.
@@ -41053,8 +41117,8 @@ No 'time_range' element could be inferred from filename.
 The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat' and 'rlon' to be present in the file defining the native coordinate system used by the RCM.
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",331.0,336.0,2.0,1.0,0.0,,"attribute sftlf:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
-","Units ""degrees"" for variable x must be convertible to canonical units ""m""
-Units ""degrees"" for variable y must be convertible to canonical units ""m""
+","Units ""degrees"" for variable y must be convertible to canonical units ""m""
+Units ""degrees"" for variable x must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -41138,8 +41202,8 @@ No 'time_range' element could be inferred from filename.
 The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat' and 'rlon' to be present in the file defining the native coordinate system used by the RCM.
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",331.0,336.0,2.0,1.0,0.0,,"attribute sftlf:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
-","Units ""degrees"" for variable x must be convertible to canonical units ""m""
-Units ""degrees"" for variable y must be convertible to canonical units ""m""
+","Units ""degrees"" for variable y must be convertible to canonical units ""m""
+Units ""degrees"" for variable x must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -41252,8 +41316,8 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 DRS path building block 'version_realization' does not comply with the CORDEX-CMIP6 Archive Specifications: 'rlatissues'. Expected pattern: 'v[1-9]\d*-r[1-9]\d*', eg. 'v1-r3'.
 ",331.0,336.0,2.0,1.0,0.0,,"attribute sftlf:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
-","Units ""degrees"" for variable x must be convertible to canonical units ""m""
-Units ""degrees"" for variable y must be convertible to canonical units ""m""
+","Units ""degrees"" for variable y must be convertible to canonical units ""m""
+Units ""degrees"" for variable x must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -41473,8 +41537,8 @@ The global attribute 'references' is not specified. It is however recommended. T
 ","DRS filename building block 'source_id' does not comply with the CV: 'HadREM3-GA7-01'. Allowed values: 'ALARO1-SFX', 'BARPA-R1-NN', 'CCAM-v2105', ...
 Value for DRS building block 'source_id' is not consistent between 'file name' and 'file path' and 'global attributes': 'HadREM3-GA7-01' and 'HadREM3-GA7-05' and 'HadREM3-GA7-01'.
 File format differs from expectation (NETCDF4_CLASSIC/HDF5): 'NETCDF4/HDF5'.
-The coordinate variable 'grid_longitude' must be of double precision with the data type 'float64' / 'double'.
 The coordinate variable 'grid_latitude' must be of double precision with the data type 'float64' / 'double'.
+The coordinate variable 'grid_longitude' must be of double precision with the data type 'float64' / 'double'.
 Both, 'missing_value' and '_FillValue' have to be set for variable 'sfturf'.
 The variable attributes '_FillValue' and/or 'missing_value' differ from the requested value '1e+20'.
 (Coordinate) variable(s) grid_latitude, grid_longitude, latitude, longitude is/are not part of the CV or not compliant with the CF-Conventions.
@@ -44956,7 +45020,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable ta850 has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -45324,7 +45388,7 @@ Global attribute 'version_realization' is missing.
 ",259.0,263.0,1.0,2.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable tas has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
-","dimensions for auxiliary coordinate variable height (height) are not a subset of dimensions for variable tas (rlon, time, rlat)
+","dimensions for auxiliary coordinate variable height (height) are not a subset of dimensions for variable tas (time, rlon, rlat)
 ",
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/TASK-IMWM/CMCC-CM2-SR5/historical/r1i1p1f1/WRF451Q/v1-r1/day/tas/v20240806/tas_EUR-12f_CMCC-CM2-SR5_historical_r1i1p1f1_TASK-IMWM_WRF451Q_v1-r1_day_19510101-19511231.nc,tas,EUR-12f,CMCC-CM2-SR5,historical,r1i1p1f1,TASK-IMWM,WRF451Q,v1-r1,day,v20240806,69.0,87.0,8.0,7.0,0.0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): '365_day'. The use of another calendar is OK in case it has been inherited from the driving model.
 It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is uncompressed. The 'shuffle' option is disabled.
@@ -46572,7 +46636,7 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable tas has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -47434,8 +47498,8 @@ The global attribute 'institution' is not compliant with the CV: 'International 
 ",406.0,413.0,2.0,3.0,0.0,,"attribute tas:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable tas has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable x must be convertible to canonical units ""m""
-Units ""degrees"" for variable y must be convertible to canonical units ""m""
+","Units ""degrees"" for variable y must be convertible to canonical units ""m""
+Units ""degrees"" for variable x must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -47489,7 +47553,7 @@ Global attribute 'version_realization' is missing.
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable tas has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -50533,9 +50597,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable tasmax has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -50941,8 +51004,8 @@ The global attribute 'institution' is not compliant with the CV: 'International 
 ",403.0,410.0,2.0,3.0,0.0,,"attribute tasmax:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable tasmax has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable x must be convertible to canonical units ""m""
-Units ""degrees"" for variable y must be convertible to canonical units ""m""
+","Units ""degrees"" for variable y must be convertible to canonical units ""m""
+Units ""degrees"" for variable x must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -51001,7 +51064,7 @@ Global attribute 'version_realization' is missing.
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable tasmax has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -53519,9 +53582,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable tasmin has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -53928,8 +53990,8 @@ The global attribute 'institution' is not compliant with the CV: 'International 
 ",403.0,410.0,2.0,3.0,0.0,,"attribute tasmin:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable tasmin has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable x must be convertible to canonical units ""m""
-Units ""degrees"" for variable y must be convertible to canonical units ""m""
+","Units ""degrees"" for variable y must be convertible to canonical units ""m""
+Units ""degrees"" for variable x must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -53988,7 +54050,7 @@ Global attribute 'version_realization' is missing.
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable tasmin has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -55794,7 +55856,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",279.0,286.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -56137,8 +56199,8 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",406.0,412.0,2.0,2.0,0.0,,"attribute ua100m:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable x must be convertible to canonical units ""m""
-Units ""degrees"" for variable y must be convertible to canonical units ""m""
+","Units ""degrees"" for variable y must be convertible to canonical units ""m""
+Units ""degrees"" for variable x must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -56385,7 +56447,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",279.0,286.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -56640,7 +56702,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",279.0,286.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -56869,7 +56931,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",279.0,286.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -57124,7 +57186,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",279.0,286.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -57353,7 +57415,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",279.0,286.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -57479,6 +57541,16 @@ Bounds variable vertices_lon and parent variable lon have the following matching
 The Boundary variables 'vertices_lat' should not have the attributes: '['units', 'missing_value', '_FillValue']'
 The Boundary variables 'vertices_lon' should not have the attributes: '['units', 'missing_value', '_FillValue']'
 ",,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/ua600/v20250415/ua600_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_196001010000-196101010000.nc,ua600,EUR-12,EC-Earth3-Veg,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,v20250415,81.0,87.0,2.0,4.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
+File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The last timestep conflicts with this recommendation ('1960-12-31 18:00:00'): '1961-01-01 00:00:00'. 
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+","Your time axis' 'units' attribute differs from the allowed values ('days since 1950-01-01T00:00:00Z', 'days since 1850-01-01T00:00:00Z' if the pre-1950 era is included in the group's simulations): 'hours since 1950-01-01 00:00:00'.
+The variable attribute 'ua600:cell_methods = 'time: point' is not equivalent to the value specified in the CMOR table ('area: mean time: point').
+The variable attribute 'ua600:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
+",404.0,406.0,0.0,2.0,0.0,,"attribute ua600:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
+",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/ssp370/r1i1p1f1/RegCM5-0/v1-r1/6hr/ua600/v20250415/ua600_EUR-12_EC-Earth3-Veg_ssp370_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_201501010600-201601010000.nc,ua600,EUR-12,EC-Earth3-Veg,ssp370,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,v20250415,77.0,87.0,5.0,4.0,0.0,,"File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The first timestep conflicts with this recommendation ('2015-01-01 00:00:00'): '2015-01-01 06:00:00'. 
 File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The last timestep conflicts with this recommendation ('2015-12-31 18:00:00'): '2016-01-01 00:00:00'. 
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
@@ -57598,7 +57670,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",279.0,286.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -57724,6 +57796,16 @@ Bounds variable vertices_lon and parent variable lon have the following matching
 The Boundary variables 'vertices_lat' should not have the attributes: '['units', 'missing_value', '_FillValue']'
 The Boundary variables 'vertices_lon' should not have the attributes: '['units', 'missing_value', '_FillValue']'
 ",,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/ua700/v20250415/ua700_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_196001010000-196101010000.nc,ua700,EUR-12,EC-Earth3-Veg,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,v20250415,81.0,87.0,2.0,4.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
+File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The last timestep conflicts with this recommendation ('1960-12-31 18:00:00'): '1961-01-01 00:00:00'. 
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+","Your time axis' 'units' attribute differs from the allowed values ('days since 1950-01-01T00:00:00Z', 'days since 1850-01-01T00:00:00Z' if the pre-1950 era is included in the group's simulations): 'hours since 1950-01-01 00:00:00'.
+The variable attribute 'ua700:cell_methods = 'time: point' is not equivalent to the value specified in the CMOR table ('area: mean time: point').
+The variable attribute 'ua700:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
+",404.0,406.0,0.0,2.0,0.0,,"attribute ua700:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
+",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/ssp370/r1i1p1f1/RegCM5-0/v1-r1/6hr/ua700/v20250415/ua700_EUR-12_EC-Earth3-Veg_ssp370_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_201501010600-201601010000.nc,ua700,EUR-12,EC-Earth3-Veg,ssp370,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,v20250415,77.0,87.0,5.0,4.0,0.0,,"File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The first timestep conflicts with this recommendation ('2015-01-01 00:00:00'): '2015-01-01 06:00:00'. 
 File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The last timestep conflicts with this recommendation ('2015-12-31 18:00:00'): '2016-01-01 00:00:00'. 
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
@@ -57817,7 +57899,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",279.0,286.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -57942,6 +58024,16 @@ Bounds variable vertices_lat and parent variable lat have the following matching
 Bounds variable vertices_lon and parent variable lon have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'vertices_lat' should not have the attributes: '['units', 'missing_value', '_FillValue']'
 The Boundary variables 'vertices_lon' should not have the attributes: '['units', 'missing_value', '_FillValue']'
+",,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/ua850/v20250415/ua850_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_196001010000-196101010000.nc,ua850,EUR-12,EC-Earth3-Veg,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,v20250415,81.0,87.0,2.0,4.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
+File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The last timestep conflicts with this recommendation ('1960-12-31 18:00:00'): '1961-01-01 00:00:00'. 
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+","Your time axis' 'units' attribute differs from the allowed values ('days since 1950-01-01T00:00:00Z', 'days since 1850-01-01T00:00:00Z' if the pre-1950 era is included in the group's simulations): 'hours since 1950-01-01 00:00:00'.
+The variable attribute 'ua850:cell_methods = 'time: point' is not equivalent to the value specified in the CMOR table ('area: mean time: point').
+The variable attribute 'ua850:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
+",404.0,406.0,0.0,2.0,0.0,,"attribute ua850:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/ssp370/r1i1p1f1/RegCM5-0/v1-r1/6hr/ua850/v20250415/ua850_EUR-12_EC-Earth3-Veg_ssp370_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_201501010600-201601010000.nc,ua850,EUR-12,EC-Earth3-Veg,ssp370,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,v20250415,77.0,87.0,5.0,4.0,0.0,,"File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The first timestep conflicts with this recommendation ('2015-01-01 00:00:00'): '2015-01-01 06:00:00'. 
 File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The last timestep conflicts with this recommendation ('2015-12-31 18:00:00'): '2016-01-01 00:00:00'. 
@@ -58068,7 +58160,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",279.0,286.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -58193,6 +58285,16 @@ Bounds variable vertices_lat and parent variable lat have the following matching
 Bounds variable vertices_lon and parent variable lon have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 The Boundary variables 'vertices_lat' should not have the attributes: '['units', 'missing_value', '_FillValue']'
 The Boundary variables 'vertices_lon' should not have the attributes: '['units', 'missing_value', '_FillValue']'
+",,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/ua925/v20250415/ua925_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_196001010000-196101010000.nc,ua925,EUR-12,EC-Earth3-Veg,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,v20250415,81.0,87.0,2.0,4.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
+File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The last timestep conflicts with this recommendation ('1960-12-31 18:00:00'): '1961-01-01 00:00:00'. 
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+","Your time axis' 'units' attribute differs from the allowed values ('days since 1950-01-01T00:00:00Z', 'days since 1850-01-01T00:00:00Z' if the pre-1950 era is included in the group's simulations): 'hours since 1950-01-01 00:00:00'.
+The variable attribute 'ua925:cell_methods = 'time: point' is not equivalent to the value specified in the CMOR table ('area: mean time: point').
+The variable attribute 'ua925:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
+",404.0,406.0,0.0,2.0,0.0,,"attribute ua925:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/ssp370/r1i1p1f1/RegCM5-0/v1-r1/6hr/ua925/v20250415/ua925_EUR-12_EC-Earth3-Veg_ssp370_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_201501010600-201601010000.nc,ua925,EUR-12,EC-Earth3-Veg,ssp370,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,v20250415,77.0,87.0,5.0,4.0,0.0,,"File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The first timestep conflicts with this recommendation ('2015-01-01 00:00:00'): '2015-01-01 06:00:00'. 
 File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The last timestep conflicts with this recommendation ('2015-12-31 18:00:00'): '2016-01-01 00:00:00'. 
@@ -58319,7 +58421,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",279.0,286.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -60976,7 +61078,7 @@ global attribute south-north_grid_dimension should begin with a letter and be co
 global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -61375,8 +61477,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by uas is not present in dataset or external variables
 ","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""ms-1"" for variable uas must be convertible to canonical units ""m s-1""
 Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""ms-1"" for variable uas must be convertible to canonical units ""m s-1""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -61416,8 +61518,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by uas is not present in dataset or external variables
 ","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""ms-1"" for variable uas must be convertible to canonical units ""m s-1""
 Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""ms-1"" for variable uas must be convertible to canonical units ""m s-1""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -61736,8 +61838,8 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",403.0,409.0,2.0,2.0,0.0,,"attribute uas:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable x must be convertible to canonical units ""m""
-Units ""degrees"" for variable y must be convertible to canonical units ""m""
+","Units ""degrees"" for variable y must be convertible to canonical units ""m""
+Units ""degrees"" for variable x must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -62152,8 +62254,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by uas is not present in dataset or external variables
 ","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""ms-1"" for variable uas must be convertible to canonical units ""m s-1""
 Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+Units ""ms-1"" for variable uas must be convertible to canonical units ""m s-1""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -63609,6 +63711,16 @@ DRS filename building block 'institution_id' does not comply with the CV: 'CLMco
 Global attribute 'institution_id' does not comply with the CV: 'CLMcom-WEGC'. Allowed values: 'AUTH', 'BAS', 'BCCR-UCAN', ...
 Global attribute 'institution_id' does not comply with the CV: 'CLMcom-WEGC'. Allowed values: 'CLMcom-BTU', 'CLMcom-CMCC', 'CLMcom-DWD', ...
 ",326.0,326.0,0.0,0.0,0.0,,,,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/va1000/v20250415/va1000_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_196001010000-196101010000.nc,va1000,EUR-12,EC-Earth3-Veg,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,v20250415,81.0,87.0,2.0,4.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
+File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The last timestep conflicts with this recommendation ('1960-12-31 18:00:00'): '1961-01-01 00:00:00'. 
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+","Your time axis' 'units' attribute differs from the allowed values ('days since 1950-01-01T00:00:00Z', 'days since 1850-01-01T00:00:00Z' if the pre-1950 era is included in the group's simulations): 'hours since 1950-01-01 00:00:00'.
+The variable attribute 'va1000:cell_methods = 'time: point' is not equivalent to the value specified in the CMOR table ('area: mean time: point').
+The variable attribute 'va1000:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
+",404.0,406.0,0.0,2.0,0.0,,"attribute va1000:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
+",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/ssp370/r1i1p1f1/RegCM5-0/v1-r1/6hr/va1000/v20250415/va1000_EUR-12_EC-Earth3-Veg_ssp370_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_201501010600-201601010000.nc,va1000,EUR-12,EC-Earth3-Veg,ssp370,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,v20250415,77.0,87.0,5.0,4.0,0.0,,"File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The first timestep conflicts with this recommendation ('2015-01-01 00:00:00'): '2015-01-01 06:00:00'. 
 File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The last timestep conflicts with this recommendation ('2015-12-31 18:00:00'): '2016-01-01 00:00:00'. 
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
@@ -63728,7 +63840,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",279.0,286.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -64071,8 +64183,8 @@ The grid_mapping_name 'rotated_latitude_longitude' requires the variables 'rlat'
 The global attribute 'institution' is not compliant with the CV: 'International Centre for Theoretical Physics' instead of 'The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy'.
 ",406.0,412.0,2.0,2.0,0.0,,"attribute va100m:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable x must be convertible to canonical units ""m""
-Units ""degrees"" for variable y must be convertible to canonical units ""m""
+","Units ""degrees"" for variable y must be convertible to canonical units ""m""
+Units ""degrees"" for variable x must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",
@@ -64164,6 +64276,16 @@ DRS filename building block 'institution_id' does not comply with the CV: 'CLMco
 Global attribute 'institution_id' does not comply with the CV: 'CLMcom-WEGC'. Allowed values: 'AUTH', 'BAS', 'BCCR-UCAN', ...
 Global attribute 'institution_id' does not comply with the CV: 'CLMcom-WEGC'. Allowed values: 'CLMcom-BTU', 'CLMcom-CMCC', 'CLMcom-DWD', ...
 ",326.0,326.0,0.0,0.0,0.0,,,,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/va200/v20250415/va200_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_196001010000-196101010000.nc,va200,EUR-12,EC-Earth3-Veg,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,v20250415,81.0,87.0,2.0,4.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
+File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The last timestep conflicts with this recommendation ('1960-12-31 18:00:00'): '1961-01-01 00:00:00'. 
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+","Your time axis' 'units' attribute differs from the allowed values ('days since 1950-01-01T00:00:00Z', 'days since 1850-01-01T00:00:00Z' if the pre-1950 era is included in the group's simulations): 'hours since 1950-01-01 00:00:00'.
+The variable attribute 'va200:cell_methods = 'time: point' is not equivalent to the value specified in the CMOR table ('area: mean time: point').
+The variable attribute 'va200:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
+",404.0,406.0,0.0,2.0,0.0,,"attribute va200:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
+",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/ssp370/r1i1p1f1/RegCM5-0/v1-r1/6hr/va200/v20250415/va200_EUR-12_EC-Earth3-Veg_ssp370_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_201501010600-201601010000.nc,va200,EUR-12,EC-Earth3-Veg,ssp370,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,v20250415,77.0,87.0,5.0,4.0,0.0,,"File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The first timestep conflicts with this recommendation ('2015-01-01 00:00:00'): '2015-01-01 06:00:00'. 
 File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The last timestep conflicts with this recommendation ('2015-12-31 18:00:00'): '2016-01-01 00:00:00'. 
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
@@ -64289,7 +64411,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",279.0,286.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -64406,6 +64528,16 @@ DRS filename building block 'institution_id' does not comply with the CV: 'CLMco
 Global attribute 'institution_id' does not comply with the CV: 'CLMcom-WEGC'. Allowed values: 'AUTH', 'BAS', 'BCCR-UCAN', ...
 Global attribute 'institution_id' does not comply with the CV: 'CLMcom-WEGC'. Allowed values: 'CLMcom-BTU', 'CLMcom-CMCC', 'CLMcom-DWD', ...
 ",326.0,326.0,0.0,0.0,0.0,,,,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/va250/v20250415/va250_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_196001010000-196101010000.nc,va250,EUR-12,EC-Earth3-Veg,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,v20250415,81.0,87.0,2.0,4.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
+File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The last timestep conflicts with this recommendation ('1960-12-31 18:00:00'): '1961-01-01 00:00:00'. 
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+","Your time axis' 'units' attribute differs from the allowed values ('days since 1950-01-01T00:00:00Z', 'days since 1850-01-01T00:00:00Z' if the pre-1950 era is included in the group's simulations): 'hours since 1950-01-01 00:00:00'.
+The variable attribute 'va250:cell_methods = 'time: point' is not equivalent to the value specified in the CMOR table ('area: mean time: point').
+The variable attribute 'va250:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
+",404.0,406.0,0.0,2.0,0.0,,"attribute va250:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
+",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/ssp370/r1i1p1f1/RegCM5-0/v1-r1/6hr/va250/v20250415/va250_EUR-12_EC-Earth3-Veg_ssp370_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_201501010600-201601010000.nc,va250,EUR-12,EC-Earth3-Veg,ssp370,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,v20250415,77.0,87.0,5.0,4.0,0.0,,"File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The first timestep conflicts with this recommendation ('2015-01-01 00:00:00'): '2015-01-01 06:00:00'. 
 File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The last timestep conflicts with this recommendation ('2015-12-31 18:00:00'): '2016-01-01 00:00:00'. 
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
@@ -64525,7 +64657,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",279.0,286.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -64642,6 +64774,16 @@ DRS filename building block 'institution_id' does not comply with the CV: 'CLMco
 Global attribute 'institution_id' does not comply with the CV: 'CLMcom-WEGC'. Allowed values: 'AUTH', 'BAS', 'BCCR-UCAN', ...
 Global attribute 'institution_id' does not comply with the CV: 'CLMcom-WEGC'. Allowed values: 'CLMcom-BTU', 'CLMcom-CMCC', 'CLMcom-DWD', ...
 ",326.0,326.0,0.0,0.0,0.0,,,,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/va300/v20250415/va300_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_196001010000-196101010000.nc,va300,EUR-12,EC-Earth3-Veg,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,v20250415,81.0,87.0,2.0,4.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
+File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The last timestep conflicts with this recommendation ('1960-12-31 18:00:00'): '1961-01-01 00:00:00'. 
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+","Your time axis' 'units' attribute differs from the allowed values ('days since 1950-01-01T00:00:00Z', 'days since 1850-01-01T00:00:00Z' if the pre-1950 era is included in the group's simulations): 'hours since 1950-01-01 00:00:00'.
+The variable attribute 'va300:cell_methods = 'time: point' is not equivalent to the value specified in the CMOR table ('area: mean time: point').
+The variable attribute 'va300:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
+",404.0,406.0,0.0,2.0,0.0,,"attribute va300:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
+",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/ssp370/r1i1p1f1/RegCM5-0/v1-r1/6hr/va300/v20250415/va300_EUR-12_EC-Earth3-Veg_ssp370_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_201501010600-201601010000.nc,va300,EUR-12,EC-Earth3-Veg,ssp370,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,v20250415,77.0,87.0,5.0,4.0,0.0,,"File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The first timestep conflicts with this recommendation ('2015-01-01 00:00:00'): '2015-01-01 06:00:00'. 
 File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The last timestep conflicts with this recommendation ('2015-12-31 18:00:00'): '2016-01-01 00:00:00'. 
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
@@ -64735,7 +64877,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",279.0,286.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -64852,6 +64994,16 @@ DRS filename building block 'institution_id' does not comply with the CV: 'CLMco
 Global attribute 'institution_id' does not comply with the CV: 'CLMcom-WEGC'. Allowed values: 'AUTH', 'BAS', 'BCCR-UCAN', ...
 Global attribute 'institution_id' does not comply with the CV: 'CLMcom-WEGC'. Allowed values: 'CLMcom-BTU', 'CLMcom-CMCC', 'CLMcom-DWD', ...
 ",326.0,326.0,0.0,0.0,0.0,,,,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/va400/v20250415/va400_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_196001010000-196101010000.nc,va400,EUR-12,EC-Earth3-Veg,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,v20250415,81.0,87.0,2.0,4.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
+File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The last timestep conflicts with this recommendation ('1960-12-31 18:00:00'): '1961-01-01 00:00:00'. 
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+","Your time axis' 'units' attribute differs from the allowed values ('days since 1950-01-01T00:00:00Z', 'days since 1850-01-01T00:00:00Z' if the pre-1950 era is included in the group's simulations): 'hours since 1950-01-01 00:00:00'.
+The variable attribute 'va400:cell_methods = 'time: point' is not equivalent to the value specified in the CMOR table ('area: mean time: point').
+The variable attribute 'va400:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
+",404.0,406.0,0.0,2.0,0.0,,"attribute va400:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
+",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/ssp370/r1i1p1f1/RegCM5-0/v1-r1/6hr/va400/v20250415/va400_EUR-12_EC-Earth3-Veg_ssp370_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_201501010600-201601010000.nc,va400,EUR-12,EC-Earth3-Veg,ssp370,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,v20250415,77.0,87.0,5.0,4.0,0.0,,"File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The first timestep conflicts with this recommendation ('2015-01-01 00:00:00'): '2015-01-01 06:00:00'. 
 File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The last timestep conflicts with this recommendation ('2015-12-31 18:00:00'): '2016-01-01 00:00:00'. 
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
@@ -64971,7 +65123,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",279.0,286.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -65088,6 +65240,16 @@ DRS filename building block 'institution_id' does not comply with the CV: 'CLMco
 Global attribute 'institution_id' does not comply with the CV: 'CLMcom-WEGC'. Allowed values: 'AUTH', 'BAS', 'BCCR-UCAN', ...
 Global attribute 'institution_id' does not comply with the CV: 'CLMcom-WEGC'. Allowed values: 'CLMcom-BTU', 'CLMcom-CMCC', 'CLMcom-DWD', ...
 ",326.0,326.0,0.0,0.0,0.0,,,,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/va500/v20250415/va500_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_196001010000-196101010000.nc,va500,EUR-12,EC-Earth3-Veg,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,v20250415,81.0,87.0,2.0,4.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
+File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The last timestep conflicts with this recommendation ('1960-12-31 18:00:00'): '1961-01-01 00:00:00'. 
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+","Your time axis' 'units' attribute differs from the allowed values ('days since 1950-01-01T00:00:00Z', 'days since 1850-01-01T00:00:00Z' if the pre-1950 era is included in the group's simulations): 'hours since 1950-01-01 00:00:00'.
+The variable attribute 'va500:cell_methods = 'time: point' is not equivalent to the value specified in the CMOR table ('area: mean time: point').
+The variable attribute 'va500:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
+",404.0,406.0,0.0,2.0,0.0,,"attribute va500:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
+",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/ssp370/r1i1p1f1/RegCM5-0/v1-r1/6hr/va500/v20250415/va500_EUR-12_EC-Earth3-Veg_ssp370_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_201501010600-201601010000.nc,va500,EUR-12,EC-Earth3-Veg,ssp370,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,v20250415,77.0,87.0,5.0,4.0,0.0,,"File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The first timestep conflicts with this recommendation ('2015-01-01 00:00:00'): '2015-01-01 06:00:00'. 
 File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The last timestep conflicts with this recommendation ('2015-12-31 18:00:00'): '2016-01-01 00:00:00'. 
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
@@ -65181,7 +65343,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",279.0,286.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -65298,6 +65460,16 @@ DRS filename building block 'institution_id' does not comply with the CV: 'CLMco
 Global attribute 'institution_id' does not comply with the CV: 'CLMcom-WEGC'. Allowed values: 'AUTH', 'BAS', 'BCCR-UCAN', ...
 Global attribute 'institution_id' does not comply with the CV: 'CLMcom-WEGC'. Allowed values: 'CLMcom-BTU', 'CLMcom-CMCC', 'CLMcom-DWD', ...
 ",326.0,326.0,0.0,0.0,0.0,,,,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/va600/v20250415/va600_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_196001010000-196101010000.nc,va600,EUR-12,EC-Earth3-Veg,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,v20250415,81.0,87.0,2.0,4.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
+File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The last timestep conflicts with this recommendation ('1960-12-31 18:00:00'): '1961-01-01 00:00:00'. 
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+","Your time axis' 'units' attribute differs from the allowed values ('days since 1950-01-01T00:00:00Z', 'days since 1850-01-01T00:00:00Z' if the pre-1950 era is included in the group's simulations): 'hours since 1950-01-01 00:00:00'.
+The variable attribute 'va600:cell_methods = 'time: point' is not equivalent to the value specified in the CMOR table ('area: mean time: point').
+The variable attribute 'va600:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
+",404.0,406.0,0.0,2.0,0.0,,"attribute va600:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
+",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/ssp370/r1i1p1f1/RegCM5-0/v1-r1/6hr/va600/v20250415/va600_EUR-12_EC-Earth3-Veg_ssp370_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_201501010600-201601010000.nc,va600,EUR-12,EC-Earth3-Veg,ssp370,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,v20250415,77.0,87.0,5.0,4.0,0.0,,"File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The first timestep conflicts with this recommendation ('2015-01-01 00:00:00'): '2015-01-01 06:00:00'. 
 File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The last timestep conflicts with this recommendation ('2015-12-31 18:00:00'): '2016-01-01 00:00:00'. 
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
@@ -65417,7 +65589,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",279.0,286.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -65534,6 +65706,16 @@ DRS filename building block 'institution_id' does not comply with the CV: 'CLMco
 Global attribute 'institution_id' does not comply with the CV: 'CLMcom-WEGC'. Allowed values: 'AUTH', 'BAS', 'BCCR-UCAN', ...
 Global attribute 'institution_id' does not comply with the CV: 'CLMcom-WEGC'. Allowed values: 'CLMcom-BTU', 'CLMcom-CMCC', 'CLMcom-DWD', ...
 ",326.0,326.0,0.0,0.0,0.0,,,,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/va700/v20250415/va700_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_196001010000-196101010000.nc,va700,EUR-12,EC-Earth3-Veg,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,v20250415,81.0,87.0,2.0,4.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
+File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The last timestep conflicts with this recommendation ('1960-12-31 18:00:00'): '1961-01-01 00:00:00'. 
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+","Your time axis' 'units' attribute differs from the allowed values ('days since 1950-01-01T00:00:00Z', 'days since 1850-01-01T00:00:00Z' if the pre-1950 era is included in the group's simulations): 'hours since 1950-01-01 00:00:00'.
+The variable attribute 'va700:cell_methods = 'time: point' is not equivalent to the value specified in the CMOR table ('area: mean time: point').
+The variable attribute 'va700:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
+",404.0,406.0,0.0,2.0,0.0,,"attribute va700:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
+",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/ssp370/r1i1p1f1/RegCM5-0/v1-r1/6hr/va700/v20250415/va700_EUR-12_EC-Earth3-Veg_ssp370_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_201501010600-201601010000.nc,va700,EUR-12,EC-Earth3-Veg,ssp370,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,v20250415,77.0,87.0,5.0,4.0,0.0,,"File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The first timestep conflicts with this recommendation ('2015-01-01 00:00:00'): '2015-01-01 06:00:00'. 
 File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The last timestep conflicts with this recommendation ('2015-12-31 18:00:00'): '2016-01-01 00:00:00'. 
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
@@ -65627,7 +65809,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",279.0,286.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -65744,6 +65926,16 @@ DRS filename building block 'institution_id' does not comply with the CV: 'CLMco
 Global attribute 'institution_id' does not comply with the CV: 'CLMcom-WEGC'. Allowed values: 'AUTH', 'BAS', 'BCCR-UCAN', ...
 Global attribute 'institution_id' does not comply with the CV: 'CLMcom-WEGC'. Allowed values: 'CLMcom-BTU', 'CLMcom-CMCC', 'CLMcom-DWD', ...
 ",326.0,326.0,0.0,0.0,0.0,,,,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/va850/v20250415/va850_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_196001010000-196101010000.nc,va850,EUR-12,EC-Earth3-Veg,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,v20250415,81.0,87.0,2.0,4.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
+File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The last timestep conflicts with this recommendation ('1960-12-31 18:00:00'): '1961-01-01 00:00:00'. 
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+","Your time axis' 'units' attribute differs from the allowed values ('days since 1950-01-01T00:00:00Z', 'days since 1850-01-01T00:00:00Z' if the pre-1950 era is included in the group's simulations): 'hours since 1950-01-01 00:00:00'.
+The variable attribute 'va850:cell_methods = 'time: point' is not equivalent to the value specified in the CMOR table ('area: mean time: point').
+The variable attribute 'va850:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
+",404.0,406.0,0.0,2.0,0.0,,"attribute va850:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
+",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/ssp370/r1i1p1f1/RegCM5-0/v1-r1/6hr/va850/v20250415/va850_EUR-12_EC-Earth3-Veg_ssp370_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_201501010600-201601010000.nc,va850,EUR-12,EC-Earth3-Veg,ssp370,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,v20250415,77.0,87.0,5.0,4.0,0.0,,"File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The first timestep conflicts with this recommendation ('2015-01-01 00:00:00'): '2015-01-01 06:00:00'. 
 File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The last timestep conflicts with this recommendation ('2015-12-31 18:00:00'): '2016-01-01 00:00:00'. 
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
@@ -65869,7 +66061,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",279.0,286.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -65986,6 +66178,16 @@ DRS filename building block 'institution_id' does not comply with the CV: 'CLMco
 Global attribute 'institution_id' does not comply with the CV: 'CLMcom-WEGC'. Allowed values: 'AUTH', 'BAS', 'BCCR-UCAN', ...
 Global attribute 'institution_id' does not comply with the CV: 'CLMcom-WEGC'. Allowed values: 'CLMcom-BTU', 'CLMcom-CMCC', 'CLMcom-DWD', ...
 ",326.0,326.0,0.0,0.0,0.0,,,,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/va925/v20250415/va925_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_196001010000-196101010000.nc,va925,EUR-12,EC-Earth3-Veg,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,v20250415,81.0,87.0,2.0,4.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
+File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The last timestep conflicts with this recommendation ('1960-12-31 18:00:00'): '1961-01-01 00:00:00'. 
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+","Your time axis' 'units' attribute differs from the allowed values ('days since 1950-01-01T00:00:00Z', 'days since 1850-01-01T00:00:00Z' if the pre-1950 era is included in the group's simulations): 'hours since 1950-01-01 00:00:00'.
+The variable attribute 'va925:cell_methods = 'time: point' is not equivalent to the value specified in the CMOR table ('area: mean time: point').
+The variable attribute 'va925:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
+",404.0,406.0,0.0,2.0,0.0,,"attribute va925:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
+",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/ssp370/r1i1p1f1/RegCM5-0/v1-r1/6hr/va925/v20250415/va925_EUR-12_EC-Earth3-Veg_ssp370_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_201501010600-201601010000.nc,va925,EUR-12,EC-Earth3-Veg,ssp370,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,v20250415,77.0,87.0,5.0,4.0,0.0,,"File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The first timestep conflicts with this recommendation ('2015-01-01 00:00:00'): '2015-01-01 06:00:00'. 
 File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The last timestep conflicts with this recommendation ('2015-12-31 18:00:00'): '2016-01-01 00:00:00'. 
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
@@ -66111,7 +66313,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",279.0,286.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -66901,7 +67103,7 @@ global attribute south-north_grid_dimension should begin with a letter and be co
 global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
@@ -67299,8 +67501,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by vas is not present in dataset or external variables
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""ms-1"" for variable vas must be convertible to canonical units ""m s-1""
+","Units ""ms-1"" for variable vas must be convertible to canonical units ""m s-1""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
@@ -67341,8 +67543,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by vas is not present in dataset or external variables
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""ms-1"" for variable vas must be convertible to canonical units ""m s-1""
+","Units ""ms-1"" for variable vas must be convertible to canonical units ""m s-1""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
@@ -68075,8 +68277,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by vas is not present in dataset or external variables
-","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
-Units ""ms-1"" for variable vas must be convertible to canonical units ""m s-1""
+","Units ""ms-1"" for variable vas must be convertible to canonical units ""m s-1""
+Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
@@ -70143,6 +70345,16 @@ The global attribute 'driving_source' is not defined. It is however recommended 
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 ",,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/6hr/zg500/v20250415/zg500_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_6hr_196001010000-196101010000.nc,zg500,EUR-12,EC-Earth3-Veg,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,6hr,v20250415,81.0,87.0,2.0,4.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
+File chunking recommendations: '1' full simulation year is expected in the data file for frequency '6hr'. The last timestep conflicts with this recommendation ('1960-12-31 18:00:00'): '1961-01-01 00:00:00'. 
+It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
+It is recommended for the variables 'lat' and 'lon' to have bounds defined.
+","Your time axis' 'units' attribute differs from the allowed values ('days since 1950-01-01T00:00:00Z', 'days since 1850-01-01T00:00:00Z' if the pre-1950 era is included in the group's simulations): 'hours since 1950-01-01 00:00:00'.
+The variable attribute 'zg500:cell_methods = 'time: point' is not equivalent to the value specified in the CMOR table ('area: mean time: point').
+The variable attribute 'zg500:cell_measures = 'unset' is not equivalent to the value specified in the CMOR table ('area: areacella').
+",404.0,406.0,0.0,2.0,0.0,,"attribute zg500:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
+Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
+",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/day/zg500/v20250415/zg500_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_day_19600101-19601231.nc,zg500,EUR-12,EC-Earth3-Veg,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,day,v20250415,83.0,87.0,1.0,3.0,0.0,,"It is recommended that data should be compressed with a 'deflate level' of '1' and enabled 'shuffle' option. The data is compressed with a higher 'deflate level' than recommended, this can lead to performance issues when accessing the data.
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -70488,7 +70700,7 @@ The global attribute 'institution' is not compliant with the CV: 'Instituto Dom 
 ",279.0,286.0,1.0,4.0,0.0,,"global attribute bottom-top_grid_dimension should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute title should exist and be a non-empty string
 Time coordinate variable ""time"" should have a string valued attribute ""calendar""
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
+Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
