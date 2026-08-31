@@ -49,6 +49,7 @@ headers = {
 prios = {
     "cf": ["low_priorities", "medium_priorities", "high_priorities"],
     "cc6": ["low_priorities", "medium_priorities", "high_priorities"],
+    "wcrp_cordex_cmip6": ["low_priorities", "medium_priorities", "high_priorities"],
 }
 
 catalog_url = "https://euro-cordex.s3.eu-central-1.amazonaws.com/catalog/CORDEX-CMIP6-JSC.csv"
@@ -222,7 +223,8 @@ def compliance_check(filenames):
 
     print(f"checking {len(filenames)} datasets")
     path = filenames
-    checker_names = ["cf", "cc6"]
+    # checker_names = ["cf", "cc6"]
+    checker_names = ["cf:1.11", "wcrp_cordex_cmip6"]
     verbose = 1
     criteria = "normal"
     output_filename = report_filename
@@ -609,15 +611,13 @@ def main():
     5. Write CSV report and Excel workbook.
     """
     os.makedirs(report_dir, exist_ok=True)
-    filenames = collect_files(
-        catalog_url
-    )  # [0:100]
+    filenames = collect_files(catalog_url)  # [0:20]
     failed_files = test_open_dataset(filenames)
     cc_data = compliance_check(
         [f for f in filenames if f not in failed_files.filename.tolist()]
     )
     report = write_report(cc_data, failed_files)
-    create_excel(report)
+    # create_excel(report)
     print(f"Report written to {report}")
 
 

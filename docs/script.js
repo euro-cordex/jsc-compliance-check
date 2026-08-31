@@ -90,17 +90,17 @@ function loadCSV(){
 }
 
 function enrichRow(r){
-	// Normalize multi-line message fields (cf medium/low/high priorities, cc6 likewise)
+	// Normalize multi-line message fields (cf medium/low/high priorities, wcrp_cordex_cmip6 likewise)
 	const parseMsgs = (val) => (typeof val === 'string' && val.trim().length) ? val.trim().split(/\n+/).map(s=>s.trim()).filter(Boolean) : [];
 	return {
 		...r,
 		cf_low_msgs: parseMsgs(r['cf:low_priorities']),
 		cf_med_msgs: parseMsgs(r['cf:medium_priorities']),
 		cf_high_msgs: parseMsgs(r['cf:high_priorities']),
-		cc6_low_msgs: parseMsgs(r['cc6:low_priorities']),
-		cc6_med_msgs: parseMsgs(r['cc6:medium_priorities']),
-		cc6_high_msgs: parseMsgs(r['cc6:high_priorities']),
-		hasHigh: parseMsgs(r['cf:high_priorities']).length > 0 || parseMsgs(r['cc6:high_priorities']).length > 0
+		wcrp_low_msgs: parseMsgs(r['wcrp_cordex_cmip6:low_priorities']),
+		wcrp_med_msgs: parseMsgs(r['wcrp_cordex_cmip6:medium_priorities']),
+		wcrp_high_msgs: parseMsgs(r['wcrp_cordex_cmip6:high_priorities']),
+		hasHigh: parseMsgs(r['cf:high_priorities']).length > 0 || parseMsgs(r['wcrp_cordex_cmip6:high_priorities']).length > 0
 	};
 }
 
@@ -119,17 +119,17 @@ function enrichJsonRow(r){
 		'cf:high_count': r.cf_high_count,
 		'cf:medium_count': r.cf_medium_count,
 		'cf:low_count': r.cf_low_count,
-		'cc6:scored_points': r.cc6_scored,
-		'cc6:possible_points': r.cc6_possible,
-		'cc6:high_count': r.cc6_high_count,
-		'cc6:medium_count': r.cc6_medium_count,
-		'cc6:low_count': r.cc6_low_count,
+		'wcrp_cordex_cmip6:scored_points': r.wcrp_scored,
+		'wcrp_cordex_cmip6:possible_points': r.wcrp_possible,
+		'wcrp_cordex_cmip6:high_count': r.wcrp_high_count,
+		'wcrp_cordex_cmip6:medium_count': r.wcrp_medium_count,
+		'wcrp_cordex_cmip6:low_count': r.wcrp_low_count,
 		cf_low_msgs: r.cf_low || [],
 		cf_med_msgs: r.cf_med || [],
 		cf_high_msgs: r.cf_high || [],
-		cc6_low_msgs: r.cc6_low || [],
-		cc6_med_msgs: r.cc6_med || [],
-		cc6_high_msgs: r.cc6_high || [],
+		wcrp_low_msgs: r.wcrp_low || [],
+		wcrp_med_msgs: r.wcrp_med || [],
+		wcrp_high_msgs: r.wcrp_high || [],
 		hasHigh: !!r.hasHigh
 	};
 }
@@ -184,9 +184,9 @@ function renderTable(){
 			<td>${escapeHtml(r.driving_experiment_id || '')}</td>
 			<td>${escapeHtml(r.frequency || '')}</td>
 			<td>${scoreCell(r['cf:scored_points'], r['cf:possible_points'])}</td>
-			<td>${scoreCell(r['cc6:scored_points'], r['cc6:possible_points'])}</td>
+			<td>${scoreCell(r['wcrp_cordex_cmip6:scored_points'], r['wcrp_cordex_cmip6:possible_points'])}</td>
 			<td>${issueCounts(r['cf:high_count'], r['cf:medium_count'], r['cf:low_count'])}</td>
-			<td>${issueCounts(r['cc6:high_count'], r['cc6:medium_count'], r['cc6:low_count'])}</td>
+			<td>${issueCounts(r['wcrp_cordex_cmip6:high_count'], r['wcrp_cordex_cmip6:medium_count'], r['wcrp_cordex_cmip6:low_count'])}</td>
 		`;
 		tr.classList.add('dashboard-row');
 		tr.addEventListener('click', () => toggleDetails(idx));
@@ -227,14 +227,14 @@ function detailsContent(r){
 			<div><strong>institution_id:</strong> ${escapeHtml(r.institution_id||'')} &nbsp; <strong>source_id:</strong> ${escapeHtml(r.source_id||'')}</div>
 			<div style="margin-top:.25rem;">
 				${pill('CF', r['cf:scored_points'], r['cf:possible_points'])}
-				${pill('CC6', r['cc6:scored_points'], r['cc6:possible_points'])}
+				${pill('WCRP CORDEX CMIP6', r['wcrp_cordex_cmip6:scored_points'], r['wcrp_cordex_cmip6:possible_points'])}
 			</div>
 			${messagesSection('CF High Priority', r.cf_high_msgs, 'high')}
 			${messagesSection('CF Medium Priority', r.cf_med_msgs, 'medium')}
 			${messagesSection('CF Low Priority', r.cf_low_msgs, 'low')}
-			${messagesSection('CC6 High Priority', r.cc6_high_msgs, 'high')}
-			${messagesSection('CC6 Medium Priority', r.cc6_med_msgs, 'medium')}
-			${messagesSection('CC6 Low Priority', r.cc6_low_msgs, 'low')}
+			${messagesSection('WCRP CORDEX CMIP6 High Priority', r.wcrp_high_msgs, 'high')}
+			${messagesSection('WCRP CORDEX CMIP6 Medium Priority', r.wcrp_med_msgs, 'medium')}
+			${messagesSection('WCRP CORDEX CMIP6 Low Priority', r.wcrp_low_msgs, 'low')}
 		</div>
 	`;
 }
