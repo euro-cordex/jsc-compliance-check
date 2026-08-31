@@ -16,7 +16,8 @@ const state = {
 	filtered: [],
 	institution: '',
 	source: '',
-	search: ''
+	search: '',
+	lastUpdated: null
 };
 
 const els = {};
@@ -37,6 +38,7 @@ function cacheEls(){
 	els.status = document.getElementById('status');
 	els.tbody = document.querySelector('#reportTable tbody');
 	els.details = document.getElementById('detailsPanel');
+	els.updateDate = document.getElementById('updateDate');
 }
 
 function loadCSV(){
@@ -51,13 +53,15 @@ function loadCSV(){
 		const path = JSON_CANDIDATES[i];
 		fetch(path, { cache: 'no-store' }).then(r => {
 			if(!r.ok) throw new Error(r.statusText);
+			const lastModified = r.headers.get('last-modified');
+			if(lastModified) state.lastUpdated = new Date(lastModified);
 			return r.json();
 		}).then(data => {
 			if(!Array.isArray(data) || !data.length) throw new Error('Empty JSON');
 			state.rows = data.map(enrichJsonRow);
 			buildFilterOptions();
 			applyFilters();
-			setStatus(`Loaded ${state.rows.length} rows (JSON).`);
+			updateStatusAndDate(`Loaded ${state.rows.length} rows (JSON).`);
 		}).catch(err => {
 			console.warn('JSON load failed', path, err); tryJson(i+1);
 		});
@@ -82,7 +86,7 @@ function loadCSV(){
 				state.rows = results.data.map(enrichRow);
 				buildFilterOptions();
 				applyFilters();
-				setStatus(`Loaded ${state.rows.length} rows (CSV: ${path}).`);
+				updateStatusAndDate(`Loaded ${state.rows.length} rows (CSV: ${path}).`);
 			},
 			error: (err) => { console.warn('Failed to load', path, err); tryCsv(i+1); }
 		});
@@ -314,6 +318,16 @@ function messagesSection(title, list, level){
 
 function setStatus(msg){
 	if(els.status) els.status.textContent = msg;
+}
+
+function updateStatusAndDate(msg){
+	setStatus(msg);
+	if(els.updateDate){
+		if(state.lastUpdated){
+			const dateStr = state.lastUpdated.toLocaleString();
+			els.updateDate.textContent = `Last updated: ${dateStr}`;
+		}
+	}
 }
 
 function basename(path){
