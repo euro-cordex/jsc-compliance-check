@@ -617,7 +617,7 @@ def main():
         [f for f in filenames if f not in failed_files.filename.tolist()]
     )
     report = write_report(cc_data, failed_files)
-    # create_excel(report)
+    create_excel(report)
     print(f"Report written to {report}")
 
 
