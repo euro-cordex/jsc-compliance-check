@@ -21,9 +21,9 @@ MESSAGE_COLUMNS = [
     "cf:low_priorities",
     "cf:medium_priorities",
     "cf:high_priorities",
-    "cc6:low_priorities",
-    "cc6:medium_priorities",
-    "cc6:high_priorities",
+    "wcrp_cordex_cmip6:low_priorities",
+    "wcrp_cordex_cmip6:medium_priorities",
+    "wcrp_cordex_cmip6:high_priorities",
 ]
 
 
@@ -58,32 +58,36 @@ def main():
                 "cf_high_count": safe_int(raw.get("cf:high_count")),
                 "cf_medium_count": safe_int(raw.get("cf:medium_count")),
                 "cf_low_count": safe_int(raw.get("cf:low_count")),
-                "cc6_scored": safe_float(raw.get("cc6:scored_points")),
-                "cc6_possible": safe_float(raw.get("cc6:possible_points")),
-                "cc6_high_count": safe_int(raw.get("cc6:high_count")),
-                "cc6_medium_count": safe_int(raw.get("cc6:medium_count")),
-                "cc6_low_count": safe_int(raw.get("cc6:low_count")),
+                "wcrp_scored": safe_float(raw.get("wcrp_cordex_cmip6:scored_points")),
+                "wcrp_possible": safe_float(
+                    raw.get("wcrp_cordex_cmip6:possible_points")
+                ),
+                "wcrp_high_count": safe_int(raw.get("wcrp_cordex_cmip6:high_count")),
+                "wcrp_medium_count": safe_int(
+                    raw.get("wcrp_cordex_cmip6:medium_count")
+                ),
+                "wcrp_low_count": safe_int(raw.get("wcrp_cordex_cmip6:low_count")),
             }
             # Add message arrays only if non-empty
             cf_low = split_messages(raw.get("cf:low_priorities"))
             cf_med = split_messages(raw.get("cf:medium_priorities"))
             cf_high = split_messages(raw.get("cf:high_priorities"))
-            cc6_low = split_messages(raw.get("cc6:low_priorities"))
-            cc6_med = split_messages(raw.get("cc6:medium_priorities"))
-            cc6_high = split_messages(raw.get("cc6:high_priorities"))
+            wcrp_low = split_messages(raw.get("wcrp_cordex_cmip6:low_priorities"))
+            wcrp_med = split_messages(raw.get("wcrp_cordex_cmip6:medium_priorities"))
+            wcrp_high = split_messages(raw.get("wcrp_cordex_cmip6:high_priorities"))
             if cf_low:
                 rec["cf_low"] = cf_low
             if cf_med:
                 rec["cf_med"] = cf_med
             if cf_high:
                 rec["cf_high"] = cf_high
-            if cc6_low:
-                rec["cc6_low"] = cc6_low
-            if cc6_med:
-                rec["cc6_med"] = cc6_med
-            if cc6_high:
-                rec["cc6_high"] = cc6_high
-            rec["hasHigh"] = bool(cf_high or cc6_high)
+            if wcrp_low:
+                rec["wcrp_low"] = wcrp_low
+            if wcrp_med:
+                rec["wcrp_med"] = wcrp_med
+            if wcrp_high:
+                rec["wcrp_high"] = wcrp_high
+            rec["hasHigh"] = bool(cf_high or wcrp_high)
             rows.append(rec)
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
