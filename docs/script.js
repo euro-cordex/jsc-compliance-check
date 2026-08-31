@@ -145,6 +145,38 @@ function buildFilterOptions(){
 	fillSelect(els.source, [...srcVals].sort());
 }
 
+function updateDependentFilters(){
+	// Update source dropdown based on selected institution
+	if(state.institution){
+		const srcVals = new Set();
+		state.rows.forEach(r => {
+			if(r.institution_id === state.institution && r.source_id) srcVals.add(r.source_id);
+		});
+		fillSelect(els.source, [...srcVals].sort());
+	} else {
+		const srcVals = new Set();
+		state.rows.forEach(r => {
+			if(r.source_id) srcVals.add(r.source_id);
+		});
+		fillSelect(els.source, [...srcVals].sort());
+	}
+	
+	// Update institution dropdown based on selected source
+	if(state.source){
+		const instVals = new Set();
+		state.rows.forEach(r => {
+			if(r.source_id === state.source && r.institution_id) instVals.add(r.institution_id);
+		});
+		fillSelect(els.inst, [...instVals].sort());
+	} else {
+		const instVals = new Set();
+		state.rows.forEach(r => {
+			if(r.institution_id) instVals.add(r.institution_id);
+		});
+		fillSelect(els.inst, [...instVals].sort());
+	}
+}
+
 function fillSelect(sel, values){
 	const current = sel.value;
 	sel.innerHTML = '<option value="">All</option>' + values.map(v=>`<option value="${escapeHtml(v)}">${escapeHtml(v)}</option>`).join('');
@@ -152,10 +184,27 @@ function fillSelect(sel, values){
 }
 
 function bindEvents(){
-	els.inst.addEventListener('change', ()=> { state.institution = els.inst.value; applyFilters(); });
-	els.source.addEventListener('change', ()=> { state.source = els.source.value; applyFilters(); });
+	els.inst.addEventListener('change', ()=> { 
+		state.institution = els.inst.value; 
+		updateDependentFilters();
+		applyFilters(); 
+	});
+	els.source.addEventListener('change', ()=> { 
+		state.source = els.source.value; 
+		updateDependentFilters();
+		applyFilters(); 
+	});
 	els.search.addEventListener('input', debounce(()=> { state.search = els.search.value.trim().toLowerCase(); applyFilters(); }, 150));
-	els.clear.addEventListener('click', () => { els.inst.value=''; els.source.value=''; els.search.value=''; state.institution=''; state.source=''; state.search=''; applyFilters(); });
+	els.clear.addEventListener('click', () => { 
+		els.inst.value=''; 
+		els.source.value=''; 
+		els.search.value=''; 
+		state.institution=''; 
+		state.source=''; 
+		state.search=''; 
+		buildFilterOptions();
+		applyFilters(); 
+	});
 }
 
 function applyFilters(){
