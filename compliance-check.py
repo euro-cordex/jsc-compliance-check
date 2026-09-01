@@ -505,9 +505,9 @@ def create_excel(filename, cols=None):
 
     if cols is None:
         cols = [
-            "cc6:high_priorities",
+            "wcrp_cordex_cmip6:high_priorities",
             "cf:high_priorities",
-            "cc6:medium_priorities",
+            "wcrp_cordex_cmip6:medium_priorities",
             "cf:medium_priorities",
             "not_readable",
         ]
