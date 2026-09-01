@@ -59,8 +59,7 @@ function loadCSV(){
 		}).then(data => {
 			if(!Array.isArray(data) || !data.length) throw new Error('Empty JSON');
 			state.rows = data.map(enrichJsonRow);
-			buildFilterOptions();
-			applyFilters();
+			buildFilterOptions();			loadFiltersFromURL();			applyFilters();
 			updateStatusAndDate(`Loaded ${state.rows.length} rows (JSON).`);
 		}).catch(err => {
 			console.warn('JSON load failed', path, err); tryJson(i+1);
@@ -191,14 +190,20 @@ function bindEvents(){
 	els.inst.addEventListener('change', ()=> { 
 		state.institution = els.inst.value; 
 		updateDependentFilters();
-		applyFilters(); 
+		applyFilters();
+		updateURL();
 	});
 	els.source.addEventListener('change', ()=> { 
 		state.source = els.source.value; 
 		updateDependentFilters();
-		applyFilters(); 
+		applyFilters();
+		updateURL();
 	});
-	els.search.addEventListener('input', debounce(()=> { state.search = els.search.value.trim().toLowerCase(); applyFilters(); }, 150));
+	els.search.addEventListener('input', debounce(()=> { 
+		state.search = els.search.value.trim().toLowerCase(); 
+		applyFilters();
+		updateURL();
+	}, 150));
 	els.clear.addEventListener('click', () => { 
 		els.inst.value=''; 
 		els.source.value=''; 
@@ -207,7 +212,8 @@ function bindEvents(){
 		state.source=''; 
 		state.search=''; 
 		buildFilterOptions();
-		applyFilters(); 
+		applyFilters();
+		updateURL();
 	});
 }
 
@@ -328,6 +334,42 @@ function updateStatusAndDate(msg){
 			els.updateDate.textContent = `Last updated: ${dateStr}`;
 		}
 	}
+}
+
+function loadFiltersFromURL(){
+	const params = new URLSearchParams(window.location.search);
+	const inst = params.get('institution');
+	const src = params.get('source');
+	const srch = params.get('search');
+	
+	if(inst && els.inst.querySelector(`option[value="${escapeHtml(inst)}"]`)){
+		els.inst.value = inst;
+		state.institution = inst;
+	}
+	if(src && els.source.querySelector(`option[value="${escapeHtml(src)}"]`)){
+		els.source.value = src;
+		state.source = src;
+	}
+	if(srch){
+		els.search.value = srch;
+		state.search = srch.toLowerCase();
+	}
+	
+	if(inst || src || srch){
+		updateDependentFilters();
+	}
+}
+
+function updateURL(){
+	const params = new URLSearchParams();
+	if(state.institution) params.set('institution', state.institution);
+	if(state.source) params.set('source', state.source);
+	if(state.search) params.set('search', state.search);
+	
+	const newUrl = params.toString() 
+		? `${window.location.pathname}?${params.toString()}`
+		: window.location.pathname;
+	window.history.replaceState({}, '', newUrl);
 }
 
 function basename(path){
