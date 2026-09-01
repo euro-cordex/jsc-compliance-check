@@ -52,7 +52,9 @@ prios = {
     "wcrp_cordex_cmip6": ["low_priorities", "medium_priorities", "high_priorities"],
 }
 
-catalog_url = "https://euro-cordex.s3.eu-central-1.amazonaws.com/catalog/CORDEX-CMIP6-JSC.csv"
+catalog_url = (
+    "https://euro-cordex.s3.eu-central-1.amazonaws.com/catalog/CORDEX-CMIP6-JSC.csv"
+)
 
 cols = ["scored_points", "possible_points", "high_count", "medium_count", "low_count"]
 

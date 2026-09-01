@@ -163,7 +163,7 @@ function updateDependentFilters(){
 		});
 		fillSelect(els.source, [...srcVals].sort());
 	}
-	
+
 	// Update institution dropdown based on selected source
 	if(state.source){
 		const instVals = new Set();
@@ -187,30 +187,30 @@ function fillSelect(sel, values){
 }
 
 function bindEvents(){
-	els.inst.addEventListener('change', ()=> { 
-		state.institution = els.inst.value; 
+	els.inst.addEventListener('change', ()=> {
+		state.institution = els.inst.value;
 		updateDependentFilters();
 		applyFilters();
 		updateURL();
 	});
-	els.source.addEventListener('change', ()=> { 
-		state.source = els.source.value; 
+	els.source.addEventListener('change', ()=> {
+		state.source = els.source.value;
 		updateDependentFilters();
 		applyFilters();
 		updateURL();
 	});
-	els.search.addEventListener('input', debounce(()=> { 
-		state.search = els.search.value.trim().toLowerCase(); 
+	els.search.addEventListener('input', debounce(()=> {
+		state.search = els.search.value.trim().toLowerCase();
 		applyFilters();
 		updateURL();
 	}, 150));
-	els.clear.addEventListener('click', () => { 
-		els.inst.value=''; 
-		els.source.value=''; 
-		els.search.value=''; 
-		state.institution=''; 
-		state.source=''; 
-		state.search=''; 
+	els.clear.addEventListener('click', () => {
+		els.inst.value='';
+		els.source.value='';
+		els.search.value='';
+		state.institution='';
+		state.source='';
+		state.search='';
 		buildFilterOptions();
 		applyFilters();
 		updateURL();
@@ -341,7 +341,7 @@ function loadFiltersFromURL(){
 	const inst = params.get('institution');
 	const src = params.get('source');
 	const srch = params.get('search');
-	
+
 	if(inst && els.inst.querySelector(`option[value="${escapeHtml(inst)}"]`)){
 		els.inst.value = inst;
 		state.institution = inst;
@@ -354,7 +354,7 @@ function loadFiltersFromURL(){
 		els.search.value = srch;
 		state.search = srch.toLowerCase();
 	}
-	
+
 	if(inst || src || srch){
 		updateDependentFilters();
 	}
@@ -365,8 +365,8 @@ function updateURL(){
 	if(state.institution) params.set('institution', state.institution);
 	if(state.source) params.set('source', state.source);
 	if(state.search) params.set('search', state.search);
-	
-	const newUrl = params.toString() 
+
+	const newUrl = params.toString()
 		? `${window.location.pathname}?${params.toString()}`
 		: window.location.pathname;
 	window.history.replaceState({}, '', newUrl);
