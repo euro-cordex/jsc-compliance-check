@@ -117,6 +117,7 @@ function enrichJsonRow(r){
 		driving_source_id: r.driving_source_id,
 		driving_experiment_id: r.driving_experiment_id,
 		frequency: r.frequency,
+		file_modified: r.file_modified,
 		'cf:scored_points': r.cf_scored,
 		'cf:possible_points': r.cf_possible,
 		'cf:high_count': r.cf_high_count,
@@ -242,6 +243,7 @@ function renderTable(){
 			<td>${escapeHtml(r.driving_source_id || '')}</td>
 			<td>${escapeHtml(r.driving_experiment_id || '')}</td>
 			<td>${escapeHtml(r.frequency || '')}</td>
+			<td>${escapeHtml(r.file_modified || '')}</td>
 			<td>${scoreCell(r['cf:scored_points'], r['cf:possible_points'])}</td>
 			<td>${scoreCell(r['wcrp_cordex_cmip6:scored_points'], r['wcrp_cordex_cmip6:possible_points'])}</td>
 			<td>${issueCounts(r['cf:high_count'], r['cf:medium_count'], r['cf:low_count'])}</td>
@@ -255,7 +257,7 @@ function renderTable(){
 		const detailsTr = document.createElement('tr');
 		detailsTr.className = 'details-row';
 		detailsTr.style.display = 'none';
-		detailsTr.innerHTML = `<td colspan="12">${detailsContent(r)}</td>`;
+		detailsTr.innerHTML = `<td colspan="13">${detailsContent(r)}</td>`;
 		frag.appendChild(detailsTr);
 	});
 	els.tbody.innerHTML='';

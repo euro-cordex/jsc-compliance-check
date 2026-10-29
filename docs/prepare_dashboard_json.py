@@ -47,6 +47,7 @@ def main():
             # Build compact record
             rec = {
                 "filename": raw.get("filename"),
+                "file_modified": raw.get("file_modified"),
                 "variable_id": raw.get("variable_id"),
                 "institution_id": raw.get("institution_id"),
                 "source_id": raw.get("source_id"),
