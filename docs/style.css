@@ -15,6 +15,12 @@ main { padding:1rem 1.25rem; }
 table { border-collapse: collapse; width:100%; background:#fff; box-shadow:0 1px 3px rgba(0,0,0,.08); }
 thead { background:#e2eaf1; position:sticky; top:0; z-index:2; }
 th, td { padding:.4rem .5rem; font-size:.72rem; border-bottom:1px solid #dde4ea; vertical-align:top; }
+.sort-button { background:transparent; color:inherit; border:0; border-radius:0; padding:0; font:inherit; font-weight:700; text-align:left; width:100%; white-space:nowrap; }
+.sort-button:hover { background:#cbd9e6; }
+.sort-button:focus-visible { outline:2px solid #16324f; outline-offset:3px; }
+.sort-button::after { content:" \2195"; }
+th[aria-sort="ascending"] .sort-button::after { content:" \2191"; }
+th[aria-sort="descending"] .sort-button::after { content:" \2193"; }
 tbody tr { cursor:pointer; }
 tbody tr:hover { background:#f0f6fa; }
 tbody tr.details-row:hover { background:transparent; }
