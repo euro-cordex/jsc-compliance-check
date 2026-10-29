@@ -8,6 +8,12 @@ This repository publishes a [dashboard](https://euro-cordex.github.io/jsc-compli
 
 The CSV and Excel reports and dashboard include each file's filesystem modification time in UTC (`file_modified`).
 
+Click any dashboard column header to sort ascending; click it again to sort descending.
+Sorting applies to the filtered rows and is preserved in the URL alongside the filters.
+Scores sort by percentage, issue counts by high/medium/low priority in that order, and modification times chronologically.
+Missing values stay last in either direction. Equal values retain their report order.
+The initial view keeps the report order unless a sort is specified in the URL; clearing filters keeps the selected sort.
+
 > [!IMPORTANT]
 > The data will only be checked and show up in the dashboard if the initial parsing of the filepath and filename are successful during the catalog update. If the parsing fails, the data does not show up in the catalog and, hence, can not be checked. Please check, if your data
 > failed parsing and shows up [here](https://github.com/euro-cordex/jsc-cordex-catalog/blob/main/failed_parsing.csv).

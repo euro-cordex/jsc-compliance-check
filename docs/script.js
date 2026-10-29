@@ -11,12 +11,34 @@ const CSV_CANDIDATES = [
 	'compliance-report.csv',
 ];
 
+const SORT_VALUES = {
+	flag: r => Number(r.hasHigh),
+	filename: r => basename(r.filename) || null,
+	variable_id: r => r.variable_id || null,
+	institution_id: r => r.institution_id || null,
+	source_id: r => r.source_id || null,
+	driving_source_id: r => r.driving_source_id || null,
+	driving_experiment_id: r => r.driving_experiment_id || null,
+	frequency: r => r.frequency || null,
+	file_modified: r => {
+		const timestamp = Date.parse(r.file_modified);
+		return Number.isFinite(timestamp) ? timestamp : null;
+	},
+	cf_scored: r => scoreSortValue(r, 'cf'),
+	wcrp_scored: r => scoreSortValue(r, 'wcrp_cordex_cmip6'),
+	cf_issues: r => issuesSortValue(r, 'cf'),
+	wcrp_issues: r => issuesSortValue(r, 'wcrp_cordex_cmip6')
+};
+const textCollator = new Intl.Collator('en', { sensitivity: 'base' });
+
 const state = {
 	rows: [],
 	filtered: [],
 	institution: '',
 	source: '',
 	search: '',
+	sort: '',
+	direction: 'asc',
 	lastUpdated: null
 };
 
@@ -39,6 +61,7 @@ function cacheEls(){
 	els.tbody = document.querySelector('#reportTable tbody');
 	els.details = document.getElementById('detailsPanel');
 	els.updateDate = document.getElementById('updateDate');
+	els.sortButtons = document.querySelectorAll('#reportTable .sort-button');
 }
 
 function loadCSV(){
@@ -84,6 +107,7 @@ function loadCSV(){
 				}
 				state.rows = results.data.map(enrichRow);
 				buildFilterOptions();
+				loadFiltersFromURL();
 				applyFilters();
 				updateStatusAndDate(`Loaded ${state.rows.length} rows (CSV: ${path}).`);
 			},
@@ -188,6 +212,15 @@ function fillSelect(sel, values){
 }
 
 function bindEvents(){
+	els.sortButtons.forEach(button => {
+		button.addEventListener('click', () => {
+			const column = button.dataset.sort;
+			state.direction = state.sort === column && state.direction === 'asc' ? 'desc' : 'asc';
+			state.sort = column;
+			applyFilters();
+			updateURL();
+		});
+	});
 	els.inst.addEventListener('change', ()=> {
 		state.institution = els.inst.value;
 		updateDependentFilters();
@@ -225,8 +258,62 @@ function applyFilters(){
 		if(state.search && !String(r.filename).toLowerCase().includes(state.search)) return false;
 		return true;
 	});
+	if(state.sort){
+		const valueFor = SORT_VALUES[state.sort];
+		const direction = state.direction === 'desc' ? -1 : 1;
+		state.filtered.sort((a, b) => {
+			const left = valueFor(a);
+			const right = valueFor(b);
+			// Missing values stay last regardless of sort direction.
+			if(left == null || right == null) return left == null ? (right == null ? 0 : 1) : -1;
+			return direction * compareSortValues(left, right);
+		});
+	}
+	updateSortHeaders();
 	renderTable();
 	setStatus(`${state.filtered.length} shown` + (state.filtered.length !== state.rows.length ? ` (of ${state.rows.length})` : ''));
+}
+
+function numberSortValue(value){
+	if(value == null || String(value).trim() === '') return null;
+	const number = Number(value);
+	return Number.isFinite(number) ? number : null;
+}
+
+function scoreSortValue(row, checker){
+	const scored = numberSortValue(row[`${checker}:scored_points`]);
+	const possible = numberSortValue(row[`${checker}:possible_points`]);
+	if(scored == null || possible == null) return null;
+	return possible ? scored / possible : 0;
+}
+
+function issuesSortValue(row, checker){
+	const counts = ['high', 'medium', 'low'].map(priority => numberSortValue(row[`${checker}:${priority}_count`]));
+	return counts.every(value => value == null) ? null : counts.map(value => value ?? 0);
+}
+
+function compareSortValues(left, right){
+	if(Array.isArray(left)){
+		for(let i = 0; i < left.length; i++){
+			if(left[i] !== right[i]) return left[i] - right[i];
+		}
+		return 0;
+	}
+	return typeof left === 'string' ? textCollator.compare(left, right) : left - right;
+}
+
+function updateSortHeaders(){
+	els.sortButtons.forEach(button => {
+		const active = button.dataset.sort === state.sort;
+		const nextDirection = active && state.direction === 'asc' ? 'descending' : 'ascending';
+		button.title = `Sort ${nextDirection}`;
+		button.setAttribute('aria-label', `${button.textContent}: sort ${nextDirection}`);
+		if(active){
+			button.parentElement.setAttribute('aria-sort', state.direction === 'asc' ? 'ascending' : 'descending');
+		} else {
+			button.parentElement.removeAttribute('aria-sort');
+		}
+	});
 }
 
 function renderTable(){
@@ -343,6 +430,11 @@ function loadFiltersFromURL(){
 	const inst = params.get('institution');
 	const src = params.get('source');
 	const srch = params.get('search');
+	const sort = params.get('sort');
+	if(Object.hasOwn(SORT_VALUES, sort)){
+		state.sort = sort;
+		state.direction = params.get('direction') === 'desc' ? 'desc' : 'asc';
+	}
 
 	if(inst && els.inst.querySelector(`option[value="${escapeHtml(inst)}"]`)){
 		els.inst.value = inst;
@@ -367,6 +459,10 @@ function updateURL(){
 	if(state.institution) params.set('institution', state.institution);
 	if(state.source) params.set('source', state.source);
 	if(state.search) params.set('search', state.search);
+	if(state.sort){
+		params.set('sort', state.sort);
+		params.set('direction', state.direction);
+	}
 
 	const newUrl = params.toString()
 		? `${window.location.pathname}?${params.toString()}`
