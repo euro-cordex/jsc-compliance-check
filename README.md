@@ -6,6 +6,8 @@ This is a dedicated repository that addresses dataset compliance issues at JSC-C
 
 This repository publishes a [dashboard](https://euro-cordex.github.io/jsc-compliance-check/docs) and an equivalent [excel report](https://github.com/euro-cordex/jsc-compliance-check/raw/refs/heads/main/report/compliance-report.xlsx). The excel report contains one sheet per institution_id while the dashboard allows for more filter options.
 
+The CSV and Excel reports and dashboard include each file's filesystem modification time in UTC (`file_modified`).
+
 > [!IMPORTANT]
 > The data will only be checked and show up in the dashboard if the initial parsing of the filepath and filename are successful during the catalog update. If the parsing fails, the data does not show up in the catalog and, hence, can not be checked. Please check, if your data
 > failed parsing and shows up [here](https://github.com/euro-cordex/jsc-cordex-catalog/blob/main/failed_parsing.csv).

@@ -25,6 +25,7 @@ import json
 import os
 import xarray as xr
 from pathlib import Path
+from datetime import datetime, timezone
 
 import requests
 
@@ -288,6 +289,21 @@ def filename_to_id(filename):
     return ".".join(values)
 
 
+def file_modified_utc(filename):
+    """Return a file's modification time as an ISO 8601 UTC timestamp."""
+    if not isinstance(filename, (str, os.PathLike)) or not filename:
+        return ""
+    try:
+        modified = Path(filename).stat().st_mtime
+        return (
+            datetime.fromtimestamp(modified, timezone.utc)
+            .isoformat(timespec="seconds")
+            .replace("+00:00", "Z")
+        )
+    except (OSError, OverflowError, ValueError):
+        return ""
+
+
 def collect_non_empty_msgs(results):
     """Collect non-empty ``msgs`` lists from test result dictionaries.
 
@@ -449,7 +465,13 @@ def write_report(cc_data, corrupt):
         summary = {}
         for test, results in tests.items():
             summary.update(summarize(test, results))
-        result[filename] = filename_to_attrs(filename) | summary
+        result[filename] = (
+            {"file_modified": file_modified_utc(filename)}
+            | filename_to_attrs(filename)
+            | summary
+        )
+    corrupt = corrupt.copy()
+    corrupt["file_modified"] = corrupt["filename"].map(file_modified_utc)
     df = (
         pd.DataFrame.from_dict(result, orient="index")
         .reset_index()
@@ -507,6 +529,7 @@ def create_excel(filename, cols=None):
 
     if cols is None:
         cols = [
+            "file_modified",
             "wcrp_cordex_cmip6:high_priorities",
             "cf:high_priorities",
             "wcrp_cordex_cmip6:medium_priorities",
