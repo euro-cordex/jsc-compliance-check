@@ -771,8 +771,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by clt is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",58.0,71.0,5.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -799,8 +799,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by clt is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,71.0,6.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -958,8 +958,8 @@ It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bou
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/MPI-ESM1-2-HR/ssp370/r1i1p1f1/RegCM5-0/v1-r1/day/clt/v20250415/clt_EUR-12_MPI-ESM1-2-HR_ssp370_r1i1p1f1_ICTP_RegCM5-0_v1-r1_day_20150101-20151231.nc,2026-07-09T21:05:52Z,clt,EUR-12,MPI-ESM1-2-HR,ssp370,r1i1p1f1,ICTP,RegCM5-0,v1-r1,day,v20250415,379.0,385.0,2.0,2.0,0.0,,"attribute clt:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",61.0,66.0,2.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -987,8 +987,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by clt is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",55.0,70.0,6.0,4.0,0.0,,"File chunking recommendations: Apart from the first and last files of a timeseries '5' full simulation years are expected in the data file for frequency 'day'. The first timestep conflicts with this recommendation ('2015-01-01 12:00:00'): '2015-01-01 12:30:00'. 
@@ -1015,8 +1015,8 @@ Time range precision mismatch for frequency 'day': expected 8-digit labels but g
 ",,66.0,66.0,0.0,0.0,0.0,,,,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/historical/r1i1p1f1/WRF451Q/v1-r1/day/clt/v20251025/clt_EUR-12_NorESM2-MM_historical_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_19540101-19541231.nc,2025-10-26T02:00:02Z,clt,EUR-12,NorESM2-MM,historical,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20251025,226.0,232.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",56.0,68.0,4.0,6.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -1071,8 +1071,8 @@ It is recommended that data be compressed with a 'deflate level' of '1' and with
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp126/r1i1p1f1/WRF451Q/v1-r1/day/clt/v20240710/clt_EUR-12_NorESM2-MM_ssp126_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_20150101-20151231.nc,2026-02-04T20:24:50Z,clt,EUR-12,NorESM2-MM,ssp126,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20240710,226.0,232.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",58.0,67.0,3.0,5.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -1095,8 +1095,8 @@ It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bou
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp370/r1i1p1f1/WRF451Q/v1-r1/day/clt/v20251025/clt_EUR-12_NorESM2-MM_ssp370_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_20150101-20151231.nc,2026-04-15T01:06:50Z,clt,EUR-12,NorESM2-MM,ssp370,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20251025,226.0,232.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,68.0,4.0,5.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -1775,8 +1775,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by evpsbl is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",51.0,68.0,7.0,4.0,0.0,,"Cannot interpret cell_methods 'unknown'.
@@ -2020,8 +2020,8 @@ It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bou
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/MPI-ESM1-2-HR/ssp370/r1i1p1f1/RegCM5-0/v1-r1/day/evspsbl/v20250415/evspsbl_EUR-12_MPI-ESM1-2-HR_ssp370_r1i1p1f1_ICTP_RegCM5-0_v1-r1_day_20150101-20151231.nc,2026-07-09T20:56:04Z,evspsbl,EUR-12,MPI-ESM1-2-HR,ssp370,r1i1p1f1,ICTP,RegCM5-0,v1-r1,day,v20250415,376.0,382.0,2.0,2.0,0.0,,"attribute evspsbl:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",61.0,66.0,2.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -2049,8 +2049,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by evspsbl is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",55.0,70.0,6.0,4.0,0.0,,"File chunking recommendations: Apart from the first and last files of a timeseries '5' full simulation years are expected in the data file for frequency 'day'. The first timestep conflicts with this recommendation ('2015-01-01 12:00:00'): '2015-01-01 12:30:00'. 
@@ -2077,8 +2077,8 @@ Time range precision mismatch for frequency 'day': expected 8-digit labels but g
 ",,66.0,66.0,0.0,0.0,0.0,,,,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/historical/r1i1p1f1/WRF451Q/v1-r1/day/evspsbl/v20251025/evspsbl_EUR-12_NorESM2-MM_historical_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_19540101-19541231.nc,2025-10-26T00:27:15Z,evspsbl,EUR-12,NorESM2-MM,historical,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20251025,226.0,232.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",56.0,68.0,4.0,6.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -2133,8 +2133,8 @@ It is recommended that data be compressed with a 'deflate level' of '1' and with
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp126/r1i1p1f1/WRF451Q/v1-r1/day/evspsbl/v20240710/evspsbl_EUR-12_NorESM2-MM_ssp126_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_20150101-20151231.nc,2026-02-04T20:15:39Z,evspsbl,EUR-12,NorESM2-MM,ssp126,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20240710,226.0,232.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",58.0,67.0,3.0,5.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -2157,8 +2157,8 @@ It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bou
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp370/r1i1p1f1/WRF451Q/v1-r1/day/evspsbl/v20251025/evspsbl_EUR-12_NorESM2-MM_ssp370_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_20150101-20151231.nc,2026-04-15T01:38:52Z,evspsbl,EUR-12,NorESM2-MM,ssp370,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20251025,226.0,232.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,68.0,4.0,5.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -2380,8 +2380,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by hfls is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,71.0,6.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -3217,8 +3217,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by hurs is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,71.0,6.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -3474,8 +3474,8 @@ Your time axis' 'units' attribute differs from the allowed values ('days since 1
 ",
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/MPI-ESM1-2-HR/ssp370/r1i1p1f1/RegCM5-0/v1-r1/day/hurs/v20250415/hurs_EUR-12_MPI-ESM1-2-HR_ssp370_r1i1p1f1_ICTP_RegCM5-0_v1-r1_day_20150101-20151231.nc,2026-07-09T21:07:07Z,hurs,EUR-12,MPI-ESM1-2-HR,ssp370,r1i1p1f1,ICTP,RegCM5-0,v1-r1,day,v20250415,407.0,413.0,2.0,2.0,0.0,,"attribute hurs:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",61.0,66.0,2.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -3490,8 +3490,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by hurs is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",56.0,69.0,6.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -3516,8 +3516,8 @@ Time range precision mismatch for frequency 'day': expected 8-digit labels but g
 ",,66.0,66.0,0.0,0.0,0.0,,,,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/historical/r1i1p1f1/WRF451Q/v1-r1/day/hurs/v20251025/hurs_EUR-12_NorESM2-MM_historical_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_19540101-19541231.nc,2025-10-26T00:51:33Z,hurs,EUR-12,NorESM2-MM,historical,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20251025,226.0,232.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",56.0,69.0,4.0,6.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -3563,8 +3563,8 @@ It is recommended that data be compressed with a 'deflate level' of '1' and with
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp126/r1i1p1f1/WRF451Q/v1-r1/day/hurs/v20240710/hurs_EUR-12_NorESM2-MM_ssp126_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_20150101-20151231.nc,2026-05-20T19:35:48Z,hurs,EUR-12,NorESM2-MM,ssp126,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20240710,227.0,233.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",63.0,66.0,0.0,3.0,0.0,,"Your 'calendar' attribute is not one of the recommended calendars ('standard', 'proleptic_gregorian'): '365_day'. The use of another calendar is OK in case it has been inherited from the driving model.
@@ -3579,8 +3579,8 @@ It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bou
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp370/r1i1p1f1/WRF451Q/v1-r1/day/hurs/v20251025/hurs_EUR-12_NorESM2-MM_ssp370_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_20150101-20151231.nc,2026-04-15T01:26:46Z,hurs,EUR-12,NorESM2-MM,ssp370,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20251025,226.0,232.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",56.0,69.0,4.0,6.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -6422,8 +6422,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by huss is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,71.0,6.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -6555,6 +6555,7 @@ Variable time has a calendar attribute of standard and it is recommended that th
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CLMcom-DWD/MPI-ESM1-2-HR/historical/r1i1p1f1/ICON-CLM-202407-1-1/v1-r1/day/huss/v20240920/huss_EUR-12_MPI-ESM1-2-HR_historical_r1i1p1f1_CLMcom-DWD_ICON-CLM-202407-1-1_v1-r1_day_19500101-19501231.nc,2025-12-05T09:03:10Z,huss,EUR-12,MPI-ESM1-2-HR,historical,r1i1p1f1,CLMcom-DWD,ICON-CLM-202407-1-1,v1-r1,day,v20240920,330.0,330.0,0.0,0.0,0.0,,,,66.0,66.0,0.0,0.0,0.0,,,,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CLMcom-LIST/MPI-ESM1-2-HR/historical/r1i1p1f1/CCLM6-0-1/v1-r1/day/huss/v20260415/huss_EUR-12_MPI-ESM1-2-HR_historical_r1i1p1f1_CLMcom-LIST_CCLM6-0-1_v1-r1_day_19500101-19501231.nc,2026-11-15T10:47:40Z,huss,EUR-12,MPI-ESM1-2-HR,historical,r1i1p1f1,CLMcom-LIST,CCLM6-0-1,v1-r1,day,v20260415,341.0,341.0,0.0,0.0,0.0,,,,66.0,66.0,0.0,0.0,0.0,,,,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/GERICS/MPI-ESM1-2-HR/historical/r1i1p1f1/REMO2020-2-2/v1-r1/day/huss/v20250916/huss_EUR-12_MPI-ESM1-2-HR_historical_r1i1p1f1_GERICS_REMO2020-2-2_v1-r1_day_19500101-19541231.nc,2025-11-28T14:02:46Z,huss,EUR-12,MPI-ESM1-2-HR,historical,r1i1p1f1,GERICS,REMO2020-2-2,v1-r1,day,v20250916,321.0,327.0,0.0,2.0,0.0,,"Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Bounds variable vertices_lat and parent variable lat have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable vertices_lon and parent variable lon have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
@@ -6654,8 +6655,8 @@ It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bou
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/MPI-ESM1-2-HR/ssp370/r1i1p1f1/RegCM5-0/v1-r1/day/huss/v20250415/huss_EUR-12_MPI-ESM1-2-HR_ssp370_r1i1p1f1_ICTP_RegCM5-0_v1-r1_day_20150101-20151231.nc,2026-07-09T21:11:08Z,huss,EUR-12,MPI-ESM1-2-HR,ssp370,r1i1p1f1,ICTP,RegCM5-0,v1-r1,day,v20250415,407.0,413.0,2.0,2.0,0.0,,"attribute huss:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",61.0,66.0,2.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -6670,8 +6671,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by huss is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",56.0,69.0,6.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -6698,8 +6699,8 @@ Time range precision mismatch for frequency 'day': expected 8-digit labels but g
 ",,66.0,66.0,0.0,0.0,0.0,,,,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/historical/r1i1p1f1/WRF451Q/v1-r1/day/huss/v20251025/huss_EUR-12_NorESM2-MM_historical_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_19540101-19541231.nc,2025-10-26T00:40:01Z,huss,EUR-12,NorESM2-MM,historical,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20251025,226.0,232.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",56.0,69.0,4.0,6.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -6743,8 +6744,8 @@ It is recommended that data be compressed with a 'deflate level' of '1' and with
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp126/r1i1p1f1/WRF451Q/v1-r1/day/huss/v20240710/huss_EUR-12_NorESM2-MM_ssp126_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_20150101-20151231.nc,2026-02-04T20:16:49Z,huss,EUR-12,NorESM2-MM,ssp126,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20240710,226.0,232.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,68.0,3.0,6.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -6769,8 +6770,8 @@ It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bou
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp370/r1i1p1f1/WRF451Q/v1-r1/day/huss/v20251025/huss_EUR-12_NorESM2-MM_ssp370_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_20150101-20151231.nc,2026-04-15T01:35:25Z,huss,EUR-12,NorESM2-MM,ssp370,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20251025,226.0,232.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",56.0,69.0,4.0,6.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -6938,8 +6939,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by mrro is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 standard_name Total_runoff_flux is not defined in Standard Name Table v93. Possible close match(es): ['runoff_flux', 'surface_runoff_flux', 'land_ice_runoff_flux']
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
@@ -7168,8 +7169,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by mrros is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,71.0,6.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -7399,8 +7400,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by mrso is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,71.0,6.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -8023,8 +8024,8 @@ It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bou
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/historical/r1i1p1f1/WRF451Q/v1-r1/fx/orog/v20240801/orog_EUR-12_NorESM2-MM_historical_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_fx.nc,2025-10-24T21:15:47Z,orog,EUR-12,NorESM2-MM,historical,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,fx,v20240801,185.0,192.0,2.0,2.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 orog's cell_methods name component time does not match a dimension, area or auxiliary coordinate
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",59.0,68.0,3.0,4.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -8060,8 +8061,8 @@ DRS path component 'frequency' ('fx') does not match global attribute 'frequency
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp126/r1i1p1f1/WRF451Q/v1-r1/fx/orog/v20240806/orog_EUR-12_NorESM2-MM_ssp126_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_fx.nc,2026-02-09T10:12:21Z,orog,EUR-12,NorESM2-MM,ssp126,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,fx,v20240806,185.0,192.0,2.0,2.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 orog's cell_methods name component time does not match a dimension, area or auxiliary coordinate
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",59.0,67.0,3.0,4.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -8087,8 +8088,8 @@ It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bou
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp370/r1i1p1f1/WRF451Q/v1-r1/fx/orog/v20240801/orog_EUR-12_NorESM2-MM_ssp370_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_fx.nc,2026-04-15T01:44:05Z,orog,EUR-12,NorESM2-MM,ssp370,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,fx,v20240801,185.0,192.0,2.0,2.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 orog's cell_methods name component time does not match a dimension, area or auxiliary coordinate
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",59.0,68.0,3.0,4.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -8938,8 +8939,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by pr is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",58.0,71.0,5.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -8966,8 +8967,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by pr is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,71.0,6.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -9365,8 +9366,8 @@ Data ends at (2015, 12, 31, 23, 30), earlier than filename end 201601010000.
 ",
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/MPI-ESM1-2-HR/ssp370/r1i1p1f1/RegCM5-0/v1-r1/day/pr/v20250415/pr_EUR-12_MPI-ESM1-2-HR_ssp370_r1i1p1f1_ICTP_RegCM5-0_v1-r1_day_20150101-20151231.nc,2026-07-09T20:57:13Z,pr,EUR-12,MPI-ESM1-2-HR,ssp370,r1i1p1f1,ICTP,RegCM5-0,v1-r1,day,v20250415,379.0,385.0,2.0,2.0,0.0,,"attribute pr:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",61.0,66.0,2.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -9429,8 +9430,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by pr is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",55.0,70.0,6.0,4.0,0.0,,"File chunking recommendations: Apart from the first and last files of a timeseries '5' full simulation years are expected in the data file for frequency 'day'. The first timestep conflicts with this recommendation ('2015-01-01 12:00:00'): '2015-01-01 12:30:00'. 
@@ -9459,8 +9460,8 @@ Time range precision mismatch for frequency 'day': expected 8-digit labels but g
 ",,66.0,66.0,0.0,0.0,0.0,,,,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/historical/r1i1p1f1/WRF451Q/v1-r1/1hr/pr/v20240801/pr_EUR-12_NorESM2-MM_historical_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_1hr_195401010030-195412312330.nc,2025-10-21T23:42:46Z,pr,EUR-12,NorESM2-MM,historical,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,1hr,v20240801,226.0,232.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,68.0,4.0,5.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -9479,8 +9480,8 @@ DRS path component 'project_id' ('CORDEX-CMIP6') does not match global attribute
 ",
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/historical/r1i1p1f1/WRF451Q/v1-r1/day/pr/v20251025/pr_EUR-12_NorESM2-MM_historical_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_19540101-19541231.nc,2025-10-25T23:59:37Z,pr,EUR-12,NorESM2-MM,historical,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20251025,226.0,232.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",56.0,68.0,4.0,6.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -9554,8 +9555,8 @@ It is recommended that data be compressed with a 'deflate level' of '1' and with
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp126/r1i1p1f1/WRF451Q/v1-r1/1hr/pr/v20240806/pr_EUR-12_NorESM2-MM_ssp126_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_1hr_201207010030-201212312330.nc,2026-02-03T15:09:47Z,pr,EUR-12,NorESM2-MM,ssp126,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,1hr,v20240806,226.0,232.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,67.0,3.0,6.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -9573,8 +9574,8 @@ DRS path component 'project_id' ('CORDEX-CMIP6') does not match global attribute
 ",
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp126/r1i1p1f1/WRF451Q/v1-r1/day/pr/v20240710/pr_EUR-12_NorESM2-MM_ssp126_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_20150101-20151231.nc,2026-02-03T19:21:51Z,pr,EUR-12,NorESM2-MM,ssp126,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20240710,226.0,232.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",58.0,67.0,3.0,5.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -9597,8 +9598,8 @@ It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bou
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp370/r1i1p1f1/WRF451Q/v1-r1/1hr/pr/v20240801/pr_EUR-12_NorESM2-MM_ssp370_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_1hr_201501010030-201512312330.nc,2026-04-15T00:39:05Z,pr,EUR-12,NorESM2-MM,ssp370,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,1hr,v20240801,226.0,232.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,68.0,4.0,5.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -9617,8 +9618,8 @@ DRS path component 'project_id' ('CORDEX-CMIP6') does not match global attribute
 ",
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp370/r1i1p1f1/WRF451Q/v1-r1/day/pr/v20251025/pr_EUR-12_NorESM2-MM_ssp370_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_20150101-20151231.nc,2026-04-15T01:34:05Z,pr,EUR-12,NorESM2-MM,ssp370,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20251025,226.0,232.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,68.0,4.0,5.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -9948,8 +9949,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by prsn is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,71.0,6.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -10679,6 +10680,7 @@ The Boundary variables 'vertices_lon' should not have the attributes: '['units',
 ",,64.0,66.0,0.0,2.0,0.0,,"File chunking recommendations: Apart from the first and last files of a timeseries '10' full simulation years are expected in the data file for frequency 'mon'. The last timestep conflicts with this recommendation ('2020-12-16 12:00:00'): '2024-12-16 12:00:00'. 
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 ",,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CLMcom-LIST/MPI-ESM1-2-HR/historical/r1i1p1f1/CCLM6-0-1/v1-r1/day/ps/v20260415/ps_EUR-12_MPI-ESM1-2-HR_historical_r1i1p1f1_CLMcom-LIST_CCLM6-0-1_v1-r1_day_19500101-19501231.nc,2026-11-15T10:51:41Z,ps,EUR-12,MPI-ESM1-2-HR,historical,r1i1p1f1,CLMcom-LIST,CCLM6-0-1,v1-r1,day,v20260415,313.0,313.0,0.0,0.0,0.0,,,,66.0,66.0,0.0,0.0,0.0,,,,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/GERICS/MPI-ESM1-2-HR/historical/r1i1p1f1/REMO2020-2-2/v1-r1/day/ps/v20250916/ps_EUR-12_MPI-ESM1-2-HR_historical_r1i1p1f1_GERICS_REMO2020-2-2_v1-r1_day_19500101-19541231.nc,2025-11-28T14:35:35Z,ps,EUR-12,MPI-ESM1-2-HR,historical,r1i1p1f1,GERICS,REMO2020-2-2,v1-r1,day,v20250916,291.0,297.0,0.0,2.0,0.0,,"Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Bounds variable vertices_lat and parent variable lat have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable vertices_lon and parent variable lon have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
@@ -10765,8 +10767,8 @@ It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bou
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/MPI-ESM1-2-HR/ssp370/r1i1p1f1/RegCM5-0/v1-r1/day/ps/v20250415/ps_EUR-12_MPI-ESM1-2-HR_ssp370_r1i1p1f1_ICTP_RegCM5-0_v1-r1_day_20150101-20151231.nc,2026-07-09T21:02:23Z,ps,EUR-12,MPI-ESM1-2-HR,ssp370,r1i1p1f1,ICTP,RegCM5-0,v1-r1,day,v20250415,379.0,385.0,2.0,2.0,0.0,,"attribute ps:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",61.0,66.0,2.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -11400,8 +11402,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by psl is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,71.0,6.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -11429,8 +11431,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by psl is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,71.0,6.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -11730,8 +11732,8 @@ Your time axis' 'units' attribute differs from the allowed values ('days since 1
 ",
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/MPI-ESM1-2-HR/ssp370/r1i1p1f1/RegCM5-0/v1-r1/day/psl/v20250415/psl_EUR-12_MPI-ESM1-2-HR_ssp370_r1i1p1f1_ICTP_RegCM5-0_v1-r1_day_20150101-20151231.nc,2026-07-09T20:55:22Z,psl,EUR-12,MPI-ESM1-2-HR,ssp370,r1i1p1f1,ICTP,RegCM5-0,v1-r1,day,v20250415,379.0,385.0,2.0,2.0,0.0,,"attribute psl:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",61.0,66.0,2.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -11759,8 +11761,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by psl is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",56.0,69.0,6.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -11785,8 +11787,8 @@ Time range precision mismatch for frequency 'day': expected 8-digit labels but g
 ",,66.0,66.0,0.0,0.0,0.0,,,,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/historical/r1i1p1f1/WRF451Q/v1-r1/day/psl/v20251025/psl_EUR-12_NorESM2-MM_historical_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_19540101-19541231.nc,2025-10-26T01:14:28Z,psl,EUR-12,NorESM2-MM,historical,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20251025,226.0,232.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",56.0,69.0,4.0,6.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -11851,8 +11853,8 @@ It is recommended that data be compressed with a 'deflate level' of '1' and with
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp126/r1i1p1f1/WRF451Q/v1-r1/day/psl/v20240710/psl_EUR-12_NorESM2-MM_ssp126_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_20150101-20151231.nc,2026-02-04T20:17:59Z,psl,EUR-12,NorESM2-MM,ssp126,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20240710,226.0,232.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,68.0,3.0,6.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -11877,8 +11879,8 @@ It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bou
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp370/r1i1p1f1/WRF451Q/v1-r1/day/psl/v20251025/psl_EUR-12_NorESM2-MM_ssp370_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_20150101-20151231.nc,2026-04-15T01:33:11Z,psl,EUR-12,NorESM2-MM,ssp370,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20251025,226.0,232.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",56.0,69.0,4.0,6.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -12459,8 +12461,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by rlds is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",58.0,71.0,5.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -12487,8 +12489,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by rlds is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,71.0,6.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -12729,8 +12731,8 @@ It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bou
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/MPI-ESM1-2-HR/ssp370/r1i1p1f1/RegCM5-0/v1-r1/day/rlds/v20250415/rlds_EUR-12_MPI-ESM1-2-HR_ssp370_r1i1p1f1_ICTP_RegCM5-0_v1-r1_day_20150101-20151231.nc,2026-07-09T20:59:30Z,rlds,EUR-12,MPI-ESM1-2-HR,ssp370,r1i1p1f1,ICTP,RegCM5-0,v1-r1,day,v20250415,376.0,382.0,2.0,2.0,0.0,,"attribute rlds:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",61.0,66.0,2.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -12758,8 +12760,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by rlds is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",55.0,70.0,6.0,4.0,0.0,,"File chunking recommendations: Apart from the first and last files of a timeseries '5' full simulation years are expected in the data file for frequency 'day'. The first timestep conflicts with this recommendation ('2015-01-01 12:00:00'): '2015-01-01 12:30:00'. 
@@ -12788,8 +12790,8 @@ Time range precision mismatch for frequency 'day': expected 8-digit labels but g
 ",,66.0,66.0,0.0,0.0,0.0,,,,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/historical/r1i1p1f1/WRF451Q/v1-r1/day/rlds/v20251025/rlds_EUR-12_NorESM2-MM_historical_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_19540101-19541231.nc,2025-10-26T02:26:36Z,rlds,EUR-12,NorESM2-MM,historical,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20251025,227.0,233.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",56.0,68.0,4.0,6.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -12844,8 +12846,8 @@ It is recommended that data be compressed with a 'deflate level' of '1' and with
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp126/r1i1p1f1/WRF451Q/v1-r1/day/rlds/v20240710/rlds_EUR-12_NorESM2-MM_ssp126_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_20150101-20151231.nc,2026-02-04T20:30:14Z,rlds,EUR-12,NorESM2-MM,ssp126,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20240710,227.0,233.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",58.0,67.0,3.0,5.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -12868,8 +12870,8 @@ It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bou
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp370/r1i1p1f1/WRF451Q/v1-r1/day/rlds/v20251025/rlds_EUR-12_NorESM2-MM_ssp370_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_20150101-20151231.nc,2026-04-15T00:55:43Z,rlds,EUR-12,NorESM2-MM,ssp370,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20251025,227.0,233.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,68.0,4.0,5.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -13217,8 +13219,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by rlut is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 standard_name TOA_outgoing_longwave_flux_in_air is not defined in Standard Name Table v93. Possible close match(es): ['upwelling_longwave_flux_in_air', 'toa_outgoing_longwave_flux', 'downwelling_longwave_flux_in_air']
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
@@ -13939,8 +13941,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by rsds is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",58.0,71.0,5.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -13967,8 +13969,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by rsds is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,71.0,6.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -14209,8 +14211,8 @@ It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bou
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/MPI-ESM1-2-HR/ssp370/r1i1p1f1/RegCM5-0/v1-r1/day/rsds/v20250415/rsds_EUR-12_MPI-ESM1-2-HR_ssp370_r1i1p1f1_ICTP_RegCM5-0_v1-r1_day_20150101-20151231.nc,2026-07-09T21:05:41Z,rsds,EUR-12,MPI-ESM1-2-HR,ssp370,r1i1p1f1,ICTP,RegCM5-0,v1-r1,day,v20250415,379.0,385.0,2.0,2.0,0.0,,"attribute rsds:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",61.0,66.0,2.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -14238,8 +14240,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by rsds is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",55.0,70.0,6.0,4.0,0.0,,"File chunking recommendations: Apart from the first and last files of a timeseries '5' full simulation years are expected in the data file for frequency 'day'. The first timestep conflicts with this recommendation ('2015-01-01 12:00:00'): '2015-01-01 12:30:00'. 
@@ -14268,8 +14270,8 @@ Time range precision mismatch for frequency 'day': expected 8-digit labels but g
 ",,66.0,66.0,0.0,0.0,0.0,,,,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/historical/r1i1p1f1/WRF451Q/v1-r1/day/rsds/v20251025/rsds_EUR-12_NorESM2-MM_historical_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_19540101-19541231.nc,2025-10-26T02:13:21Z,rsds,EUR-12,NorESM2-MM,historical,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20251025,227.0,233.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",56.0,68.0,4.0,6.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -14324,8 +14326,8 @@ It is recommended that data be compressed with a 'deflate level' of '1' and with
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp126/r1i1p1f1/WRF451Q/v1-r1/day/rsds/v20240710/rsds_EUR-12_NorESM2-MM_ssp126_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_20150101-20151231.nc,2026-02-04T20:27:49Z,rsds,EUR-12,NorESM2-MM,ssp126,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20240710,227.0,233.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",58.0,67.0,3.0,5.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -14348,8 +14350,8 @@ It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bou
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp370/r1i1p1f1/WRF451Q/v1-r1/day/rsds/v20251025/rsds_EUR-12_NorESM2-MM_ssp370_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_20150101-20151231.nc,2026-04-15T01:15:24Z,rsds,EUR-12,NorESM2-MM,ssp370,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20251025,227.0,233.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,68.0,4.0,5.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -14422,8 +14424,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by rsdscs is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 standard_name surface_downwelling_clear_sky_shortwave_flux_in_air is not defined in Standard Name Table v93. Possible close match(es): ['surface_downwelling_shortwave_flux_in_air', 'surface_downwelling_longwave_flux_in_air', 'surface_direct_downwelling_shortwave_flux_in_air']
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
@@ -14693,8 +14695,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by rsut is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 standard_name TOA_outgoing_shortwave_flux_in_air is not defined in Standard Name Table v93. Possible close match(es): ['upwelling_shortwave_flux_in_air', 'toa_outgoing_shortwave_flux', 'downwelling_shortwave_flux_in_air']
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
@@ -15570,8 +15572,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by sfcWind is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,71.0,6.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -15599,8 +15601,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by sfcWind is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,71.0,6.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -15766,6 +15768,7 @@ Variable time has a calendar attribute of standard and it is recommended that th
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CLMcom-DWD/MPI-ESM1-2-HR/historical/r1i1p1f1/ICON-CLM-202407-1-1/v1-r1/day/sfcWind/v20240920/sfcWind_EUR-12_MPI-ESM1-2-HR_historical_r1i1p1f1_CLMcom-DWD_ICON-CLM-202407-1-1_v1-r1_day_19500101-19501231.nc,2025-12-05T09:03:17Z,sfcWind,EUR-12,MPI-ESM1-2-HR,historical,r1i1p1f1,CLMcom-DWD,ICON-CLM-202407-1-1,v1-r1,day,v20240920,332.0,332.0,0.0,0.0,0.0,,,,66.0,66.0,0.0,0.0,0.0,,,,
+/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CLMcom-LIST/MPI-ESM1-2-HR/historical/r1i1p1f1/CCLM6-0-1/v1-r1/day/sfcWind/v20260415/sfcWind_EUR-12_MPI-ESM1-2-HR_historical_r1i1p1f1_CLMcom-LIST_CCLM6-0-1_v1-r1_day_19500101-19501231.nc,2026-11-15T10:56:02Z,sfcWind,EUR-12,MPI-ESM1-2-HR,historical,r1i1p1f1,CLMcom-LIST,CCLM6-0-1,v1-r1,day,v20260415,341.0,341.0,0.0,0.0,0.0,,,,66.0,66.0,0.0,0.0,0.0,,,,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/GERICS/MPI-ESM1-2-HR/historical/r1i1p1f1/REMO2020-2-2/v1-r1/day/sfcWind/v20250916/sfcWind_EUR-12_MPI-ESM1-2-HR_historical_r1i1p1f1_GERICS_REMO2020-2-2_v1-r1_day_19500101-19541231.nc,2025-11-28T13:52:44Z,sfcWind,EUR-12,MPI-ESM1-2-HR,historical,r1i1p1f1,GERICS,REMO2020-2-2,v1-r1,day,v20250916,321.0,327.0,0.0,2.0,0.0,,"Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Bounds variable vertices_lat and parent variable lat have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable vertices_lon and parent variable lon have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
@@ -15898,8 +15901,8 @@ Your time axis' 'units' attribute differs from the allowed values ('days since 1
 ",
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/MPI-ESM1-2-HR/ssp370/r1i1p1f1/RegCM5-0/v1-r1/day/sfcWind/v20250415/sfcWind_EUR-12_MPI-ESM1-2-HR_ssp370_r1i1p1f1_ICTP_RegCM5-0_v1-r1_day_20150101-20151231.nc,2026-07-09T21:05:08Z,sfcWind,EUR-12,MPI-ESM1-2-HR,ssp370,r1i1p1f1,ICTP,RegCM5-0,v1-r1,day,v20250415,379.0,385.0,2.0,2.0,0.0,,"attribute sfcWind:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",61.0,66.0,2.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -15927,9 +15930,9 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by sfcWind is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 Units ""ms-1"" for variable sfcWind must be convertible to canonical units ""m s-1""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",56.0,69.0,6.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -15955,8 +15958,8 @@ Time range precision mismatch for frequency 'day': expected 8-digit labels but g
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/CLMcom-DWD/MPI-ESM1-2-HR/ssp585/r1i1p1f1/ICON-CLM-202407-1-1/v1-r1/day/sfcWind/v20260415/sfcWind_EUR-12_MPI-ESM1-2-HR_ssp585_r1i1p1f1_CLMcom-DWD_ICON-CLM-202407-1-1_v1-r1_day_20150101-20151231.nc,2026-05-03T00:44:46Z,sfcWind,EUR-12,MPI-ESM1-2-HR,ssp585,r1i1p1f1,CLMcom-DWD,ICON-CLM-202407-1-1,v1-r1,day,v20260415,339.0,339.0,0.0,0.0,0.0,,,,66.0,66.0,0.0,0.0,0.0,,,,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/historical/r1i1p1f1/WRF451Q/v1-r1/day/sfcWind/v20251025/sfcWind_EUR-12_NorESM2-MM_historical_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_19540101-19541231.nc,2025-10-26T01:25:50Z,sfcWind,EUR-12,NorESM2-MM,historical,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20251025,226.0,232.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",56.0,69.0,4.0,6.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -16021,8 +16024,8 @@ It is recommended that data be compressed with a 'deflate level' of '1' and with
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp126/r1i1p1f1/WRF451Q/v1-r1/day/sfcWind/v20240710/sfcWind_EUR-12_NorESM2-MM_ssp126_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_20150101-20151231.nc,2026-02-04T20:19:13Z,sfcWind,EUR-12,NorESM2-MM,ssp126,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20240710,226.0,232.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,68.0,3.0,6.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -16047,8 +16050,8 @@ It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bou
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp370/r1i1p1f1/WRF451Q/v1-r1/day/sfcWind/v20251025/sfcWind_EUR-12_NorESM2-MM_ssp370_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_20150101-20151231.nc,2026-04-15T00:55:12Z,sfcWind,EUR-12,NorESM2-MM,ssp370,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20251025,226.0,232.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",56.0,69.0,4.0,6.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -16265,15 +16268,14 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
 The Boundary variables 'time_bnds' should not have the attributes: '['calendar', 'units']'
 Cell measure variable areacella referred to by sfcWindmax is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 Units "" ms-1"" for variable sfcWindmax must be convertible to canonical units ""m s-1""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
@@ -16409,8 +16411,8 @@ It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bou
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/MPI-ESM1-2-HR/ssp370/r1i1p1f1/RegCM5-0/v1-r1/day/sfcWindmax/v20250415/sfcWindmax_EUR-12_MPI-ESM1-2-HR_ssp370_r1i1p1f1_ICTP_RegCM5-0_v1-r1_day_20150101-20151231.nc,2026-07-09T21:06:31Z,sfcWindmax,EUR-12,MPI-ESM1-2-HR,ssp370,r1i1p1f1,ICTP,RegCM5-0,v1-r1,day,v20250415,404.0,410.0,2.0,2.0,0.0,,"attribute sfcWindmax:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",61.0,66.0,2.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -16461,8 +16463,8 @@ Time range precision mismatch for frequency '1day': expected 12-digit labels but
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/historical/r1i1p1f1/WRF451Q/v1-r1/day/sfcWindmax/v20251025/sfcWindmax_EUR-12_NorESM2-MM_historical_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_19540101-19541231.nc,2025-10-26T06:06:52Z,sfcWindmax,EUR-12,NorESM2-MM,historical,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20251025,225.0,232.0,2.0,2.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 sfcWindmax:cell_methods contains an invalid method: max
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",56.0,69.0,4.0,6.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -16493,8 +16495,8 @@ It is recommended that data be compressed with a 'deflate level' of '1' and with
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp126/r1i1p1f1/WRF451Q/v1-r1/day/sfcWindmax/v20240710/sfcWindmax_EUR-12_NorESM2-MM_ssp126_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_20150101-20151231.nc,2026-04-06T07:57:56Z,sfcWindmax,EUR-12,NorESM2-MM,ssp126,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20240710,225.0,232.0,2.0,2.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 sfcWindmax:cell_methods contains an invalid method: max
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,68.0,3.0,6.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -16514,8 +16516,8 @@ DRS path component 'project_id' ('CORDEX-CMIP6') does not match global attribute
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp370/r1i1p1f1/WRF451Q/v1-r1/day/sfcWindmax/v20251025/sfcWindmax_EUR-12_NorESM2-MM_ssp370_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_20150101-20151231.nc,2026-04-15T01:27:29Z,sfcWindmax,EUR-12,NorESM2-MM,ssp370,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20251025,225.0,232.0,2.0,2.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 sfcWindmax:cell_methods contains an invalid method: max
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",56.0,69.0,4.0,6.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -16751,8 +16753,8 @@ The Boundary variables 'vertices_lon' should not have the attributes: '['units',
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/historical/r1i1p1f1/WRF451Q/v1-r1/fx/sftlaf/v20240801/sftlaf_EUR-12_NorESM2-MM_historical_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_fx.nc,2025-10-24T21:15:44Z,sftlaf,EUR-12,NorESM2-MM,historical,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,fx,v20240801,180.0,188.0,3.0,2.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 sftlaf's cell_methods name component time does not match a dimension, area or auxiliary coordinate
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 standard_name lake_area_fraction is not defined in Standard Name Table v93. Possible close match(es): ['land_area_fraction', 'sea_area_fraction', 'land_ice_area_fraction']
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
@@ -16771,8 +16773,8 @@ DRS path component 'project_id' ('CORDEX-CMIP6') does not match global attribute
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp126/r1i1p1f1/WRF451Q/v1-r1/fx/sftlaf/v20240806/sftlaf_EUR-12_NorESM2-MM_ssp126_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_fx.nc,2026-02-09T10:12:35Z,sftlaf,EUR-12,NorESM2-MM,ssp126,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,fx,v20240806,180.0,188.0,3.0,2.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 sftlaf's cell_methods name component time does not match a dimension, area or auxiliary coordinate
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 standard_name lake_area_fraction is not defined in Standard Name Table v93. Possible close match(es): ['land_area_fraction', 'sea_area_fraction', 'land_ice_area_fraction']
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
@@ -16790,8 +16792,8 @@ DRS path component 'project_id' ('CORDEX-CMIP6') does not match global attribute
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp370/r1i1p1f1/WRF451Q/v1-r1/fx/sftlaf/v20240801/sftlaf_EUR-12_NorESM2-MM_ssp370_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_fx.nc,2026-04-15T01:44:04Z,sftlaf,EUR-12,NorESM2-MM,ssp370,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,fx,v20240801,180.0,188.0,3.0,2.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 sftlaf's cell_methods name component time does not match a dimension, area or auxiliary coordinate
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 standard_name lake_area_fraction is not defined in Standard Name Table v93. Possible close match(es): ['land_area_fraction', 'sea_area_fraction', 'land_ice_area_fraction']
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
@@ -16922,8 +16924,8 @@ The Boundary variables 'vertices_lon' should not have the attributes: '['units',
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/historical/r1i1p1f1/RegCM5-0/v1-r1/fx/sftlf/v20250415/sftlf_EUR-12_EC-Earth3-Veg_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_fx.nc,2026-07-09T12:55:18Z,sftlf,EUR-12,EC-Earth3-Veg,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,fx,v20250415,332.0,337.0,2.0,1.0,0.0,,"attribute sftlf:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",58.0,66.0,4.0,4.0,0.0,,"Frequency 'fixed' not supported by this check.
@@ -16980,8 +16982,8 @@ It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bou
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/EC-Earth3-Veg/ssp370/r1i1p1f1/RegCM5-0/v1-r1/fx/sftlf/v20250415/sftlf_EUR-12_EC-Earth3-Veg_ssp370_r1i1p1f1_ICTP_RegCM5-0_v1-r1_fx.nc,2026-07-09T13:10:44Z,sftlf,EUR-12,EC-Earth3-Veg,ssp370,r1i1p1f1,ICTP,RegCM5-0,v1-r1,fx,v20250415,330.0,336.0,2.0,2.0,0.0,,"attribute sftlf:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",58.0,67.0,4.0,4.0,0.0,,"Frequency 'fixed' not supported by this check.
@@ -17229,8 +17231,8 @@ The Boundary variables 'vertices_lon' should not have the attributes: '['units',
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/MPI-ESM1-2-HR/historical/r1i1p1f1/RegCM5-0/v1-r1/fx/sftlf/v20250415/sftlf_EUR-12_MPI-ESM1-2-HR_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_fx.nc,2026-07-09T19:30:21Z,sftlf,EUR-12,MPI-ESM1-2-HR,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,fx,v20250415,332.0,337.0,2.0,1.0,0.0,,"attribute sftlf:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",58.0,67.0,4.0,4.0,0.0,,"Frequency 'fixed' not supported by this check.
@@ -17270,8 +17272,8 @@ It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bou
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/historical/r1i1p1f1/WRF451Q/v1-r1/fx/sftlf/v20240801/sftlf_EUR-12_NorESM2-MM_historical_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_fx.nc,2025-10-24T21:15:46Z,sftlf,EUR-12,NorESM2-MM,historical,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,fx,v20240801,185.0,192.0,2.0,2.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 sftlf's cell_methods name component time does not match a dimension, area or auxiliary coordinate
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",59.0,68.0,3.0,4.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -17295,8 +17297,8 @@ DRS path component 'project_id' ('CORDEX-CMIP6') does not match global attribute
 It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bounds defined.
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/NorESM2-MM/historical/r1i1p1f1/RegCM5-0/v1-r1/fx/sftlf/v20250415/sftlf_EUR-12_NorESM2-MM_historical_r1i1p1f1_ICTP_RegCM5-0_v1-r1_fx.nc,2026-07-09T15:45:50Z,sftlf,EUR-12,NorESM2-MM,historical,r1i1p1f1,ICTP,RegCM5-0,v1-r1,fx,v20250415,332.0,337.0,2.0,1.0,0.0,,"attribute sftlf:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",58.0,66.0,4.0,4.0,0.0,,"Frequency 'fixed' not supported by this check.
@@ -17312,8 +17314,8 @@ DRS path component 'frequency' ('fx') does not match global attribute 'frequency
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp126/r1i1p1f1/WRF451Q/v1-r1/fx/sftlf/v20240806/sftlf_EUR-12_NorESM2-MM_ssp126_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_fx.nc,2026-02-09T10:12:45Z,sftlf,EUR-12,NorESM2-MM,ssp126,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,fx,v20240806,185.0,192.0,2.0,2.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 sftlf's cell_methods name component time does not match a dimension, area or auxiliary coordinate
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",59.0,67.0,3.0,4.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -17339,8 +17341,8 @@ It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bou
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp370/r1i1p1f1/WRF451Q/v1-r1/fx/sftlf/v20240801/sftlf_EUR-12_NorESM2-MM_ssp370_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_fx.nc,2026-04-15T01:44:04Z,sftlf,EUR-12,NorESM2-MM,ssp370,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,fx,v20240801,185.0,192.0,2.0,2.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 sftlf's cell_methods name component time does not match a dimension, area or auxiliary coordinate
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",59.0,68.0,3.0,4.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -17555,8 +17557,8 @@ The Boundary variables 'vertices_lon' should not have the attributes: '['units',
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/historical/r1i1p1f1/WRF451Q/v1-r1/fx/sfturf/v20240801/sfturf_EUR-12_NorESM2-MM_historical_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_fx.nc,2025-10-24T21:15:43Z,sfturf,EUR-12,NorESM2-MM,historical,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,fx,v20240801,180.0,188.0,3.0,2.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 sfturf's cell_methods name component time does not match a dimension, area or auxiliary coordinate
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 standard_name urban_area_fraction is not defined in Standard Name Table v93. Possible close match(es): ['burned_area_fraction', 'land_area_fraction', 'sea_area_fraction']
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
@@ -17575,8 +17577,8 @@ DRS path component 'project_id' ('CORDEX-CMIP6') does not match global attribute
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp126/r1i1p1f1/WRF451Q/v1-r1/fx/sfturf/v20240806/sfturf_EUR-12_NorESM2-MM_ssp126_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_fx.nc,2026-02-09T10:12:53Z,sfturf,EUR-12,NorESM2-MM,ssp126,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,fx,v20240806,180.0,188.0,3.0,2.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 sfturf's cell_methods name component time does not match a dimension, area or auxiliary coordinate
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 standard_name urban_area_fraction is not defined in Standard Name Table v93. Possible close match(es): ['burned_area_fraction', 'land_area_fraction', 'sea_area_fraction']
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
@@ -17594,8 +17596,8 @@ DRS path component 'project_id' ('CORDEX-CMIP6') does not match global attribute
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp370/r1i1p1f1/WRF451Q/v1-r1/fx/sfturf/v20240801/sfturf_EUR-12_NorESM2-MM_ssp370_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_fx.nc,2026-04-15T01:44:04Z,sfturf,EUR-12,NorESM2-MM,ssp370,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,fx,v20240801,180.0,188.0,3.0,2.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 sfturf's cell_methods name component time does not match a dimension, area or auxiliary coordinate
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 standard_name urban_area_fraction is not defined in Standard Name Table v93. Possible close match(es): ['burned_area_fraction', 'land_area_fraction', 'sea_area_fraction']
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
@@ -17808,8 +17810,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by snc is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,71.0,6.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -17837,8 +17839,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by snc is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,71.0,6.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -18038,8 +18040,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by snd is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,71.0,6.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -18067,8 +18069,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by snd is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,71.0,6.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -18384,8 +18386,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by snw is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,71.0,6.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -18413,8 +18415,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by snw is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,71.0,6.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -20612,8 +20614,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 Variable tas has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by tas is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,71.0,6.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -20642,8 +20644,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 Variable tas has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by tas is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,71.0,6.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -21085,8 +21087,8 @@ Your time axis' 'units' attribute differs from the allowed values ('days since 1
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/MPI-ESM1-2-HR/ssp370/r1i1p1f1/RegCM5-0/v1-r1/day/tas/v20250415/tas_EUR-12_MPI-ESM1-2-HR_ssp370_r1i1p1f1_ICTP_RegCM5-0_v1-r1_day_20150101-20151231.nc,2026-07-09T21:09:49Z,tas,EUR-12,MPI-ESM1-2-HR,ssp370,r1i1p1f1,ICTP,RegCM5-0,v1-r1,day,v20250415,407.0,414.0,2.0,3.0,0.0,,"attribute tas:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable tas has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",61.0,66.0,2.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -21152,8 +21154,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 Variable tas has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by tas is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",56.0,69.0,6.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -21181,8 +21183,8 @@ Variable time has a calendar attribute of standard and it is recommended that th
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/historical/r1i1p1f1/WRF451Q/v1-r1/1hr/tas/v20240801/tas_EUR-12_NorESM2-MM_historical_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_1hr_195401010000-195412312300.nc,2025-10-23T15:39:02Z,tas,EUR-12,NorESM2-MM,historical,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,1hr,v20240801,217.0,224.0,2.0,2.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable tas has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,68.0,4.0,5.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -21202,8 +21204,8 @@ DRS path component 'project_id' ('CORDEX-CMIP6') does not match global attribute
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/historical/r1i1p1f1/WRF451Q/v1-r1/day/tas/v20251025/tas_EUR-12_NorESM2-MM_historical_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_19540101-19541231.nc,2025-10-25T23:23:35Z,tas,EUR-12,NorESM2-MM,historical,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20251025,226.0,233.0,2.0,2.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable tas has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",56.0,69.0,4.0,6.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -21275,8 +21277,8 @@ It is recommended that data be compressed with a 'deflate level' of '1' and with
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp126/r1i1p1f1/WRF451Q/v1-r1/1hr/tas/v20240806/tas_EUR-12_NorESM2-MM_ssp126_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_1hr_201207010000-201212312300.nc,2026-02-03T15:09:34Z,tas,EUR-12,NorESM2-MM,ssp126,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,1hr,v20240806,217.0,224.0,2.0,2.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable tas has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,67.0,3.0,6.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -21295,8 +21297,8 @@ DRS path component 'project_id' ('CORDEX-CMIP6') does not match global attribute
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp126/r1i1p1f1/WRF451Q/v1-r1/day/tas/v20240710/tas_EUR-12_NorESM2-MM_ssp126_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_20150101-20151231.nc,2026-02-03T19:22:44Z,tas,EUR-12,NorESM2-MM,ssp126,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20240710,226.0,233.0,2.0,2.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable tas has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,68.0,3.0,6.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -21324,8 +21326,8 @@ It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bou
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp370/r1i1p1f1/WRF451Q/v1-r1/1hr/tas/v20240801/tas_EUR-12_NorESM2-MM_ssp370_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_1hr_201501010000-201512312300.nc,2026-04-15T00:16:16Z,tas,EUR-12,NorESM2-MM,ssp370,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,1hr,v20240801,217.0,224.0,2.0,2.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable tas has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,68.0,4.0,5.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -21345,8 +21347,8 @@ DRS path component 'project_id' ('CORDEX-CMIP6') does not match global attribute
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp370/r1i1p1f1/WRF451Q/v1-r1/day/tas/v20251025/tas_EUR-12_NorESM2-MM_ssp370_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_20150101-20151231.nc,2026-04-15T01:05:39Z,tas,EUR-12,NorESM2-MM,ssp370,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20251025,226.0,233.0,2.0,2.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable tas has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",56.0,69.0,4.0,6.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -22050,15 +22052,14 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 Variable tasmax has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
 The Boundary variables 'time_bnds' should not have the attributes: '['calendar', 'units']'
 Cell measure variable areacella referred to by tasmax is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",56.0,71.0,6.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -22088,8 +22089,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 Variable tasmax has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by tasmax is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",56.0,71.0,6.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -22405,8 +22406,8 @@ It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bou
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/MPI-ESM1-2-HR/ssp370/r1i1p1f1/RegCM5-0/v1-r1/day/tasmax/v20250415/tasmax_EUR-12_MPI-ESM1-2-HR_ssp370_r1i1p1f1_ICTP_RegCM5-0_v1-r1_day_20150101-20151231.nc,2026-07-09T21:04:47Z,tasmax,EUR-12,MPI-ESM1-2-HR,ssp370,r1i1p1f1,ICTP,RegCM5-0,v1-r1,day,v20250415,404.0,411.0,2.0,3.0,0.0,,"attribute tasmax:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable tasmax has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",61.0,66.0,2.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -22478,8 +22479,8 @@ Variable time has a calendar attribute of proleptic_gregorian and it is recommen
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable tasmax has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 tasmax:cell_methods contains an invalid method: max
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",56.0,69.0,4.0,6.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -22541,8 +22542,8 @@ It is recommended that data be compressed with a 'deflate level' of '1' and with
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp126/r1i1p1f1/WRF451Q/v1-r1/day/tasmax/v20240710/tasmax_EUR-12_NorESM2-MM_ssp126_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_20150101-20151231.nc,2026-02-04T10:33:03Z,tasmax,EUR-12,NorESM2-MM,ssp126,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20240710,226.0,233.0,2.0,2.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable tasmax has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,68.0,3.0,6.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -22571,8 +22572,8 @@ It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bou
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable tasmax has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 tasmax:cell_methods contains an invalid method: max
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",56.0,69.0,4.0,6.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -23266,15 +23267,14 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 Variable tasmin has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
-Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
-Bounds variable time_bnds and parent variable time have the following matching attributes ['units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
+Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 Bounds variable time_bnds and parent variable time have the following non matching boundary related attributes: ['long_name']
 Bounds variable time_bnds and parent variable time have the following matching attributes ['calendar', 'units'].  It is recommended that only the parent variable of the bounds variable contains these attributes
 'time_bnds' has attr 'long_name' with value 'time bounds' that does not agree with its associated variable ('time')'s attr value 'time'
 The Boundary variables 'time_bnds' should not have the attributes: '['calendar', 'units']'
 Cell measure variable areacella referred to by tasmin is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",56.0,71.0,6.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -23304,8 +23304,8 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 Variable tasmin has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by tasmin is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",56.0,71.0,6.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -23621,8 +23621,8 @@ It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bou
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/MPI-ESM1-2-HR/ssp370/r1i1p1f1/RegCM5-0/v1-r1/day/tasmin/v20250415/tasmin_EUR-12_MPI-ESM1-2-HR_ssp370_r1i1p1f1_ICTP_RegCM5-0_v1-r1_day_20150101-20151231.nc,2026-07-09T21:07:51Z,tasmin,EUR-12,MPI-ESM1-2-HR,ssp370,r1i1p1f1,ICTP,RegCM5-0,v1-r1,day,v20250415,404.0,411.0,2.0,3.0,0.0,,"attribute tasmin:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable tasmin has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",61.0,66.0,2.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -23694,8 +23694,8 @@ Variable time has a calendar attribute of proleptic_gregorian and it is recommen
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable tasmin has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 tasmin:cell_methods contains an invalid method: min
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",56.0,69.0,4.0,6.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -23757,8 +23757,8 @@ It is recommended that data be compressed with a 'deflate level' of '1' and with
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp126/r1i1p1f1/WRF451Q/v1-r1/day/tasmin/v20240710/tasmin_EUR-12_NorESM2-MM_ssp126_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_20150101-20151231.nc,2026-02-04T10:33:46Z,tasmin,EUR-12,NorESM2-MM,ssp126,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20240710,226.0,233.0,2.0,2.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable tasmin has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,68.0,3.0,6.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -23787,8 +23787,8 @@ It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bou
 §2.6.2 global attribute history should exist and be a non-empty string
 Variable tasmin has a temperature related standard_name and it is recommended that the units_metadata attribute is present and has one of the values ['temperature: difference', 'temperature: on_scale', 'temperature: unknown']
 tasmin:cell_methods contains an invalid method: min
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",56.0,69.0,4.0,6.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -24486,8 +24486,8 @@ It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bou
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/MPI-ESM1-2-HR/ssp370/r1i1p1f1/RegCM5-0/v1-r1/day/ua100m/v20250415/ua100m_EUR-12_MPI-ESM1-2-HR_ssp370_r1i1p1f1_ICTP_RegCM5-0_v1-r1_day_20150101-20151231.nc,2026-07-09T20:55:40Z,ua100m,EUR-12,MPI-ESM1-2-HR,ssp370,r1i1p1f1,ICTP,RegCM5-0,v1-r1,day,v20250415,407.0,413.0,2.0,2.0,0.0,,"attribute ua100m:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",61.0,66.0,2.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -26640,9 +26640,9 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by uas is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 Units ""ms-1"" for variable uas must be convertible to canonical units ""m s-1""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,71.0,6.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -26670,9 +26670,9 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by uas is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 Units ""ms-1"" for variable uas must be convertible to canonical units ""m s-1""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,71.0,6.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -26944,8 +26944,8 @@ Your time axis' 'units' attribute differs from the allowed values ('days since 1
 ",
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/MPI-ESM1-2-HR/ssp370/r1i1p1f1/RegCM5-0/v1-r1/day/uas/v20250415/uas_EUR-12_MPI-ESM1-2-HR_ssp370_r1i1p1f1_ICTP_RegCM5-0_v1-r1_day_20150101-20151231.nc,2026-07-09T21:04:07Z,uas,EUR-12,MPI-ESM1-2-HR,ssp370,r1i1p1f1,ICTP,RegCM5-0,v1-r1,day,v20250415,404.0,410.0,2.0,2.0,0.0,,"attribute uas:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",61.0,66.0,2.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -26973,9 +26973,9 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by uas is not present in dataset or external variables
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 Units ""ms-1"" for variable uas must be convertible to canonical units ""m s-1""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",56.0,69.0,6.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -27002,8 +27002,8 @@ Time range precision mismatch for frequency 'day': expected 8-digit labels but g
 ",,66.0,66.0,0.0,0.0,0.0,,,,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/historical/r1i1p1f1/WRF451Q/v1-r1/day/uas/v20251025/uas_EUR-12_NorESM2-MM_historical_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_19540101-19541231.nc,2025-10-26T01:37:10Z,uas,EUR-12,NorESM2-MM,historical,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20251025,226.0,232.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",56.0,69.0,4.0,6.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -27068,8 +27068,8 @@ It is recommended that data be compressed with a 'deflate level' of '1' and with
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp126/r1i1p1f1/WRF451Q/v1-r1/day/uas/v20240710/uas_EUR-12_NorESM2-MM_ssp126_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_20150101-20151231.nc,2026-02-04T20:20:27Z,uas,EUR-12,NorESM2-MM,ssp126,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20240710,226.0,232.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,68.0,3.0,6.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -27094,8 +27094,8 @@ It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bou
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp370/r1i1p1f1/WRF451Q/v1-r1/day/uas/v20251025/uas_EUR-12_NorESM2-MM_ssp370_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_20150101-20151231.nc,2026-04-15T00:59:01Z,uas,EUR-12,NorESM2-MM,ssp370,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20251025,226.0,232.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",56.0,69.0,4.0,6.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -27546,8 +27546,8 @@ It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bou
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/ICTP/MPI-ESM1-2-HR/ssp370/r1i1p1f1/RegCM5-0/v1-r1/day/va100m/v20250415/va100m_EUR-12_MPI-ESM1-2-HR_ssp370_r1i1p1f1_ICTP_RegCM5-0_v1-r1_day_20150101-20151231.nc,2026-07-09T20:58:24Z,va100m,EUR-12,MPI-ESM1-2-HR,ssp370,r1i1p1f1,ICTP,RegCM5-0,v1-r1,day,v20250415,407.0,413.0,2.0,2.0,0.0,,"attribute va100m:_QuantizeBitGroomNumberOfSignificantDigits should begin with a letter and be composed of letters, digits, and underscores
 Variable time has a calendar attribute of proleptic_gregorian and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",61.0,66.0,2.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -29689,9 +29689,9 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by vas is not present in dataset or external variables
-","Units ""ms-1"" for variable vas must be convertible to canonical units ""m s-1""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""ms-1"" for variable vas must be convertible to canonical units ""m s-1""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,71.0,6.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -29719,9 +29719,9 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by vas is not present in dataset or external variables
-","Units ""ms-1"" for variable vas must be convertible to canonical units ""m s-1""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""ms-1"" for variable vas must be convertible to canonical units ""m s-1""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,71.0,6.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -30020,9 +30020,9 @@ global attribute bottom-top_grid_dimension should begin with a letter and be com
 §2.6.2 global attribute title should exist and be a non-empty string
 Variable time has a calendar attribute of standard and it is recommended that the units_metadata attribute is present and has one of the values ['leap_seconds: none', 'leap_seconds: utc', 'leap_seconds: unknown']
 Cell measure variable areacella referred to by vas is not present in dataset or external variables
-","Units ""ms-1"" for variable vas must be convertible to canonical units ""m s-1""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
 Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""ms-1"" for variable vas must be convertible to canonical units ""m s-1""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",56.0,69.0,6.0,3.0,0.0,,"It is recommended for the variables 'lat' and 'lon' to have bounds defined.
@@ -30049,8 +30049,8 @@ Time range precision mismatch for frequency 'day': expected 8-digit labels but g
 ",,66.0,66.0,0.0,0.0,0.0,,,,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/historical/r1i1p1f1/WRF451Q/v1-r1/day/vas/v20251025/vas_EUR-12_NorESM2-MM_historical_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_19540101-19541231.nc,2025-10-26T01:48:32Z,vas,EUR-12,NorESM2-MM,historical,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20251025,226.0,232.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",56.0,69.0,4.0,6.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -30115,8 +30115,8 @@ It is recommended that data be compressed with a 'deflate level' of '1' and with
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp126/r1i1p1f1/WRF451Q/v1-r1/day/vas/v20240710/vas_EUR-12_NorESM2-MM_ssp126_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_20150101-20151231.nc,2026-02-04T20:21:45Z,vas,EUR-12,NorESM2-MM,ssp126,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20240710,226.0,232.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",57.0,68.0,3.0,6.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
@@ -30141,8 +30141,8 @@ It is recommended for the variables 'rlat' and 'rlon' or 'x' and 'y' to have bou
 ",,
 /mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/BCCR-UCAN/NorESM2-MM/ssp370/r1i1p1f1/WRF451Q/v1-r1/day/vas/v20251025/vas_EUR-12_NorESM2-MM_ssp370_r1i1p1f1_BCCR-UCAN_WRF451Q_v1-r1_day_20150101-20151231.nc,2026-04-15T00:52:01Z,vas,EUR-12,NorESM2-MM,ssp370,r1i1p1f1,BCCR-UCAN,WRF451Q,v1-r1,day,v20251025,226.0,232.0,2.0,1.0,0.0,,"§2.6.2 global attribute title should exist and be a non-empty string
 §2.6.2 global attribute history should exist and be a non-empty string
-","Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
-Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+","Units ""degrees"" for variable rlat must be convertible to canonical units ""m""
+Units ""degrees"" for variable rlon must be convertible to canonical units ""m""
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_latitude to be defined
 grid mapping rotated_latitude_longitude requires exactly one variable with standard_name grid_longitude to be defined
 ",56.0,69.0,4.0,6.0,0.0,,"The global attribute 'version_realization_info' is missing. It is however recommended, if 'version_realization' deviates from 'v1-r1'. The attribute 'version_realization_info' provides information on how reruns (eg. v2, v3) and/or realizations (eg. r2, r3) are generated.
